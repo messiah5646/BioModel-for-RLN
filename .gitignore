@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+.env.*
+*.key
+
+# Data / artifacts (keep code, not large files)
+data/**
+!data/.gitkeep
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Experiment outputs
+experiments/**/outputs/
+runs/
+wandb/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
