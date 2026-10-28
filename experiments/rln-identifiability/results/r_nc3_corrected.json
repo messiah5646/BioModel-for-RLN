@@ -1,0 +1,14 @@
+{
+ "stateless gate (no module state)": {
+  "spread": 0.0
+ },
+ "iLID / CpLID   off ~1 min": {
+  "spread": 1.0119446203579217
+ },
+ "CRY2           off ~6 min": {
+  "spread": 1.892442118569854
+ },
+ "CRY2 L348F     off ~24 min": {
+  "spread": 2.5274496526875825
+ }
+}
