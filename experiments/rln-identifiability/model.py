@@ -54,6 +54,12 @@ def make_params(phi=0.0):
         # single timepoint it mimics nephron loss in both observables. Declared in
         # prereg_round48.md before fitting. Zero by default.
         h_drug=0.0, drug_on=0.0, drug_off=1e9,
+        # Activity-INDEPENDENT progression (round 49). Round 48's holdout was falsified on
+        # the placebo arm because dD/dt tracked activity A, so damage decelerated as
+        # background immunosuppression took hold, while the real arm declined near
+        # linearly for two further years. k_prog accrues damage even when activity is
+        # controlled. Declared in prereg_round49.md before fitting. Zero by default.
+        k_prog=0.0,
     )
 
 
@@ -76,7 +82,7 @@ def rhs(t, y, p):
         p['f_l'] * s * B - p['d_Pl'] * Pl,
         p['g_s'] * Ps + p['g_l'] * Pl - p['d_Ab'] * Ab,
         p['k_a'] * Ab - p['k_clear'] * A,
-        (p['k_dam'] * A + p['k_tox'] * p['p0'] * A * N) * N,   # monotone
+        (p['k_dam'] * A + p['k_tox'] * p['p0'] * A * N + p['k_prog']) * N,  # monotone
     ]
 
 
