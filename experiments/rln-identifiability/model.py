@@ -60,12 +60,25 @@ def make_params(phi=0.0):
         # linearly for two further years. k_prog accrues damage even when activity is
         # controlled. Declared in prereg_round49.md before fitting. Zero by default.
         k_prog=0.0,
+        # Round 50 repair. leak_red is a REAL reduction in glomerular protein leak while
+        # the drug is on: it lowers both the observed UPCR and the proteinuria-driven
+        # toxicity term in dD/dt. Round 49 section 4 found the previous implementation
+        # applied the reduction post-hoc to the observation only, so the drug lowered
+        # what was measured but not what damaged the kidney.
+        leak_red=0.0,
     )
 
 
 def supp(t, p):
     """Background immunosuppression (MMF/steroid-like): 1.0 -> s_inf."""
     return p['s_inf'] + (1.0 - p['s_inf']) * np.exp(-t / p['tau_s'])
+
+
+def _leak(t, p):
+    """Multiplier on glomerular protein leak while the drug is on (1.0 = no drug effect)."""
+    if p.get('leak_red', 0.0) > 0.0 and p['drug_on'] <= t <= p['drug_off']:
+        return 1.0 - p['leak_red']
+    return 1.0
 
 
 def rhs(t, y, p):
@@ -82,7 +95,8 @@ def rhs(t, y, p):
         p['f_l'] * s * B - p['d_Pl'] * Pl,
         p['g_s'] * Ps + p['g_l'] * Pl - p['d_Ab'] * Ab,
         p['k_a'] * Ab - p['k_clear'] * A,
-        (p['k_dam'] * A + p['k_tox'] * p['p0'] * A * N + p['k_prog']) * N,  # monotone
+        (p['k_dam'] * A + p['k_tox'] * p['p0'] * A * N * _leak(t, p)
+         + p['k_prog']) * N,  # monotone
     ]
 
 
@@ -97,8 +111,9 @@ def observe(y, p, t=None):
     haemo = 1.0
     if t is not None and p.get('h_drug', 0.0) > 0.0 and p['drug_on'] <= t <= p['drug_off']:
         haemo = 1.0 - p['h_drug']
+    leak = _leak(t, p) if t is not None else 1.0
     return np.array([
-        p['p0'] * A * N,
+        p['p0'] * A * N * leak,
         p['G0'] * N * max(1.0 - p['c_inf'] * A, 0.05) * haemo,
         Ab,
         B,
