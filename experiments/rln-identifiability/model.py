@@ -48,6 +48,12 @@ def make_params(phi=0.0):
         # analysis switches it on, because that analysis IS a depletion study -- the
         # long-lived-pool decay rate d_Pl is only identifiable from the depletion nadir.
         dep_kill=0.0, dep_on=180.0, dep_off=240.0,
+        # Route 3 (rounds 35/38): a REVERSIBLE drug-haemodynamic eGFR offset, distinct
+        # from monotone damage. A calcineurin inhibitor lowers filtration pressure, which
+        # lowers both protein leak and eGFR without destroying nephrons -- so at any
+        # single timepoint it mimics nephron loss in both observables. Declared in
+        # prereg_round48.md before fitting. Zero by default.
+        h_drug=0.0, drug_on=0.0, drug_off=1e9,
     )
 
 
@@ -74,13 +80,20 @@ def rhs(t, y, p):
     ]
 
 
-def observe(y, p):
-    """UPCR, eGFR, autoantibody, B-cell. UPCR is attenuated by nephron loss (the fold)."""
+def observe(y, p, t=None):
+    """UPCR, eGFR, autoantibody, B-cell. UPCR is attenuated by nephron loss (the fold).
+
+    When t is given and h_drug > 0, applies the reversible route-3 haemodynamic offset
+    to eGFR while the drug is on.
+    """
     B, Ps, Pl, Ab, A, D = y
     N = 1.0 - np.clip(D, 0.0, 0.95)
+    haemo = 1.0
+    if t is not None and p.get('h_drug', 0.0) > 0.0 and p['drug_on'] <= t <= p['drug_off']:
+        haemo = 1.0 - p['h_drug']
     return np.array([
         p['p0'] * A * N,
-        p['G0'] * N * max(1.0 - p['c_inf'] * A, 0.05),
+        p['G0'] * N * max(1.0 - p['c_inf'] * A, 0.05) * haemo,
         Ab,
         B,
     ])
@@ -101,7 +114,8 @@ def simulate(p, tgrid, rtol=1e-11, atol=1e-13, y0=None):
 
 
 def obs_matrix(p, tgrid, **kw):
-    return np.array([observe(y, p) for y in simulate(p, tgrid, **kw)])
+    Y = simulate(p, tgrid, **kw)
+    return np.array([observe(y, p, t) for t, y in zip(tgrid, Y)])
 
 
 def obs_vector(p, tgrid, channels, **kw):
