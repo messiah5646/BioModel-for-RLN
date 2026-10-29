@@ -57,11 +57,18 @@ identifiability results, not in predictive accuracy.
 | multiplicative parameter structure causes the squeeze | **downgraded** to "contributing factor, not established" — the squeeze appears under additive jitter too | R46 |
 | CV 0.70 satisfies both placebo-realism and ≥10pp separation | **corrected** — single-seed artifact; 8 seeds put the window at 0.65–0.70 | R44 |
 | cosine-VIF as the instrument for observable-set comparison | **retracted** — not monotone, reported impossible sub-1.0 gains | R41 code |
+| round 48's long-horizon predictive win | **falsified (R53)** — it scored a *slope*; on per-visit levels at 15–27 months the model loses to persistence (0.239 vs 0.163) | R53 |
 | route 3 as implemented | **inconsistency confirmed** — cosmetic, affects the observable not the damage driver. Repairing it did **not** improve held-out prediction | R49/R50 |
 
 ## The current live problem
 
-Round 50 is the sharpest open issue. On 16 genuinely unseen points (weeks 30–48, fit on
+**Round 53 settles the predictive question for the renal model: no advantage over a
+persistence rule at any horizon from 6 weeks to 27 months, which is the full span of
+available data. The gap narrows with horizon (3.00 → 1.47) but never crosses.** Stage 1 of
+`ROADMAP.md` — the B-cell/autoantibody axis, scored on levels rather than slopes — is now
+the only route that can revive the predictive programme.
+
+Round 50 gave the first sign of this. On 16 genuinely unseen points (weeks 30–48, fit on
 weeks 2–24), held-out RMSE was: linear extrapolation **1.14**, persistence **1.31**, best
 mechanistic variant **1.77**. On UPCR the gap is 4.7×. Only one variant even gets the sign
 of the week 24→48 trend right, and it understates the magnitude ~4×.
@@ -88,8 +95,8 @@ state. Everything outside rounds 48–50 is synthetic at one operating point.
 
 - **There is now a repo.** `messiah5646/BioModel-for-RLN`. The container remains ephemeral,
   so commit as work is produced. This supersedes the previous "no repo" note.
-- **Real data is in-repo** at `data/real/aurora1_per_visit.csv` — 12 visits × 2 arms × 2
-  endpoints with SDs. Round 35's copy was lost to the container; this one will not be.
+- **Real data is in-repo**: `data/real/aurora1_per_visit.csv` (12 visits) and
+  `aurora2_per_visit.csv` (months 12–36, continuer subset — read its header traps). Round 35's copy was lost to the container; this one will not be.
 - **Test reachability per host AND per tool.** WebFetch and the shell take different
   routes; the EU Clinical Trials Register is unreachable by curl and reachable by WebFetch.
 - **EU CTR is the reliable source** for per-arm per-visit endpoints: 64 lupus nephritis
