@@ -23,9 +23,11 @@ the project's binding constraint — no patient-level access — into its niche.
 - **Feedback does not rescue it at realistic strength.** ~2× at implausible feedback,
   under 20% at plausible. **Severity is worth 437×** — the information lives in the
   clinical channel and scales with accumulated damage. This closes round 40's #1 open item.
-- **The CD19⁻ long-lived plasma cell floor is load-bearing.** ~89% B-cell depletion buys a
-  7.9% autoantibody fall; ~99.7% of production comes from the pool CD19 therapy cannot
-  reach. A B-cell count is a misleading surrogate.
+- **The CD19⁻ long-lived plasma cell compartment is load-bearing.** After depletion the
+  protected pool dominates what remains of autoantibody production — robustly, 93% at a
+  5% baseline share and ≥99% above 40%. A B-cell count is a misleading surrogate.
+  **Round 47 retracted the magnitude** (an earlier "7.9% fall" figure): it is set by an
+  assumed parameter and spans 1.2–75.7% as that parameter moves.
 - **The placebo falsifier is survived conditionally.** A realistic control-arm response
   rate needs between-patient CV ≈ 0.6–0.7, above the 0.50 pre-declared plausible. Anyone
   rejecting that spread should read the falsifier as still standing.

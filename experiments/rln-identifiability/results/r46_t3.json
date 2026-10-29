@@ -1,0 +1,107 @@
+[
+ {
+  "n": 3858,
+  "control": 0.26023846552617935,
+  "treated": 0.37065837221358217,
+  "diff_pp": 11.041990668740281,
+  "cohen_d": 0.354296403864162,
+  "req_n": 274.0964643574303,
+  "rule": "none (all patients)",
+  "frac_eligible": 1.0
+ },
+ {
+  "n": 1286,
+  "control": 0.4370139968895801,
+  "treated": 0.5699844479004665,
+  "diff_pp": 13.297045101088646,
+  "cohen_d": 0.3865556183445354,
+  "req_n": 218.02094760057804,
+  "rule": "baseline UPCR bottom tertile",
+  "frac_eligible": 0.3333333333333333
+ },
+ {
+  "n": 1286,
+  "control": 0.2255054432348367,
+  "treated": 0.3421461897356143,
+  "diff_pp": 11.664074650077758,
+  "cohen_d": 0.40786767481591446,
+  "req_n": 230.61055176815543,
+  "rule": "baseline UPCR middle tertile",
+  "frac_eligible": 0.3333333333333333
+ },
+ {
+  "n": 1286,
+  "control": 0.1181959564541213,
+  "treated": 0.19984447900466562,
+  "diff_pp": 8.164852255054432,
+  "cohen_d": 0.39168079368749015,
+  "req_n": 310.98009019846745,
+  "rule": "baseline UPCR top tertile",
+  "frac_eligible": 0.3333333333333333
+ },
+ {
+  "n": 965,
+  "control": 0.46321243523316064,
+  "treated": 0.5958549222797928,
+  "diff_pp": 13.264248704663212,
+  "cohen_d": 0.39006819307877527,
+  "req_n": 218.35253829329696,
+  "rule": "baseline UPCR bottom quartile",
+  "frac_eligible": 0.2501296008294453
+ },
+ {
+  "n": 965,
+  "control": 0.09533678756476684,
+  "treated": 0.17098445595854922,
+  "diff_pp": 7.564766839378239,
+  "cohen_d": 0.3966993068708577,
+  "req_n": 312.7120941411261,
+  "rule": "baseline UPCR top quartile",
+  "frac_eligible": 0.2501296008294453
+ },
+ {
+  "n": 3858,
+  "control": 0.26023846552617935,
+  "treated": 0.37065837221358217,
+  "diff_pp": 11.041990668740281,
+  "cohen_d": 0.354296403864162,
+  "req_n": 274.0964643574303,
+  "rule": "baseline eGFR >= 60",
+  "frac_eligible": 1.0
+ },
+ {
+  "rule": "baseline eGFR < 60",
+  "n": 0,
+  "skipped": true
+ },
+ {
+  "n": 1929,
+  "control": 0.3810264385692068,
+  "treated": 0.514256091238984,
+  "diff_pp": 13.322965266977715,
+  "cohen_d": 0.38460246559523703,
+  "req_n": 214.74456047273716,
+  "rule": "UPCR<=med & eGFR>=60",
+  "frac_eligible": 0.5
+ },
+ {
+  "rule": "UPCR<=med & eGFR<60",
+  "n": 0,
+  "skipped": true
+ },
+ {
+  "n": 1929,
+  "control": 0.1394504924831519,
+  "treated": 0.22706065318818042,
+  "diff_pp": 8.761016070502853,
+  "cohen_d": 0.3926942855787402,
+  "req_n": 302.1817323668914,
+  "rule": "UPCR>med & eGFR>=60",
+  "frac_eligible": 0.5
+ },
+ {
+  "rule": "UPCR>med & eGFR<60",
+  "n": 0,
+  "skipped": true
+ }
+]

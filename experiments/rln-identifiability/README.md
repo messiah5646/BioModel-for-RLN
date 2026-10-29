@@ -34,9 +34,11 @@ that analysis *is* a depletion study.
 - **Feedback does not rescue it at realistic strength.** Fisher marginal `sigma` on
   log `k_dam` improves only 1.01–1.23× at `phi=0` and ~2× at `phi=20`. Meanwhile
   **severity is worth 437×**. The information lives in the clinical channel.
-- **The LLPC floor.** ~89% B-cell and 97% short-lived-plasma-cell depletion buys a **7.9%**
-  autoantibody fall, because ~99.7% of production comes from the protected CD19⁻ pool.
-  A B-cell count is a misleading surrogate.
+- **The LLPC compartment.** After deep CD19 depletion the protected CD19⁻ pool dominates
+  what remains of autoantibody production — 93% at a 5% baseline share, ≥99% above 40%.
+  A B-cell count is a misleading surrogate. **Round 47 retracted the magnitude** of the
+  autoantibody fall (an earlier "7.9%"): it is set by an assumed parameter and spans
+  1.2–75.7%. Run `r47_llpc_share.py`.
 - **The variability–power squeeze.** Cohen's d falls 0.488 → 0.234 as between-patient CV
   rises 0.40 → 1.00 (p = 5.4e-6). The *continuous* endpoint erodes too, so this is not a
   binary-threshold artifact.

@@ -129,6 +129,8 @@ CD19-directed depletion, day 180–240, measured at day 240:
 | `Pl` (CD19⁻) | 0.7256 | 0.7154 | **1.4%** |
 | `Ab` | 0.5055 | 0.4653 | **7.9%** |
 
+**[MAGNITUDE RETRACTED — round 47.]** The 7.9% figure is driven by an *assumed* parameter (`g_l`/`g_s`, the long-lived pool's share of autoantibody production). Sweeping it moves the fall across 1.2–75.7%, and real CAR-T seroconversion data argues for a *large* fall. What survives is the structural claim: after depletion the protected pool dominates what remains of production (93% at a 5% share, ≥99% above 40%). See `docs/rounds/round-47-llpc-magnitude-retracted.md`.
+
 **89% B-cell and 97% short-lived-plasma-cell depletion buys a 7.9% autoantibody
 fall**, because **99.7%** of autoantibody production at day 240 comes from the
 protected CD19⁻ pool. This is the modelled mechanism of serological relapse and a
