@@ -1,0 +1,35 @@
+# CFZ533 / iscalimab lupus nephritis (CCFZ533X2202, EudraCT 2017-003230-93, NCT03610516) per-visit endpoints.
+# Source: https://www.clinicaltrialsregister.eu/ctr-search/trial/2017-003230-93/results
+# Harvested: 2026-11-02. Sponsor: Novartis Pharmaceuticals. Phase not stated on register page.
+# Arms: CFZ533 10 mg/kg i.v. 39 started / 21 completed; Placebo i.v. 18 started / 10 completed.
+# upcr_ratio: RATIO TO BASELINE in UPCR, NOT a change score and NOT a log ratio. Unit as printed: "ratio to baseline in UPCR".
+# upcr_sd: standard deviation (register prints "arithmetic mean (standard deviation)").
+# TRAP 1: the Day 169 row comes from the PRIMARY endpoint and is a GEOMETRIC MEAN with a 95% CI, not a mean with SD.
+#   Primary, n=20 CFZ533 / n=10 placebo: CFZ533 0.369 (95% CI 0.234-0.582); Placebo 0.637 (95% CI 0.338-1.202).
+#   It is EXCLUDED from the rows below because mixing a geometric mean into an arithmetic series is invalid.
+#   Model comparison printed separately: ratio of geometric means CFZ533/placebo 0.579 (95% CI 0.267-1.256), one-sided p=0.0788, n=30.
+# TRAP 2: the Day 197-337 series below is the SECONDARY endpoint, endpoint-level n=35/16 - LARGER than the
+#   primary endpoint's n=20/10 at Day 169. The two UPCR endpoints use DIFFERENT analysis populations.
+#   Do not splice them into one trajectory.
+# TRAP 3: absolute baseline UPCR is NOT REPORTED for either arm anywhere on the page. A ratio-to-baseline
+#   series cannot be converted to absolute UPCR or to change-from-baseline without that anchor.
+# TRAP 4: n falls monotonically by visit (35->20 CFZ533, 16->10 placebo). The page states only
+#   "The Number of Subjects Analyzed differs as stated on the category column" - it does NOT describe the
+#   series as completers or continuers, so the attrition mechanism is undocumented.
+# TRAP 5: Day 253 CFZ533 SD (1.3314) is >2x its mean (0.648) - a ratio scale with heavy right skew.
+#   Treating these as normally distributed is wrong; no geometric SDs are printed for this endpoint.
+# No statistical analysis was specified for the secondary (per-visit) endpoint.
+# eGFR, serum creatinine, C3, C4, anti-dsDNA, SLEDAI, B cells, immunoglobulins: not reported as endpoints.
+arm,day,upcr_ratio,upcr_sd,upcr_n
+cfz533_10mgkg,197,0.532,0.4160,35
+cfz533_10mgkg,225,0.456,0.3876,32
+cfz533_10mgkg,253,0.648,1.3314,33
+cfz533_10mgkg,281,0.526,0.5440,27
+cfz533_10mgkg,309,0.580,0.7175,26
+cfz533_10mgkg,337,0.640,0.7446,20
+placebo,197,0.985,0.9045,16
+placebo,225,1.153,1.2178,16
+placebo,253,0.667,0.3612,14
+placebo,281,0.701,0.7690,13
+placebo,309,1.101,1.1337,12
+placebo,337,0.735,0.5323,10

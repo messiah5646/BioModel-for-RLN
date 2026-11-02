@@ -1,0 +1,69 @@
+# Obinutuzumab lupus nephritis NOBILITY (WA29748, EudraCT 2015-002022-39, NCT02550652) per-visit endpoints.
+# Source: https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-002022-39/results
+# Harvested: 2026-11-02. Sponsor: F. Hoffmann-La Roche AG. Phase II.
+# Arms: Obinutuzumab 1000 mg + MMF/MPA 63 started / 55 completed; Placebo + MMF/MPA 62 started / 44 completed.
+# bcell_value: endpoint is TITLED "Percent Change From Baseline in Circulating CD19-Positive B-Cell Levels".
+# bcell_sd: standard deviation (register prints "arithmetic mean (standard deviation)").
+# TRAP 1 (CRITICAL): the printed UNIT is cells/uL but the title says PERCENT CHANGE, and the baseline row
+#   holds ABSOLUTE counts (327.902 / 353.499) while every post-baseline row is clearly a percentage
+#   (values near -97 to -99). The register never reconciles this. The baseline row is therefore in a
+#   DIFFERENT UNIT from every other row. Do NOT subtract or difference across the baseline row.
+#   Baseline rows are tagged visit=baseline and unit_note=absolute_cells_per_uL below.
+# TRAP 2: 9999999 and 99999999 are the register's missing-data placeholders ("SD could not be derived or
+#   no participants were analysed"). They are NOT values. Rows containing only placeholders are written as
+#   not reported. Note BOTH 7-digit and 8-digit forms appear (Bcfu month 48 placebo SD is 99999999).
+# TRAP 3: n varies drastically by visit and does NOT decline monotonically (obinutuzumab: 63 baseline,
+#   39 at wk2, 45 at wk4, 41 at wk12, 42 at wk24, 39 at wk52, 5 at wk104, then 13 at Bcfu month 6).
+#   The n RISES from week 104 (5) to Bcfu month 6 (13). "Bcfu" = B-cell follow-up, a SEPARATE follow-up
+#   cohort, not a continuation of the randomised visit schedule. Bcfu month 12 values are IDENTICAL to
+#   Week 104 values in both arms (77.123/380.111 and -76.055/31.519), which indicates the same tiny
+#   subset is being re-reported under two labels. Do not treat them as two independent timepoints.
+# TRAP 4: n per visit is NOT a subset of the endpoint-level n in a nested way; subjects reappear.
+#   The register does not state whether the series is a completer subset.
+# TRAP 5: placebo B-cells move in BOTH directions (+39.293 at wk2, -5.186 at wk4, +0.661 at wk12,
+#   -11.446 at wk24, +37.695 at wk52) with SDs up to 220.857 - a percent-change scale on a count near
+#   zero. Variance is not stable across visits.
+# OTHER ENDPOINTS on this trial, ALL SINGLE POST-BASELINE VISIT (Week 52) ONLY, mean (standard deviation),
+#   raw baseline and raw week-52 values NOT printed - only the change:
+#   C3 change from baseline, g/L, n=63/62: obinutuzumab 0.311 (0.302); placebo 0.106 (0.273).
+#     ANCOVA mean difference (final values) 0.178 (95% CI 0.081-0.275), p=0.0004.
+#   C4 change from baseline, g/L, n=63/62: obinutuzumab 0.101 (0.117); placebo 0.004 (0.164).
+#     ANCOVA mean difference (final values) 0.088 (95% CI 0.052-0.124), p<0.0001.
+#   Anti-dsDNA change from baseline, unit "log anti-dsDNA levels", n=63/62: obinutuzumab -0.810 (1.054);
+#     placebo -0.076 (1.103). ANCOVA mean difference -0.81 (95% CI -1.13 to -0.491), p<0.0001.
+#     TRAP: this is on a LOG scale; the unit is not a titre.
+#   Participant Global Assessment VAS change from baseline: Baseline (Day 1), Weeks 4, 12, 24, 36, 52
+#     (6 visits) - numbers not extracted in this harvest.
+# UPCR, eGFR and serum creatinine are NOT reported as standalone endpoints on this register page.
+#   They appear only inside the CRR/PRR composite definitions at Week 52.
+arm,visit,bcell_value,bcell_sd,bcell_n,unit_note
+obinutuzumab_1000mg,baseline,327.902,330.562,63,absolute_cells_per_uL
+obinutuzumab_1000mg,week_2,-97.469,12.899,39,percent_change
+obinutuzumab_1000mg,week_4,-98.777,5.235,45,percent_change
+obinutuzumab_1000mg,week_12,-97.045,15.506,41,percent_change
+obinutuzumab_1000mg,week_24,-96.628,10.207,42,percent_change
+obinutuzumab_1000mg,week_52,-98.620,5.677,39,percent_change
+obinutuzumab_1000mg,week_104,77.123,380.111,5,percent_change
+obinutuzumab_1000mg,bcfu_month_6,105.043,402.281,13,percent_change
+obinutuzumab_1000mg,bcfu_month_12,77.123,380.111,5,percent_change_duplicate_of_week_104
+obinutuzumab_1000mg,bcfu_month_18,-83.159,16.701,3,percent_change
+obinutuzumab_1000mg,bcfu_month_24,-93.603,8.836,2,percent_change
+obinutuzumab_1000mg,bcfu_month_30,-59.950,50.807,3,percent_change
+obinutuzumab_1000mg,bcfu_month_36,-99.163,0.973,2,percent_change
+obinutuzumab_1000mg,bcfu_month_42,-99.084,not reported,1,percent_change
+obinutuzumab_1000mg,bcfu_month_48,-99.851,not reported,1,percent_change
+placebo,baseline,353.499,454.165,62,absolute_cells_per_uL
+placebo,week_2,39.293,145.247,42,percent_change
+placebo,week_4,-5.186,78.469,36,percent_change
+placebo,week_12,0.661,134.421,45,percent_change
+placebo,week_24,-11.446,86.793,37,percent_change
+placebo,week_52,37.695,220.857,42,percent_change
+placebo,week_104,-76.055,31.519,2,percent_change
+placebo,bcfu_month_6,-73.889,19.755,5,percent_change
+placebo,bcfu_month_12,-76.055,31.519,2,percent_change_duplicate_of_week_104
+placebo,bcfu_month_18,-11.418,not reported,1,percent_change
+placebo,bcfu_month_24,not reported,not reported,0,percent_change
+placebo,bcfu_month_30,not reported,not reported,0,percent_change
+placebo,bcfu_month_36,not reported,not reported,0,percent_change
+placebo,bcfu_month_42,not reported,not reported,0,percent_change
+placebo,bcfu_month_48,not reported,not reported,0,percent_change

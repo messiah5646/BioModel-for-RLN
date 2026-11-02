@@ -1,0 +1,41 @@
+# BI 655064 lupus nephritis MAINTENANCE trial (1293-0013, EudraCT 2017-003101-17, NCT03385564) per-visit endpoints.
+# Source: https://www.clinicaltrialsregister.eu/ctr-search/trial/2017-003101-17/results
+# Harvested: 2026-11-02. Sponsor: Boehringer Ingelheim. Phase not stated on register page.
+# Arms: BI 655064 120 mg 7 started / 7 completed; 180 mg 15 started / 14 completed;
+#   240 mg 21 started / 16 completed; Placebo 26 started / 17 completed.
+# sledai_change: mean change from baseline in SLEDAI total score. Unit as printed: "Score on a scale".
+# sledai_sd: standard deviation (register prints "arithmetic mean (standard deviation)").
+# TRAP 1 (CRITICAL - CONTINUER SUBSET): this trial enrols ONLY patients who already achieved a meaningful
+#   response at the end of trial 1293.10 (EudraCT 2015-001750-15) or after induction elsewhere. It is a
+#   maintenance study in responders, NOT an induction population. Its SLEDAI trajectory is conditioned on
+#   prior response and is not comparable to an induction-trial trajectory.
+# TRAP 2 (BASELINE ANCHOR): the register does NOT print the baseline SLEDAI per arm anywhere - the baseline
+#   characteristics table carries only age, sex, race and ethnicity. The change scores are therefore
+#   UNANCHORED: you cannot recover absolute SLEDAI, and you cannot verify whether "baseline" means this
+#   study's day 0 or the end of the parent induction trial. Register does not state which.
+# TRAP 3 (n VARIES NON-MONOTONICALLY BY VISIT): each timepoint is filed as a SEPARATE endpoint with its own
+#   n, and n RISES from Week 42 to Week 52 in every arm (120 mg 5->7, 180 mg 7->14, 240 mg 9->16,
+#   placebo 13->17). This is not attrition; it is a different analysis set per endpoint. The Week 42 set is
+#   roughly half the Week 52 set, so the Week 42 point is a small non-random subset.
+#   Do not fit this as four observations on one cohort.
+# TRAP 4: the 120 mg arm has n=7 at Weeks 12, 26 and 52 and n=5 at Week 42 - i.e. 5 of 7. All four arms'
+#   Week 42 estimates are on 5-13 subjects and are very imprecise.
+# UPCR, proteinuria, eGFR, creatinine, C3, C4, anti-dsDNA, B cells, immunoglobulins: not reported as
+#   endpoints with numeric values. Proteinuria and eGFR appear only inside responder definitions.
+arm,week,sledai_change,sledai_sd,sledai_n
+bi655064_120mg,12,-8.4,5.8,7
+bi655064_120mg,26,-8.7,5.7,7
+bi655064_120mg,42,-6.6,3.4,5
+bi655064_120mg,52,-8.9,6.1,7
+bi655064_180mg,12,-7.5,4.3,13
+bi655064_180mg,26,-7.9,3.5,14
+bi655064_180mg,42,-6.3,2.4,7
+bi655064_180mg,52,-7.2,4.0,14
+bi655064_240mg,12,-9.3,4.9,18
+bi655064_240mg,26,-11.3,4.8,16
+bi655064_240mg,42,-11.1,5.1,9
+bi655064_240mg,52,-10.6,4.9,16
+placebo,12,-7.7,6.1,25
+placebo,26,-5.9,5.2,21
+placebo,42,-6.5,6.7,13
+placebo,52,-5.3,8.0,17

@@ -1,0 +1,32 @@
+# Abatacept lupus nephritis (IM101-291, EudraCT 2012-000714-11, NCT01714817) per-visit endpoints.
+# Source: https://www.clinicaltrialsregister.eu/ctr-search/trial/2012-000714-11/results
+# Harvested: 2026-11-02. Sponsor: Bristol-Myers Squibb. Phase 3. Global end of trial 30 May 2018.
+# Arms: Abatacept IV 202 started / 155 completed yr1 / 129 completed yr2 / 62 completed LTE;
+#   Placebo IV 203 started / 161 completed yr1 / 123 completed yr2 / 53 completed LTE.
+# Only TWO post-baseline timepoints (Day 365, Day 729) and the Day 729 values are PLACEHOLDERS.
+# upcr_change: "Adjusted mean change from baseline in UPCR over time", unit as printed "UPCR (mg/mg)".
+#   DISPERSION IS STANDARD ERROR, printed "arithmetic mean (standard error)" - NOT SD.
+# egfr_change: "Adjusted mean change from baseline in eGFR over time", unit "mL/min per 1.73m2".
+#   DISPERSION IS A 95% CONFIDENCE INTERVAL, printed "arithmetic mean (confidence interval 95%)" - NOT SD, NOT SE.
+# TRAP 1 (CRITICAL - MIXED DISPERSION TYPES WITHIN ONE TRIAL): UPCR carries SE, eGFR carries a 95% CI, and
+#   the median-percent-change UPCR endpoint carries an IQR. Three different dispersion conventions on the
+#   same page. A harvester that assumes one convention will corrupt two of the three series.
+# TRAP 2 (99999 PLACEHOLDERS): every Day 729 value is 99999 in both arms and in both the mean and the
+#   dispersion. Footnotes [11]-[14] read "Study terminated, efficacy not met." 99999 is NOT a value.
+#   A naive numeric read of this page yields a +99999 mg/mg UPCR change. Written as not reported below.
+# TRAP 3 (DIFFERENT n ON DIFFERENT ENDPOINTS): the UPCR adjusted-mean endpoint reports n=157/163 while the
+#   eGFR adjusted-mean endpoint and the median-percent-change UPCR endpoint both report n=202/203 (the full
+#   randomised count). So UPCR and eGFR at the SAME visit are on DIFFERENT analysis sets (157 vs 202
+#   abatacept). Do not pair them per-subject or treat them as one longitudinal panel.
+# TRAP 4 (NO BASELINE ANCHOR): no baseline absolute UPCR or eGFR is printed anywhere on the page, and the
+#   baseline characteristics table contains neither. Both series are unanchored change scores.
+# ALSO on the page, median percent change from baseline in UPCR, unit "Percent",
+#   dispersion "median (inter-quartile range (Q1-Q3))", n=202/203:
+#   Day 365 abatacept -83.77 (-92.42 to -64.18); placebo -84.12 (-94.03 to -59.98). Day 729 = 99999 both arms.
+# Disease activity instrument is BILAG 2004, not SLEDAI. C3, C4, anti-dsDNA, B cells and immunoglobulins
+#   are not reported as endpoints with numeric values on this page.
+arm,day,upcr_change,upcr_se,upcr_n,egfr_change,egfr_ci95_low,egfr_ci95_high,egfr_n
+abatacept_iv,365,-2.95,0.17,157,6.85,3.47,10.23,202
+abatacept_iv,729,not reported,not reported,157,not reported,not reported,not reported,202
+placebo_iv,365,-2.68,0.17,163,5.85,2.51,9.20,203
+placebo_iv,729,not reported,not reported,163,not reported,not reported,not reported,203

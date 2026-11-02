@@ -1,0 +1,30 @@
+# Secukinumab lupus nephritis SELUNE (CAIN457Q12301, EudraCT 2019-003211-57, NCT04181762) per-visit endpoints.
+# Source: https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-003211-57/results
+# Harvested: 2026-11-02. Sponsor: Novartis Pharma AG. Phase III.
+# Arms: Secukinumab 300 mg s.c. 137 started / 23 completed; Placebo 138 started / 23 completed.
+# facit_change: FACIT-Fatigue mean change from baseline. Unit as printed: "Unit on a scale".
+# facit_sd: standard deviation (register prints "arithmetic mean (standard deviation)").
+# VALUE FOR A RENAL MODEL IS LOW: the only 4-visit series on this register page are patient-reported
+#   outcomes (FACIT-Fatigue, SF-36v2 PCS, LupusQoL physical health), each at Weeks 12/24/36/52.
+#   UPCR change from baseline is reported at WEEK 52 ONLY. No eGFR, creatinine, C3, C4, anti-dsDNA,
+#   SLEDAI, B-cell or immunoglobulin endpoint is reported. eGFR appears only inside CRR/PRR definitions.
+# TRAP 1 (COMPLETION COLLAPSE): 137 started but only 23 completed in the secukinumab arm (138/23 placebo).
+#   The trial was cut short. Yet the FACIT endpoint reports n=131/131 at the endpoint level with NO
+#   per-visit n printed. The Week 52 row cannot rest on 131 subjects when 23 completed. The register gives
+#   no way to recover the true per-visit n. Treat n=131 as an upper bound only, at every visit.
+# TRAP 2: FACIT-Fatigue is scored so that HIGHER = LESS fatigue, so these negative changes indicate
+#   WORSENING fatigue in both arms. The register prints no direction note.
+# TRAP 3: no baseline FACIT row is printed; the series is an unanchored change score.
+# TRAP 4: the open-label extension (CAIN457Q12301E1, EudraCT 2021-005772-19) reports CRR at "Week 104E1"
+#   and "Week 132" on n=9/9 then 6/5, and its eGFR criterion explicitly references "core Baseline values"
+#   i.e. the PARENT trial's baseline, not the extension's own. Any attempt to extend this trajectory past
+#   Week 104 is anchored to a different study's baseline on ~6 subjects per arm.
+arm,week,facit_change,facit_sd,facit_n
+secukinumab_300mg,12,-2.8,8.47,131
+secukinumab_300mg,24,-1.4,9.66,131
+secukinumab_300mg,36,-2.6,9.21,131
+secukinumab_300mg,52,-2.0,10.18,131
+placebo,12,-1.9,8.46,131
+placebo,24,-2.0,8.93,131
+placebo,36,-2.1,9.67,131
+placebo,52,-2.0,9.51,131
