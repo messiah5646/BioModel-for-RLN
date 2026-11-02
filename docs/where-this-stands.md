@@ -1,3 +1,9 @@
+> **RETIRED COPY — DO NOT EDIT.**
+> The canonical version of this document lives in the claude.ai Project ("Bio induced JEPA"),
+> at `claude/where-this-stands.md`. Round 59 (D9) found these two trees had already diverged:
+> this copy was stale by seven rounds and still described itself as canonical.
+> Kept for history only. Any edit here will be lost and may mislead a future session.
+
 # Where this stands — after round 50 (2026-10-29)
 
 Single source of truth. The previous version was written after round 40 and was nine

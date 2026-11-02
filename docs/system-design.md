@@ -1,3 +1,9 @@
+> **RETIRED COPY — DO NOT EDIT.**
+> The canonical version of this document lives in the claude.ai Project ("Bio induced JEPA"),
+> at `claude/system-design.md`. Round 59 (D9) found these two trees had already diverged:
+> this copy was stale by seven rounds and still described itself as canonical.
+> Kept for history only. Any edit here will be lost and may mislead a future session.
+
 # Bio World Model — System Design
 
 **Status: canonical architecture spec. Supersedes ad-hoc design decisions in rounds 18–40.**
