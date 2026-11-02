@@ -39,3 +39,7 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Real trial data is small, public, and load-bearing -- keep it tracked.
+!data/real/
+!data/real/*.csv

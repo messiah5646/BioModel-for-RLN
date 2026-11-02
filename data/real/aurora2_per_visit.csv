@@ -1,0 +1,30 @@
+# AURORA 2 (AUR-VCS-2016-02, EudraCT 2016-004046-28, NCT03597464) per-visit endpoints.
+# Source: EU Clinical Trials Register results section,
+#   https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-004046-28/results
+# Re-harvested 2026-11-02 after the original copy was found absent from the repo.
+# Month-12 treated UPCR change -3.17 reproduces the confound figure declared in
+# r53_long_horizon.py's docstring.
+#
+# HEADER TRAPS -- read before using:
+#  1. CONTINUER SUBSET. 116 treated / 100 placebo, i.e. only AURORA 1 completers.
+#     Levels are NOT comparable to aurora1_per_visit.csv without an offset
+#     (AURORA 1 week-52 treated UPCR change -2.65 vs -3.17 here).
+#  2. Change is from the AURORA 1 BASELINE, not from month 12. Month 12 is the
+#     AURORA 2 baseline visit but the change scores are still anchored to AURORA 1.
+#  3. SE, NOT SD -- the register reports least-squares mean (standard error) for
+#     these outcomes and gives no SD. r53 converts with se*sqrt(n).
+#  4. eGFR is CORRECTED eGFR with a CEILING of 90 mL/min/1.73m^2. AURORA 1's
+#     per-visit eGFR carries no such ceiling. Pooling the two series untransformed
+#     mixes two different observables.
+#  5. n DIFFERS BY VISIT AND BY ENDPOINT (attrition); UPCR n and eGFR n are not equal.
+arm,month,upcr_change,upcr_se,upcr_n,egfr_change,egfr_se,egfr_n
+treated,12,-3.17,0.164,116,1.8,1.08,116
+treated,18,-3.05,0.216,113,-0.2,1.31,114
+treated,24,-3.18,0.188,105,-1.3,1.48,103
+treated,30,-3.12,0.219,100,0.2,1.56,99
+treated,36,-3.00,0.222,99,-0.2,1.69,100
+placebo,12,-2.52,0.175,100,4.4,1.15,100
+placebo,18,-2.42,0.232,96,1.6,1.40,96
+placebo,24,-2.41,0.202,81,0.9,1.60,81
+placebo,30,-2.21,0.235,87,-0.8,1.67,85
+placebo,36,-2.52,0.236,87,-2.0,1.81,87

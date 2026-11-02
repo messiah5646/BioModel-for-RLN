@@ -1,0 +1,38 @@
+# AURORA 1 (AUR-VCS-2016-01, EudraCT 2016-004045-81, NCT03021499) per-visit endpoints.
+# Source: EU Clinical Trials Register results section,
+#   https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-004045-81/results
+# Re-harvested 2026-11-02 after the original copy was found absent from the repo
+# (.gitignore data/** + *.csv had excluded it). Baselines reproduce the values
+# hard-coded in r50_trajectory_holdout.py BASE: treated (4.14, 78.3, 179),
+# placebo (3.87, 77.4, 178).
+# arm: treated = voclosporin 23.7 mg BID; placebo.
+# upcr_change / egfr_change: mean change from baseline. *_sd: standard deviation.
+# UPCR mg/mg; eGFR mL/min/1.73m^2. n = 179 treated, 178 placebo at every visit.
+# NOTE: the demographics table reports a different eGFR baseline (lowest
+# pre-randomisation value, 92.1 / 90.4). Not interchangeable with the 78.3 / 77.4
+# used here, which is the baseline for these change scores.
+arm,week,upcr_change,upcr_sd,egfr_change,egfr_sd
+treated,2,-1.46,1.991,-1.5,9.44
+treated,4,-1.98,2.290,-0.4,10.39
+treated,8,-2.23,2.213,-0.9,13.10
+treated,12,-2.56,2.293,-0.3,11.74
+treated,16,-2.75,2.462,-0.1,12.27
+treated,20,-2.74,2.968,-0.7,12.09
+treated,24,-2.74,2.567,-0.3,13.80
+treated,30,-2.66,3.336,-0.8,14.20
+treated,36,-2.74,2.871,-1.9,14.89
+treated,42,-2.91,2.522,-2.8,16.70
+treated,48,-2.71,2.807,-3.6,17.20
+treated,52,-2.65,2.872,-1.5,16.16
+placebo,2,-0.70,2.312,3.3,10.12
+placebo,4,-1.07,2.155,3.2,9.86
+placebo,8,-1.43,2.448,3.8,11.27
+placebo,12,-1.48,2.688,3.3,12.85
+placebo,16,-1.58,2.810,2.8,13.25
+placebo,20,-1.54,2.820,3.2,13.04
+placebo,24,-1.59,2.899,2.8,13.84
+placebo,30,-1.70,3.112,1.8,14.40
+placebo,36,-1.63,3.188,1.5,14.84
+placebo,42,-1.78,3.390,1.5,15.53
+placebo,48,-1.80,3.004,1.1,15.71
+placebo,52,-1.88,3.050,1.5,15.00
