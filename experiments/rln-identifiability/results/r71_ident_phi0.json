@@ -1,0 +1,111 @@
+[
+ {
+  "tag": "G tied, phi fixed at 0, clinical only",
+  "outputs": [
+   "UPCR",
+   "eGFR"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   }
+  ],
+  "tied": true,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 14,
+    "rank_by_order": {
+     "20": 14,
+     "23": 14
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 14,
+    "rank_by_order": {
+     "20": 14,
+     "23": 14
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ },
+ {
+  "tag": "H tied, phi fixed at 0, 4 outputs",
+  "outputs": [
+   "UPCR",
+   "eGFR",
+   "Ab",
+   "B"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   }
+  ],
+  "tied": true,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 14,
+    "rank_by_order": {
+     "20": 14,
+     "23": 14
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 14,
+    "rank_by_order": {
+     "20": 14,
+     "23": 14
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ },
+ {
+  "tag": "I tied, phi UNKNOWN evaluated at true phi=0, 4 outputs",
+  "outputs": [
+   "UPCR",
+   "eGFR",
+   "Ab",
+   "B"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   }
+  ],
+  "tied": true,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ }
+]

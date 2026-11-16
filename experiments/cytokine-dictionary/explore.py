@@ -1,0 +1,10 @@
+import pandas as pd, sys
+d=pd.read_csv(sys.argv[1],index_col=0)
+print(d.shape); print(d.dtypes.to_string())
+print('cytokines',d.cytokine.nunique(),'celltypes',d.celltype.nunique(),'genes',d.gene.nunique())
+print(d.celltype.value_counts().to_string())
+print('adj_p max',d.adj_p_value.max(),'|logfc| min',d.log_fc.abs().min(), d.log_fc.abs().describe().to_string())
+print('contrast',d.contrast.unique()[:5],'num_donors',d.num_donors.value_counts().to_dict(),'well_biased',d.well_biased.value_counts().to_dict())
+print(d.groupby('cytokine').size().sort_values().to_string())
+x=pd.read_excel(sys.argv[2],sheet_name=None)
+for k,v in x.items(): print('SHEET',k,v.shape); print(v.head(8).to_string()); print(list(v.columns))

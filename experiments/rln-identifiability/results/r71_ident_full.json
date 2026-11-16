@@ -1,0 +1,312 @@
+[
+ {
+  "tag": "A tied normalisation, 4 outputs, natural course",
+  "outputs": [
+   "UPCR",
+   "eGFR",
+   "Ab",
+   "B"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   }
+  ],
+  "tied": true,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ },
+ {
+  "tag": "B tied, clinical outputs only",
+  "outputs": [
+   "UPCR",
+   "eGFR"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   }
+  ],
+  "tied": true,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ },
+ {
+  "tag": "C tied, 4 outputs, + depletion experiment (kill known)",
+  "outputs": [
+   "UPCR",
+   "eGFR",
+   "Ab",
+   "B"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   },
+   {
+    "dep": true,
+    "depkill_unknown": false
+   }
+  ],
+  "tied": true,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 15,
+    "rank_by_order": {
+     "21": 15,
+     "24": 15
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ },
+ {
+  "tag": "D free rates, ICs known, 4 outputs",
+  "outputs": [
+   "UPCR",
+   "eGFR",
+   "Ab",
+   "B"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   }
+  ],
+  "tied": false,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 20,
+    "rank_by_order": {
+     "26": 20,
+     "29": 20
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 20,
+    "rank_by_order": {
+     "26": 20,
+     "29": 20
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ },
+ {
+  "tag": "E free rates + unknown ICs, 4 outputs",
+  "outputs": [
+   "UPCR",
+   "eGFR",
+   "Ab",
+   "B"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   }
+  ],
+  "tied": false,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 26,
+    "rank_by_order": {
+     "32": 22,
+     "35": 22
+    },
+    "non_identifiable": [
+     "s_B",
+     "f_s",
+     "f_l",
+     "g_s",
+     "g_l",
+     "k_a",
+     "k_dam",
+     "p0",
+     "G0",
+     "c_inf",
+     "phi",
+     "Ps0",
+     "Pl0",
+     "A0",
+     "D0"
+    ],
+    "null_log": [
+     {
+      "f_s": "nonrational",
+      "g_s": "nonrational",
+      "Ps0": "1"
+     },
+     {
+      "f_l": "nonrational",
+      "g_l": "nonrational",
+      "Pl0": "1"
+     },
+     {
+      "k_a": "nonrational",
+      "k_dam": "nonrational",
+      "p0": "nonrational",
+      "c_inf": "nonrational",
+      "A0": "1"
+     },
+     {
+      "s_B": "nonrational",
+      "p0": "nonrational",
+      "G0": "nonrational",
+      "phi": "nonrational",
+      "D0": "1"
+     }
+    ]
+   },
+   {
+    "seed": 1,
+    "n_unknown": 26,
+    "rank_by_order": {
+     "32": 22,
+     "35": 22
+    },
+    "non_identifiable": [
+     "s_B",
+     "f_s",
+     "f_l",
+     "g_s",
+     "g_l",
+     "k_a",
+     "k_dam",
+     "p0",
+     "G0",
+     "c_inf",
+     "phi",
+     "Ps0",
+     "Pl0",
+     "A0",
+     "D0"
+    ],
+    "null_log": [
+     {
+      "f_s": "nonrational",
+      "g_s": "nonrational",
+      "Ps0": "1"
+     },
+     {
+      "f_l": "nonrational",
+      "g_l": "nonrational",
+      "Pl0": "1"
+     },
+     {
+      "k_a": "nonrational",
+      "k_dam": "nonrational",
+      "p0": "nonrational",
+      "c_inf": "nonrational",
+      "A0": "1"
+     },
+     {
+      "s_B": "nonrational",
+      "p0": "nonrational",
+      "G0": "nonrational",
+      "phi": "nonrational",
+      "D0": "1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "tag": "F free rates, ICs known, 4 outputs, + depletion",
+  "outputs": [
+   "UPCR",
+   "eGFR",
+   "Ab",
+   "B"
+  ],
+  "experiments": [
+   {
+    "dep": false
+   },
+   {
+    "dep": true,
+    "depkill_unknown": false
+   }
+  ],
+  "tied": false,
+  "runs": [
+   {
+    "seed": 0,
+    "n_unknown": 20,
+    "rank_by_order": {
+     "26": 20,
+     "29": 20
+    },
+    "non_identifiable": [],
+    "null_log": []
+   },
+   {
+    "seed": 1,
+    "n_unknown": 20,
+    "rank_by_order": {
+     "26": 20,
+     "29": 20
+    },
+    "non_identifiable": [],
+    "null_log": []
+   }
+  ]
+ }
+]

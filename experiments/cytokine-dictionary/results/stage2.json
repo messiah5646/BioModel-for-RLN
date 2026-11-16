@@ -1,0 +1,137 @@
+[
+ {
+  "label": "all responding hidden pairs",
+  "n_pairs": 873,
+  "n_cytokines": 85,
+  "skill": {
+   "ctmean": -0.286,
+   "linear": 0.184,
+   "mediator": 0.024,
+   "combined": 0.179
+  },
+  "cosine": {
+   "ctmean": 0.201,
+   "linear": 0.431,
+   "mediator": 0.094,
+   "combined": 0.429
+  },
+  "combined_minus_linear": {
+   "mean": -0.005,
+   "ci95": [
+    -0.01,
+    0.001
+   ]
+  },
+  "mediator_minus_linear": {
+   "mean": -0.16,
+   "ci95": [
+    -0.186,
+    -0.135
+   ]
+  },
+  "mediator_minus_ctmean": {
+   "mean": 0.31,
+   "ci95": [
+    0.231,
+    0.4
+   ]
+  },
+  "cos_mediator_minus_linear": {
+   "mean": -0.336,
+   "ci95": [
+    -0.367,
+    -0.303
+   ]
+  }
+ },
+ {
+  "label": "predict myeloid from lymphoid",
+  "n_pairs": 246,
+  "n_cytokines": 85,
+  "skill": {
+   "ctmean": -0.381,
+   "linear": 0.168,
+   "mediator": 0.003,
+   "combined": 0.164
+  },
+  "cosine": {
+   "ctmean": 0.211,
+   "linear": 0.456,
+   "mediator": 0.103,
+   "combined": 0.456
+  },
+  "combined_minus_linear": {
+   "mean": -0.004,
+   "ci95": [
+    -0.01,
+    0.001
+   ]
+  },
+  "mediator_minus_linear": {
+   "mean": -0.164,
+   "ci95": [
+    -0.192,
+    -0.139
+   ]
+  },
+  "mediator_minus_ctmean": {
+   "mean": 0.384,
+   "ci95": [
+    0.269,
+    0.499
+   ]
+  },
+  "cos_mediator_minus_linear": {
+   "mean": -0.352,
+   "ci95": [
+    -0.386,
+    -0.316
+   ]
+  }
+ },
+ {
+  "label": "predict lymphoid from myeloid",
+  "n_pairs": 627,
+  "n_cytokines": 80,
+  "skill": {
+   "ctmean": -0.123,
+   "linear": 0.121,
+   "mediator": 0.008,
+   "combined": 0.131
+  },
+  "cosine": {
+   "ctmean": 0.198,
+   "linear": 0.419,
+   "mediator": 0.093,
+   "combined": 0.417
+  },
+  "combined_minus_linear": {
+   "mean": 0.01,
+   "ci95": [
+    -0.012,
+    0.043
+   ]
+  },
+  "mediator_minus_linear": {
+   "mean": -0.113,
+   "ci95": [
+    -0.181,
+    -0.019
+   ]
+  },
+  "mediator_minus_ctmean": {
+   "mean": 0.131,
+   "ci95": [
+    0.082,
+    0.178
+   ]
+  },
+  "cos_mediator_minus_linear": {
+   "mean": -0.326,
+   "ci95": [
+    -0.362,
+    -0.293
+   ]
+  }
+ }
+]

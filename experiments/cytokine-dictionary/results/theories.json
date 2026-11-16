@@ -1,0 +1,476 @@
+{
+ "T1": {
+  "own_programs_explain_test": 0.371,
+  "transfer_ratio": {
+   "within_subtype": 0.658,
+   "across_lymphoid_subtypes": 0.304,
+   "myeloid_vs_lymphoid": 0.13,
+   "myeloid_vs_lymphoid_range": [
+    0.06,
+    0.303
+   ]
+  },
+  "top1_program_share_of_own": 0.192
+ },
+ "T2": {
+  "n_cytokines": 80,
+  "n_pairs": 3160,
+  "mean_similarity": {
+   "shared_chain": 0.149,
+   "same_family_no_shared_chain": 0.08,
+   "cascade_linked_no_shared_chain": 0.073,
+   "unrelated": 0.074
+  },
+  "n": {
+   "shared_chain": 79,
+   "same_family_no_shared_chain": 79,
+   "cascade_linked_no_shared_chain": 185
+  },
+  "shared_minus_family": 0.069,
+  "permutation_p": 0.0005,
+  "auc_predicting_similarity": {
+   "shared_chain": 0.583,
+   "same_family": 0.58,
+   "cascade_link": 0.422
+  },
+  "top5pct_most_similar": {
+   "n": 158,
+   "share_chain": 0.08,
+   "same_family": 0.09,
+   "cascade_linked": 0.09,
+   "none_of_these": 0.83
+  },
+  "base_rates": {
+   "share_chain": 0.025,
+   "same_family": 0.045,
+   "cascade_linked": 0.06
+  }
+ },
+ "T3": {
+  "path": [
+   {
+    "k": 1,
+    "hub": "IFN-omega",
+    "dev": 0.284,
+    "test": 0.155
+   },
+   {
+    "k": 2,
+    "hub": "IL-4",
+    "dev": 0.395,
+    "test": 0.162
+   },
+   {
+    "k": 3,
+    "hub": "IL-15",
+    "dev": 0.452,
+    "test": 0.302
+   },
+   {
+    "k": 4,
+    "hub": "GM-CSF",
+    "dev": 0.49,
+    "test": 0.317
+   },
+   {
+    "k": 5,
+    "hub": "IL-10",
+    "dev": 0.532,
+    "test": 0.354
+   },
+   {
+    "k": 6,
+    "hub": "IL-1-beta",
+    "dev": 0.553,
+    "test": 0.387
+   },
+   {
+    "k": 7,
+    "hub": "IL-12",
+    "dev": 0.574,
+    "test": 0.394
+   },
+   {
+    "k": 8,
+    "hub": "TSLP",
+    "dev": 0.594,
+    "test": 0.4
+   }
+  ],
+  "test_energy_5_hubs": 0.354,
+  "random_5_mean": 0.118,
+  "random_5_p95": 0.339,
+  "best_5_dim_subspace_from_dev": 0.271
+ },
+ "T4": {
+  "n_test_cytokines": 39,
+  "n_test_pairs": 392,
+  "stack_weights": {
+   "cytokine_axis": 0.86,
+   "cell_axis": 0.48
+  },
+  "test_skill": {
+   "cyt": 0.177,
+   "cell": 0.094,
+   "both": 0.218
+  },
+  "both_minus_cyt": {
+   "mean": 0.041,
+   "ci95": [
+    0.031,
+    0.051
+   ]
+  },
+  "cell_axis_ci95": [
+   0.075,
+   0.113
+  ],
+  "by_hidden_block": {
+   "myeloid": {
+    "cyt": 0.106,
+    "cell": 0.108,
+    "both": 0.177
+   },
+   "lymphoid": {
+    "cyt": 0.172,
+    "cell": 0.07,
+    "both": 0.204
+   }
+  },
+  "biggest_gains": {
+   "IL-27": 0.08,
+   "IFN-lambda3": 0.08,
+   "IL-23": 0.09,
+   "VEGF": 0.09,
+   "IL-34": 0.12,
+   "IL-5": 0.13
+  },
+  "biggest_losses": {
+   "IL-2": -0.02,
+   "IL-15": -0.01,
+   "IL-17A": 0.01,
+   "TPO": 0.01
+  }
+ },
+ "T5": [
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "CD14_Mono",
+   "genes_antagonist": 110,
+   "genes_agonist": 1471,
+   "cosine": -0.093,
+   "null_p05": -0.068,
+   "null_median": 0.072,
+   "percentile_in_null": 0.025
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "CD16_Mono",
+   "genes_antagonist": 130,
+   "genes_agonist": 1096,
+   "cosine": -0.092,
+   "null_p05": -0.083,
+   "null_median": 0.044,
+   "percentile_in_null": 0.038
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "cDC",
+   "genes_antagonist": 184,
+   "genes_agonist": 1477,
+   "cosine": -0.044,
+   "null_p05": 0.008,
+   "null_median": 0.092,
+   "percentile_in_null": 0.0
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "CD4_Naive_T_cell",
+   "genes_antagonist": 64,
+   "genes_agonist": 485,
+   "cosine": -0.151,
+   "null_p05": -0.104,
+   "null_median": 0.018,
+   "percentile_in_null": 0.0
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "CD8_Naive_T_cell",
+   "genes_antagonist": 81,
+   "genes_agonist": 484,
+   "cosine": -0.149,
+   "null_p05": -0.083,
+   "null_median": 0.046,
+   "percentile_in_null": 0.0
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "CD4_Memory_T_cell",
+   "genes_antagonist": 63,
+   "genes_agonist": 373,
+   "cosine": -0.116,
+   "null_p05": -0.061,
+   "null_median": 0.033,
+   "percentile_in_null": 0.0
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "CD8_Memory_T_cell",
+   "genes_antagonist": 59,
+   "genes_agonist": 291,
+   "cosine": -0.085,
+   "null_p05": -0.072,
+   "null_median": 0.042,
+   "percentile_in_null": 0.019
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "Treg",
+   "genes_antagonist": 120,
+   "genes_agonist": 597,
+   "cosine": -0.209,
+   "null_p05": -0.142,
+   "null_median": 0.053,
+   "percentile_in_null": 0.0
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "MAIT",
+   "genes_antagonist": 87,
+   "genes_agonist": 407,
+   "cosine": -0.107,
+   "null_p05": -0.046,
+   "null_median": 0.041,
+   "percentile_in_null": 0.0
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "NK_CD56low",
+   "genes_antagonist": 63,
+   "genes_agonist": 417,
+   "cosine": -0.069,
+   "null_p05": -0.04,
+   "null_median": 0.061,
+   "percentile_in_null": 0.0
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "NK_CD56hi",
+   "genes_antagonist": 67,
+   "genes_agonist": 773,
+   "cosine": -0.049,
+   "null_p05": -0.037,
+   "null_median": 0.052,
+   "percentile_in_null": 0.016
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "Naive_B_cell",
+   "genes_antagonist": 49,
+   "genes_agonist": 396,
+   "cosine": -0.04,
+   "null_p05": -0.064,
+   "null_median": 0.015,
+   "percentile_in_null": 0.154
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-beta",
+   "cell": "Intermediate_B_cell",
+   "genes_antagonist": 69,
+   "genes_agonist": 567,
+   "cosine": -0.008,
+   "null_p05": -0.025,
+   "null_median": 0.029,
+   "percentile_in_null": 0.219
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "CD14_Mono",
+   "genes_antagonist": 110,
+   "genes_agonist": 636,
+   "cosine": -0.015,
+   "null_p05": -0.069,
+   "null_median": 0.072,
+   "percentile_in_null": 0.21
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "CD16_Mono",
+   "genes_antagonist": 130,
+   "genes_agonist": 473,
+   "cosine": -0.029,
+   "null_p05": -0.085,
+   "null_median": 0.044,
+   "percentile_in_null": 0.205
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "cDC",
+   "genes_antagonist": 184,
+   "genes_agonist": 580,
+   "cosine": 0.024,
+   "null_p05": 0.008,
+   "null_median": 0.092,
+   "percentile_in_null": 0.173
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "CD4_Naive_T_cell",
+   "genes_antagonist": 64,
+   "genes_agonist": 276,
+   "cosine": -0.084,
+   "null_p05": -0.108,
+   "null_median": 0.018,
+   "percentile_in_null": 0.157
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "CD8_Naive_T_cell",
+   "genes_antagonist": 81,
+   "genes_agonist": 285,
+   "cosine": -0.056,
+   "null_p05": -0.084,
+   "null_median": 0.046,
+   "percentile_in_null": 0.159
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "CD4_Memory_T_cell",
+   "genes_antagonist": 63,
+   "genes_agonist": 208,
+   "cosine": -0.042,
+   "null_p05": -0.063,
+   "null_median": 0.033,
+   "percentile_in_null": 0.163
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "CD8_Memory_T_cell",
+   "genes_antagonist": 59,
+   "genes_agonist": 139,
+   "cosine": 0.044,
+   "null_p05": -0.074,
+   "null_median": 0.042,
+   "percentile_in_null": 0.528
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "Treg",
+   "genes_antagonist": 120,
+   "genes_agonist": 358,
+   "cosine": -0.133,
+   "null_p05": -0.146,
+   "null_median": 0.053,
+   "percentile_in_null": 0.08
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "MAIT",
+   "genes_antagonist": 87,
+   "genes_agonist": 164,
+   "cosine": 0.015,
+   "null_p05": -0.05,
+   "null_median": 0.041,
+   "percentile_in_null": 0.375
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "NK_CD56low",
+   "genes_antagonist": 63,
+   "genes_agonist": 170,
+   "cosine": 0.024,
+   "null_p05": -0.045,
+   "null_median": 0.061,
+   "percentile_in_null": 0.382
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "NK_CD56hi",
+   "genes_antagonist": 67,
+   "genes_agonist": 152,
+   "cosine": 0.008,
+   "null_p05": -0.04,
+   "null_median": 0.052,
+   "percentile_in_null": 0.312
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "Naive_B_cell",
+   "genes_antagonist": 49,
+   "genes_agonist": 238,
+   "cosine": 0.021,
+   "null_p05": -0.064,
+   "null_median": 0.014,
+   "percentile_in_null": 0.538
+  },
+  {
+   "antagonist": "IL-1Ra",
+   "agonist": "IL-1-alpha",
+   "cell": "Intermediate_B_cell",
+   "genes_antagonist": 69,
+   "genes_agonist": 186,
+   "cosine": 0.008,
+   "null_p05": -0.025,
+   "null_median": 0.029,
+   "percentile_in_null": 0.329
+  },
+  {
+   "antagonist": "IL-36Ra",
+   "agonist": "IL-36-alpha",
+   "cell": "CD14_Mono",
+   "genes_antagonist": 54,
+   "genes_agonist": 30,
+   "cosine": 0.039,
+   "null_p05": -0.045,
+   "null_median": 0.068,
+   "percentile_in_null": 0.395
+  },
+  {
+   "antagonist": "IL-36Ra",
+   "agonist": "IL-36-alpha",
+   "cell": "cDC",
+   "genes_antagonist": 83,
+   "genes_agonist": 20,
+   "cosine": 0.126,
+   "null_p05": -0.006,
+   "null_median": 0.072,
+   "percentile_in_null": 0.753
+  },
+  {
+   "antagonist": "IL-36Ra",
+   "agonist": "IL-36-alpha",
+   "cell": "Treg",
+   "genes_antagonist": 57,
+   "genes_agonist": 42,
+   "cosine": 0.128,
+   "null_p05": -0.011,
+   "null_median": 0.071,
+   "percentile_in_null": 0.707
+  }
+ ]
+}

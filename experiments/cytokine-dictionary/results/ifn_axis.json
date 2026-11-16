@@ -1,0 +1,32 @@
+{
+ "CD14_Mono": {
+  "n": 18,
+  "spearman_b_vs_IFNG": 0.72,
+  "spearman_gammagain_vs_IFNG": 0.68
+ },
+ "CD16_Mono": {
+  "n": 18,
+  "spearman_b_vs_IFNG": 0.71,
+  "spearman_gammagain_vs_IFNG": 0.7
+ },
+ "cDC": {
+  "n": 22,
+  "spearman_b_vs_IFNG": 0.6,
+  "spearman_gammagain_vs_IFNG": 0.57
+ },
+ "Naive_B_cell": {
+  "n": 11,
+  "spearman_b_vs_IFNG": 0.56,
+  "spearman_gammagain_vs_IFNG": 0.53
+ },
+ "CD4_Naive_T_cell": {
+  "n": 8,
+  "spearman_b_vs_IFNG": 0.7,
+  "spearman_gammagain_vs_IFNG": 0.58
+ },
+ "NK_CD56low": {
+  "n": 7,
+  "spearman_b_vs_IFNG": 0.35,
+  "spearman_gammagain_vs_IFNG": 0.54
+ }
+}

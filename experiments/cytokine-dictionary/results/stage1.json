@@ -1,0 +1,295 @@
+{
+ "A": {
+  "n_bystander_pairs": 65,
+  "share_bystander_responding": 0.8769230769230769,
+  "n_direct_pairs": 29,
+  "share_direct_responding": 0.896551724137931,
+  "n_inert_pairs": 72,
+  "share_inert_responding": 0.2916666666666667,
+  "median_genes": {
+   "bystander": 62.0,
+   "direct": 738.0,
+   "inert": 14.5
+  }
+ },
+ "B": [
+  {
+   "cytokine": "IL-2",
+   "genes_bystander_median": 1575.5,
+   "genes_bystander_max": 1668,
+   "genes_direct_median": 1752.0,
+   "size_ratio": 1.0134398331606311,
+   "bystander_by_cell": {
+    "CD14_Mono": 1668,
+    "CD16_Mono": 1483
+   },
+   "direct_by_cell": {
+    "NK_CD56hi": 3095,
+    "NK_CD56low": 1752,
+    "Treg": 876
+   }
+  },
+  {
+   "cytokine": "IL-15",
+   "genes_bystander_median": 1838.0,
+   "genes_bystander_max": 1904,
+   "genes_direct_median": 2407.0,
+   "size_ratio": 0.8521588263357925,
+   "bystander_by_cell": {
+    "CD14_Mono": 1904,
+    "CD16_Mono": 1772
+   },
+   "direct_by_cell": {
+    "NK_CD56hi": 3448,
+    "NK_CD56low": 2407,
+    "CD8_Memory_T_cell": 2324
+   }
+  },
+  {
+   "cytokine": "IL-12",
+   "genes_bystander_median": 738.0,
+   "genes_bystander_max": 741,
+   "genes_direct_median": 604.5,
+   "size_ratio": 1.1068553388417022,
+   "bystander_by_cell": {
+    "CD14_Mono": 735,
+    "CD16_Mono": 741
+   },
+   "direct_by_cell": {
+    "NK_CD56hi": 1025,
+    "NK_CD56low": 184
+   }
+  },
+  {
+   "cytokine": "IL-18",
+   "genes_bystander_median": 0.0,
+   "genes_bystander_max": 0,
+   "genes_direct_median": 0.0,
+   "size_ratio": NaN,
+   "bystander_by_cell": {
+    "CD14_Mono": 0,
+    "CD16_Mono": 0,
+    "Naive_B_cell": 0
+   },
+   "direct_by_cell": {
+    "NK_CD56hi": 0,
+    "NK_CD56low": 0,
+    "MAIT": 0
+   }
+  },
+  {
+   "cytokine": "IL-7",
+   "genes_bystander_median": 983.0,
+   "genes_bystander_max": 1382,
+   "genes_direct_median": 1592.5,
+   "size_ratio": 0.6296406710642632,
+   "bystander_by_cell": {
+    "CD14_Mono": 1382,
+    "CD16_Mono": 1328,
+    "NK_CD56low": 494,
+    "Naive_B_cell": 638
+   },
+   "direct_by_cell": {
+    "CD4_Naive_T_cell": 1497,
+    "CD8_Naive_T_cell": 1688
+   }
+  },
+  {
+   "cytokine": "IL-21",
+   "genes_bystander_median": 818.5,
+   "genes_bystander_max": 1389,
+   "genes_direct_median": 379.0,
+   "size_ratio": 1.7863704566428507,
+   "bystander_by_cell": {
+    "CD14_Mono": 248,
+    "CD16_Mono": 1389
+   },
+   "direct_by_cell": {
+    "Naive_B_cell": 621,
+    "NK_CD56low": 137
+   }
+  },
+  {
+   "cytokine": "M-CSF",
+   "genes_bystander_median": 47.5,
+   "genes_bystander_max": 75,
+   "genes_direct_median": 1700.0,
+   "size_ratio": 0.1095065005291496,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 50,
+    "CD8_Naive_T_cell": 62,
+    "CD4_Memory_T_cell": 45,
+    "CD8_Memory_T_cell": 45,
+    "NK_CD56low": 75,
+    "Naive_B_cell": 45
+   },
+   "direct_by_cell": {
+    "CD14_Mono": 1700
+   }
+  },
+  {
+   "cytokine": "IL-34",
+   "genes_bystander_median": 62.0,
+   "genes_bystander_max": 77,
+   "genes_direct_median": 144.0,
+   "size_ratio": 0.6578709385980605,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 49,
+    "CD8_Naive_T_cell": 77,
+    "CD4_Memory_T_cell": 54,
+    "CD8_Memory_T_cell": 66,
+    "NK_CD56low": 59,
+    "Naive_B_cell": 65
+   },
+   "direct_by_cell": {
+    "CD14_Mono": 144
+   }
+  },
+  {
+   "cytokine": "GM-CSF",
+   "genes_bystander_median": 153.5,
+   "genes_bystander_max": 189,
+   "genes_direct_median": 1302.5,
+   "size_ratio": 0.21198553756070002,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 162,
+    "CD8_Naive_T_cell": 143,
+    "CD4_Memory_T_cell": 145,
+    "CD8_Memory_T_cell": 108,
+    "NK_CD56low": 189,
+    "Naive_B_cell": 167
+   },
+   "direct_by_cell": {
+    "CD14_Mono": 1601,
+    "cDC": 1004
+   }
+  },
+  {
+   "cytokine": "G-CSF",
+   "genes_bystander_median": 43.0,
+   "genes_bystander_max": 61,
+   "genes_direct_median": 118.0,
+   "size_ratio": 0.5420446783396755,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 43,
+    "CD8_Naive_T_cell": 43,
+    "CD4_Memory_T_cell": 32,
+    "CD8_Memory_T_cell": 39,
+    "NK_CD56low": 47,
+    "Naive_B_cell": 61
+   },
+   "direct_by_cell": {
+    "CD14_Mono": 118
+   }
+  },
+  {
+   "cytokine": "C5a",
+   "genes_bystander_median": 50.5,
+   "genes_bystander_max": 67,
+   "genes_direct_median": 738.0,
+   "size_ratio": 0.16891133800450284,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 59,
+    "CD8_Naive_T_cell": 67,
+    "CD4_Memory_T_cell": 42,
+    "CD8_Memory_T_cell": 34,
+    "NK_CD56low": 54,
+    "Naive_B_cell": 47
+   },
+   "direct_by_cell": {
+    "CD14_Mono": 738
+   }
+  },
+  {
+   "cytokine": "IL-3",
+   "genes_bystander_median": 74.0,
+   "genes_bystander_max": 85,
+   "genes_direct_median": 671.5,
+   "size_ratio": 0.20503588658888316,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 57,
+    "CD8_Naive_T_cell": 74,
+    "NK_CD56low": 85
+   },
+   "direct_by_cell": {
+    "pDC": 135,
+    "CD14_Mono": 1208
+   }
+  },
+  {
+   "cytokine": "TSLP",
+   "genes_bystander_median": 147.0,
+   "genes_bystander_max": 194,
+   "genes_direct_median": 1325.0,
+   "size_ratio": 0.2081591980491841,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 135,
+    "CD8_Naive_T_cell": 194,
+    "NK_CD56low": 159,
+    "Naive_B_cell": 98
+   },
+   "direct_by_cell": {
+    "cDC": 2322,
+    "CD14_Mono": 328
+   }
+  },
+  {
+   "cytokine": "CD40L",
+   "genes_bystander_median": 8.0,
+   "genes_bystander_max": 18,
+   "genes_direct_median": 225.5,
+   "size_ratio": 0.19734250258312638,
+   "bystander_by_cell": {
+    "CD4_Naive_T_cell": 5,
+    "CD8_Naive_T_cell": 9,
+    "CD4_Memory_T_cell": 6,
+    "CD8_Memory_T_cell": 8,
+    "NK_CD56low": 18
+   },
+   "direct_by_cell": {
+    "Naive_B_cell": 406,
+    "CD14_Mono": 45
+   }
+  },
+  {
+   "cytokine": "BAFF",
+   "genes_bystander_median": 63.5,
+   "genes_bystander_max": 95,
+   "genes_direct_median": 110.0,
+   "size_ratio": 0.7363113104432822,
+   "bystander_by_cell": {
+    "CD14_Mono": 95,
+    "NK_CD56low": 56,
+    "CD4_Naive_T_cell": 40,
+    "CD8_Naive_T_cell": 71
+   },
+   "direct_by_cell": {
+    "Naive_B_cell": 110
+   }
+  },
+  {
+   "cytokine": "APRIL",
+   "genes_bystander_median": 40.0,
+   "genes_bystander_max": 62,
+   "genes_direct_median": 33.0,
+   "size_ratio": 1.1425271350454027,
+   "bystander_by_cell": {
+    "CD14_Mono": 62,
+    "NK_CD56low": 37,
+    "CD4_Naive_T_cell": 30,
+    "CD8_Naive_T_cell": 43
+   },
+   "direct_by_cell": {
+    "Naive_B_cell": 33
+   }
+  }
+ ],
+ "D": {
+  "n_significant_bystander": 57,
+  "share_with_matching_induced_mediator": 0.3684210526315789,
+  "share_top_match_is_induced": 0.22807017543859648,
+  "mean_share_candidates_matching": 0.08031521492305806,
+  "mean_share_controls_matching": 0.0697017211337331,
+  "share_mediator_beats_sender_similarity": 0.6140350877192983
+ }
+}

@@ -1,0 +1,304 @@
+{
+ "T6_all_genes": {
+  "tag": "all",
+  "n_genes": 12904,
+  "n_test_cytokines": 39,
+  "n_pairs": 392,
+  "rank": {
+   "myeloid": {
+    "dev_skill_by_rank": {
+     "4": -0.317,
+     "8": -0.892,
+     "16": -1.641,
+     "32": -1.178
+    },
+    "chosen": 4
+   },
+   "lymphoid": {
+    "dev_skill_by_rank": {
+     "4": -1.751,
+     "8": -7.604,
+     "16": -8.747,
+     "32": -6.812
+    },
+    "chosen": 4
+   }
+  },
+  "skill": {
+   "similarity": 0.123,
+   "cell": 0.093,
+   "twoway": 0.173,
+   "tensor": -0.143,
+   "tensor_plus_similarity": 0.058
+  },
+  "twoway_minus_similarity": {
+   "mean": 0.05,
+   "ci95": [
+    0.041,
+    0.06
+   ]
+  },
+  "tensor_minus_similarity": {
+   "mean": -0.266,
+   "ci95": [
+    -0.458,
+    -0.136
+   ]
+  },
+  "tensor_minus_twoway": {
+   "mean": -0.316,
+   "ci95": [
+    -0.51,
+    -0.186
+   ]
+  },
+  "tensor_plus_similarity_minus_twoway": {
+   "mean": -0.115,
+   "ci95": [
+    -0.163,
+    -0.082
+   ]
+  },
+  "strong_pairs_skill": {
+   "n_cytokines": 14,
+   "similarity": 0.177,
+   "cell": 0.088,
+   "twoway": 0.219,
+   "tensor": -0.349,
+   "tensor_plus_similarity": 0.054
+  }
+ },
+ "T6_robust_genes": {
+  "tag": "robust",
+  "n_genes": 12246,
+  "n_test_cytokines": 38,
+  "n_pairs": 343,
+  "rank": {
+   "myeloid": {
+    "dev_skill_by_rank": {
+     "4": -0.529,
+     "8": -0.815,
+     "16": -1.721,
+     "32": -0.62
+    },
+    "chosen": 4
+   },
+   "lymphoid": {
+    "dev_skill_by_rank": {
+     "4": -6.705,
+     "8": -7.878,
+     "16": -8.684,
+     "32": -4.147
+    },
+    "chosen": 32
+   }
+  },
+  "skill": {
+   "similarity": 0.117,
+   "cell": 0.12,
+   "twoway": 0.178,
+   "tensor": -0.934,
+   "tensor_plus_similarity": -0.128
+  },
+  "twoway_minus_similarity": {
+   "mean": 0.061,
+   "ci95": [
+    0.049,
+    0.076
+   ]
+  },
+  "tensor_minus_similarity": {
+   "mean": -1.05,
+   "ci95": [
+    -1.648,
+    -0.553
+   ]
+  },
+  "tensor_minus_twoway": {
+   "mean": -1.112,
+   "ci95": [
+    -1.747,
+    -0.616
+   ]
+  },
+  "tensor_plus_similarity_minus_twoway": {
+   "mean": -0.305,
+   "ci95": [
+    -0.456,
+    -0.182
+   ]
+  },
+  "strong_pairs_skill": {
+   "n_cytokines": 11,
+   "similarity": 0.183,
+   "cell": 0.074,
+   "twoway": 0.213,
+   "tensor": -1.046,
+   "tensor_plus_similarity": -0.116
+  }
+ },
+ "T7": [
+  {
+   "pair": "IL-10 vs IL-1-beta",
+   "cell": "CD14_Mono",
+   "cosine": -0.313,
+   "null_p05": -0.37,
+   "null_median": 0.046,
+   "shared_genes": 594,
+   "opposite_sign_share": 0.81
+  },
+  {
+   "pair": "IL-10 vs IL-1-beta",
+   "cell": "CD16_Mono",
+   "cosine": -0.157,
+   "null_p05": -0.276,
+   "null_median": 0.025,
+   "shared_genes": 479,
+   "opposite_sign_share": 0.73
+  },
+  {
+   "pair": "IL-10 vs IL-1-beta",
+   "cell": "cDC",
+   "cosine": -0.305,
+   "null_p05": -0.323,
+   "null_median": 0.029,
+   "shared_genes": 461,
+   "opposite_sign_share": 0.95
+  },
+  {
+   "pair": "IL-10 vs IFN-gamma",
+   "cell": "CD14_Mono",
+   "cosine": -0.37,
+   "null_p05": -0.362,
+   "null_median": 0.046,
+   "shared_genes": 741,
+   "opposite_sign_share": 0.89
+  },
+  {
+   "pair": "IL-10 vs IFN-gamma",
+   "cell": "CD16_Mono",
+   "cosine": -0.287,
+   "null_p05": -0.246,
+   "null_median": 0.025,
+   "shared_genes": 697,
+   "opposite_sign_share": 0.86
+  },
+  {
+   "pair": "IL-10 vs IFN-gamma",
+   "cell": "cDC",
+   "cosine": -0.308,
+   "null_p05": -0.323,
+   "null_median": 0.029,
+   "shared_genes": 608,
+   "opposite_sign_share": 0.88
+  },
+  {
+   "pair": "IL-10 vs TNF-alpha",
+   "cell": "CD14_Mono",
+   "cosine": 0.141,
+   "null_p05": -0.37,
+   "null_median": 0.046,
+   "shared_genes": 53,
+   "opposite_sign_share": 0.08
+  },
+  {
+   "pair": "IL-10 vs TNF-alpha",
+   "cell": "CD16_Mono",
+   "cosine": 0.097,
+   "null_p05": -0.276,
+   "null_median": 0.025,
+   "shared_genes": 56,
+   "opposite_sign_share": 0.16
+  },
+  {
+   "pair": "IL-10 vs TNF-alpha",
+   "cell": "cDC",
+   "cosine": 0.078,
+   "null_p05": -0.323,
+   "null_median": 0.028,
+   "shared_genes": 28,
+   "opposite_sign_share": 0.0
+  },
+  {
+   "pair": "IL-4 vs IFN-gamma",
+   "cell": "CD14_Mono",
+   "cosine": -0.082,
+   "null_p05": -0.087,
+   "null_median": 0.031,
+   "shared_genes": 939,
+   "opposite_sign_share": 0.63
+  },
+  {
+   "pair": "IL-4 vs IFN-gamma",
+   "cell": "CD16_Mono",
+   "cosine": -0.104,
+   "null_p05": -0.121,
+   "null_median": 0.018,
+   "shared_genes": 542,
+   "opposite_sign_share": 0.68
+  },
+  {
+   "pair": "IL-4 vs IFN-gamma",
+   "cell": "cDC",
+   "cosine": -0.034,
+   "null_p05": -0.054,
+   "null_median": 0.027,
+   "shared_genes": 657,
+   "opposite_sign_share": 0.6
+  },
+  {
+   "pair": "IL-13 vs IFN-gamma",
+   "cell": "CD14_Mono",
+   "cosine": -0.043,
+   "null_p05": -0.08,
+   "null_median": 0.04,
+   "shared_genes": 713,
+   "opposite_sign_share": 0.58
+  },
+  {
+   "pair": "IL-13 vs IFN-gamma",
+   "cell": "CD16_Mono",
+   "cosine": -0.04,
+   "null_p05": -0.067,
+   "null_median": 0.021,
+   "shared_genes": 245,
+   "opposite_sign_share": 0.61
+  },
+  {
+   "pair": "IL-13 vs IFN-gamma",
+   "cell": "cDC",
+   "cosine": 0.067,
+   "null_p05": -0.014,
+   "null_median": 0.051,
+   "shared_genes": 370,
+   "opposite_sign_share": 0.45
+  },
+  {
+   "pair": "IL-4 vs IL-1-beta",
+   "cell": "CD14_Mono",
+   "cosine": -0.228,
+   "null_p05": -0.085,
+   "null_median": 0.031,
+   "shared_genes": 792,
+   "opposite_sign_share": 0.76
+  },
+  {
+   "pair": "IL-4 vs IL-1-beta",
+   "cell": "CD16_Mono",
+   "cosine": -0.129,
+   "null_p05": -0.114,
+   "null_median": 0.018,
+   "shared_genes": 377,
+   "opposite_sign_share": 0.74
+  },
+  {
+   "pair": "IL-4 vs IL-1-beta",
+   "cell": "cDC",
+   "cosine": -0.054,
+   "null_p05": -0.046,
+   "null_median": 0.027,
+   "shared_genes": 473,
+   "opposite_sign_share": 0.62
+  }
+ ]
+}
