@@ -1,6 +1,6 @@
 """Round 76 -- prereg: project doc claude/prereg-round76.md (written before any fit including AURORA 2).
 Profile likelihood of k_tox on AURORA 1 (weeks 2-52) + AURORA 2 (months 12-36, shape only via per-series offsets)."""
-import csv, json, sys, numpy as np
+import csv, json, sys, signal, os, numpy as np
 from scipy.optimize import least_squares
 from model import make_params, simulate, observe
 def _load(path):
@@ -21,8 +21,12 @@ def unpack(x, arms, kp):
     if kp: kprog = np.exp(x[i]); i += 1
     drug = (sg(x[i]), sg(x[i + 1]), 0.15 * sg(x[i + 2])) if 'treated' in arms else (); i += 3 if 'treated' in arms else 0
     return np.exp(min(x[0], 0.0)), np.exp(x[1]), kprog, drug, x[i:]
+class _TO(Exception): pass
+def _alarm(*a): raise _TO()
+signal.signal(signal.SIGALRM, _alarm)
 def resid(x, lk, arms, kp):
     s_inf, kdam, kprog, drug, off = unpack(x, arms, kp); r = []
+    signal.setitimer(signal.ITIMER_REAL, 5.0)   # added after the first run hung inside the ODE solver on a k_prog-free start
     try:
         for j, arm in enumerate(arms):
             C, _ = arm_curve(arm, s_inf, kdam, 10.0 ** lk, kprog, *(drug if arm == 'treated' else ()))
@@ -30,15 +34,20 @@ def resid(x, lk, arms, kp):
             r += list((a[:, 0] - o1[:, 0]) / o1[:, 1]) + list((a[:, 1] - o1[:, 2]) / o1[:, 3])
             r += list((b[:, 0] + off[2 * j] - o2[:, 0]) / o2[:, 1]) + list((b[:, 1] + off[2 * j + 1] - o2[:, 2]) / o2[:, 3])
     except Exception:
-        return np.full(len(arms) * 34, 1e3)
-    return np.array(r)
-GRID = np.linspace(-7, -3, 9); out = {}
+        signal.setitimer(signal.ITIMER_REAL, 0); return np.full(len(arms) * 34, 1e3)
+    signal.setitimer(signal.ITIMER_REAL, 0); return np.array(r)
+GRID = np.linspace(-7, -3, 9); OUTF = 'results/r76_aurora12_profile_ktox.json'; out = json.load(open(OUTF)) if os.path.exists(OUTF) else {}
 RUNS = (('PT', ['placebo', 'treated'], False), ('PT_kprog', ['placebo', 'treated'], True), ('P', ['placebo'], False), ('T', ['treated'], False))
 for tag, arms, kp in RUNS:
-    npar = 2 + int(kp) + (3 if 'treated' in arms else 0) + 2 * len(arms); prof = []; warm = None; rng = np.random.default_rng(0)
+    if tag in out: continue
+    npar = 2 + int(kp) + (3 if 'treated' in arms else 0) + 2 * len(arms); prof = []; rng = np.random.default_rng(0)
     def x0():
         v = [np.log(rng.uniform(0.2, 0.9)), np.log(10 ** rng.uniform(-5, -3))] + ([np.log(10 ** rng.uniform(-7, -4))] if kp else []) + (list(rng.normal(0, 1, 3)) if 'treated' in arms else []) + [0.0] * (2 * len(arms))
         return np.array(v)
+    warm = None
+    if kp and 'PT' in out:   # seed the k_prog-free run from the k_prog=0 optimum with a negligible k_prog
+        b = out['PT']['profile'][0]; lg = lambda z: float(np.log(max(z, 1e-12) / max(1 - z, 1e-12)))
+        warm = np.array([np.log(b['s_inf']), np.log(b['k_dam']), np.log(1e-8), max(lg(b['drug'][0]), -20), lg(b['drug'][1]), lg(b['drug'][2] / 0.15)] + b['offsets'])
     for lk in GRID:
         best = None
         for s in ([warm] if warm is not None else []) + [x0(), x0()]:
@@ -55,4 +64,4 @@ for tag, arms, kp in RUNS:
         return dict(lo=float(g.min()), hi=float(g.max()), bounded_below=bool(not ok[0]), bounded_above=bool(not ok[-1]), contiguous=bool(ok[i0:i1].all()))
     out[tag] = dict(profile=prof, chi2_min=float(c.min()), dof=dof, reduced_chi2=red, best_log10_ktox=float(GRID[c.argmin()]), raw=interval(1.0), scaled=interval(max(red, 1.0)))
     print('SUMMARY', tag, json.dumps({k: v for k, v in out[tag].items() if k != 'profile'}), flush=True)
-    json.dump(out, open('results/r76_aurora12_profile_ktox.json', 'w'), indent=1)
+    json.dump(out, open(OUTF, 'w'), indent=1)
