@@ -1,0 +1,3 @@
+{"name": "CD19 depletion, 4-week window (CAR-T-like, illustrative)", "effects": [
+  {"mechanism": "bcell_depletion", "strength": 0.25, "start_day": 0, "end_day": 28}],
+ "note": "Illustrative. The model spares long-lived plasma cells by construction, which is itself a contested assumption (DATA-CATALOGUE section 5)."}

@@ -1,0 +1,5 @@
+{"name": "voclosporin-like (CNI)", "effects": [
+  {"mechanism": "immunosuppression", "strength": 0.10},
+  {"mechanism": "antiproteinuric", "strength": 0.22},
+  {"mechanism": "haemodynamic", "strength": 0.056}],
+ "note": "Strengths are the round-78 fit to the AURORA treated arm. Running it is an IN-SAMPLE backtest, not a prediction."}

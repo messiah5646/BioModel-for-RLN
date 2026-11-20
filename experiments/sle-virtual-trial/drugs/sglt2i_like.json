@@ -1,0 +1,4 @@
+{"name": "SGLT2i-like add-on", "effects": [
+  {"mechanism": "antiproteinuric", "strength": 0.30},
+  {"mechanism": "haemodynamic", "strength": 0.03}],
+ "note": "Illustrative strengths, not fitted to any lupus trial. Round 80: the one completed LN RCT (n=79) saw no significant effect."}
