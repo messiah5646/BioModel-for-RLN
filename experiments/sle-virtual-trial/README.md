@@ -119,3 +119,19 @@ What to learn from this table:
 - `backtest.py`: validation against AURORA
 - `drugs/*.json`: example drug specs
 - `runs/`: cached ensemble and outputs
+
+## Accuracy on a real trial the harness never saw (round 82, 2026-11-20)
+
+AURA-LV (voclosporin 23.7 mg vs placebo, earlier trial, different patients), UPCR change at weeks 24 and 48.
+Scored as pre-registered (project doc `prereg-round82.md`); `external_aura_lv.py`, `external_aura_lv_attack.py`.
+
+| predictor | error on 4 arm values (RMSE, mg/mg) | treatment difference, wk 24 / 48 (real: −1.55 / −1.61) |
+|---|---|---|
+| **harness, as pre-registered** (baseline set to AURA-LV's) | **0.64** | −1.32 / −1.39 |
+| copy AURORA's numbers | 0.93 | −1.15 / −0.91 |
+| **copy AURORA's numbers, scaled by baseline** | **0.44** | −1.59 / −1.32 |
+| harness + extra step rescale (NOT pre-registered) | 0.37 | −1.54 / −1.60 |
+
+The harness loses to a zero-parameter rule that just rescales the earlier trial's results. A variant that wins
+exists, but it uses a change I added in code without writing it down first, so it does not count. Typical error
+per value is about 0.4–0.6 mg/mg, against measurement uncertainty of about 0.4 mg/mg per value.
