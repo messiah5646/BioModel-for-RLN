@@ -1,0 +1,5 @@
+NOBILITY_obinutuzumab_wk104: truth 0.86 (se 0.39) | forecaster 0.51±0.59 inside=True | carry-forward 0.59 | null 0
+TULIP-LN1_anifro_int_wk104: truth 0.50 (se 0.47) | forecaster 0.39±0.49 inside=True | carry-forward 0.61 | null 0
+TULIP-LN1_anifro_basic_wk104: truth -0.03 (se 0.52) | forecaster 0.13±0.50 inside=True | carry-forward -0.84 | null 0
+{'forecaster': 0.055, 'carry_forward': 0.242, 'null': 0.33}
+PASS (rule: all inside the 95% interval AND forecaster MSE <= carry-forward)
