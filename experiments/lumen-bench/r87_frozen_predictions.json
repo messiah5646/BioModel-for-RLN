@@ -1,0 +1,23 @@
+{
+ "primary_endpoint_table": {
+  "D0": 0,
+  "D1": 0.319,
+  "D2_fast": 0.728,
+  "D3_calcineurin": 0.761,
+  "tau2": 0.089,
+  "w": 0.767
+ },
+ "week<=26_table": {
+  "D0": 0,
+  "D1": 0.334,
+  "D2_fast": 0.594,
+  "D3_calcineurin": 0.334,
+  "tau2": 0.0,
+  "w": 0.0
+ },
+ "rule": "Score: target = log OR of complete remission/response, multitarget (tacrolimus+MMF+GC) vs IV cyclophosphamide, at the trial primary visit (~24 wk), using the week<=26 predictions. Win = smallest squared error; report all.",
+ "trials": [
+  "Liu 2015 Ann Intern Med, PMID 25383558",
+  "modified multitarget vs IVC 2023, PMID 37881738"
+ ]
+}
