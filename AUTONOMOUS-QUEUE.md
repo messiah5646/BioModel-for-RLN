@@ -18,7 +18,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
   with vs without nephritis beyond SLEDAI; compare with a trivial baseline (anti-dsDNA/complement if available).
 - [done] Q3 (round 92: Geneformer DROPPED; LODO AUC IFN 0.68, Geneformer 0.77, PCA-50 0.82, QC-only 0.66; beats IFN in 7/11 donors, rule needed 8; commit 508aaac) Geneformer-V2 embeddings vs the 6-gene IFN score as features for pre/post B-cell-depletion classification
   (CD3xCD19 data); embeddings must beat the gene score to be kept (SBB rule).
-- [todo] Q4 Research doc "SLE, LN and refractory LN: mechanistic reconstruction" (claude.ai artifact
+- [doing] Q4 Research doc "SLE, LN and refractory LN: mechanistic reconstruction" (claude.ai artifact
   Mv7f8uVm8ELsioUZqncEBH): write D7, responsive vs refractory comparison, from primary literature.
 - [done] Q5 (where-this-stands.md rewritten through round 90) Fold rounds 62-88 into project doc where-this-stands.md.
 - [done] Q6 (round 90: frozen wk-104 forecasts for NOBILITY/TULIP-LN; PASS, MSE 0.055 vs carry-forward 0.242) Extend resp_table.csv with published later visits (NOBILITY wk76/104, BLISS-LN wk52 CRR, TULIP-LN
