@@ -1,0 +1,13 @@
+{
+ "mean": {
+  "F1_ifn": 0.6797,
+  "F2_pca50": 0.8172,
+  "F3_geneformer": 0.7716
+ },
+ "c1_delta": 0.0919,
+ "c1": true,
+ "c2_donors_F3_gt_F1": 7,
+ "c2": false,
+ "c3": false,
+ "KEPT": false
+}
