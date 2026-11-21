@@ -16,7 +16,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
   post-flare samples, 6 patients), then run it. Data: /home/claude/data/geo/GSE254176 (re-download from GEO if missing).
 - [blocked: nephritis/SLEDAI labels not public (dbGaP phs002812 controlled); see experiments/perez-ln/BLOCKED.md] Q2 Perez 2022 (CELLxGENE 436154da): stream a subset; pre-register whether the blood IFN score separates SLE
   with vs without nephritis beyond SLEDAI; compare with a trivial baseline (anti-dsDNA/complement if available).
-- [done] Q3 (round 92: Geneformer DROPPED; LODO AUC IFN 0.68, Geneformer 0.77, PCA-50 0.82, QC-only 0.66; beats IFN in 7/11 donors, rule needed 8; commit RESULTHASH) Geneformer-V2 embeddings vs the 6-gene IFN score as features for pre/post B-cell-depletion classification
+- [done] Q3 (round 92: Geneformer DROPPED; LODO AUC IFN 0.68, Geneformer 0.77, PCA-50 0.82, QC-only 0.66; beats IFN in 7/11 donors, rule needed 8; commit 508aaac) Geneformer-V2 embeddings vs the 6-gene IFN score as features for pre/post B-cell-depletion classification
   (CD3xCD19 data); embeddings must beat the gene score to be kept (SBB rule).
 - [todo] Q4 Research doc "SLE, LN and refractory LN: mechanistic reconstruction" (claude.ai artifact
   Mv7f8uVm8ELsioUZqncEBH): write D7, responsive vs refractory comparison, from primary literature.
