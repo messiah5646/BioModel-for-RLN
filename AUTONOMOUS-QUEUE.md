@@ -23,10 +23,12 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [done] Q5 (where-this-stands.md rewritten through round 90) Fold rounds 62-88 into project doc where-this-stands.md.
 - [done] Q6 (round 90: frozen wk-104 forecasts for NOBILITY/TULIP-LN; PASS, MSE 0.055 vs carry-forward 0.242) Extend resp_table.csv with published later visits (NOBILITY wk76/104, BLISS-LN wk52 CRR, TULIP-LN
   wk104) and re-score lumen_forecast.py leave-one-trial-out; pre-register first.
-- [todo] Q7 Search for patient-level refractory-LN switch data that is public (no access requests); catalogue only.
+- [done] Q7 (found GSE224705 blood responders n=448, GSE200306 serial biopsies; round 91 run on GSE200306) Search for patient-level refractory-LN switch data that is public (no access requests); catalogue only.
 - [todo] Q8 Research doc: D2 LN map, then D1, D4, D5 ... in the doc's order.
 - [weekly] W1 Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
   prediction in experiments/lumen-bench/prospective/ BEFORE reading results, then score it. This is the real test.
 - [weekly] W2 Check Virtual Cell Challenge 2026 winners and new single-cell lupus datasets on GEO/CELLxGENE.
 - [todo] Q9 Add a flare early-warning test using urine markers (CD163/CD206) if any public longitudinal urine dataset exists (round 89 follow-up).
 - [todo] Q10 Put IFN in the patient-state layer as a therapy-lowered set point; re-fit the CAR-T and CD3xCD19 kinetics jointly (round 89 follow-up).
+- [todo] Q11 GSE224705 (448 blood samples, MMF/AZA responders vs non-responders, longitudinal): pre-register whether a blood IFN/plasmablast signature predicts MMF response beyond UPCR and SLEDAI.
+- [todo] Q12 Validate the round-91 H3 interstitial myeloid/TGF-beta non-responder programme in an independent kidney dataset (AMP, KURDS-like, or GEO), pre-registered.
