@@ -18,7 +18,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
   with vs without nephritis beyond SLEDAI; compare with a trivial baseline (anti-dsDNA/complement if available).
 - [done] Q3 (round 92: Geneformer DROPPED; LODO AUC IFN 0.68, Geneformer 0.77, PCA-50 0.82, QC-only 0.66; beats IFN in 7/11 donors, rule needed 8; commit 508aaac) Geneformer-V2 embeddings vs the 6-gene IFN score as features for pre/post B-cell-depletion classification
   (CD3xCD19 data); embeddings must beat the gene score to be kept (SBB rule).
-- [doing] Q4 Research doc "SLE, LN and refractory LN: mechanistic reconstruction" (claude.ai artifact
+- [done] Q4 (round 93: D7 tab written; non-response = 4 separable failures: under-exposure, incomplete B-cell hit, persistent interstitial myeloid activity, damage floor; baseline barely separates; commit 8477717) Research doc "SLE, LN and refractory LN: mechanistic reconstruction" (claude.ai artifact
   Mv7f8uVm8ELsioUZqncEBH): write D7, responsive vs refractory comparison, from primary literature.
 - [done] Q5 (where-this-stands.md rewritten through round 90) Fold rounds 62-88 into project doc where-this-stands.md.
 - [done] Q6 (round 90: frozen wk-104 forecasts for NOBILITY/TULIP-LN; PASS, MSE 0.055 vs carry-forward 0.242) Extend resp_table.csv with published later visits (NOBILITY wk76/104, BLISS-LN wk52 CRR, TULIP-LN
@@ -34,3 +34,5 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [todo] Q12 Validate the round-91 H3 interstitial myeloid/TGF-beta non-responder programme in an independent kidney dataset (AMP, KURDS-like, or GEO), pre-registered.
 - [todo] Q13 (round 92 follow-up) Batch-aware embedding test: regress out or match on QC covariates (% mito, counts) and re-run IFN vs PCA vs Geneformer LODO; also test whether the IFN score alone survives QC adjustment. Pre-register.
 - [todo] Q14 (Q2 follow-up) Find a public blood dataset with per-donor nephritis labels and SLEDAI (GSE224705 first, then GEO bulk SLE PBMC series with renal annotation) and run the Q2 question there. Pre-register.
+- [todo] Q15 (round 93 follow-up) Exposure-gate test: find public LN data with month-1 drug exposure or B-cell counts (LUNAR/NOBILITY published tables, MPA PK cohorts) and pre-register whether exposure adds >=0.05 AUC over month-3 UPCR for 12-month CR.
+- [todo] Q16 (round 93 follow-up) Damage-floor test: in AURORA biopsy sub-study or LNTN aggregates, check whether baseline chronicity >=4 caps proteinuria response (lower plateau, not slower rate) in the six-state model. Pre-register.
