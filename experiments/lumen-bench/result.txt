@@ -1,0 +1,94 @@
+TASK A  control arm, LOTO RMSE (log FR)
+  A0: 0.558
+  A1: 0.650
+  A2: 0.515
+              A0     A1     A2
+trial                         
+ALLURE     1.250  1.042  1.055
+ALMS       0.159  0.615  0.331
+ALXN2050   0.425  0.607  0.301
+AURA-LV    0.126  0.324  0.046
+AURORA     0.400  0.939  0.633
+CFZ533     0.437  0.257  0.523
+PALIZADE   0.447  0.211  0.379
+SANCTUARY  0.514  0.761  0.455
+TULIP-LN1  0.448  0.536  0.221
+
+EFFECTS d=log(FR_drug/FR_ctrl)
+         trial           arm   cls  week      d
+0      ALLURE     abatacept  slow    52  0.019
+1      ALLURE     abatacept  slow   104 -0.219
+2    ALXN2050       f_D_120  fast    26 -1.025
+3    ALXN2050       f_D_120  fast    50 -0.282
+4    ALXN2050       f_D_180  fast    26 -0.060
+5    ALXN2050       f_D_180  fast    50  0.204
+6     AURA-LV     vocl_high  fast    24 -0.523
+7     AURA-LV     vocl_high  fast    48 -0.481
+8     AURA-LV      vocl_low  fast    24 -0.948
+9     AURA-LV      vocl_low  fast    48 -1.089
+10     AURORA   voclosporin  fast     2 -0.236
+11     AURORA   voclosporin  fast     4 -0.327
+12     AURORA   voclosporin  fast     8 -0.312
+13     AURORA   voclosporin  fast    12 -0.481
+14     AURORA   voclosporin  fast    16 -0.566
+15     AURORA   voclosporin  fast    20 -0.577
+16     AURORA   voclosporin  fast    24 -0.555
+17     AURORA   voclosporin  fast    30 -0.452
+18     AURORA   voclosporin  fast    36 -0.538
+19     AURORA   voclosporin  fast    42 -0.598
+20     AURORA   voclosporin  fast    48 -0.439
+21     AURORA   voclosporin  fast    52 -0.356
+22     AURORA   voclosporin  fast    78 -0.504
+23     AURORA   voclosporin  fast   104 -0.670
+24     AURORA   voclosporin  fast   130 -0.724
+25     AURORA   voclosporin  fast   156 -0.379
+26     CFZ533     iscalimab  slow    24 -0.546
+27     CFZ533     iscalimab  slow    48 -0.138
+28   PALIZADE       zeto_30  slow    13 -0.012
+29   PALIZADE       zeto_30  slow    25  0.049
+30   PALIZADE       zeto_30  slow    37 -0.889
+31   PALIZADE       zeto_60  slow    13 -0.232
+32   PALIZADE       zeto_60  slow    25 -0.441
+33   PALIZADE       zeto_60  slow    37 -1.032
+34  SANCTUARY   ravulizumab  fast    26 -0.085
+35  SANCTUARY   ravulizumab  fast    50 -0.088
+36  TULIP-LN1  anifro_basic  slow    52  0.097
+37  TULIP-LN1    anifro_int  slow    52 -0.038
+
+TASK B  add-on effect, LOTO RMSE
+  B0: 0.466
+  B1: 0.379
+  M1: 0.377
+  M2: 0.381
+              B0     B1     M1     M2
+trial                                
+ALLURE     0.156  0.345  0.248  0.264
+ALXN2050   0.542  0.476  0.502  0.504
+AURA-LV    0.804  0.474  0.437  0.434
+AURORA     0.500  0.184  0.138  0.133
+CFZ533     0.398  0.215  0.216  0.217
+PALIZADE   0.593  0.412  0.503  0.504
+SANCTUARY  0.087  0.338  0.410  0.414
+TULIP-LN1  0.073  0.466  0.380  0.399
+
+TASK C  fast-forward early->late, rows: 16
+  C0: 0.432
+  C1: 0.580
+  C2: 0.434
+        trial          arm  te   tl     de     dl
+0    ALXN2050      f_D_120  26   50 -1.025 -0.282
+1    ALXN2050      f_D_180  26   50 -0.060  0.204
+2     AURA-LV    vocl_high  24   48 -0.523 -0.481
+3     AURA-LV     vocl_low  24   48 -0.948 -1.089
+4      AURORA  voclosporin  24   36 -0.555 -0.538
+5      AURORA  voclosporin  24   42 -0.555 -0.598
+6      AURORA  voclosporin  24   48 -0.555 -0.439
+7      AURORA  voclosporin  24   52 -0.555 -0.356
+8      AURORA  voclosporin  24   78 -0.555 -0.504
+9      AURORA  voclosporin  24  104 -0.555 -0.670
+10     AURORA  voclosporin  24  130 -0.555 -0.724
+11     AURORA  voclosporin  24  156 -0.555 -0.379
+12     CFZ533    iscalimab  24   48 -0.546 -0.138
+13   PALIZADE      zeto_30  25   37  0.049 -0.889
+14   PALIZADE      zeto_60  25   37 -0.441 -1.032
+15  SANCTUARY  ravulizumab  26   50 -0.085 -0.088
