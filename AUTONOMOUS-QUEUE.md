@@ -25,7 +25,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
   wk104) and re-score lumen_forecast.py leave-one-trial-out; pre-register first.
 - [done] Q7 (found GSE224705 blood responders n=448, GSE200306 serial biopsies; round 91 run on GSE200306) Search for patient-level refractory-LN switch data that is public (no access requests); catalogue only.
 - [todo] Q8 Research doc: D2 LN map, then D1, D4, D5 ... in the doc's order.
-- [doing] W1 Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
+- [weekly] W1 (last done 2026-11-21, round 94: no LN trial newly posted results; 13 unreported LN RCTs given frozen prior-only forecasts in prospective/w1/, commit 631d3fc; nothing scorable yet) Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
   prediction in experiments/lumen-bench/prospective/ BEFORE reading results, then score it. This is the real test.
 - [weekly] W2 Check Virtual Cell Challenge 2026 winners and new single-cell lupus datasets on GEO/CELLxGENE.
 - [todo] Q9 Add a flare early-warning test using urine markers (CD163/CD206) if any public longitudinal urine dataset exists (round 89 follow-up).
@@ -36,3 +36,5 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [todo] Q14 (Q2 follow-up) Find a public blood dataset with per-donor nephritis labels and SLEDAI (GSE224705 first, then GEO bulk SLE PBMC series with renal annotation) and run the Q2 question there. Pre-register.
 - [todo] Q15 (round 93 follow-up) Exposure-gate test: find public LN data with month-1 drug exposure or B-cell counts (LUNAR/NOBILITY published tables, MPA PK cohorts) and pre-register whether exposure adds >=0.05 AUC over month-3 UPCR for 12-month CR.
 - [todo] Q16 (round 93 follow-up) Damage-floor test: in AURORA biopsy sub-study or LNTN aggregates, check whether baseline chronicity >=4 caps proteinuria response (lower plateau, not slower rate) in the six-state model. Pre-register.
+- [todo] Q17 (round 94 follow-up) Rebuild resp_table.csv (CRR counts per arm per visit) from data/real/ctgov/lupus_with_results.json.gz with a script, and commit it with git add -f so it is never lost again; confirm it reproduces result86.txt and the round-94 reconstructed arm table.
+- [todo] Q18 (round 94 follow-up) Each W1 run: re-check the 13 trials in prospective/w1/w1_frozen_2026-11-21.json for posted results and score them under PREREG-W1; add early read-out updates only as separately frozen files, never edits.
