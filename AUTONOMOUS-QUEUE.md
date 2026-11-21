@@ -20,7 +20,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
   (CD3xCD19 data); embeddings must beat the gene score to be kept (SBB rule).
 - [todo] Q4 Research doc "SLE, LN and refractory LN: mechanistic reconstruction" (claude.ai artifact
   Mv7f8uVm8ELsioUZqncEBH): write D7, responsive vs refractory comparison, from primary literature.
-- [todo] Q5 Fold rounds 62-88 into project doc where-this-stands.md.
+- [done] Q5 (where-this-stands.md rewritten through round 90) Fold rounds 62-88 into project doc where-this-stands.md.
 - [done] Q6 (round 90: frozen wk-104 forecasts for NOBILITY/TULIP-LN; PASS, MSE 0.055 vs carry-forward 0.242) Extend resp_table.csv with published later visits (NOBILITY wk76/104, BLISS-LN wk52 CRR, TULIP-LN
   wk104) and re-score lumen_forecast.py leave-one-trial-out; pre-register first.
 - [todo] Q7 Search for patient-level refractory-LN switch data that is public (no access requests); catalogue only.
