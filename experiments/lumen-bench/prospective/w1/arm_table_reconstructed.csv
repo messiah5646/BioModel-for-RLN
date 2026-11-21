@@ -1,0 +1,33 @@
+trial,arm,molecule,week,lor,se,target
+ACCESS,abatacept,abatacept,24.0,0.11,0.37,CD80/86
+CFZ533,iscalimab,iscalimab,24.0,0.57,0.64,CD40
+PALIZADE,zeto_60,zetomipzomib,25.0,0.33,0.82,immunoproteasome
+PALIZADE,zeto_30,zetomipzomib,25.0,-1.06,1.05,immunoproteasome
+BELONG,ocre_1000,ocrelizumab,48.0,-0.14,0.35,CD20
+BELONG,ocre_400,ocrelizumab,48.0,0.33,0.33,CD20
+AURA-LV,vocl_low,voclosporin,48.0,1.12,0.33,calcineurin
+AURA-LV,vocl_high,voclosporin,48.0,0.73,0.33,calcineurin
+ALXN2050,fD_120,ALXN2050,50.0,-2.03,1.6,factor D
+ALXN2050,fD_180,ALXN2050,50.0,-1.02,0.84,factor D
+SANCTUARY,ravulizumab,ravulizumab,50.0,0.42,0.58,C5
+ORCHID-LN,guselkumab,guselkumab,52.0,-0.95,1.07,IL-23
+TULIP-LN1,anifro_int,anifrolumab,52.0,0.61,0.41,IFNAR
+SELUNE,secukinumab,secukinumab,52.0,-0.55,0.32,IL-17A
+BMS-LN,abata_30,abatacept,52.0,0.13,0.49,CD80/86
+NOBILITY,obinutuzumab,obinutuzumab,52.0,0.6,0.4,CD20
+AURORA,voclosporin,voclosporin,52.0,0.86,0.23,calcineurin
+BMS-LN,abata_10,abatacept,52.0,0.35,0.48,CD80/86
+LUNAR,rituximab,rituximab,52.0,-0.2,0.37,CD20
+ATLAS,biib_20,BIIB023,52.0,0.27,0.74,TWEAK
+ATLAS,biib_3,BIIB023,52.0,0.25,0.74,TWEAK
+BI655064,bi_120,BI655064,52.0,-0.36,0.54,CD40
+TULIP-LN1,anifro_basic,anifrolumab,52.0,-0.84,0.5,IFNAR
+BI655064,bi_240,BI655064,52.0,-0.1,0.44,CD40
+BI655064,bi_180,BI655064,52.0,-0.09,0.54,CD40
+REGENCY,obinutuzumab,obinutuzumab,76.0,0.57,0.25,CD20
+CALIBRATE,belimumab,belimumab,96.0,0.45,0.62,BAFF
+ALLURE,abatacept,abatacept,104.0,0.29,0.2,CD80/86
+BLISS-LN,belimumab,belimumab,104.0,0.55,0.22,BAFF
+NOBILITY,obinutuzumab,obinutuzumab,104.0,0.86,0.39,CD20
+TULIP-LN1,anifro_int,anifrolumab,104.0,0.5,0.47,IFNAR
+TULIP-LN1,anifro_basic,anifrolumab,104.0,-0.03,0.52,IFNAR

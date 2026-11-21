@@ -1,0 +1,223 @@
+{
+ "NCT05138133": {
+  "anchor": "molecule",
+  "logOR": 0.313,
+  "sd": 0.333,
+  "OR": 1.37,
+  "OR_95": [
+   0.71,
+   2.63
+  ],
+  "P_benefit": 0.83,
+  "pooled_logOR": 0.342,
+  "trial": "IRIS anifrolumab ph3",
+  "molecule": "anifrolumab",
+  "target": "IFNAR"
+ },
+ "NCT06406205": {
+  "anchor": "molecule",
+  "logOR": 0.736,
+  "sd": 0.295,
+  "OR": 2.09,
+  "OR_95": [
+   1.17,
+   3.72
+  ],
+  "P_benefit": 0.99,
+  "pooled_logOR": 0.342,
+  "trial": "QLG1074 (voclosporin) ph3 China",
+  "molecule": "voclosporin",
+  "target": "calcineurin"
+ },
+ "NCT05039619": {
+  "anchor": "molecule",
+  "logOR": 0.531,
+  "sd": 0.307,
+  "OR": 1.7,
+  "OR_95": [
+   0.93,
+   3.1
+  ],
+  "P_benefit": 0.96,
+  "pooled_logOR": 0.342,
+  "trial": "obinutuzumab paediatric ph2",
+  "molecule": "obinutuzumab",
+  "target": "CD20"
+ },
+ "NCT07044115": {
+  "anchor": "target",
+  "logOR": 0.327,
+  "sd": 0.289,
+  "OR": 1.39,
+  "OR_95": [
+   0.79,
+   2.44
+  ],
+  "P_benefit": 0.87,
+  "pooled_logOR": 0.342,
+  "trial": "MIL62 (anti-CD20) ph1/2",
+  "molecule": "MIL62",
+  "target": "CD20"
+ },
+ "NCT05126277": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "SIRIUS-LN ianalumab ph3",
+  "molecule": "ianalumab",
+  "target": "BAFF-R",
+  "secondary_axis_anchor": {
+   "anchor": "target",
+   "logOR": 0.462,
+   "sd": 0.306,
+   "OR": 1.59,
+   "OR_95": [
+    0.87,
+    2.89
+   ],
+   "P_benefit": 0.93,
+   "pooled_logOR": 0.342,
+   "axis": "BAFF"
+  }
+ },
+ "NCT05201469": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "VIBRANT dazodalibep (VIB4920) ph2",
+  "molecule": "dazodalibep",
+  "target": "CD40L",
+  "secondary_axis_anchor": {
+   "anchor": "target",
+   "logOR": 0.15,
+   "sd": 0.319,
+   "OR": 1.16,
+   "OR_95": [
+    0.62,
+    2.17
+   ],
+   "P_benefit": 0.68,
+   "pooled_logOR": 0.342,
+   "axis": "CD40"
+  }
+ },
+ "NCT04643470": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "zanubrutinib ph2",
+  "molecule": "zanubrutinib",
+  "target": "BTK"
+ },
+ "NCT05810948": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "efgartigimod ph2",
+  "molecule": "efgartigimod",
+  "target": "FcRn"
+ },
+ "NCT05268289": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "iptacopan ph2 (terminated)",
+  "molecule": "iptacopan",
+  "target": "factor B"
+ },
+ "NCT07363460": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "HSK39297 ph2",
+  "molecule": "HSK39297",
+  "target": "unknown"
+ },
+ "NCT07229742": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "SHR-2173 ph2",
+  "molecule": "SHR-2173",
+  "target": "unknown"
+ },
+ "NCT07038382": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "HLX79 + HLX01 ph2",
+  "molecule": "HLX79",
+  "target": "unknown"
+ },
+ "NCT07201129": {
+  "anchor": "none",
+  "logOR": 0.342,
+  "sd": 0.27,
+  "OR": 1.41,
+  "OR_95": [
+   0.83,
+   2.39
+  ],
+  "P_benefit": 0.9,
+  "pooled_logOR": 0.342,
+  "trial": "cenerimod ph3",
+  "molecule": "cenerimod",
+  "target": "S1P1"
+ }
+}
