@@ -25,7 +25,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
   wk104) and re-score lumen_forecast.py leave-one-trial-out; pre-register first.
 - [done] Q7 (found GSE224705 blood responders n=448, GSE200306 serial biopsies; round 91 run on GSE200306) Search for patient-level refractory-LN switch data that is public (no access requests); catalogue only.
 - [todo] Q8 Research doc: D2 LN map, then D1, D4, D5 ... in the doc's order.
-- [weekly] W1 Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
+- [doing] W1 Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
   prediction in experiments/lumen-bench/prospective/ BEFORE reading results, then score it. This is the real test.
 - [weekly] W2 Check Virtual Cell Challenge 2026 winners and new single-cell lupus datasets on GEO/CELLxGENE.
 - [todo] Q9 Add a flare early-warning test using urine markers (CD163/CD206) if any public longitudinal urine dataset exists (round 89 follow-up).
