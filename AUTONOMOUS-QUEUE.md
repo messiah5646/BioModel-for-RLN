@@ -12,7 +12,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 6. Research and simulation only. No clinical advice.
 
 ## Queue
-- [todo] Q1 GSE254176 flare test: pre-register whether the monocyte IFN score rises BEFORE a flare (pre-flare vs
+- [done] Q1 GSE254176 flare test (round 89: all 4 tests fail; IFN is a patient set point, not a flare marker): pre-register whether the monocyte IFN score rises BEFORE a flare (pre-flare vs
   post-flare samples, 6 patients), then run it. Data: /home/claude/data/geo/GSE254176 (re-download from GEO if missing).
 - [todo] Q2 Perez 2022 (CELLxGENE 436154da): stream a subset; pre-register whether the blood IFN score separates SLE
   with vs without nephritis beyond SLEDAI; compare with a trivial baseline (anti-dsDNA/complement if available).
