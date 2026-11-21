@@ -1,0 +1,46 @@
+{
+ "NOBILITY_obinutuzumab_wk104": {
+  "anchor": "molecule",
+  "prior_logOR": 0.464,
+  "prior_sd": 0.365,
+  "early_logOR": 0.595,
+  "post_logOR": 0.507,
+  "post_sd": 0.3,
+  "warning": "target class separated late in NOBILITY/BLISS-LN; a week-24 read-out may understate the 1-year effect",
+  "OR": 1.66,
+  "OR_95": [
+   0.92,
+   2.99
+  ],
+  "P_benefit": 0.95
+ },
+ "TULIP-LN1_anifro_int_wk104": {
+  "anchor": "none (pooled; mechanism class not used)",
+  "prior_logOR": 0.334,
+  "prior_sd": 0.279,
+  "early_logOR": 0.607,
+  "post_logOR": 0.392,
+  "post_sd": 0.248,
+  "OR": 1.48,
+  "OR_95": [
+   0.91,
+   2.4
+  ],
+  "P_benefit": 0.94
+ },
+ "TULIP-LN1_anifro_basic_wk104": {
+  "anchor": "none (pooled; mechanism class not used)",
+  "prior_logOR": 0.334,
+  "prior_sd": 0.279,
+  "early_logOR": -0.836,
+  "post_logOR": 0.131,
+  "post_sd": 0.254,
+  "OR": 1.14,
+  "OR_95": [
+   0.69,
+   1.87
+  ],
+  "P_benefit": 0.7
+ },
+ "_rule": "Frozen 2026-11-21 before reading published week-104 CRR. Target: log OR of CRR at week 104 (drug vs placebo) from the peer-reviewed extension papers (NOBILITY: Furie 2022 Ann Rheum Dis; TULIP-LN: Jayne 2023 Ann Rheum Dis, PMID 37607780). Baselines scored alongside: null (0) and carry-forward of the week-52 log OR. Pass = truth inside forecaster 95% interval for all three, and forecaster squared error <= carry-forward on average."
+}
