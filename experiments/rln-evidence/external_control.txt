@@ -1,0 +1,14 @@
+CR: switch-effect mean 0.36; 95% PREDICTION interval for a new cohort 0.10-0.74  (tau2=0.58)
+   single-arm trial n=20: needs >= 19/20 (95%) to clearly beat switching
+   single-arm trial n=35: needs >= 32/35 (91%) to clearly beat switching
+   single-arm trial n=53: needs >= 46/53 (87%) to clearly beat switching
+ORR: switch-effect mean 0.67; 95% PREDICTION interval for a new cohort 0.28-0.92  (tau2=0.57)
+   n=20: cannot clearly beat switching even at 100%
+   n=35: cannot clearly beat switching even at 100%
+   single-arm trial n=53: needs >= 53/53 (100%) to clearly beat switching
+
+If a patient-level model explained part of the between-cohort spread (CR, single-arm n=35):
+  spread explained   0%: switch upper bound 0.74 -> CAR-T needs >= 32/35 (91%)
+  spread explained  50%: switch upper bound 0.66 -> CAR-T needs >= 29/35 (83%)
+  spread explained  75%: switch upper bound 0.60 -> CAR-T needs >= 28/35 (80%)
+  spread explained  90%: switch upper bound 0.56 -> CAR-T needs >= 26/35 (74%)

@@ -1,0 +1,16 @@
+              group endpoint  studies  patients  pooled  lo95  hi95   I2  mean_month
+          BAFF_axis       CR        5       146    0.45  0.26  0.66 0.81         8.4
+          BAFF_axis      ORR        5       146    0.64  0.56  0.72 0.00         8.4
+      RTX_plus_BAFF       CR        1        25    0.75  0.55  0.88 0.00        19.0
+      RTX_plus_BAFF      ORR        1        25    0.79  0.59  0.91 0.00        19.0
+          anti_CD20       CR        2        38    0.23  0.12  0.38 0.00         9.0
+          anti_CD20      ORR        5        94    0.58  0.48  0.67 0.00        10.8
+conventional_switch       CR        6       150    0.36  0.21  0.53 0.75        10.5
+conventional_switch      ORR        5       124    0.67  0.48  0.82 0.73        10.2
+        plasma_cell       CR        1        12    0.12  0.02  0.42 0.00         6.0
+        plasma_cell      ORR        1        12    0.88  0.58  0.98 0.00         6.0
+
+Q2 CR : anti_CD20 0.23 [0.12,0.38] vs conventional_switch 0.36 [0.21,0.53] -> not distinguishable
+Q2 ORR: anti_CD20 0.58 [0.48,0.67] vs conventional_switch 0.67 [0.48,0.82] -> not distinguishable
+Q1: CAR_T not poolable under the rule; plasma_cell has 1 study -> plasma_cell 0.12 [0.02,0.42] vs conventional_switch 0.36 [0.21,0.53] -> not distinguishable
+extra (not pre-registered): BAFF_axis vs conventional CR: BAFF_axis 0.45 [0.26,0.66] vs conventional_switch 0.36 [0.21,0.53] -> not distinguishable
