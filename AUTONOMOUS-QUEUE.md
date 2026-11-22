@@ -24,7 +24,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [done] Q6 (round 90: frozen wk-104 forecasts for NOBILITY/TULIP-LN; PASS, MSE 0.055 vs carry-forward 0.242) Extend resp_table.csv with published later visits (NOBILITY wk76/104, BLISS-LN wk52 CRR, TULIP-LN
   wk104) and re-score lumen_forecast.py leave-one-trial-out; pre-register first.
 - [done] Q7 (found GSE224705 blood responders n=448, GSE200306 serial biopsies; round 91 run on GSE200306) Search for patient-level refractory-LN switch data that is public (no access requests); catalogue only.
-- [todo] Q8 Research doc: D2 LN map, then D1, D4, D5 ... in the doc's order.
+- [doing] Q8 Research doc: D2 LN map, then D1, D4, D5 ... in the doc's order.
 - [weekly] W1 (last done 2026-11-21, round 94: no LN trial newly posted results; 13 unreported LN RCTs given frozen prior-only forecasts in prospective/w1/, commit 631d3fc; nothing scorable yet) Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
   prediction in experiments/lumen-bench/prospective/ BEFORE reading results, then score it. This is the real test.
 - [weekly] W2 Check Virtual Cell Challenge 2026 winners and new single-cell lupus datasets on GEO/CELLxGENE.
