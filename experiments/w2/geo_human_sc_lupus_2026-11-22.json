@@ -1,0 +1,1010 @@
+[
+ {
+  "acc": "GSE344526",
+  "title": "Effect of TNFR2 agonism on CD4+ T cells (single-cell level) from healthy and SLE donors",
+  "n": 35,
+  "date": "2026/10/26",
+  "taxon": "Homo sapiens",
+  "gpl": "21697",
+  "summary": "We treated peripheral blood mononuclear cells from healthy donors and systemic lupus erythematosus (SLE) patients with (i) a human-specific tetravalent VHH-Fc fusion TNFR2 agonist, (ii) isotope control VHH and (iii) an IL2-mutein."
+ },
+ {
+  "acc": "GSE333529",
+  "title": "A skin\u2013kidney neutrophil axis links UV exposure to renal angiogenesis and tissue remodeling in healthy and lupus kidneys. [Spatial Transcriptomics]",
+  "n": 4,
+  "date": "2026/09/09",
+  "taxon": "Homo sapiens",
+  "gpl": "18573",
+  "summary": "Neutrophils have been implicated in mediating immune crosstalk between injured tissue and distal organs, either promoting local and distal inflammation or mediating tissue repair. Skin injury from ultraviolet (UV) light triggers neutrophil migration to the kidney, which may have implications for nephritis flares in systemic lupus erythematosus (SLE). Here, we demonstrate that after skin exposure to UV light, renal neutrophils upregulate pro-angiogenic transcriptional programs and activate renal endothelial angiogenesis and tissue remodeling processes in healthy kidneys. Ligand\u2013receptor analysi"
+ },
+ {
+  "acc": "GSE289389",
+  "title": "Systemic lupus cutaneous photoresponses are characterized by dysregulated epidermal inflammation and inflammatory myeloid cell infiltration",
+  "n": 30,
+  "date": "2026/09/01",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "For patients with systemic lupus erythematosus (SLE), sun avoidance and sunscreen use are the only preventive therapies for photosensitivity, a process by which exposure to ultraviolet (UV) light triggers cutaneous and systemic flares of disease. Photosensitivity is exceedingly common amongst SLE patients with skin disease, affecting up to 93% of this population. Treatment of skin and systemic disease triggered by the sun can be challenging, and thus there exists a critical need for better therapeutic and preventative strategies. Innovation of targeted therapies for photosensitive skin disease"
+ },
+ {
+  "acc": "GSE334924",
+  "title": "Matched single-cell and Visium HD spatial transcriptomics of a chronic antibody-mediated rejection kidney graft",
+  "n": 2,
+  "date": "2026/07/21",
+  "taxon": "Homo sapiens",
+  "gpl": "34284",
+  "summary": "Chronic antibody-mediated rejection (CAMR) is a leading cause of late kidney allograft failure and shares features of chronic immune activation with systemic autoimmune diseases, but how circulating immune states connect to spatially organized graft injury and whether related immune features recur in autoimmune inflammation remain unclear. Here, we integrated single-cell profiles from peripheral blood and kidney graft samples from patients with CAMR or stable allograft function and healthy controls with independent transplant cohorts, bulk transcriptomic datasets, spectral flow cytometry, mult"
+ },
+ {
+  "acc": "GSE334923",
+  "title": "Single-cell RNA-seq atlas of peripheral blood and kidney graft immune cells in chronic antibody-mediated rejection",
+  "n": 48,
+  "date": "2026/07/21",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Chronic antibody-mediated rejection (CAMR) is a leading cause of late kidney allograft failure and shares features of chronic immune activation with systemic autoimmune diseases, but how circulating immune states connect to spatially organized graft injury and whether related immune features recur in autoimmune inflammation remain unclear. Here, we integrated single-cell profiles from peripheral blood and kidney graft samples from patients with CAMR or stable allograft function and healthy controls with independent transplant cohorts, bulk transcriptomic datasets, spectral flow cytometry, mult"
+ },
+ {
+  "acc": "GSE334922",
+  "title": "Peripheral blood bulk RNA-seq validation cohort for chronic antibody-mediated rejection",
+  "n": 12,
+  "date": "2026/07/21",
+  "taxon": "Homo sapiens",
+  "gpl": "35109",
+  "summary": "Chronic antibody-mediated rejection (CAMR) is a leading cause of late kidney allograft failure and shares features of chronic immune activation with systemic autoimmune diseases, but how circulating immune states connect to spatially organized graft injury and whether related immune features recur in autoimmune inflammation remain unclear. Here, we integrated single-cell profiles from peripheral blood and kidney graft samples from patients with CAMR or stable allograft function and healthy controls with independent transplant cohorts, bulk transcriptomic datasets, spectral flow cytometry, mult"
+ },
+ {
+  "acc": "GSE331197",
+  "title": "Spatial and cell type specific molecular genetic investigations of inflammatory myopathies with selective perifascicular injury [RNA]",
+  "n": 300,
+  "date": "2026/07/15",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Idiopathic inflammatory myopathies (IIM) are a heterogeneous group of systemic autoimmune disease often with multisystem involvement. Targeted therapy is still lacking. Efficient serum or histological markers to measure disease activity and predict disease course are missing. Perifascicular myofiber atrophy is a hall mark of dermatomyositis (DM). Despite decades of research, the mechanism of perifascicular atrophy is still incompletely understood. Across other IIM subtypes,  perifascicular myofiber necrosis is also the hall mark pathology for  antisynthetase syndrome associated myositis (ASyS)"
+ },
+ {
+  "acc": "GSE330891",
+  "title": "Spatial and cell type specific molecular genetic investigations of inflammatory myopathies with selective perifascicular injury.",
+  "n": 301,
+  "date": "2026/07/15",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Idiopathic inflammatory myopathies (IIM) are a heterogeneous group of systemic autoimmune disease often with multisystem involvement. Targeted therapy is still lacking. Efficient serum or histological markers to measure disease activity and predict disease course are missing. Perifascicular myofiber atrophy is a hall mark of dermatomyositis (DM). Despite decades of research, the mechanism of perifascicular atrophy is still incompletely understood. Across other IIM subtypes,  perifascicular myofiber necrosis is also the hall mark pathology for  antisynthetase syndrome associated myositis (ASyS)"
+ },
+ {
+  "acc": "GSE322527",
+  "title": "Single-cell transcriptomes and T cell receptor sequences of CD4 or CD8 single positive T lymphocytes from peripheral blood or urine of lupus nephritis patients at flare.",
+  "n": 26,
+  "date": "2026/07/01",
+  "taxon": "Homo sapiens",
+  "gpl": "30173;18573",
+  "summary": "Proliferative lupus nephritis (LN) is triggered by deposition of autoantibodies in glomeruli and paralleled by a T cell-rich kidney infiltrate. Although these T cells have been attributed with propagation of tissue injury, it is unclear how they are activated and whether T cell autoreactivity drives the local inflammation. Kidney-infiltrating T cells are also observed in urine, where they have high resemblance with interstitial T cells. Therefore, urinary T cells are a proxy to investigate tissue pathogenesis. Here, we analyzed urinary T cells to elucidate if a kidney-specific T cell autoimmun"
+ },
+ {
+  "acc": "GSE328870",
+  "title": "A single-cell and spatial immune atlas of chronic antibody-mediated rejection reveals autoimmune-shared immune states and a CXCL12-CXCR4 fibroblast-immune niche",
+  "n": "",
+  "date": "2026/06/10",
+  "taxon": "Homo sapiens",
+  "gpl": "",
+  "summary": "Chronic antibody-mediated rejection (CAMR) is a leading cause of late kidney allograft failure and shares features of chronic immune activation with systemic autoimmune diseases, but how circulating immune states connect to spatially organized graft injury and whether related immune features recur in autoimmune inflammation remain unclear. Here, we integrated single-cell profiles from peripheral blood and kidney graft samples from patients with CAMR or stable allograft function and healthy controls with independent transplant cohorts, bulk transcriptomic datasets, spectral flow cytometry, mult"
+ },
+ {
+  "acc": "GSE334588",
+  "title": "Single-cell transcriptomic atlas of adult dermatomyositis, cutaneous lupus erythematosus and healthy skin",
+  "n": 48,
+  "date": "2026/06/08",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Adult-onset dermatomyositis (DM) is a systemic autoimmune disease associated with an elevated risk of malignancy, yet the cellular and molecular features distinguishing cancer-associated DM from non-cancer DM remain poorly defined. Here, we conduct a comprehensive single-cell RNA sequencing analysis of adult-onset DM skin, including lesional and non-lesional samples, alongside cutaneous lupus erythematosus (CLE) and healthy control skin, to characterize immune and stromal cell states and disease-specific transcriptional programs. We identify distinct immune-stromal cell populations that differ"
+ },
+ {
+  "acc": "GSE307415",
+  "title": "Single-cell RNA and BCR sequencing of age-associated B cells in mouse and human lupus",
+  "n": 8,
+  "date": "2026/06/03",
+  "taxon": "Mus musculus; Homo sapiens",
+  "gpl": "24247;34290;34284",
+  "summary": "To characterize age-associated B cells (ABCs), we performed single-cell RNA and BCR sequencing on splenic B-lineage cells from a murine lupus model induced by Toll-like receptor 7 (TLR7) stimulation and on peripheral blood B-lineage cells from a treatment-na\u00efve patient with systemic lupus erythematosus (SLE). We identified a population of ABCs with features of plasmablast precursors (pre-PB ABCs). In the TLR7-induced lupus model, B cell-specific Commd3 deletion reduced the frequency of pre-PB ABCs and was associated with increased apoptosis in this population. "
+ },
+ {
+  "acc": "GSE314010",
+  "title": "Interleukin-36 upregulated type-I interferon responses in systemic lupus erythematosis by promoting the accumulation of self-nucleic acids",
+  "n": 10,
+  "date": "2026/03/12",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Several studies have reported an up-regulation of interleukin (IL)-36 in the serum of patients with systemic lupus erythematosus (SLE). Here, we sought to define the mechanisms whereby IL-36 may contribute to the over-activation of type I Interferon (IFN) responses observed in SLE. We carried out single-cell (sc)RNA-seq in healthy peripheral blood mononuclear cells treated with IL-36 (n=5 donors). We compared the genes and transcriptional networks that were induced by IL-36 with those that were upregulated in a published SLE scRNA-seq dataset (n=33 cases and 11 controls). In follow-up studies,"
+ },
+ {
+  "acc": "GSE270215",
+  "title": "Single cell transcriptome sequencing analysis of gene expression in blood PBMCs of patients with systemic lupus treated with belimumab",
+  "n": 1,
+  "date": "2026/02/01",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Single cell transcriptome sequencing to detect genes in PBMC of patients with systemic lupus erythematosus treated with belimumab."
+ },
+ {
+  "acc": "GSE266852",
+  "title": "Comparison of differential gene expression in blood PBMCs from healthy controls, patients with rheumatoid arthritis,and  patients with lupus using single-cell transcriptome sequencing analysis.",
+  "n": 10,
+  "date": "2026/02/01",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Single-cell transcriptome sequencing was used to detect and compare differentially expressed genes in PBMCs from healthy controls in patients with rheumatoid arthritis, systemic lupus erythematosus patients."
+ },
+ {
+  "acc": "GSE299258",
+  "title": "Molecular improvement of IL-23 inhibition revealed by single-cell RNA sequencing in concurrent psoriasis and systemic lupus erythematosus",
+  "n": 3,
+  "date": "2026/01/20",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Psoriasis and systemic lupus erythematosus (SLE) are chronic inflammatory diseases with rare coexistence, sharing the IL-23/IL-17 axis as a pathogenic pathway. A 42-year-old male with both conditions was successfully treated with the IL-23 inhibitor guselkumab, improving psoriasis without worsening SLE over 2.5 years. Single-cell RNA sequencing of skin biopsies revealed a decrease in T17 cells and IL-17-related transcripts post-treatment. Gene Set Enrichment Analysis showed reduced IFN-\u03b3 and IFN-\u03b1 responses, indicating broader inflammatory modulation. This study suggests IL-23 inhibitors may b"
+ },
+ {
+  "acc": "GSE282881",
+  "title": "Ultra high-throughput single-cell transcriptome and epitope profiling of healthy human PBMCs using SCITO-seq2",
+  "n": 4,
+  "date": "2026/01/04",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "This study presents comprehensive single-cell transcriptome and surface protein profiling using SCITO-seq2, an enhanced platform that improves the recovery of unique transcripts while enabling simultaneous detection of surface proteins. The analysis was conducted in two phases: first, using healthy donor PBMCs to validate technical performance, and second, by comparing samples from healthy controls, patients with childhood systemic lupus erythematosus (cSLE), and patients with CTLA4 haploinsufficiency and autoimmune infiltration (CHAI). These results demonstrate the platform\u2019s applicability to"
+ },
+ {
+  "acc": "GSE306378",
+  "title": "Based on single-cell sequencing analysis of CD4+ T cells and B cells in patients with lupus nephritis, the heterogeneity of these cells was investigated.",
+  "n": 6,
+  "date": "2026/01/01",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Utilizing single-cell technology to analyze the heterogeneity of CD4+ T cells and B cells in patients with lupus nephritis.We have delineated the immune cell profile of PBMC in LN patients, and focused on describing the heterogeneity characteristics of CD4+ T cells and B cells. Some specific cell subtypes and ligand-receptor pairs were identified, which indicate potential therapeutic targets for lupus erythematosus."
+ },
+ {
+  "acc": "GSE303609",
+  "title": "Dermatomyositis is characterized by JAK1-mediated monocyte-driven vasculopathy and inflammation",
+  "n": 34,
+  "date": "2025/12/24",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Dermatomyositis (DM) is a rare yet devastating autoimmune disease characterized by inflammatory and vasculopathic changes in skin and muscle. DM and systemic lupus erythematosus (lupus) skin lesions have overlapping clinical and histopathological features, yet disparate responses to available therapeutics. DM skin disease is often relapsing and recalcitrant. To investigate DM immunopathogenesis, non-lesional skin, lesional skin, and circulating immune cells from DM patients were analyzed using single-cell RNA-sequencing. Samples were analyzed in parallel with lesional and non-lesional lupus sk"
+ },
+ {
+  "acc": "GSE314089",
+  "title": "Uncoupling the two distinct roles of targeting BDCA2 in treating autoimmune diseases: direct inhibition of BDCA2-positive B cells and normalization of proinflammatory monocyte-derived macrophages via the global suppression of type I IFN",
+  "n": 16,
+  "date": "2025/12/17",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Systemic lupus erythematosus (SLE) is a devastating autoimmune disease with two hallmarks: elevated levels of type I interferon (IFN) secreted by Plasmacytoid Dendritic Cells (pDCs) and autoantibodies produced by malfunctioning B cells. Indeed, the two marketed monoclonal antibodies for treating SLE are belimumab that targets B cells or anifrolumab that targets type I IFN. In this study, we developed a novel anti-BDCA2 monoclonal antibody, 230V5, with an enhanced interaction with Fc\uf067 receptors. The antibody exhibited superior inhibitory effects on IFN production and IgM production. Further stu"
+ },
+ {
+  "acc": "GSE294789",
+  "title": "Daratumumab in systemic lupus erythematosus: a phase 2 trial",
+  "n": 56,
+  "date": "2025/12/13",
+  "taxon": "Homo sapiens",
+  "gpl": "30173",
+  "summary": "Antibody-secreting cells (ASCs) play a central role in the pathophysiology of systemic lupus erythematosus (SLE). This single-arm, open-label, phase 2 clinical trial aimed to evaluate the safety and efficacy of the ASC-depleting anti-CD38 monoclonal antibody daratumumab in patients with refractory SLE. The primary endpoint was a significant reduction in serum anti-double-stranded DNA (anti-dsDNA) antibody levels. Ten female patients with active disease and inadequate responses to at least two disease-modifying drugs received eight weekly subcutaneous injections of 1800 mg daratumumab. By week "
+ },
+ {
+  "acc": "GSE298578",
+  "title": "Single cell RNA profiling of blood CD4+ T cells identifies distinct helper and dysfunctional regulatory clusters in children with SLE (5' PBMC validation dataset)",
+  "n": 14,
+  "date": "2025/09/05",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Expansion of different CD4+ CXCR5+ and CXCR5- memory T helper cells has been reported in human systemic lupus erythematosus (SLE) blood. To understand their complexity, we profiled blood CD4+ T cells from heathy donors (HD) and pediatric SLE patients at the single cell level and identified na\u00efve, memory, regulatory (Treg) and proliferative clusters, as well as a cluster defined by high expression of interferon-stimulated genes (ISGs). Within the memory compartment, we mapped follicular (Tfh) and peripheral (Tph and Th10) helper cells and confirmed their expansion in patients with lupus nephrit"
+ },
+ {
+  "acc": "GSE285774",
+  "title": "Single cell RNA profiling of blood CD4+ T cells identifies distinct helper and dysfunctional regulatory clusters in children with SLE [PBMCs]",
+  "n": 10,
+  "date": "2025/09/05",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Expansion of different CD4+ CXCR5+ and CXCR5- memory T helper cells has been reported in human systemic lupus erythematosus (SLE) blood. To understand their complexity, we profiled blood CD4+ T cells from heathy donors (HD) and pediatric SLE patients at the single cell level and identified na\u00efve, memory, regulatory (Treg) and proliferative clusters, as well as a cluster defined by high expression of interferon-stimulated genes (ISGs). Within the memory compartment, we mapped follicular (Tfh) and peripheral (Tph and Th10) helper cells and confirmed their expansion in patients with lupus nephrit"
+ },
+ {
+  "acc": "GSE285773",
+  "title": "Single cell RNA profiling of blood CD4+ T cells identifies distinct helper and dysfunctional regulatory clusters in children with SLE [CD4+ T cells]",
+  "n": 26,
+  "date": "2025/09/05",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Expansion of different CD4+ CXCR5+ and CXCR5- memory T helper cells has been reported in human systemic lupus erythematosus (SLE) blood. To understand their complexity, we profiled blood CD4+ T cells from heathy donors (HD) and pediatric SLE patients at the single cell level and identified na\u00efve, memory, regulatory (Treg) and proliferative clusters, as well as a cluster defined by high expression of interferon-stimulated genes (ISGs). Within the memory compartment, we mapped follicular (Tfh) and peripheral (Tph and Th10) helper cells and confirmed their expansion in patients with lupus nephrit"
+ },
+ {
+  "acc": "GSE287690",
+  "title": "Implication of inflammatory cytotoxic IL-7 receptor alpha low effector memory CD8+ T cells that promote innate immunity in lupus.",
+  "n": 6,
+  "date": "2025/09/03",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Objective. The pathogenesis of systemic lupus erythematosus (SLE or lupus) involves multiple immune components although the role for CD8+ T cells, which potently induce inflammation and tissue damage, is less known in lupus. The aim of this study was to interrogate the implications of CD8+ T cells in lupus by examining heterogeneity of CD8+ T cells in the kidneys and peripheral blood of lupus patients and assessing functional significance of such heterogeneity in promoting inflammation and tissue damage. Methods. An integrated dataset of our own and publicly available scRNA-seq data from the p"
+ },
+ {
+  "acc": "GSE266415",
+  "title": "Cellular and molecular evolutionary mechanisms of retinal cells governing color vision perception",
+  "n": 25,
+  "date": "2025/09/02",
+  "taxon": "Oreochromis mossambicus; Macaca fascicularis; Felis catus; Sus scrofa; Channa argus; Ctenopharyngodon idella; Ambystoma mexicanum; Anas platyrhynchos; Canis lupus familiaris; Mustela putorius furo; Rattus norvegicus; Cavia porcellus; Atelerix algirus; Trachemys scripta elegans; Tamias sibiricus; Pantherophis guttatus; Homo sapiens; Mus musculus; Gallus gallus; Serinus canaria; Mesocricetus auratus; Meriones unguiculatus; Melopsittacus undulatus; Pogona vitticeps",
+  "gpl": "34436;34439;34442;34445;30495;34448;30541;24676;34437;33670;34440;31008;34443;34446;34449;34435;34438;34444;34441;34447;32830;30998;28330;34450",
+  "summary": "Insights into the cellular and molecular evolutionary mechanisms of retinal cells that govern color vision perception across various species are limited. In this study, we established a single-cell prediction (scPred) model to construct an atlas of single-cell retinas from multiple species and subsequently analyzed interspecies variations in the retinal cells of 24 different species. We identified conserved compositions and expression profiles of retinal cells, with photoreceptor cells, including rods, showing dynamic changes from lower to higher species. Moreover, we observed marked interspec"
+ },
+ {
+  "acc": "GSE240466",
+  "title": "Type I interferons dominate cutaneous lichen planus inflammatory landscape driving the interface dermatitis reaction [lupus_lichen]",
+  "n": 5,
+  "date": "2025/09/01",
+  "taxon": "Homo sapiens",
+  "gpl": "17586",
+  "summary": "Cutaneous lichen planus (LP) is a chronic inflammatory skin disease histologically characterized by an interface dermatitis with lymphocyte infiltration and keratinocyte cell-death. Previous studies suggest that LP inflammation is dominated by a type I immune response involving IFN-g but its pathogenesis remains not fully elucidated yet. To investigate the inflammatory mechanisms underlying LP, we performed single-cell RNA sequencing on LP compared with healthy control skins. We demonstrate that lesional skin from patient with LP is imprinted by a type I interferon (IFN-I)-rich environment, in"
+ },
+ {
+  "acc": "GSE240335",
+  "title": "Type I interferons dominate cutaneous lichen planus inflammatory landscape driving the interface dermatitis reaction.",
+  "n": 5,
+  "date": "2025/09/01",
+  "taxon": "Homo sapiens",
+  "gpl": "17586",
+  "summary": "Cutaneous lichen planus (LP) is a chronic inflammatory skin disease histologically characterized by an interface dermatitis with lymphocyte infiltration and keratinocyte cell-death. Previous studies suggest that LP inflammation is dominated by a type I immune response involving IFN-g but its pathogenesis remains not fully elucidated yet. To investigate the inflammatory mechanisms underlying LP, we performed single-cell RNA sequencing on LP compared with healthy control skins. We demonstrate that lesional skin from patient with LP is imprinted by a type I interferon (IFN-I)-rich environment, in"
+ },
+ {
+  "acc": "GSE303481",
+  "title": "Spatio-temporal interaction of immune and renal cells determines glomerular crescent formation in autoimmune kidney disease",
+  "n": 15,
+  "date": "2025/08/19",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Rapidly progressive glomerulonephritis (RPGN) is the most aggressive group of autoimmune kidney disease with the worst prognosis. Anti-neutrophil cytoplasmic antibody (ANCA) associated vasculitis, anti-glomerular basement membrane (anti-GBM) and lupus nephritis are the most common causes of RPGN and are characterized by the formation of glomerular crescents and infiltration of leukocytes that eventually lead to glomerulosclerosis and kidney failure. In this work, we used high-resolution spatial transcriptomics of 32 ANCA, 19 lupus nephritis, 6 anti-GBM, and 6 control patients to understand how"
+ },
+ {
+  "acc": "GSE277909",
+  "title": "Epigenetic attenuation of interferon signaling drives aging-related improvements in systemic lupus",
+  "n": 271,
+  "date": "2025/06/26",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "In the general human population, aging is associated with a rise in systemic inflammation, primarily involving innate immune pathways related to interferon (IFN), toll-like receptor, and cytokine signaling. In systemic lupus erythematosus (SLE), a prototypical systemic autoimmune disease, aging is distinctly associated with improvements in disease activity, suggesting a unique relationship between aging and inflammation in this disease. Using a multi-omic approach incorporating transcriptional profiling, single cell RNA sequencing and methylation analysis, we studied age-related changes in the"
+ },
+ {
+  "acc": "GSE284573",
+  "title": "Single-cell transcriptome conservation in a multispecies comparative analysis of fresh and cryopreserved insulinoma cell lines",
+  "n": 6,
+  "date": "2025/06/04",
+  "taxon": "Homo sapiens; Mus musculus; Canis lupus familiaris; Rattus norvegicus",
+  "gpl": "24676;25947;25760;24247",
+  "summary": "Background Insulinoma is the most common pancreatic neuroendocrine tumour in dogs and humans. The understanding of driving factors and critical survival genes in insulinomas is limited and overall survival is poor for canine and human malignant insulinoma. This study aimed to use single-cell RNA-sequencing to conduct a multispecies analysis of insulinoma cell lines to understand their single-cell transcriptomic landscape. Secondly, the impact of freeze-thawing on the pancreatic beta single-cell transcriptome was investigated, to determine whether cryoarchiving of primary insulinoma samples may"
+ },
+ {
+  "acc": "GSE294965",
+  "title": "Spatio-temporal interaction of immune and renal cells determines glomerular crescent formation in autoimmune kidney disease",
+  "n": 9,
+  "date": "2025/05/30",
+  "taxon": "Homo sapiens",
+  "gpl": "33762",
+  "summary": "Rapidly progressive glomerulonephritis (RPGN) is the most aggressive group of autoimmune kidney disease with the worst prognosis. Anti-neutrophil cytoplasmic antibody (ANCA) associated vasculitis, anti-glomerular basement membrane (anti-GBM) and lupus nephritis are the most common causes of RPGN and are characterized by the formation of glomerular crescents and infiltration of leukocytes that eventually lead to glomerulosclerosis and kidney failure.    In this work, we used high-resolution spatial transcriptomics of 32 ANCA, 19 lupus nephritis, 6 anti-GBM, and 6 control patients to understand "
+ },
+ {
+  "acc": "GSE294296",
+  "title": "Cutaneous lupus features specialized stromal niches and altered retroelement expression",
+  "n": 16,
+  "date": "2025/04/14",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Single-cell RNA and spatial sequencing of lesional and non-lesional cutaneous lupus skin compared to healthy controls. The study includes 12 single-cell samples (cutaneous lupus patients with non-lesional (5) and lesional (4) skin biopsies with healthy controls (3)) and 4 spatial transcriptomics samples (cutaneous lupus patient pre/post-Anifrolumab treatment, 1 additional CLE patient, and 1 healthy control)."
+ },
+ {
+  "acc": "GSE278546",
+  "title": "Transcriptomic profile of TLR7-induced DN2 B cell development with and without IL-4 Interference in vitro using B cells isolated from SLE patients.",
+  "n": 15,
+  "date": "2025/04/13",
+  "taxon": "Homo sapiens",
+  "gpl": "30173",
+  "summary": "The effects of IL-4 on B cell development under an in vitro condition to polarize B cells into the double-negative 2 lineage were investigated.  Using single-cell RNA sequencing (scRNA-seq), we analyzed the transcriptomic profiles of B cells from systemic lupus erythematosus (SLE) patients treated with or without IL-4 at 4 hrs and 18 hrs following the stimulation.  Our results revealed that IL-4 pre-treatment led to a decrease in the expression of interferon response genes and DN2 signature genes, while promoting the emergence of a B cell population characterized by DN4 signature genes.  This "
+ },
+ {
+  "acc": "GSE240461",
+  "title": "Type I interferons dominate cutaneous lichen planus inflammatory landscape driving the interface dermatitis reaction [NTERT]",
+  "n": 12,
+  "date": "2025/04/03",
+  "taxon": "Homo sapiens",
+  "gpl": "17586",
+  "summary": "Cutaneous lichen planus (LP) is a chronic inflammatory skin disease histologically characterized by an interface dermatitis with lymphocyte infiltration and keratinocyte cell-death. Previous studies suggest that LP inflammation is dominated by a type I immune response involving IFN-g but its pathogenesis remains not fully elucidated yet. To investigate the inflammatory mechanisms underlying LP, we performed single-cell RNA sequencing on LP compared with healthy control skins. We demonstrate that lesional skin from patient with LP is imprinted by a type I interferon (IFN-I)-rich environment, in"
+ },
+ {
+  "acc": "GSE282344",
+  "title": "Flow-cytometric quantification of urine kidney epithelial cells specifically reflects tubular damage in acute kidney diseases",
+  "n": 8,
+  "date": "2025/02/18",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Despite tubular injury being one of the main mechanisms driving acute kidney injury (AKI), clinicians still have a limited diagnostic repertoire to precisely monitor damage to tubular epithelial cells (TEC). In our previous work we used single cell sequencing to identify TEC subsets as main component of the urine signature in AKI. The aim of this study was to establish TEC as a clinical marker for tubular damage. In total 243  patients were analyzed. For sequencing, we collected eight urine samples of  patients with AKI and glomerular disease. By aligning urinary single-cell transcriptomes and"
+ },
+ {
+  "acc": "GSE254176",
+  "title": "Dynamic changes of immune cells in systemic lupus erythematosus with nephritis using longitudinal peripheral blood single-cell RNA-seq",
+  "n": 57,
+  "date": "2025/02/01",
+  "taxon": "Homo sapiens",
+  "gpl": "18573;24676",
+  "summary": "Disease activity in patients with systemic lupus erythematosus (SLE) may fluctuate between flares and remissions, complicating effective disease management. The aim of this study is to detect early signs of cellular attributes responsible for flares and to understand dynamic changes in the immune system. Peripheral blood mononuclear cells were collected at different time points throughout the disease course from 6 patients with SLE (n = 19) and 32 healthy donors fromthe Asian Immune Diversity Atlas (AIDA), and subsequently underwent to generate single cell gene expression combined with T cell "
+ },
+ {
+  "acc": "GSE287250",
+  "title": "Angiotensin receptor blockers and CD4 T cell transcriptional and epigenetic states in systemic lupus erythematosus [RNA-seq]",
+  "n": 81,
+  "date": "2025/01/17",
+  "taxon": "Homo sapiens",
+  "gpl": "30173;24676",
+  "summary": "In systemic lupus erythematosus (lupus), environmental effects acting within a permissive genetic background lead to autoimmune dysregulation. Dysfunction of CD4+ T cells contributes to pathology by providing help to autoreactive B and T cells, and CD4+ T cell dysfunction coincides with altered DNA methylation and histone modifications of select gene loci. However, chromatin accessibility states of distinct T cell subsets and mechanisms driving heterogeneous chromatin states across patients remain poorly understood. We defined the transcriptome and epigenome of multiple CD4+ T cell populations"
+ },
+ {
+  "acc": "GSE287249",
+  "title": "Angiotensin receptor blockers and CD4 T cell transcriptional and epigenetic states in systemic lupus erythematosus [Multiomics]",
+  "n": 18,
+  "date": "2025/01/17",
+  "taxon": "Homo sapiens",
+  "gpl": "30173",
+  "summary": "In systemic lupus erythematosus (lupus), environmental effects acting within a permissive genetic background lead to autoimmune dysregulation. Dysfunction of CD4+ T cells contributes to pathology by providing help to autoreactive B and T cells, and CD4+ T cell dysfunction coincides with altered DNA methylation and histone modifications of select gene loci. However, chromatin accessibility states of distinct T cell subsets and mechanisms driving heterogeneous chromatin states across patients remain poorly understood. We defined the transcriptome and epigenome of multiple CD4+ T cell populations"
+ },
+ {
+  "acc": "GSE287248",
+  "title": "Angiotensin receptor blockers and CD4 T cell transcriptional and epigenetic states in systemic lupus erythematosus. RNAseq [ATAC-seq]",
+  "n": 102,
+  "date": "2025/01/17",
+  "taxon": "Homo sapiens",
+  "gpl": "30173;24676",
+  "summary": "In systemic lupus erythematosus (lupus), environmental effects acting within a permissive genetic background lead to autoimmune dysregulation. Dysfunction of CD4+ T cells contributes to pathology by providing help to autoreactive B and T cells, and CD4+ T cell dysfunction coincides with altered DNA methylation and histone modifications of select gene loci. However, chromatin accessibility states of distinct T cell subsets and mechanisms driving heterogeneous chromatin states across patients remain poorly understood. We defined the transcriptome and epigenome of multiple CD4+ T cell populations"
+ },
+ {
+  "acc": "GSE249639",
+  "title": "Divergent Epigenetic and Transcriptomic Remodelling during Monocyte Subset Differentiation in Systemic Lupus Erythematosus\u00a0[methylation]",
+  "n": 137,
+  "date": "2024/10/30",
+  "taxon": "Homo sapiens",
+  "gpl": "21145",
+  "summary": "Systemic Lupus Erythematosus (SLE) is an autoimmune disease characterized by systemic inflammation that involves various immune cell types. Monocytes are central players in promoting and regulating inflammation. Different monocyte subsets exist and change their proportions during physiological immune responses and under pathological conditions, including SLE, supporting different roles in inflammatory responses. In this study, we obtained the epigenetic and transcriptomic profiles of the three monocyte subsets, classical, intermediate and non-classical monocytes in an SLE cohort. We found diff"
+ },
+ {
+  "acc": "GSE249619",
+  "title": "Divergent Epigenetic and Transcriptomic Remodelling during Monocyte Subset Differentiation in Systemic Lupus Erythematosus [RNA-seq]",
+  "n": 57,
+  "date": "2024/10/30",
+  "taxon": "Homo sapiens",
+  "gpl": "28038",
+  "summary": "Systemic Lupus Erythematosus (SLE) is an autoimmune disease characterized by systemic inflammation that involves various immune cell types. Monocytes play a central role in promoting and regulating inflammation. Peripheral blood classical monocytes subsequently differentiate into intermediate monocytes and then non-classical monocytes, assuming diverse roles and undergoing changes in their proportions during physiological immune responses and pathological conditions, including SLE. In this study, we obtained the epigenetic and transcriptomic profiles of these three monocyte subsets in an SLE c"
+ },
+ {
+  "acc": "GSE239460",
+  "title": "Single-cell RNA and ATAC sequencing revealed distinct molecular characteristics of B cells in systemic lupus erythematosus and primary Sjogren's syndrome",
+  "n": 6,
+  "date": "2024/07/05",
+  "taxon": "Homo; Homo sapiens",
+  "gpl": "30209;33628",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "acc": "GSE239458",
+  "title": "Single-cell RNA and ATAC sequencing revealed distinct molecular characteristics of B cells in systemic lupus erythematosus and primary Sjogren's syndrome (scATAC-Seq)",
+  "n": 3,
+  "date": "2024/07/05",
+  "taxon": "Homo sapiens",
+  "gpl": "30209",
+  "summary": "Objective: Autoimmune diseases (ADs), such as systemic lupus erythematosus (SLE) and primary Sj\u00f6gren's syndrome (pSS), are complex diseases with poorly understood pathogenetic mechanisms. Epigenetic changes are crucial regulatory elements in B-cell differentiation, and disruptions to these mechanisms may contribute to the development of ADs. We hypothesized that shared mechanisms may contribute to the pathogenesis of SLE and pSS by disrupting transcriptional circuits."
+ },
+ {
+  "acc": "GSE263909",
+  "title": "PIK3CA inhibition in models of proliferative glomerulonephritis and lupus nephritis",
+  "n": 49,
+  "date": "2024/06/10",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Proliferative glomerulonephritis is a severe condition often leading to kidney failure. There is a significant lack of effective treatment for these disorders. Here, following the identification of a somatic PIK3CA gain-of-function mutation in podocytes of a patient, we demonstrate using multiple genetically engineered mouse models, single-cell RNA sequencing and spatial transcriptomics the crucial role played by this pathway for proliferative glomerulonephritis development by promoting podocyte proliferation, dedifferentiation and inflammation. Additionally, we show that alpelisib, a PI3K\u03b1 in"
+ },
+ {
+  "acc": "GSE224198",
+  "title": "Single-cell multi-omics analysis revealing immune features of inactivated SARS-CoV-2 vaccination in systemic lupus erythematosus patients",
+  "n": 26,
+  "date": "2024/05/29",
+  "taxon": "Homo sapiens",
+  "gpl": "20795",
+  "summary": "The COVID-19 vaccine-induced immunity has been widely reported in the general population, but the protective immune response of COVID-19 vaccines in SLE patients (SLEs) remains largely unknown. Here, we performed a comprehensive and time-series investigation of immunological alterations induced by inactivated COVID-19 vaccines in SLEs and healthy controls using single-cell multi-omics methods. Compared with healthy controls (HCs), the lower titres of neutralizing antibodies and global transcriptomic and epigenomic changes in peripheral immune cells were detected in SLEs. Increased expression l"
+ },
+ {
+  "acc": "GSE263932",
+  "title": "Selective CAR-T cell mediated B cell depletion suppresses interferon signature in SLE [Bcells]",
+  "n": 20,
+  "date": "2024/05/13",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Applying advanced molecular profiling together with highly specific targeted therapies offers the possibility to better dissect the mechanisms underlying immune mediated inflammatory diseases such as systemic lupus erythematosus (SLE) in humans. Here we apply a combination of single cell RNA sequencing and T/B cell repertoire analysis to perform an in-depth characterization of molecular changes in the immune-signature upon CD19 CAR T cell-mediated depletion of B cells in SLE patients. The resulting datasets do not only confirm a selective CAR T cell-mediated reset of the B cell response, but s"
+ },
+ {
+  "acc": "GSE263931",
+  "title": "Selective CAR-T cell mediated B cell depletion suppresses interferon signature in SLE [PBMC]",
+  "n": 28,
+  "date": "2024/05/10",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Applying advanced molecular profiling together with highly specific targeted therapies offers the possibility to better dissect the mechanisms underlying immune mediated inflammatory diseases such as systemic lupus erythematosus (SLE) in humans. Here we apply a combination of single cell RNA sequencing and T/B cell repertoire analysis to perform an in-depth characterization of molecular changes in the immune-signature upon CD19 CAR T cell-mediated depletion of B cells in SLE patients. The resulting datasets do not only confirm a selective CAR T cell-mediated reset of the B cell response, but s"
+ },
+ {
+  "acc": "GSE264393",
+  "title": "Multiscale topology classifies and quantifies cell types in subcellular spatial transcriptomics [human snRNA-seq]",
+  "n": 4,
+  "date": "2024/04/23",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Spatial transcriptomics has the potential to transform our understanding of RNA expression in tissues. Classical array-based  technologies produce multiple-cell-scale measurements requiring deconvolution to recover single cell information. However, rapid advances in subcellular measurement of RNA expression at whole-transcriptome depth necessitate a fundamentally different approach. To integrate single-cell RNA-seq data with nanoscale spatial transcriptomics, we present a topological method for automatic cell type identification (TopACT). Unlike popular decomposition approaches to multicellula"
+ },
+ {
+  "acc": "GSE264334",
+  "title": "Multiscale topology classifies and quantifies cell types in subcellular spatial transcriptomics [Xenium]",
+  "n": 1,
+  "date": "2024/04/23",
+  "taxon": "Homo sapiens",
+  "gpl": "33762",
+  "summary": "Spatial transcriptomics has the potential to transform our understanding of RNA expression in tissues. Classical array-based  technologies produce multiple-cell-scale measurements requiring deconvolution to recover single cell information. However, rapid advances in subcellular measurement of RNA expression at whole-transcriptome depth necessitate a fundamentally different approach. To integrate single-cell RNA-seq data with nanoscale spatial transcriptomics, we present a topological method for automatic cell type identification (TopACT). Unlike popular decomposition approaches to multicellula"
+ },
+ {
+  "acc": "GSE251693",
+  "title": "Double-negative B cells and DNASE1L3 colocalise with microbiota in gut-associated lymphoid tissue",
+  "n": 2,
+  "date": "2024/03/28",
+  "taxon": "Homo sapiens",
+  "gpl": "30173",
+  "summary": "Intestinal homeostasis is maintained by the response of gut-associated lymphoid tissue to bacteria transported across the follicle associated epithelium into the subepithelial dome. The initial response to antigens and how bacteria are handled is incompletely understood. By iterative application of spatial transcriptomics and multiplexed single-cell technologies, we identify that the double negative 2 subset of B cells, previously associated with autoimmune diseases, is present in the subepithelial dome in health. We show that in this location double negative 2 B cells interact with dendritic "
+ },
+ {
+  "acc": "GSE250024",
+  "title": "Impaired innate and adaptive immune responses to BNT162b2 SARS-CoV-2 vaccination in systemic lupus erythematosus",
+  "n": 9,
+  "date": "2024/03/01",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Understanding the immune responses to SARS-CoV-2 vaccination is critical to optimizing vaccination strategies for individuals with autoimmune diseases, such as systemic lupus erythematosus (SLE). Here, we comprehensively analyzed innate and adaptive immune responses in 19 patients with SLE receiving a complete 2-dose Pfizer-BioNTech mRNA vaccine (BNT162b2) regimen compared with a control cohort of 56 healthy control (HC) volunteers. Patients with SLE exhibited impaired neutralizing antibody production and antigen-specific CD4+ and CD8+ T cell responses relative to HC. Interestingly, antibody r"
+ },
+ {
+  "acc": "GSE250023",
+  "title": "Impaired innate and adaptive immune responses to BNT162b2 SARS-CoV-2 vaccination in systemic lupus erythematosus",
+  "n": 75,
+  "date": "2024/03/01",
+  "taxon": "Homo sapiens",
+  "gpl": "28038",
+  "summary": "Understanding the immune responses to SARS-CoV-2 vaccination is critical to optimizing vaccination strategies for individuals with autoimmune diseases, such as systemic lupus erythematosus (SLE). Here, we comprehensively analyzed innate and adaptive immune responses in 19 patients with SLE receiving a complete 2-dose Pfizer-BioNTech mRNA vaccine (BNT162b2) regimen compared with a control cohort of 56 healthy control (HC) volunteers. Patients with SLE exhibited impaired neutralizing antibody production and antigen-specific CD4+ and CD8+ T cell responses relative to HC. Interestingly, antibody r"
+ },
+ {
+  "acc": "GSE235508",
+  "title": "Single-cell resolution of longitudinal blood transcriptome profiles in rheumatoid arthritis, systemic lupus erythematosus and healthy control pregnancies",
+  "n": 335,
+  "date": "2023/12/02",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Rheumatoid arthritis (RA), Systemic Lupus Erythematosus (SLE) are genetically the most closely related of the major rheumatic diseases as they share components of the type I IFN signalling pathway linked to treatment response and disease activity. One difference between the two is how they respond to pregnancy; while RA often improves, SLE is prone to flare. Multiple mechanisms contribute to immunological tolerance of the foetus during pregnancy. More research involving comparative analyses is needed, however, as understanding how pregnancy-related immune-modulation differs in RA and SLE can p"
+ },
+ {
+  "acc": "GSE242152",
+  "title": "Smith-specific regulatory T cells halt the progression of lupus nephritis",
+  "n": 1,
+  "date": "2023/11/28",
+  "taxon": "Homo sapiens",
+  "gpl": "30209",
+  "summary": "Antigen-specific regulatory T cells (Tregs) suppress pathogenic autoreactivity and are potential therapeutic candidates for autoimmune diseases such as systemic lupus erythematosus (SLE). Lupus nephritis is associated with autoreactivity to the Smith (Sm) autoantigen and the human leucocyte antigen (HLA)-DR15 haplotype; hence, we investigated the potential of Sm-specific Tregs (Sm-Tregs) to suppress disease. We identified a novel HLA-DR15 restricted immunodominant Sm T cell epitope using biophysical affinity binding assays, then identified high-affinity Sm-specific T cell receptors (TCRs) usin"
+ },
+ {
+  "acc": "GSE189050",
+  "title": "Molecular Dissection of Disease Heterogeneity in SLE",
+  "n": 30,
+  "date": "2023/10/11",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Systemic lupus erythematosus (SLE) affects 1 in 537 of African American (AA) women, which is >2-fold more than European American (EA) women. AA patients also develop the disease at a younger age, have more severe symptoms, and a greater chance of early mortality. We used a multi-omics approach to uncover ancestry-specific immune alterations in SLE patients and healthy controls that may contribute to disease disparities. Cell composition, signaling, and epigenetics were evaluated by mass cytometry; droplet-based single cell transcriptomics and paired proteogenomics (scRNA-Seq/scCITE-Seq).  Solu"
+ },
+ {
+  "acc": "GSE229457",
+  "title": "Comparative gene expression profile of canine and human invariant Natural Killer T (iNKT) cells at single cell level [scRNA-seq]",
+  "n": 12,
+  "date": "2023/09/05",
+  "taxon": "Homo sapiens; Canis lupus familiaris",
+  "gpl": "18573;21400",
+  "summary": "We used single cell RNA sequencing (scRNA-seq) to characterize the heterogeneity of peripheral blood-derived canine iNKT cells relative to that of human iNKTs."
+ },
+ {
+  "acc": "GSE224705",
+  "title": "Defining molecular and cellular landscape behind non-response to Lupus Nephritis drugs",
+  "n": 448,
+  "date": "2023/05/01",
+  "taxon": "Homo sapiens",
+  "gpl": "13158",
+  "summary": "Lupus nephritis (LN) is one of the more severe systemic lupus erythematosus manifestations with the potential of developing into end stage kidney disease. Mycophenolate mofetil (MMF) and Azathioprine (AZA) are widely used for both induction and maintenance therapy for LN, but the one year complete renal response ranges from 30-40% in most trials. Reasons for non-response are still unknown.  Thus, anticipating lack of drug efficacy in a patient could lead to early introduction of advanced therapies.  A longitudinal cohort comprising gene-expression and clinical data of responder and non-respond"
+ },
+ {
+  "acc": "GSE210939",
+  "title": "Single cell RNA sequencing of SCLE reveals cell heterogeneiy in skin lesions",
+  "n": 3,
+  "date": "2023/02/21",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "SCLE is a clinical subtype of cutaneous lupus erythematosus with psoriatic-like or annular papules with scaly erythematosus, the pathological mechanism of SCLE has been poorly understood. To investigate the immune pathogenesis of SCLE, we performed single-cell RNA sequencing of SCLE skin lesions and integrated with single cell RNA sequencing data of healthy skin. Our results firstly demonstrated that immune cells such as T, B, macrophage/DC and NK cells increased in the skin lesions of SCLE patients. Secondly, through sub-clustering analysis, GO enrichment analysis and cell communication analy"
+ },
+ {
+  "acc": "GSE179633",
+  "title": "single cell RNA sequencing reveals cellular heterogeneity of DLE and SLE",
+  "n": 30,
+  "date": "2022/10/17",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Lupus, a server and complex autoimmune disease, is clinically divided into cutaneous lupus erythematosus (CLE) which featured in skin damage, and systemic lupus erythematosus (SLE) which characterized in systemic multi-organ damage. The distinction of these two types of lupus is widely unknown. Here, we collected 23 skin biopsies of healthy control(HC), DLE (discoid lupus erythematosus, a main type of CLE) and SLE, separated epidermis and dermis and performed single cell RNA sequencing through microfluidics based 10x genomics system. Our results demonstrated larger numbers of immune cells infi"
+ },
+ {
+  "acc": "GSE184338",
+  "title": "Systematic characterization of seed overlap microRNA cotargeting associated with lupus pathogenesis",
+  "n": 26,
+  "date": "2022/10/14",
+  "taxon": "Mus musculus; Homo sapiens",
+  "gpl": "24676;24247;21345",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "acc": "GSE136035",
+  "title": "IL-4-induced quiescence of resting na\u00efve B cells is disrupted in systemic lupus erythematosus",
+  "n": 16,
+  "date": "2022/08/12",
+  "taxon": "Homo sapiens",
+  "gpl": "18573;15520",
+  "summary": "Activated na\u00efve (aNAV) B cells have been shown to be the precursor of the CD11c+T-bet+ IgD\u2212CD27\u2212 double negative (DN)2 or atypical memory (aMEM) B cells in systemic lupus erythematosus (SLE).  To determine factors that maintain resting na\u00efve (rNAV) B cells, the transcriptomics program in na\u00efve (IGHD+IGHM+) B cells in human healthy controls (HC) and SLE was analyzed by single cell RNA-sequencing analysis. In HC, naive B cells expressed IL-4 pathway genes whereas in SLE, naive B cells expressed type I interferon stimulated genes (ISGs).  In HC, aNAV B cells exhibited upregulation of gene signatu"
+ },
+ {
+  "acc": "GSE157305",
+  "title": "Amino acid transport represents a druggable process for inhibiting human plasmacytoid dendritic cell activity during autoimmunity",
+  "n": 2,
+  "date": "2022/04/07",
+  "taxon": "Homo sapiens",
+  "gpl": "21290",
+  "summary": "IL-3 mediates human plasmacytoid dendritic cell (pDC) survival in vitro, but its mechanism of action is unclear. We show that, through JAK2/STAT5, IL-3 and the related GM-CSF, induce expression of System L amino acid transporters SLC7A5 and SLC3A2. This primes pDC to allow subsequent activation of mTORC1 in response to TLR9 stimulation. Active mTORC1 facilitates increased metabolic activity, type I IFN and TNF production, and the expression of SLC7A11, a subunit of the cystine/glutamate antiporter, xc\u2014. We found that co-expression of SLC7A5, SLC3A2 and SLC7A11 is a major transcriptional signat"
+ },
+ {
+  "acc": "GSE186476",
+  "title": "Non-lesional and Lesional Lupus Skin Share Inflammatory Phenotypes that Drive Activation of CD16+ Dendritic Cells",
+  "n": 29,
+  "date": "2022/03/25",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Cutaneous lupus erythematosus (CLE) is a disfiguring and poorly understood condition frequently associated with systemic lupus. Studies to date suggest that non-lesional keratinocytes play a role in disease predisposition, but this has not been investigated in a comprehensive manner or in the context of other cell populations. To investigate CLE immunopathogenesis, normal-appearing skin, lesional skin, and circulating immune cells from lupus patients were analyzed via integrated single-cell RNA-sequencing and spatial-seq. We demonstrate that normal-appearing skin of lupus patients represents a"
+ },
+ {
+  "acc": "GSE183051",
+  "title": "Single cell Ig VDJ sequencing (10X Genomics) of human blood B cells from SLE pateints and healthy controls",
+  "n": 6,
+  "date": "2022/01/26",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "B cells positive for Ig kappa and Ig lambda are observed by flow cytometry in one fourth of patients with Systemic Lupus Erythematosus (SLE). Single cell Ig VDJ sequencing (10X Genomics) reveals that kappa/lambda B cells are at the same frequency (about 1.5%) in these SLE patients as in healthy controls. Cells observed by flow cytometry are instead decorated with VH4-34 IgM (kappa or lambda) autoantibodies that are present in some but not all SLE patients."
+ },
+ {
+  "acc": "GSE193869",
+  "title": "Two subsets of human marginal zone B cells resolved by global analysis of lymphoid tissues and blood",
+  "n": 30,
+  "date": "2022/01/21",
+  "taxon": "Homo sapiens",
+  "gpl": "16791",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "acc": "GSE193868",
+  "title": "Two subsets of human marginal zone B cells resolved by global analysis of lymphoid tissues and blood [human appendix, spleen, mLN]",
+  "n": 18,
+  "date": "2022/01/21",
+  "taxon": "Homo sapiens",
+  "gpl": "16791",
+  "summary": "B cells generate antibodies that are essential for immune protection, but their subgroups are poorly defined. Here we perform undirected deep profiling of B cells in matched human lymphoid tissues from deceased transplant organ donors and blood. In addition to identifying unanticipated features of tissue-based B cell differentiation, we resolve two subsets of marginal zone B (MZB) cells differing in cell surface and transcriptomic profiles, clonal relationships to other subsets, enrichment of genes in the NOTCH pathway, distribution bias within splenic marginal zone microenvironment, and immun"
+ },
+ {
+  "acc": "GSE193867",
+  "title": "Two subsets of human marginal zone B cells resolved by global analysis of lymphoid tissues and blood [healthy and lupus human blood]",
+  "n": 12,
+  "date": "2022/01/21",
+  "taxon": "Homo sapiens",
+  "gpl": "16791",
+  "summary": "B cells generate antibodies that are essential for immune protection, but their subgroups are poorly defined. Here we perform undirected deep profiling of B cells in matched human lymphoid tissues from deceased transplant organ donors and blood. In addition to identifying unanticipated features of tissue-based B cell differentiation, we resolve two subsets of marginal zone B (MZB) cells differing in cell surface and transcriptomic profiles, clonal relationships to other subsets, enrichment of genes in the NOTCH pathway, distribution bias within splenic marginal zone microenvironment, and immun"
+ },
+ {
+  "acc": "GSE170673",
+  "title": "PD-L1 AND ICOSL DISCRIMINATE HUMAN SECRETORY AND HELPER DENDRITIC CELLS IN CANCER, ALLERGY AND AUTOIMMUNITY [CITE-seq]",
+  "n": 8,
+  "date": "2022/01/01",
+  "taxon": "Homo sapiens",
+  "gpl": "16791;24676",
+  "summary": "In this study, we define a novel phenotypic and functional dichotomy of human dendritic cells (DC), with strong relevance to cancer, allergy, and autoimmunity. Using 16 different stimuli in vitro (130 observations), we describe two states of human activated DC. PD-L1highICOSLlow Secretory DC produced large amounts of inflammatory cytokines and chemokines but induced very low levels of T helper (Th) cytokines following DC-T co-culture; conversely PD-L1lowICOSLhigh Helper DC produced low levels of secreted factors but induced high levels and a broad range of Th cytokines. Secretory DC were align"
+ },
+ {
+  "acc": "GSE169381",
+  "title": "PD-L1 AND ICOSL DISCRIMINATE HUMAN SECRETORY AND HELPER DENDRITIC CELLS IN CANCER, ALLERGY AND AUTOIMMUNITY",
+  "n": 24,
+  "date": "2022/01/01",
+  "taxon": "Homo sapiens",
+  "gpl": "16791",
+  "summary": "In this study, we define a novel phenotypic and functional dichotomy of human dendritic cells (DC), with strong relevance to cancer, allergy, and autoimmunity. Using 16 different stimuli in vitro (130 observations), we describe two states of human activated DC. PD-L1highICOSLlow Secretory DC produced large amounts of inflammatory cytokines and chemokines but induced very low levels of T helper (Th) cytokines following DC-T co-culture; conversely PD-L1lowICOSLhigh Helper DC produced low levels of secreted factors but induced high levels and a broad range of Th cytokines. Secretory DC were align"
+ },
+ {
+  "acc": "GSE176465",
+  "title": "Urine single cell RNA-sequencing in focal segmental glomerulosclerosis reveals inflammatory signatures in immune cells and podocytes",
+  "n": 23,
+  "date": "2021/12/07",
+  "taxon": "Homo sapiens",
+  "gpl": "18573",
+  "summary": "The diagnosis of focal segmental glomerulosclerosis (FSGS) requires a renal biopsy  which is invasive and can be problematic in children and in some adults. We used single cell RNA-sequencing to explore disease-related cellular signatures in 17 urine samples from 12 FSGS subjects. We identified immune cells in urine  predominantly monocytes  and renal epithelial cells  including podocytes. Analysis revealed M1 and M2 monocyte subsets  and podocytes showing increased expression of genes involved in epithelial-to-mesenchymal transition (EMT). We confirmed M1 and M2 gene signatures using publishe"
+ },
+ {
+  "acc": "GSE174188",
+  "title": "Multiplexed scRNA-seq reveals the cellular and genetic correlates of systemic lupus erythematosus",
+  "n": 88,
+  "date": "2021/12/01",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Systemic lupus erythematosus (SLE) is a heterogeneous autoimmune disease. Knowledge of circulating immune cell types and cell states associated with SLE remains incomplete. We profiled over 1.2 million PBMCs (162 cases, 99 controls) with multiplexed single-cell RNA-seq (mux-seq). Cases exhibited prominent expression of type-1 interferon-stimulated genes (ISG) in monocytes, reduction of na\u00efve CD4+ T cells that correlated with monocyte ISG expression, and expansion of repertoire-restricted cytotoxic GZMH+ CD8+ T cells. Cell-type-specific expression features accurately predicted case-control stat"
+ },
+ {
+  "acc": "GSE182825",
+  "title": "Spatial transcriptomics of Cutaneous and Systemic Lupus Erythematosus skin",
+  "n": 41,
+  "date": "2021/10/01",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "We performed spatial transcriptomics on a case series of different clinical subtypes of cutaneous lupus erythematosus including acute cutaneous lupus erythematosus (malar rash, systemic lupus erythematosus). Our goals were to (1) determine which differentially expressed genes (DEGs) could be attributed to specific cell populations in specific locations within the tissue, (2) determine if spatial transcriptomics could better distinguish between CLE clinical subtypes than bulk RNA approaches and (3) examine potential cell-cell communication pathways within the skin lesions."
+ },
+ {
+  "acc": "GSE162577",
+  "title": "Single cell RNA sequencing reveals cellular heterogeneity of PBMC of systemic lupus erythematosus patients",
+  "n": 3,
+  "date": "2021/08/11",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "To investigate ISGs expression chracteristics of leucocyte types of SLE patients, single cell RNA sequencing was applied to 2 SLE patients and 1 health volunteer."
+ },
+ {
+  "acc": "GSE158263",
+  "title": "Gene-regulatory network analysis of systemic lupus erythermatosus with a single-cell chromatin accessible assay",
+  "n": 2,
+  "date": "2021/05/28",
+  "taxon": "Homo sapiens",
+  "gpl": "23227",
+  "summary": "Systemic lupus erythermatosus (SLE) is a complex autoimmune disease, and epigenetic study is promissing for illustrating the mechanisms of SLE pathogenesis. Assay for transposase accessible chromatin in single cells sequencing (scATAC-seq) shows priority to trackle this barrier. Thus, scATAC-seq was applied to difine the landscape of active regulatory DNA in systemic lupus erythermatosus (SLE) at single cell resolusion. Peripheral blood mononuclear cells (PBMCs) were robustly clustered based on their types without using antibodies. 20 patterns of transcription factor (TF) activation that drive"
+ },
+ {
+  "acc": "GSE160308",
+  "title": "In-depth transcriptomic analyses investigating molecular mechanisms underlying diabetic retinopathy (smallRNA)",
+  "n": 79,
+  "date": "2021/04/19",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Diabetic Retinopathy (DR) is among the major global causes for vision loss. With the rise in diabetes prevalence, an increase in DR incidence is expected. Current understanding of both the molecular etiology and pathways involved in the initiation and progression of DR is limited. Here we analyzed mRNA and miRNA expression profiles of 80 human post-mortem retinal samples from 80 patients diagnosed with various stages of DR. We found differentially expressed transcripts to be predominantly associated with late stage DR and pathways such as hippo and gap junction signaling. A multivariate regres"
+ },
+ {
+  "acc": "GSE160306",
+  "title": "In-depth transcriptomic analyses investigating molecular mechanisms underlying diabetic retinopathy (totalRNA)",
+  "n": 79,
+  "date": "2021/04/19",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Diabetic Retinopathy (DR) is among the major global causes for vision loss. With the rise in diabetes prevalence, an increase in DR incidence is expected. Current understanding of both the molecular etiology and pathways involved in the initiation and progression of DR is limited. Here we analyzed mRNA and miRNA expression profiles of 80 human post-mortem retinal samples from 80 patients diagnosed with various stages of DR. We found differentially expressed transcripts to be predominantly associated with late stage DR and pathways such as hippo and gap junction signaling. A multivariate regres"
+ },
+ {
+  "acc": "GSE156989",
+  "title": "Multimodal Analysis for Human ex vivo Studies Shows Extensive Molecular Changes from Delays in Blood Processing",
+  "n": 55,
+  "date": "2021/03/29",
+  "taxon": "Homo sapiens",
+  "gpl": "24676",
+  "summary": "Multi-omic profiling of human peripheral blood is increasingly utilized to identify biomarkers and pathophysiologic mechanisms of disease. The importance of these platforms in clinical and translational studies led us to investigate the impact of delayed blood processing on the numbers and state of peripheral blood mononuclear cells (PBMC) and on the plasma proteome. Similar to previous studies, we show minimal effects of delayed processing on the numbers and general phenotype of PBMCs up to 18 hours. In contrast, profound changes in the single-cell transcriptome and composition of the plasma "
+ },
+ {
+  "acc": "GSE165047",
+  "title": "CASB: A concanavalin A-based sample barcoding strategy for single-cell sequencing [scRNA-seq]",
+  "n": 2,
+  "date": "2021/03/09",
+  "taxon": "Chlorocebus sabaeus; Drosophila melanogaster; Rattus norvegicus; Homo sapiens; Cricetulus griseus; Mus musculus; Canis lupus familiaris",
+  "gpl": "29623",
+  "summary": "We reported a Concanavalin A-based Barcoding Strategy (CASB) for single-cell and single-nucleus sample multiplexing, which could be followed by different single-cell sequencing techniques. The method involves minimal sample processing, thereby preserving intact transcriptomic or epigenomic patterns. Besides sample multiplexing, the CASB could further improve data quality through doublet identification."
+ },
+ {
+  "acc": "GSE153116",
+  "title": "CASB: A concanavalin A-based sample barcoding strategy for single-cell sequencing",
+  "n": 197,
+  "date": "2021/03/09",
+  "taxon": "Drosophila melanogaster; Rattus norvegicus; Homo sapiens; Canis lupus familiaris; Chlorocebus sabaeus; Cricetulus griseus; Mus musculus",
+  "gpl": "29623;24676;25526",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "acc": "GSE163121",
+  "title": "Single-cell RNA sequencing of B cells from healthy donors and SLE patients",
+  "n": 5,
+  "date": "2020/12/14",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Systemic Lupus Erythematosus (SLE) is an autoimmune disease characterized by pathogenic auto-antibodies that cause end organ damage. B cells are thought to play a central role in the immunopathogenesis of SLE and display several abnormalities in patients, including a strong type I interferon signature as well as lower expression of surface markers including TLR9 and Fc\u03b3RIIB. To characterize differences in the proportion of distinct B cell subsets as well as intrinsic transcriptomic differences between B cells from healthy donors and SLE patients, we performed single-cell RNA sequencing on B ce"
+ },
+ {
+  "acc": "GSE105119",
+  "title": "Benchmarking single-cell RNA sequencing methods for the Human Cell Atlas",
+  "n": 768,
+  "date": "2020/10/01",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Mus musculus",
+  "gpl": "24142",
+  "summary": "This cryopreserved HCA reference sample represents the basis for a systematic comparison of scRNAseq techniques."
+ },
+ {
+  "acc": "GSE153765",
+  "title": "Targeting CD38 with Daratumumab in refractory Systemic Lupus Erythematosus",
+  "n": 4,
+  "date": "2020/09/11",
+  "taxon": "Homo sapiens",
+  "gpl": "18573",
+  "summary": "Single cell transcriptome and TCR sequencing of FACS-sorted memory T cells in one patient under treatment with the anti CD38-antibody Daratumumab. The patient received Daratumumab at days 0, 7, 14 and 21. Analyses were performed on day 0, 41 and 74."
+ },
+ {
+  "acc": "GSE135779",
+  "title": "A single cell approach to map cellular subsets involved in Systemic Lupus Erythematosus (SLE) heterogeneity",
+  "n": 56,
+  "date": "2020/09/02",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "In this study, we analyzed the transcriptomes of ~276k single PBMCs from 33 childhood SLE (cSLE) and 11 healthy matched donors (cHD). Our findings were validated in an independent cohort including 8 adult SLE (aSLE) patients and 6 matched controls (aHD; ~132k PBMCs)."
+ },
+ {
+  "acc": "GSE150060",
+  "title": "Discovery of CD80 and CD86 as recent activation markers on regulatory T cells by protein-RNA single-cell analysis",
+  "n": 6,
+  "date": "2020/06/12",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Background: Traditionally, the transcriptomic and proteomic characterisation of CD4+ T cells at the single-cell level has been performed by two largely exclusive types of technologies: single-cell RNA-sequencing (scRNA-seq) and antibody-based cytometry. Here we present a multi-omics approach allowing the simultaneous targeted quantification of mRNA and protein expression in single-cells and investigate its performance to dissect the heterogeneity of human immune cell populations. Methods: We have quantified the single-cell expression of 397 genes at the mRNA level and up to 68 proteins using o"
+ },
+ {
+  "acc": "GSE149415",
+  "title": "The regulation and pharmacological modulation of immune complex induced type III IFN production by plasmacytoid dendritic cells  [microarray]",
+  "n": 20,
+  "date": "2020/05/23",
+  "taxon": "Homo sapiens",
+  "gpl": "13607",
+  "summary": "Objective: Patients with Systemic Lupus Erythematosus (SLE) have an ongoing interferon (IFN) production due to an activation of plasmacytoid dendritic cells (pDCs), which can be triggered to type I IFN synthesis by RNA containing immune complexes (RNA-IC). Considering emerging data suggesting a role of type III interferon (IFN) in the SLE disease process, we asked if RNA-IC can induce type III IFN production in pDC, and how this production can be regulated.  Methods:  Peripheral blood mononuclear cells (PBMCs) or immune cell subsets were isolated from healthy blood donors or SLE patients and s"
+ },
+ {
+  "acc": "GSE148902",
+  "title": "The regulation and pharmacological modulation of immune complex induced type III IFN production by plasmacytoid dendritic cells [RNA-seq]",
+  "n": 2,
+  "date": "2020/05/23",
+  "taxon": "Homo sapiens",
+  "gpl": "16791",
+  "summary": "Objective: Patients with Systemic Lupus Erythematosus (SLE) have an ongoing interferon (IFN) production due to an activation of plasmacytoid dendritic cells (pDCs), which can be triggered to type I IFN synthesis by RNA containing immune complexes (RNA-IC). Considering emerging data suggesting a role of type III interferon (IFN) in the SLE disease process, we asked if RNA-IC can induce type III IFN production in pDC, and how this production can be regulated.  Methods:  Peripheral blood mononuclear cells (PBMCs) or immune cell subsets were isolated from healthy blood donors or SLE patients and s"
+ },
+ {
+  "acc": "GSE142637",
+  "title": "Interferon lambda promotes immune dysregulation and tissue inflammation in TLR7-induced lupus [scRNA-seq]",
+  "n": 6,
+  "date": "2020/05/15",
+  "taxon": "Homo sapiens; Mus musculus",
+  "gpl": "21290;21493",
+  "summary": "Interferon lambdas share important functional similarities with type I interferons, but their role in inflammation and autoimmune disease remains controversial and is not well studied. Here, we present the first evidence that interferon lambda is pathogenic and has nonredundant functions in TLR7-associated lupus inflammation. Most notably, we found that interferon lambda promotes systemic immune dysregulation through localized effects in the skin and kidneys. These data identify a novel role for interferon lambda in lupus immunobiology and tissue-specific pathology."
+ },
+ {
+  "acc": "GSE142016",
+  "title": "Transcriptomic, epigenetic and functional analyses implicate neutrophil diversity in the pathogenesis of systemic lupus erythematosus [scRNA-seq]",
+  "n": 3,
+  "date": "2019/12/13",
+  "taxon": "Homo sapiens",
+  "gpl": "21290",
+  "summary": "Two subpopulations of low density granulocytes (LGDs) were defined in terms of different gene expression patterns, transcriptional and epigenetic features as well as functions.  This study provides insights into the mechanism of immune dysregulation and the vascular damage characteristic of lupus."
+ },
+ {
+  "acc": "GSE141469",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (10 X V3)",
+  "n": 2,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Mus musculus",
+  "gpl": "26863",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133549",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects",
+  "n": 381,
+  "date": "2019/12/10",
+  "taxon": "Mus musculus; Canis lupus familiaris; Homo sapiens",
+  "gpl": "24142;26864;26867;26865;26863;26866",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "acc": "GSE133548",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (inDrop)",
+  "n": 1,
+  "date": "2019/12/10",
+  "taxon": "Mus musculus; Homo sapiens; Canis lupus familiaris",
+  "gpl": "26865",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133547",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (ddSEQ)",
+  "n": 16,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Mus musculus",
+  "gpl": "26866",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133546",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (SingleNuclei)",
+  "n": 2,
+  "date": "2019/12/10",
+  "taxon": "Mus musculus; Homo sapiens; Canis lupus familiaris",
+  "gpl": "26866",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133545",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (SMART-Se2q)",
+  "n": 1,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Mus musculus",
+  "gpl": "24142",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133544",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (gmSCRB-seq)",
+  "n": 8,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Mus musculus; Canis lupus familiaris",
+  "gpl": "26867",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133543",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (QUARTZ-Seq2)",
+  "n": 4,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Mus musculus; Canis lupus familiaris",
+  "gpl": "26866",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133542",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (MARS-Seq)",
+  "n": 12,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Mus musculus; Canis lupus familiaris",
+  "gpl": "24142",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133541",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects  (ICELL8)",
+  "n": 4,
+  "date": "2019/12/10",
+  "taxon": "Mus musculus; Homo sapiens; Canis lupus familiaris",
+  "gpl": "26865",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133540",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (DROP-Seq)",
+  "n": 6,
+  "date": "2019/12/10",
+  "taxon": "Canis lupus familiaris; Mus musculus; Homo sapiens",
+  "gpl": "24142",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133539",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (CEL-Seq2)",
+  "n": 15,
+  "date": "2019/12/10",
+  "taxon": "Mus musculus; Homo sapiens; Canis lupus familiaris",
+  "gpl": "26864",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133538",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects  (C1HT small)",
+  "n": 160,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Mus musculus",
+  "gpl": "26863",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133537",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (C1HT)",
+  "n": 140,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Mus musculus",
+  "gpl": "26863",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133536",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (10X 8x 10K cells 25K reads)",
+  "n": 8,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Mus musculus",
+  "gpl": "26863",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE133535",
+  "title": "Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects (10X 2x 5K cells 250K reads)",
+  "n": 2,
+  "date": "2019/12/10",
+  "taxon": "Canis lupus familiaris; Homo sapiens; Mus musculus",
+  "gpl": "26863",
+  "summary": "Single-cell RNA sequencing (scRNA-seq) is the leading technique for charting the molecular properties of individual cells. The latest methods are scalable to thousands of cells, enabling in- depth characterization of sample composition without prior knowledge. However, there are important differences between scRNA-seq techniques, and it remains unclear which are the most suitable protocols for drawing cell atlases of tissues, organs and organisms. We have generated benchmark datasets to systematically evaluate techniques in terms of their power to comprehensively describe cell types and states"
+ },
+ {
+  "acc": "GSE118773",
+  "title": "Cell-to-cell variation in defective virus expression and effect on host response during influenza virus infection",
+  "n": 33,
+  "date": "2019/12/10",
+  "taxon": "Homo sapiens; Canis lupus familiaris; Influenza A virus (A/Puerto Rico/8/1934(H1N1))",
+  "gpl": "25470;16791;25467;25468;18573;25469;25466",
+  "summary": "Virus and host factors contribute to cell-to-cell variation in viral infection and determine the outcome of the overall infection. However, the extent of the variability at the single cell level and how it impacts virus-host interactions at a systems level are not well understood. To characterize the dynamics of viral transcription and host responses, we used single-cell RNA sequencing to quantify at multiple time points the host and viral transcriptomes of human A549 cells and primary bronchial epithelial cells infected with influenza A virus. We observed substantial variability of viral tran"
+ },
+ {
+  "acc": "GSE137029",
+  "title": "Multiplexed RNA-sequencing of 1M immune cells reveals the cellular, molecular, and genetic correlates of systemic lupus erythematosus",
+  "n": 66,
+  "date": "2019/11/10",
+  "taxon": "Homo sapiens",
+  "gpl": "20301;24676",
+  "summary": "Systemic lupus erythematosus (SLE) is an autoimmune disease defined by a broad range of symptoms that disproportionately affects women Our knowledge of which immune cells mediate the etiology and pathogenesis of the disease remains incomplete Identifying pathogenic cells using bulk gene expression analysis is confounded by the functional overlap and frequency variation of immune cell types Here, we used multiplexed single-cell RNA-seq (scRNA-seq) to profile ~1 million peripheral blood mononuclear cells from 134 SLE cases and 58 healthy controls Cases were marked by a reduction of naive CD4+ T "
+ },
+ {
+  "acc": "GSE132566",
+  "title": "Single-cell omics reveal human mononuclear phagocyte heterogeneity and inflammatory DC in health and disease",
+  "n": 221,
+  "date": "2019/06/12",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Human mononuclear phagocytes comprise phenotypically and functionally overlapping subsets of dendritic cells (DC) and monocytes, but their identification remains elusive. By integrating high-dimensional single-cell protein and RNA expression data, we clearly delineated monocytes from conventional DC2 (cDC2), identifying new markers including CD88/CD89 for monocytes and HLA-DQ/Fc\uf065RI\uf061 for cDC2, allowing their unambiguous characterization in blood and tissues. We also show that cDC2 can be subdivided into phenotypically and functionally distinct subsets based on CD5, CD163 and CD14 expression, in"
+ },
+ {
+  "acc": "GSE109535",
+  "title": "scFTD-seq: freeze-thaw lysis based, portable approach toward highly distributed single-cell 3\u2019 mRNA profiling",
+  "n": 9,
+  "date": "2018/11/02",
+  "taxon": "Homo sapiens; Mus musculus",
+  "gpl": "16791;22245;17021",
+  "summary": "We present sc-FTDseq, a microchip platform for single-cell freeze-thaw lysis directly toward 3\u2019 mRNA sequencing. It offers format flexibility with a much simplified, widely adoptable workflow that reduces the number of preparation steps and hands-on time, with the quality of data and the cost per sample matching that of the state-of-the-art scRNA-seq platforms. Freeze-thaw, known as an unfavorable lysis method resulting in RNA fragmentation, turns out to be fully compatible with single-cell 3\u2019 mRNA sequencing, which detects only ~50 bases at the 3\u2019 end. We applied it to the profiling of mixed "
+ },
+ {
+  "acc": "GSE121699",
+  "title": "Transcriptomes in healthy and CHB fetal hearts",
+  "n": 6,
+  "date": "2018/10/24",
+  "taxon": "Homo sapiens",
+  "gpl": "20301",
+  "summary": "Given that diseases associated with anti-SSA/Ro autoantibodies such as systemic lupus erythematosus and Sj\u00f6gren\u2019s syndrome are linked with an upregulation of IFN and type I IFN-stimulated genes, including Sialic Acid-Binding Ig-Like Lectin 1 (Siglec-1), a receptor on monocytes/macrophages, recent attention has focused on a potential role for IFN and IFN-stimulated genes in the pathogenesis of congenital heart block (CHB). Accordingly, three approaches were leveraged to address the association of IFN, IFN-stimulated genes, and the phenotype of macrophages in affected fetal cardiac tissue: a) cu"
+ },
+ {
+  "acc": "GSE120839",
+  "title": "Single-cell virus sequence of influenza infections that trigger innate immunity",
+  "n": 2,
+  "date": "2018/10/05",
+  "taxon": "Canis lupus familiaris; Influenza A virus (A/WSN/1933(H1N1)); Homo sapiens",
+  "gpl": "25643;25644",
+  "summary": "The outcome of viral infection is extremely heterogeneous at the cellular level, and infected cells only sometimes activate innate immunity. Here we assess how the genetic variation inherent in viral populations contributes to this heterogeneity. We do this by developing a new approach to determine both the cellular transcriptome and full-length sequences of all viral genes in single influenza-infected cells. Infections that activate an innate-immune response in single cells are associated with viral defects that include amino-acid mutations, internal deletions, and failure to express key gene"
+ },
+ {
+  "acc": "GSE85534",
+  "title": "Single Cell Transcriptome Conservation in Cryopreserved Cells and Tissues",
+  "n": 1486,
+  "date": "2017/02/13",
+  "taxon": "Mus musculus; Canis lupus familiaris; Homo sapiens",
+  "gpl": "17021;11154;16791;20988",
+  "summary": "Sample preservation method that maintains transcripts in viable single cells and so allows to disconnect time and place of sampling from subsequent processing steps."
+ }
+]
