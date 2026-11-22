@@ -33,13 +33,13 @@ print(prop.to_string()); out['immune_props'] = prop.to_dict()
 unr = im.groupby(['sample', 'pred_scanvi']).unresolved.mean().unstack(0).round(2)
 print('unresolved fraction by label x sample\n', unr.to_string()); out['unresolved_by_label'] = unr.to_dict()
 # marker cross-check
-MK = {'T': 'CD3E', 'T-CYT': 'CD8A', 'NKT': 'NKG7', 'NK1': 'NKG7', 'B': 'MS4A1', 'PL': 'JCHAIN', 'MON': 'CD14', 'ncMON': 'FCGR3A',
+MK = {'T': 'CD3E', 'T-CYT': 'CD8A', 'NKT': 'NKG7', 'NK1': 'NKG7', 'B': 'MS4A1', 'PL': 'MZB1', 'MON': 'CD14', 'ncMON': 'FCGR3A',
       'MAC-M2': 'C1QA', 'cDC': 'CD1C', 'MDC': 'C1QA', 'pDC': 'LILRA4', 'MAST': 'TPSAB1', 'cycT': 'MKI67', 'cycMNP': 'MKI67'}
-genes = sorted(set(MK.values()) | {'PTPRC', 'CLEC9A', 'FCER1A', 'CD163', 'MRC1', 'LYVE1', 'APOE', 'SPP1', 'FCN1', 'S100A8'})
+genes = sorted(set(MK.values()) | {'PTPRC', 'CLEC9A', 'FCER1A', 'CD163', 'MRC1', 'LYVE1', 'APOE', 'SPP1', 'FCN1', 'S100A8', 'IGJ', 'JCHAIN', 'CSF3R', 'FCGR3B', 'CXCR2', 'VCAN', 'CX3CR1'})
 genes = [g for g in genes if g in L.var_names]
 mm = pd.DataFrame(L[:, genes].X.toarray(), columns=genes, index=L.obs_names).groupby(L.obs.pred_scanvi.values).mean()
 print(mm.round(2).to_string())
-flags = {l: (mm.loc[l, MK[l]] < mm[MK[l]].quantile(0.75)) for l in mm.index if l in MK}
+flags = {l: (mm.loc[l, MK[l]] < mm[MK[l]].quantile(0.75)) for l in mm.index if l in MK and MK[l] in mm.columns}
 out['marker_flags_own_marker_below_q75'] = {k: bool(v) for k, v in flags.items()}
 out['marker_means'] = mm.round(3).to_dict()
 # programme scores (descriptive)
