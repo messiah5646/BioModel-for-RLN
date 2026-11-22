@@ -1,0 +1,123 @@
+[
+ {
+  "dataset_id": "f2b69d9b-9f75-4a76-8c50-e44774680a7d",
+  "collection_id": "6c147b03-08e4-4bb7-afb7-2bcc0a814b65",
+  "title": "T Cells",
+  "cells": 112040,
+  "disease": [
+   "lupus nephritis || infectious myxomatosis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus",
+   "systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus || rheumatoid arthritis",
+   "systemic sclerosis || systemic lupus erythematosus"
+  ],
+  "tissue": [
+   "blood"
+  ],
+  "assets": [
+   "https://datasets.cellxgene.cziscience.com/00260ebe-ef0d-400f-b937-8869459e2940.h5ad"
+  ]
+ },
+ {
+  "dataset_id": "ee782eb7-51c5-4742-ad1c-fb52ebea9719",
+  "collection_id": "6c147b03-08e4-4bb7-afb7-2bcc0a814b65",
+  "title": "B Cells",
+  "cells": 4829,
+  "disease": [
+   "lupus nephritis || infectious myxomatosis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus",
+   "systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus || rheumatoid arthritis",
+   "systemic sclerosis || systemic lupus erythematosus"
+  ],
+  "tissue": [
+   "blood"
+  ],
+  "assets": [
+   "https://datasets.cellxgene.cziscience.com/65c2c3c1-150c-49c6-87a1-76ef4612a2b4.h5ad"
+  ]
+ },
+ {
+  "dataset_id": "9781393b-2aec-4a21-8227-3a4128992fe0",
+  "collection_id": "6c147b03-08e4-4bb7-afb7-2bcc0a814b65",
+  "title": "Low density granulocytes & Neutrophil progenitors",
+  "cells": 77112,
+  "disease": [
+   "lupus nephritis || infectious myxomatosis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus",
+   "systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus || rheumatoid arthritis",
+   "systemic sclerosis || systemic lupus erythematosus"
+  ],
+  "tissue": [
+   "blood"
+  ],
+  "assets": [
+   "https://datasets.cellxgene.cziscience.com/729e31d1-3d93-4a85-9602-df56638f54b2.h5ad"
+  ]
+ },
+ {
+  "dataset_id": "3d8d8c97-9c3b-4743-881d-40a5f42fa560",
+  "collection_id": "6c147b03-08e4-4bb7-afb7-2bcc0a814b65",
+  "title": "Myeloid Cells",
+  "cells": 167156,
+  "disease": [
+   "lupus nephritis || infectious myxomatosis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus",
+   "systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus || rheumatoid arthritis",
+   "systemic sclerosis || systemic lupus erythematosus"
+  ],
+  "tissue": [
+   "blood"
+  ],
+  "assets": [
+   "https://datasets.cellxgene.cziscience.com/0f689b40-f76e-40bb-93d7-0cf1ec30d144.h5ad"
+  ]
+ },
+ {
+  "dataset_id": "3979a248-4371-4c36-841e-2245ea2c36bc",
+  "collection_id": "6c147b03-08e4-4bb7-afb7-2bcc0a814b65",
+  "title": "Monocytes",
+  "cells": 76421,
+  "disease": [
+   "lupus nephritis || infectious myxomatosis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus",
+   "lupus nephritis || systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus",
+   "systemic lupus erythematosus || Sjogren syndrome",
+   "systemic lupus erythematosus || rheumatoid arthritis",
+   "systemic sclerosis || systemic lupus erythematosus"
+  ],
+  "tissue": [
+   "blood"
+  ],
+  "assets": [
+   "https://datasets.cellxgene.cziscience.com/d0bce338-4177-4e01-b5c4-62bcb1f4457c.h5ad"
+  ]
+ },
+ {
+  "dataset_id": "218acb0f-9f2f-4f76-b90b-15a4b7c7f629",
+  "collection_id": "436154da-bcf1-4130-9c8b-120ff9a888f2",
+  "title": "multiplexed scRNA-seq of 1.2 million PBMCs from adult lupus samples",
+  "cells": 1263676,
+  "disease": [
+   "normal",
+   "systemic lupus erythematosus"
+  ],
+  "tissue": [
+   "blood"
+  ],
+  "assets": [
+   "https://datasets.cellxgene.cziscience.com/c55dc602-d168-4d15-acc1-5de4f2f5d551.h5ad"
+  ]
+ }
+]

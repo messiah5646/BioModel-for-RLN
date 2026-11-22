@@ -1,0 +1,101 @@
+acc,release,files,title
+E-MTAB-7145,2020-08-14,6,RNA-seq of peripheral blood mononuclear cell (PBMC) derived from normal healthy donors and systemic lupus erythematosus (SLE) patients
+E-MTAB-3944,2018-03-31,3,Characterization of the miRNA profile of activated or apoptotic lymphocytes and corresponding released microvesicles in normal healthy donors and systemic lupus erythematosus (SLE) patients.
+E-MTAB-12203,2023-12-20,5,Remodeling of cell-type specific transcriptomes upon T cell stimulation in Systemic lupus erythematosus versus Sjögren’s syndrome
+E-MTAB-11919,2022-09-01,2,RNA-seq of human Tregs from healthy cisgender and transgender individuals and patients with juvenile-onset systemic lupus erythematosus (JSLE)
+E-MTAB-13443,2024-10-10,2,SLE and atherosclerosis CD4+ T-cell RNAsequencing
+E-MTAB-13444,2024-10-10,2,SLE and atherosclerosis CD8+ T-cell RNAsequencing
+E-MTAB-6617,2020-05-12,2,ATAC-seq of primary human T Follicular Helper (TFH) cells and naive CD4-positive helper T cells from tonsils of healthy volunteers
+E-TABM-463,2008-10-02,102,Transcription profiling of CD14 monocytyes and CD16 neutrophils from patients with systemic lupus erythematosus
+E-MTAB-1724,2014-03-13,1026,Type-I interferon response profiling
+E-MTAB-7106,2019-07-30,6,Microarray for B cells of TACI-IgG-treated MRL/lpr mice compared to control mice
+E-MTAB-7112,2019-07-31,4,RNA-seq of mouse myeloma cell line SP 2/0 cells compared to naive B cells
+E-MTAB-6621,2020-05-12,2,Promoter capture-C of primary human T Follicular Helper (TFH) cells and naive CD4-positive helper T cells from tonsils of healthy volunteers
+E-MEXP-3746,2013-09-11,6,Transcription Profiling of Human Aortic Endothelial Cells After Treatment with Interferon-Alpha
+E-MTAB-12257,2023-01-01,78,Microarray of whole human kidneys from lupus nephritis patients
+E-MTAB-4441,2017-01-26,26,Autoantigen microarrays of NZM2328 lupus mice treated with induced CD4+ regulatory T cells or natural CD4+ regulatory T cells
+E-MTAB-5542,2017-02-24,18,Gene expression in cutaneous lupus erythematosus
+E-MTAB-13838,2024-10-01,2,Lung samples from SLE model mice with or without mouse-adapted SARS-CoV-2 infection
+E-MTAB-7109,2019-08-01,8,Microarray for LPS-stimulated B cells compared to unstimulated B cells
+E-MTAB-12568,2023-02-16,2,RNA-seq data of ABC from Bm12-induced lupus model
+E-MEXP-747,2006-07-01,6,Transcription profiling of mouse splenic B cells expressing a dominant-negative p300 allele which lacks histone acetyltransferase activity
+E-MTAB-5900,2018-03-01,3,Autoantibody profiling of sera from individuals with Systemic Lupus Erythematosus (SLE) by protein microarray
+E-MTAB-7080,2019-06-05,2,RNA-seq of blood from donors with connective tissue diseases in the Lupus Extended Phenotype Cohort
+E-MEXP-2954,2011-11-30,8,MicroRNA profiling by PCR array of mouse Treg cells from non-autoimmune C3H/HeOuj and lupus prone MRL/lpr strains
+E-MTAB-10125,2021-02-08,4,The identification of circular RNAs from peripheral blood mononuclear cells in systemic lupus erythematosus
+E-MTAB-12903,2025-05-16,2,"ATAC-seq in naive B cells, CD11c+T-bet+ B cells,  CD11c-T-bet- B cells from Bm12-induced lupus T-bet reporter mice"
+E-MTAB-9329,2021-03-01,2,RNA-seq of human CD4+ and CD8+ T-cells from patients with juvenile-onset systemic lupus erythematosus (JSLE)
+E-MTAB-2713,2016-06-01,1112,Leukocyte subset-specific type 1 interferon signatures in SLE and other immune-mediated diseases.
+E-MTAB-7110,2019-08-01,10,Microarray for activated B cells compared to naive B cells
+E-MTAB-8978,2020-11-05,2,RNA seq in U-937 cells wildtype clones and rs2431697 region deletion clones
+E-MTAB-10126,2021-07-01,2,RNA-seq of rs2280381-containing region knock out clone in U937
+E-MTAB-11306,2022-02-25,2,RNA-seq data of rs2280381-containing region knock out clone in U-937 cell line
+E-MTAB-13422,2024-06-07,3,RNA-seq of CD56+ NK cells from juvenile systemic lupus erythematosus (JSLE) patients and healthy controls
+E-MTAB-13596,2024-06-28,25,"ScRNA-seq of human kidney immune cells of patients with ANCA-associated glomerulonephritis, Lupus Nephritis against a healthy nephrectomy control"
+E-MEXP-1635,2008-06-27,22,Transcriptome profiling of  PBMCs from primary antiphospholipid syndrome and systemic lupus erythematosus patients and healthy controls
+E-MTAB-157,2010-06-02,279,Transcription profiling of human CD8 T cells in systemic lupus erythematosus (SLE) and vasculitis
+E-MEXP-1242,2008-08-04,11,Transcription profiling of human CD14+ CD16- and CD14low CD16+ monocytes from patients with Sjogrens syndrome and normal controls
+E-MTAB-11191,2022-06-01,104,Expression data of whole blood samples from SLE patients and controls
+E-MTAB-6637,2019-04-01,8,Gene expression of primary human T Follicular Helper (TFH) cells and naive CD4-positive helper T cells from tonsils of healthy volunteers
+E-MIMR-7,2013-01-30,2,Transcription profiling of BXSB mice to study lupus erythematosus
+E-MTAB-16156,2026-03-04,4,Gene expression profile at single cell level of vessel associated kidney NKp46+ ILC from healthy and nephritic NZB/W lupus prone mice
+E-MTAB-15165,2025-08-08,0,Epigenetic landscape of hormone-independent sexual dimorphism and characterization of canine XIST - WGBS
+E-MTAB-17706,2026-10-16,2,Uptake and toxic mechanisms following chronic exposure to radium-224 dichloride in Caenorhabditis elegans
+E-MTAB-12904,2025-05-12,2,"CUT&RUN for Zeb2, T-bet and IgG control in live mouse age-associated B cells"
+E-MTAB-14232,2025-07-02,2,Epigenetic landscape of hormone-independent sexual dimorphism and characterization of canine XIST
+E-MTAB-14531,2025-01-10,3,RNA-seq of CD8+ T cells from JSLE patients and healthy controls
+E-MTAB-2040,2014-11-01,3,Patellar Luxation in Flatcoated Retrievers
+E-ERAD-179,2013-05-17,2,Sequencing component for the whole genome methylation analysis in PBMCs and cell subsets  pilot study
+E-MTAB-7103,2018-08-31,2,RNA-seq of equine and canine mammary stem cells treated with DMBA
+E-MTAB-8769,2020-03-10,8,Gene expression of normal MDCK cells mixed with normal MDCK cells or RasV12-transformed MDCK cells
+E-MTAB-4959,2016-01-17,2,Identifying Hepatocyte Growth Factor dose response functions in Madin-Darby Canine Kidney Epithelial Cells
+E-MTAB-9191,2021-07-26,2,HOME-BIO (sHOtgun MEtagenomic analysis of BIOlogical entities): from reads to pathogens. A specific and exhaustive pipeline for handling metagenomic shotgun sequencing data.
+E-MTAB-9189,2021-07-26,2,HOME-BIO (sHOtgun MEtagenomic analysis of BIOlogical entities): from reads to pathogens. A specific and exhaustive pipeline for handling metagenomic shotgun sequencing data.
+E-MTAB-15592,2025-09-16,2,Whole-genome sequencing of canine oral melanoma and matched peripheral blood pre- and post-radiotherapy
+E-MTAB-5488,2018-01-31,2,RNA-Seq of canine transmissible venereal tumors
+E-MTAB-13924,2024-06-17,2,Somatic Mutation Patterns in Cloned Dogs: Implications for Aging
+E-MTAB-14410,2025-12-01,2,Characterization of structural variants in canine carcinoma and sarcoma
+E-MTAB-8185,2019-11-04,2,"RNA-seq of inflammatory monocytes, patrolling monocytes and neutrophils in wild type and ABIN1[D485N] mice"
+E-MTAB-11946,2022-10-20,2,"Whole genome bisulfite sequencing of liver samples of five mammals (human, rhesus macaque, mouse, rat and dog)"
+E-MTAB-12151,2023-11-16,2,Differential expression of mRNA expressed in healthy and Dobermanns affected with dilated cardiomyopathy
+E-MTAB-15590,2025-09-15,2,RNA sequencing of canine oral melanoma and matched peripheral blood pre- and post-radiotherapy
+E-MEXP-3860,2013-03-07,10,Usyd_Wade_canFam2_60K_highDensity
+E-MTAB-3302,2015-11-17,10,microRNA-Seq of Ras induced Epithelial to Mesenchymal Transition (EMT) in Madin-Darby Canine Kidney (MDCK) cells
+E-MTAB-12132,2022-10-01,2,RNA-seq of canine MDCK epithelial cell line compared to cell line overexpressing ERK2 or cell line with conditional activation of the ERK pathway
+E-MTAB-9716,2020-11-24,6,Transcriptome of Two Canine Prostate Cancer Cells Treated with Toceranib Phosphate compared to untreated cells
+E-MTAB-15578,2025-12-31,2,Genome-wide methylation drift and transcriptomic variability in aged beagle dogs - WGBS
+E-MTAB-15574,2026-01-01,2,Genome-wide methylation drift and transcriptomic variability in aged beagle dogs - RNA-seq
+E-MTAB-5889,2018-01-31,2,RNA-Seq of canine transmissible venereal tumors (CTVT)
+E-MTAB-9037,2020-04-29,35,RNA-seq of canine transmissible venereal tumour biopsies
+E-MTAB-1249,2013-04-09,2,domestication_gene_expression
+E-MEXP-3881,2014-04-18,4,mRNA expression profile of medullary thymic epithelial cells-mTECs- of BALBc mice
+E-MTAB-5495,2018-01-31,2,Methylome of 9 canine transmissible veneral tumour (CTVT) samples
+E-MTAB-8652,2020-07-30,2,Role of HSP70 in response to (thermo)radiotherapy: analysis of gene expression in canine osteosarcoma cells by RNA-seq
+E-MTAB-3301,2016-02-03,34,RNA-Seq of Ras induced Epithelial to Mesenchymal Transition (EMT) in Madin-Darby Canine Kidney (MDCK) cells
+E-MTAB-14296,2025-02-27,14,scRNA-seq analysis of cell subpopulations of the healthy canine lung
+E-MTAB-5628,2017-10-23,11,RNA-seq of TGF-beta induced and histone variant H2A.Z-knocked-down canine MDCK cells in epithelial-to-mesenchymal transition (EMT)
+E-MTAB-10029,2021-03-24,17,Circulating microRNA profiling by array in dogs with myxomatous mitral valve degeneration (MMVD) and pulmonic stenosis (PS) compared with healthy dogs
+E-MTAB-10839,2021-11-30,2,RNA-Seq of native and FusionRed-transfected canine tumor cell lines after 3 hours C-CPE treatment
+E-MTAB-3942,2016-12-02,11,Morbillivirus triggered reduced angiogenic gene expression as a possible mode of action of viral oncolysis in a canine translational model for histiocytic sarcoma
+E-MTAB-13551,2023-11-30,10,Lapatinib antitumor effect is associated with PI3K and MAPK pathway: an analysis in human and canine prostate cancer cells
+E-MTAB-13939,2024-04-05,2,Deep Sequencing of Korean Jindo Dog Reveals Evolutionary Trajectory of Coat Color Variations
+E-MTAB-16550,2026-04-30,20,"Single-cell RNA sequencing of meniscus from ACTA2-lineage traced mice, rats and dogs"
+E-MTAB-9379,2020-07-31,10,Transcriptome analysis of MDCK parental cells (ATCC vs ECCAC) in response to CAV2 infection.
+E-MTAB-10119,2021-02-26,2,RNA-Seq of anterior cruciate ligament and knee joint synovium in dogs that are affected with cruciate rupture compared to matched controls.
+E-MTAB-5637,2017-10-23,6,Epigenomic changes associated with TGF-beta induced EMT in MDCK cells.
+E-MTAB-11565,2022-03-29,33,Integrated analysis of miRNA and mRNA expression data in patients with immune-mediated disease and control
+E-MEXP-2544,2011-01-07,30,Transcription profiling of human monocyte subpopulations
+E-MTAB-5458,2017-08-10,21,Microarray of non-polarized and M1- and M2-polarized canine macrophages in vitro
+E-MTAB-8096,2019-06-30,14,Affymetrix GeneChip™ Canine Gene 1.1ST Array of Quiescent and activated canine valvular interstitial cell under TGFB1 and SB431542 treatment
+E-MTAB-11607,2022-09-14,534,Machine learning-based detection of immune-mediated diseases from genome-wide cell-free DNA sequencing datasets
+E-MTAB-8622,2019-12-26,16,Affymetrix GeneChip™ Canine Gene 1.1ST Array of canine valves with myxomatous mitral valve disease with mild disease that are dissected into grossly diseased and grossly normal areas
+E-MTAB-17140,2026-06-27,2,DNA sequencing of lymphoma related genes in human mononuclear cells
+E-MTAB-9265,2020-06-29,62,scRNA-seq analysis of cell subpopulations of the bronchoalveolar lavage fluid of healthy dogs
+E-MTAB-5564,2018-02-28,26,"Osteoarthritic Bone Marrow Lesions exhibit cystic, vascular, osteogenic and chondrogenic changes with upregulated neuronal, inflammatory and matrix gene expression signatures"
+E-MTAB-9955,2021-01-31,62,single cell RNAseq of memory B cells in the context of rituximab-treated ITP patients
+E-MTAB-8618,2019-12-26,30,Affymetrix GeneChip™ Canine Gene 1.1ST Array of canine heart valves in all stages of Myxomatous mitral valve disease (Normal-4)
+E-MTAB-9623,2020-12-02,122,Identification of pro-fibrotic macrophages populations by scRNA-seq in West Highland white terriers affected with canine idiopathic pulmonary fibrosis
+E-MTAB-10241,2021-06-30,105,SNP array dataset for genome-wide association study of causal mutations of thyroid follicular cell carcinoma in dogs
+E-MTAB-8122,2019-09-01,2,RNA-seq in 4 tissues of 10 mammals
+E-MTAB-145,2010-06-02,973,Transcription profiling of human separated leukocyte subsets in SLE and vasculitis
+E-MTAB-7127,2020-09-30,908,"H3K4me3, H3K27ac and H3K4me1 ChIP-seq in 4 tissues of 10 mammals"
