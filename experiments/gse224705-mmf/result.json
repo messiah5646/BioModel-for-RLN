@@ -1,0 +1,169 @@
+{
+ "label_structure": {
+  "MMF": {
+   "n_pat": 44,
+   "frac_constant_label": 1.0,
+   "labels": {
+    "YES": 34,
+    "NO": 10
+   }
+  },
+  "AZA": {
+   "n_pat": 20,
+   "frac_constant_label": 1.0,
+   "labels": {
+    "YES": 11,
+    "NO": 9
+   }
+  }
+ },
+ "PB_genes_used": [
+  "JCHAIN",
+  "MZB1",
+  "TNFRSF17",
+  "TXNDC5",
+  "TXNDC5"
+ ],
+ "H1_MMF": {
+  "n": 43,
+  "n_resp": 33,
+  "n_nonresp": 10,
+  "auc": {
+   "SLEDAI": 0.652,
+   "UPCR": 0.842,
+   "IFN6+PB4": 0.0,
+   "IFN6": 0.0,
+   "base: UPCR+SLEDAI": 0.867,
+   "full: +IFN6+PB4": 0.842,
+   "chance": 0.5
+  },
+  "delta": -0.025,
+  "delta_ci95": [
+   -0.082,
+   0.019
+  ],
+  "pass": false,
+  "raw_auc_neg_sledai": 0.276,
+  "raw_auc_IFN6": 0.497,
+  "raw_auc_PB4": 0.476,
+  "raw_auc_lupcr": 0.127
+ },
+ "H2_AZA": {
+  "n": 18,
+  "n_resp": 11,
+  "n_nonresp": 7,
+  "auc": {
+   "SLEDAI": 0.818,
+   "UPCR": 0.0,
+   "IFN6+PB4": 0.61,
+   "IFN6": 0.779,
+   "base: UPCR+SLEDAI": 0.831,
+   "full: +IFN6+PB4": 0.792,
+   "chance": 0.5
+  },
+  "delta": -0.039,
+  "delta_ci95": [
+   -0.2,
+   0.13
+  ],
+  "pass": false,
+  "raw_auc_neg_sledai": 0.117,
+  "raw_auc_IFN6": 0.13,
+  "raw_auc_PB4": 0.416,
+  "raw_auc_lupcr": 0.305
+ },
+ "sens_MMF_UPCR_ge500": {
+  "n": 13,
+  "n_resp": 4,
+  "n_nonresp": 9,
+  "auc": {
+   "SLEDAI": 0.778,
+   "UPCR": 0.222,
+   "IFN6+PB4": 0.028,
+   "IFN6": 0.028,
+   "base: UPCR+SLEDAI": 0.833,
+   "full: +IFN6+PB4": 0.528,
+   "chance": 0.5
+  },
+  "delta": -0.305,
+  "delta_ci95": [
+   -0.727,
+   0.0
+  ],
+  "pass": false,
+  "raw_auc_neg_sledai": 0.861,
+  "raw_auc_IFN6": 0.667,
+  "raw_auc_PB4": 0.472,
+  "raw_auc_lupcr": 0.319
+ },
+ "exploratory_5fold_x50_mean_p5_p95": {
+  "MMF": {
+   "SLEDAI": [
+    0.709,
+    0.681,
+    0.734
+   ],
+   "UPCR": [
+    0.855,
+    0.844,
+    0.866
+   ],
+   "IFN6+PB4": [
+    0.248,
+    0.153,
+    0.36
+   ],
+   "IFN6": [
+    0.303,
+    0.215,
+    0.406
+   ],
+   "base: UPCR+SLEDAI": [
+    0.864,
+    0.843,
+    0.879
+   ],
+   "full: +IFN6+PB4": [
+    0.836,
+    0.786,
+    0.87
+   ]
+  },
+  "AZA": {
+   "SLEDAI": [
+    0.842,
+    0.818,
+    0.867
+   ],
+   "UPCR": [
+    0.265,
+    0.182,
+    0.364
+   ],
+   "IFN6+PB4": [
+    0.682,
+    0.597,
+    0.786
+   ],
+   "IFN6": [
+    0.81,
+    0.733,
+    0.87
+   ],
+   "base: UPCR+SLEDAI": [
+    0.831,
+    0.733,
+    0.896
+   ],
+   "full: +IFN6+PB4": [
+    0.805,
+    0.714,
+    0.87
+   ]
+  }
+ },
+ "deviations": [
+  "UPCR field is in g/g scale despite name (median 0.11); sensitivity threshold applied as >=0.5 g/g",
+  "TXNDC5 probe annotated TXNDC5///BLOC1S5, used as TXNDC5"
+ ]
+}
