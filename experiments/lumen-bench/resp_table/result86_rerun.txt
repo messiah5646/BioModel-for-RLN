@@ -1,0 +1,92 @@
+        trial           arm      molecule   cls  week   lor    se
+0      ACCESS     abatacept     abatacept  slow    24  0.11  0.37
+1      CFZ533     iscalimab     iscalimab  slow    24  0.57  0.64
+2    PALIZADE       zeto_30  zetomipzomib  slow    25 -1.06  1.05
+3    PALIZADE       zeto_60  zetomipzomib  slow    25  0.33  0.82
+4      BELONG      ocre_400   ocrelizumab  slow    48  0.33  0.33
+5     AURA-LV     vocl_high   voclosporin  fast    48  0.73  0.33
+6      BELONG     ocre_1000   ocrelizumab  slow    48 -0.14  0.35
+7     AURA-LV      vocl_low   voclosporin  fast    48  1.12  0.33
+8    ALXN2050        fD_120      ALXN2050  fast    50 -2.03  1.60
+9    ALXN2050        fD_180      ALXN2050  fast    50 -1.02  0.84
+10  SANCTUARY   ravulizumab   ravulizumab  fast    50  0.42  0.58
+11      LUNAR     rituximab     rituximab  slow    52 -0.20  0.37
+12   BI655064        bi_240      BI655064  slow    52 -0.10  0.44
+13   BI655064        bi_180      BI655064  slow    52 -0.09  0.54
+14     BMS-LN      abata_10     abatacept  slow    52  0.35  0.48
+15     AURORA   voclosporin   voclosporin  fast    52  0.86  0.23
+16      ATLAS       biib_20       BIIB023  fast    52  0.27  0.74
+17      ATLAS        biib_3       BIIB023  fast    52  0.25  0.74
+18  TULIP-LN1    anifro_int   anifrolumab  slow    52  0.61  0.41
+19  TULIP-LN1  anifro_basic   anifrolumab  slow    52 -0.84  0.50
+20  ORCHID-LN    guselkumab    guselkumab  slow    52 -0.95  1.07
+21     BMS-LN      abata_30     abatacept  slow    52  0.13  0.49
+22   BI655064        bi_120      BI655064  slow    52 -0.36  0.54
+23   NOBILITY  obinutuzumab  obinutuzumab  slow    52  0.60  0.40
+24     SELUNE   secukinumab   secukinumab  slow    52 -0.55  0.32
+25    REGENCY  obinutuzumab  obinutuzumab  slow    76  0.57  0.25
+26  CALIBRATE     belimumab     belimumab  slow    96  0.45  0.62
+27     ALLURE     abatacept     abatacept  slow   104  0.29  0.20
+28   BLISS-LN     belimumab     belimumab  slow   104  0.55  0.22
+
+PRIMARY: arms with anchor n= 18
+  D0: IV-MSE=0.309  noise-corrected MSE=0.083
+  D1: IV-MSE=0.167  noise-corrected MSE=0.003
+  D2: IV-MSE=0.104  noise-corrected MSE=-0.061
+  D3: IV-MSE=0.094  noise-corrected MSE=-0.038
+
+secondary: all arms n= 29
+  D0: IV-MSE=0.330  noise-corrected MSE=0.080
+  D1: IV-MSE=0.254  noise-corrected MSE=0.178
+  D2: IV-MSE=0.207  noise-corrected MSE=0.262
+  D3: IV-MSE=0.193  noise-corrected MSE=0.153
+
+         trial           arm    anchor   obs    se  D0    D1    D2    D3     w  tau2
+0      ACCESS     abatacept  molecule  0.11  0.37   0  0.33  0.20  0.29  0.76  0.10
+1      CFZ533     iscalimab    target  0.57  0.64   0  0.32  0.19  0.05  0.53  0.10
+2    PALIZADE       zeto_30      none -1.06  1.05   0  0.33  0.20  0.33   NaN  0.09
+3    PALIZADE       zeto_60      none  0.33  0.82   0  0.33  0.20  0.33   NaN  0.09
+4      BELONG      ocre_400    target  0.33  0.33   0  0.34  0.20  0.37  0.75  0.10
+5      BELONG     ocre_1000    target -0.14  0.35   0  0.34  0.20  0.37  0.75  0.10
+6     AURA-LV     vocl_high  molecule  0.73  0.33   0  0.25  0.59  0.57  0.52  0.06
+7     AURA-LV      vocl_low  molecule  1.12  0.33   0  0.25  0.59  0.57  0.52  0.06
+8    ALXN2050        fD_120      none -2.03  1.60   0  0.33  0.81  0.33   NaN  0.07
+9    ALXN2050        fD_180      none -1.02  0.84   0  0.33  0.81  0.33   NaN  0.07
+10  SANCTUARY   ravulizumab      none  0.42  0.58   0  0.32  0.75  0.32   NaN  0.10
+11      LUNAR     rituximab    target -0.20  0.37   0  0.34  0.21  0.36  0.77  0.09
+12   BI655064        bi_240    target -0.10  0.44   0  0.35  0.23  0.39  0.19  0.09
+13   BI655064        bi_180    target -0.09  0.54   0  0.35  0.23  0.39  0.19  0.09
+14   BI655064        bi_120    target -0.36  0.54   0  0.35  0.23  0.39  0.19  0.09
+15     BMS-LN      abata_10  molecule  0.35  0.48   0  0.32  0.19  0.27  0.77  0.10
+16     BMS-LN      abata_30  molecule  0.13  0.49   0  0.32  0.19  0.27  0.77  0.10
+17     AURORA   voclosporin  molecule  0.86  0.23   0  0.26  0.64  0.64  0.56  0.07
+18      ATLAS       biib_20      none  0.27  0.74   0  0.32  0.77  0.32   NaN  0.10
+19      ATLAS        biib_3      none  0.25  0.74   0  0.32  0.77  0.32   NaN  0.10
+20  TULIP-LN1    anifro_int      none  0.61  0.41   0  0.33  0.21  0.33   NaN  0.07
+21  TULIP-LN1  anifro_basic      none -0.84  0.50   0  0.33  0.21  0.33   NaN  0.07
+22  ORCHID-LN    guselkumab      none -0.95  1.07   0  0.32  0.20  0.32   NaN  0.09
+23   NOBILITY  obinutuzumab  molecule  0.60  0.40   0  0.31  0.18  0.46  0.60  0.10
+24     SELUNE   secukinumab      none -0.55  0.32   0  0.37  0.25  0.37   NaN  0.05
+25    REGENCY  obinutuzumab  molecule  0.57  0.25   0  0.30  0.15  0.41  0.38  0.10
+26  CALIBRATE     belimumab  molecule  0.45  0.62   0  0.32  0.19  0.47  0.66  0.10
+27     ALLURE     abatacept  molecule  0.29  0.20   0  0.32  0.17  0.23  0.63  0.11
+28   BLISS-LN     belimumab  molecule  0.55  0.22   0  0.29  0.14  0.32  0.20  0.10
+
+TASK C' rows 13  tau2= 0.089
+  C0: IV-MSE=0.224  noise-corr=0.531
+  C1: IV-MSE=0.577  noise-corr=0.219
+  C2: IV-MSE=0.251  noise-corr=0.288
+        trial           arm  te  tl    de   see    dl   sel    C0   C1    C2
+0    ALXN2050        fD_120  26  50  1.10  1.31 -2.03  1.60  1.10  0.0  0.36
+1    ALXN2050        fD_180  26  50  0.34  1.11 -1.02  0.84  0.34  0.0  0.32
+2     AURA-LV     vocl_high  24  48  0.44  0.36  0.73  0.33  0.44  0.0  0.37
+3     AURA-LV      vocl_low  24  48  0.69  0.35  1.12  0.33  0.69  0.0  0.48
+4      AURORA   voclosporin  24  52  0.67  0.25  0.86  0.23  0.67  0.0  0.53
+5    BI655064        bi_120  26  52 -0.37  0.57 -0.36  0.54 -0.37  0.0  0.17
+6    BI655064        bi_180  26  52  0.50  0.54 -0.09  0.54  0.50  0.0  0.36
+7    BI655064        bi_240  26  52 -0.11  0.46 -0.10  0.44 -0.11  0.0  0.19
+8   CALIBRATE     belimumab  24  48  0.29  0.68  0.26  0.61  0.29  0.0  0.31
+9   CALIBRATE     belimumab  24  96  0.29  0.68  0.45  0.62  0.29  0.0  0.31
+10   NOBILITY  obinutuzumab  24  52 -0.10  0.40  0.60  0.40 -0.10  0.0  0.17
+11  ORCHID-LN    guselkumab  24  52 -0.07  0.85 -0.95  1.07 -0.07  0.0  0.28
+12  SANCTUARY   ravulizumab  26  50  0.24  0.65  0.42  0.58  0.24  0.0  0.30

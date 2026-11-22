@@ -1,0 +1,44 @@
+trial,nct,arm,molecule,target,cls,week,r_drug,n_drug,r_ctrl,n_ctrl,measure_drug,measure_ctrl,source
+ACCESS,NCT00774852,abatacept,abatacept,CD80/86,slow,24,22,66,21,68,0,0,ctgov
+ALLURE,NCT01714817,abatacept,abatacept,CD80/86,slow,52,71,202,68,203,0,0,ctgov
+ALLURE,NCT01714817,abatacept,abatacept,CD80/86,slow,104,123,202,109,203,6,6,ctgov
+ALXN2050,NCT05097989,fD_120,ALXN2050,factor D,fast,26,1,4,1,11,4,4,ctgov
+ALXN2050,NCT05097989,fD_120,ALXN2050,factor D,fast,50,0,4,5,11,4,4,ctgov
+ALXN2050,NCT05097989,fD_180,ALXN2050,factor D,fast,26,2,14,1,11,4,4,ctgov
+ALXN2050,NCT05097989,fD_180,ALXN2050,factor D,fast,50,3,14,5,11,4,4,ctgov
+ATLAS,NCT01499355,biib_20,BIIB023,TWEAK,fast,52,4,48,3,48,1,1,ctgov
+ATLAS,NCT01499355,biib_3,BIIB023,TWEAK,fast,52,4,49,3,48,1,1,ctgov
+AURA-LV,NCT02141672,vocl_high,voclosporin,calcineurin,fast,24,24,88,17,88,0,0,ctgov
+AURA-LV,NCT02141672,vocl_high,voclosporin,calcineurin,fast,48,35,88,21,88,1,1,ctgov
+AURA-LV,NCT02141672,vocl_low,voclosporin,calcineurin,fast,24,29,89,17,88,0,0,ctgov
+AURA-LV,NCT02141672,vocl_low,voclosporin,calcineurin,fast,48,44,89,21,88,1,1,ctgov
+AURORA,NCT03021499,voclosporin,voclosporin,calcineurin,fast,24,58,179,35,178,3,3,ctgov
+AURORA,NCT03021499,voclosporin,voclosporin,calcineurin,fast,52,73,179,40,178,0,0,ctgov
+BELONG,NCT00626197,ocre_1000,ocrelizumab,CD20,slow,48,23,73,26,75,0,0,ctgov
+BELONG,NCT00626197,ocre_400,ocrelizumab,CD20,slow,48,32,75,26,75,0,0,ctgov
+BI655064,NCT02770170,bi_120,BI655064,CD40,slow,26,6,21,15,40,1,1,ctgov
+BI655064,NCT02770170,bi_120,BI655064,CD40,slow,52,8,21,19,40,0,0,ctgov
+BI655064,NCT02770170,bi_180,BI655064,CD40,slow,26,10,20,15,40,1,1,ctgov
+BI655064,NCT02770170,bi_180,BI655064,CD40,slow,52,9,20,19,40,0,0,ctgov
+BI655064,NCT02770170,bi_240,BI655064,CD40,slow,26,14,40,15,40,1,1,ctgov
+BI655064,NCT02770170,bi_240,BI655064,CD40,slow,52,18,40,19,40,0,0,ctgov
+BLISS-LN,NCT01639339,belimumab,belimumab,BAFF,slow,104,67,223,44,223,1,1,ctgov
+BMS-LN,NCT00430677,abata_10,abatacept,CD80/86,slow,52,11,99,8,100,2,2,ctgov
+BMS-LN,NCT00430677,abata_30,abatacept,CD80/86,slow,52,9,99,8,100,2,2,ctgov
+CALIBRATE,NCT02260934,belimumab,belimumab,BAFF,slow,24,6,21,5,22,3,3,ctgov
+CALIBRATE,NCT02260934,belimumab,belimumab,BAFF,slow,48,9,21,8,22,3,3,ctgov
+CALIBRATE,NCT02260934,belimumab,belimumab,BAFF,slow,96,9,21,7,22,3,3,ctgov
+CFZ533,NCT03610516,iscalimab,iscalimab,CD40,slow,24,13,37,4,18,11,11,ctgov
+LUNAR,NCT00282347,rituximab,rituximab,CD20,slow,52,19,72,22,72,0,0,ctgov
+NOBILITY,NCT02550652,obinutuzumab,obinutuzumab,CD20,slow,24,16,63,17,62,4,4,ctgov
+NOBILITY,NCT02550652,obinutuzumab,obinutuzumab,CD20,slow,52,22,63,14,62,0,0,ctgov
+ORCHID-LN,NCT04376827,guselkumab,guselkumab,IL-23,slow,24,3,17,3,16,1,1,ctgov
+ORCHID-LN,NCT04376827,guselkumab,guselkumab,IL-23,slow,52,1,11,3,12,2,2,ctgov
+PALIZADE,NCT05781750,zeto_30,zetomipzomib,immunoproteasome,slow,25,1,16,3,15,2,2,ctgov
+PALIZADE,NCT05781750,zeto_60,zetomipzomib,immunoproteasome,slow,25,4,15,3,15,2,2,ctgov
+REGENCY,NCT04221477,obinutuzumab,obinutuzumab,CD20,slow,76,63,135,45,136,0,0,ctgov
+SANCTUARY,NCT04564339,ravulizumab,ravulizumab,C5,fast,26,10,38,4,19,10,10,ctgov
+SANCTUARY,NCT04564339,ravulizumab,ravulizumab,C5,fast,50,16,38,6,19,10,10,ctgov
+SELUNE,NCT04181762,secukinumab,secukinumab,IL-17A,slow,52,24,91,35,91,0,0,ctgov
+TULIP-LN1,NCT02547922,anifro_basic,anifrolumab,IFNAR,slow,52,7,45,15,49,1,1,ctgov
+TULIP-LN1,NCT02547922,anifro_int,anifrolumab,IFNAR,slow,52,23,51,15,49,1,1,ctgov

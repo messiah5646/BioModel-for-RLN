@@ -1,0 +1,55 @@
+        trial           arm  week_86  lor_86  se_86  week_new  lor_new  se_new    ok
+0      ACCESS     abatacept     24.0    0.11   0.37        24    0.111   0.367  True
+1      CFZ533     iscalimab     24.0    0.57   0.64        24    0.574   0.637  True
+2    PALIZADE       zeto_60     25.0    0.33   0.82        25    0.335   0.822  True
+3    PALIZADE       zeto_30     25.0   -1.06   1.05        25   -1.062   1.047  True
+4      BELONG     ocre_1000     48.0   -0.14   0.35        48   -0.140   0.347  True
+5      BELONG      ocre_400     48.0    0.33   0.33        48    0.333   0.334  True
+6     AURA-LV      vocl_low     48.0    1.12   0.33        48    1.122   0.325  True
+7     AURA-LV     vocl_high     48.0    0.73   0.33        48    0.734   0.329  True
+8    ALXN2050        fD_120     50.0   -2.03   1.60        50   -2.030   1.599  True
+9    ALXN2050        fD_180     50.0   -1.02   0.84        50   -1.023   0.842  True
+10  SANCTUARY   ravulizumab     50.0    0.42   0.58        50    0.421   0.577  True
+11  ORCHID-LN    guselkumab     52.0   -0.95   1.07        52   -0.947   1.074  True
+12  TULIP-LN1    anifro_int     52.0    0.61   0.41        52    0.607   0.414  True
+13     SELUNE   secukinumab     52.0   -0.55   0.32        52   -0.549   0.319  True
+14     BMS-LN      abata_30     52.0    0.13   0.49        52    0.133   0.495  True
+15   NOBILITY  obinutuzumab     52.0    0.60   0.40        52    0.595   0.398  True
+16     AURORA   voclosporin     52.0    0.86   0.23        52    0.859   0.234  True
+17     BMS-LN      abata_10     52.0    0.35   0.48        52    0.346   0.476  True
+18      LUNAR     rituximab     52.0   -0.20   0.37        52   -0.201   0.366  True
+19      ATLAS       biib_20     52.0    0.27   0.74        52    0.274   0.743  True
+20      ATLAS        biib_3     52.0    0.25   0.74        52    0.251   0.743  True
+21   BI655064        bi_120     52.0   -0.36   0.54        52   -0.365   0.538  True
+22  TULIP-LN1  anifro_basic     52.0   -0.84   0.50        52   -0.836   0.503  True
+23   BI655064        bi_240     52.0   -0.10   0.44        52   -0.098   0.443  True
+24   BI655064        bi_180     52.0   -0.09   0.54        52   -0.093   0.539  True
+25    REGENCY  obinutuzumab     76.0    0.57   0.25        76    0.566   0.250  True
+26  CALIBRATE     belimumab     96.0    0.45   0.62        96    0.452   0.619  True
+27     ALLURE     abatacept    104.0    0.29   0.20       104    0.293   0.201  True
+28   BLISS-LN     belimumab    104.0    0.55   0.22       104    0.554   0.222  True
+P1 True (rebuilt arms 29 )
+        trial           arm  te_86    tl  de_86  see_86  dl_86  sel_86  te_new  de_new  see_new  dl_new  sel_new    ok
+0    ALXN2050        fD_120   26.0  50.0   1.10    1.31  -2.03    1.60      26    1.10     1.31   -2.03     1.60  True
+1    ALXN2050        fD_180   26.0  50.0   0.34    1.11  -1.02    0.84      26    0.34     1.11   -1.02     0.84  True
+2     AURA-LV     vocl_high   24.0  48.0   0.44    0.36   0.73    0.33      24    0.44     0.36    0.73     0.33  True
+3     AURA-LV      vocl_low   24.0  48.0   0.69    0.35   1.12    0.33      24    0.69     0.35    1.12     0.33  True
+4      AURORA   voclosporin   24.0  52.0   0.67    0.25   0.86    0.23      24    0.67     0.25    0.86     0.23  True
+5    BI655064        bi_120   26.0  52.0  -0.37    0.57  -0.36    0.54      26   -0.37     0.57   -0.36     0.54  True
+6    BI655064        bi_180   26.0  52.0   0.50    0.54  -0.09    0.54      26    0.50     0.54   -0.09     0.54  True
+7    BI655064        bi_240   26.0  52.0  -0.11    0.46  -0.10    0.44      26   -0.11     0.46   -0.10     0.44  True
+8   CALIBRATE     belimumab   24.0  48.0   0.29    0.68   0.26    0.61      24    0.29     0.68    0.26     0.61  True
+9   CALIBRATE     belimumab   24.0  96.0   0.29    0.68   0.45    0.62      24    0.29     0.68    0.45     0.62  True
+10   NOBILITY  obinutuzumab   24.0  52.0  -0.10    0.40   0.60    0.40      24   -0.10     0.40    0.60     0.40  True
+11  ORCHID-LN    guselkumab   24.0  52.0  -0.07    0.85  -0.95    1.07      24   -0.07     0.85   -0.95     1.07  True
+12  SANCTUARY   ravulizumab   26.0  50.0   0.24    0.65   0.42    0.58      26    0.24     0.65    0.42     0.58  True
+P2 True (rebuilt rows 13 )
+IV-MSE 86  [0.309, 0.167, 0.104, 0.094, 0.33, 0.254, 0.207, 0.193, 0.224, 0.577, 0.251]
+IV-MSE new [0.309, 0.167, 0.104, 0.094, 0.33, 0.254, 0.207, 0.193, 0.224, 0.577, 0.251]
+P3 True
+PASS
+P4 arm table: matched 32 / 32 rows; max |diff| 0.005
+r90 NOBILITY_obinutuzumab_wk104 frozen 0.507 0.3 | rebuilt 0.507 0.3
+r90 TULIP-LN1_anifro_int_wk104 frozen 0.392 0.248 | rebuilt 0.392 0.248
+r90 TULIP-LN1_anifro_basic_wk104 frozen 0.131 0.254 | rebuilt 0.131 0.254
+W1 13 frozen forecasts: max |diff| logOR/sd from full-precision rebuilt table 0.004
