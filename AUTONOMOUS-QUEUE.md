@@ -24,7 +24,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [done] Q6 (round 90: frozen wk-104 forecasts for NOBILITY/TULIP-LN; PASS, MSE 0.055 vs carry-forward 0.242) Extend resp_table.csv with published later visits (NOBILITY wk76/104, BLISS-LN wk52 CRR, TULIP-LN
   wk104) and re-score lumen_forecast.py leave-one-trial-out; pre-register first.
 - [done] Q7 (found GSE224705 blood responders n=448, GSE200306 serial biopsies; round 91 run on GSE200306) Search for patient-level refractory-LN switch data that is public (no access requests); catalogue only.
-- [doing] Q8 Research doc: D2 LN map, then D1, D4, D5 ... in the doc's order.
+- [done] Q8 (round 95: D2 LN map tab written; biopsy activity and chronicity are two separate axes in human data, matching the six-state split; kidney immune response shifts myeloid -> lymphoid and kidney IFN falls as chronicity rises; commit f5a6a29) Research doc: D2 LN map (D1 onward moved to Q20).
 - [weekly] W1 (last done 2026-11-21, round 94: no LN trial newly posted results; 13 unreported LN RCTs given frozen prior-only forecasts in prospective/w1/, commit 631d3fc; nothing scorable yet) Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
   prediction in experiments/lumen-bench/prospective/ BEFORE reading results, then score it. This is the real test.
 - [weekly] W2 Check Virtual Cell Challenge 2026 winners and new single-cell lupus datasets on GEO/CELLxGENE.
@@ -38,3 +38,6 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [todo] Q16 (round 93 follow-up) Damage-floor test: in AURORA biopsy sub-study or LNTN aggregates, check whether baseline chronicity >=4 caps proteinuria response (lower plateau, not slower rate) in the six-state model. Pre-register.
 - [todo] Q17 (round 94 follow-up) Rebuild resp_table.csv (CRR counts per arm per visit) from data/real/ctgov/lupus_with_results.json.gz with a script, and commit it with git add -f so it is never lost again; confirm it reproduces result86.txt and the round-94 reconstructed arm table.
 - [todo] Q18 (round 94 follow-up) Each W1 run: re-check the 13 trials in prospective/w1/w1_frozen_2026-11-21.json for posted results and score them under PREREG-W1; add early read-out updates only as separately frozen files, never edits.
+- [todo] Q19 (round 95 follow-up) Pre-register and test in GSE200306 (or another public LN biopsy set with chronicity index): baseline kidney IFN score correlates NEGATIVELY with NIH chronicity index (AMP 2026 claim). Compare with a trivial baseline (chronicity vs proteinuria/eGFR alone).
+- [todo] Q20 Research doc: D1 SLE map, then D4, D5, D6 ... in the doc's order (one deliverable per run).
+- [todo] Q21 (round 95 follow-up) D2 gap: write a class V (membranous) LN sub-section from primary literature (PLA2R-negative antigens such as EXT1/EXT2, NCAM1; podocyte-facing mechanism).
