@@ -48,11 +48,15 @@ if STEP == 'c5':
     for _, g in C[C.keep].groupby(['gsm', 'ctype']): C.loc[rng.choice(g.index.values, min(100, len(g)), replace=False), 'sub'] = True
     C.to_pickle(f'{W}/gse_cells_annot.pkl')
     np.savez(f'{W}/c5_latent.npz', pca_p=pca_p, scvi_p=zp, pca_g=pca_g, scvi_g=zg, epochs=len(m.history['elbo_train']))
+if STEP in ('c5', 'c5sysvi'):  # 'c5sysvi' resumes here from saved files (bug fix: C.sub -> C['sub'])
+    k3 = Mp.sub3.values; P = mk(Xp[k3], Mp[k3][['sample', 'donor_id', 'library_uuid', 'author_cell_type', 'y']].astype(str))
+    hv = pd.read_csv(f'{W}/c5_hvg.csv').iloc[:, 0].astype(str).values; Ps = P[:, hv].copy(); C = pd.read_pickle(f'{W}/gse_cells_annot.pkl')
+    hvi = pd.Index(genes).get_indexer(hv); Xg = sp.vstack([sp.load_npz(f'{W}/gse/{g}.npz').tocsr()[:, hvi] for g in C.gsm.unique()]).tocsr()
     # sysVI: transductive, label-free; Perez C3 sub + GSE sub, system = dataset, covariate = library/GSM
-    gs = C.sub.values; S = ad.concat([Ps, ad.AnnData(Xg[gs].astype(np.float32), obs=pd.DataFrame({'library_uuid': C.gsm.values[gs]}), var=pd.DataFrame(index=hv))], join='inner')
+    gs = C['sub'].values; S = ad.concat([Ps, ad.AnnData(Xg[gs].astype(np.float32), obs=pd.DataFrame({'library_uuid': C.gsm.values[gs]}), var=pd.DataFrame(index=hv))], join='inner')
     S.obs['system'] = ['perez'] * Ps.n_obs + ['gse'] * int(gs.sum()); S.obs['batch'] = S.obs.library_uuid.astype(str); S.obs_names = [f's{i}' for i in range(S.n_obs)]
     zs = sysvi_fit(S, 'system', 'batch'); np.savez(f'{W}/c5_sysvi.npz', p=zs[:Ps.n_obs], g=zs[Ps.n_obs:], gidx=np.flatnonzero(gs)); print('c5 done', flush=True)
-else:
+if STEP == 'bridge':
     kb = Mp.subb.values; B = mk(Xp[kb], Mp[kb][['bsample', 'donor_id', 'library_uuid', 'Processing_Cohort', 'author_cell_type']].astype(str))
     hv = hvg(B, 'library_uuid'); Bs = B[:, hv].copy(); pca_b = pca_fit(lognorm(Bs.X))[3]
     m = scvi_fit(Bs.copy(), 'library_uuid'); zb = m.get_latent_representation()
