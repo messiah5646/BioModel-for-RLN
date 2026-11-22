@@ -1,0 +1,10 @@
+== groups ['low', 'high']
+  pool  params=[0.664 0.332] SSE=0.6672 AICc=-21.4
+  floor params=[0.371 0.933 0.375] SSE=0.0099 AICc=-59.2
+  rate  params=[0.911 0.428 0.026] SSE=0.0817 AICc=-38.1
+  held-out MAE at 36 mo (fit on 3,6 mo): {'pool': np.float64(0.26), 'floor': np.float64(0.053), 'rate': np.float64(0.225), 'carry': np.float64(0.095)}
+== groups ['low', 'moderate', 'high']
+  pool  params=[0.67  0.328] SSE=0.6690 AICc=-41.7
+  floor params=[0.354 0.938 0.673 0.377] SSE=0.0118 AICc=-95.2
+  rate  params=[0.82  0.584 0.194 0.032] SSE=0.1514 AICc=-56.9
+  held-out MAE at 36 mo (fit on 3,6 mo): {'pool': np.float64(0.189), 'floor': np.float64(0.057), 'rate': np.float64(0.214), 'carry': np.float64(0.107)}
