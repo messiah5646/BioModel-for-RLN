@@ -1,0 +1,113 @@
+{
+ "UPCR_AUC": {
+  "raw_IQR (primary)": 0.843931210719187,
+  "log_IQR": 0.8060837330022989,
+  "Youden_2x2 (1.3 g)": 0.7492414731115296,
+  "AMP month-3 proteinuria (round 93)": 0.8
+ },
+ "exposure_AUC": {
+  "MPA-AUC ROC, LSM 2026 paediatric n65 (primary)": 0.7,
+  "MPA-AUC meta-analysis 16 studies, mean/SD (secondary)": 0.7734994258021184,
+  "LUNAR complete peripheral B-cell depletion 2x2 (wk78 window)": 0.6214995483288166
+ },
+ "grid": {
+  "raw_IQR (primary) | MPA-AUC ROC, LSM 2026 paediatric n65 (primary)": {
+   "-0.2": 0.051,
+   "0": 0.029,
+   "0.2": 0.012,
+   "0.4": 0.002,
+   "0.6": 0.001
+  },
+  "raw_IQR (primary) | MPA-AUC meta-analysis 16 studies, mean/SD (secondary)": {
+   "-0.2": 0.076,
+   "0": 0.052,
+   "0.2": 0.032,
+   "0.4": 0.016,
+   "0.6": 0.004
+  },
+  "raw_IQR (primary) | LUNAR complete peripheral B-cell depletion 2x2 (wk78 window)": {
+   "-0.2": 0.028,
+   "0": 0.011,
+   "0.2": 0.001,
+   "0.4": 0.001,
+   "0.6": 0.015
+  },
+  "log_IQR | MPA-AUC ROC, LSM 2026 paediatric n65 (primary)": {
+   "-0.2": 0.062,
+   "0": 0.038,
+   "0.2": 0.019,
+   "0.4": 0.006,
+   "0.6": 0.0
+  },
+  "log_IQR | MPA-AUC meta-analysis 16 studies, mean/SD (secondary)": {
+   "-0.2": 0.093,
+   "0": 0.068,
+   "0.2": 0.046,
+   "0.4": 0.028,
+   "0.6": 0.013
+  },
+  "log_IQR | LUNAR complete peripheral B-cell depletion 2x2 (wk78 window)": {
+   "-0.2": 0.034,
+   "0": 0.014,
+   "0.2": 0.003,
+   "0.4": 0.0,
+   "0.6": 0.01
+  },
+  "Youden_2x2 (1.3 g) | MPA-AUC ROC, LSM 2026 paediatric n65 (primary)": {
+   "-0.2": 0.08,
+   "0": 0.054,
+   "0.2": 0.033,
+   "0.4": 0.017,
+   "0.6": 0.005
+  },
+  "Youden_2x2 (1.3 g) | MPA-AUC meta-analysis 16 studies, mean/SD (secondary)": {
+   "-0.2": 0.121,
+   "0": 0.094,
+   "0.2": 0.072,
+   "0.4": 0.054,
+   "0.6": 0.039
+  },
+  "Youden_2x2 (1.3 g) | LUNAR complete peripheral B-cell depletion 2x2 (wk78 window)": {
+   "-0.2": 0.042,
+   "0": 0.021,
+   "0.2": 0.007,
+   "0.4": 0.0,
+   "0.6": 0.003
+  },
+  "AMP month-3 proteinuria (round 93) | MPA-AUC ROC, LSM 2026 paediatric n65 (primary)": {
+   "-0.2": 0.064,
+   "0": 0.039,
+   "0.2": 0.02,
+   "0.4": 0.007,
+   "0.6": 0.0
+  },
+  "AMP month-3 proteinuria (round 93) | MPA-AUC meta-analysis 16 studies, mean/SD (secondary)": {
+   "-0.2": 0.096,
+   "0": 0.07,
+   "0.2": 0.049,
+   "0.4": 0.03,
+   "0.6": 0.015
+  },
+  "AMP month-3 proteinuria (round 93) | LUNAR complete peripheral B-cell depletion 2x2 (wk78 window)": {
+   "-0.2": 0.035,
+   "0": 0.015,
+   "0.2": 0.003,
+   "0.4": 0.0,
+   "0.6": 0.01
+  }
+ },
+ "verdict": {
+  "MPA-AUC ROC, LSM 2026 paediatric n65 (primary)": [
+   "B-CONTINGENT",
+   -0.2
+  ],
+  "MPA-AUC meta-analysis 16 studies, mean/SD (secondary)": [
+   "B-CONTINGENT",
+   0.01
+  ],
+  "LUNAR complete peripheral B-cell depletion 2x2 (wk78 window)": [
+   "B-FAIL",
+   null
+  ]
+ }
+}
