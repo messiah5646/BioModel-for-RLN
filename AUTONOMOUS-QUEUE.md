@@ -28,8 +28,8 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [weekly] W1 (last done 2026-11-21, round 94: no LN trial newly posted results; 13 unreported LN RCTs given frozen prior-only forecasts in prospective/w1/, commit 631d3fc; nothing scorable yet) Check ClinicalTrials.gov for LN trials that newly posted results; for each, FREEZE a lumen_forecast
   prediction in experiments/lumen-bench/prospective/ BEFORE reading results, then score it. This is the real test.
 - [weekly] W2 Check Virtual Cell Challenge 2026 winners and new single-cell lupus datasets on GEO/CELLxGENE.
-- [doing] Q9 Add a flare early-warning test using urine markers (CD163/CD206) if any public longitudinal urine dataset exists (round 89 follow-up).
-- [todo] Q10 Put IFN in the patient-state layer as a therapy-lowered set point; re-fit the CAR-T and CD3xCD19 kinetics jointly (round 89 follow-up).
+- [blocked: no open patient-level longitudinal urine data with flare labels; best set AMP Phase II urine proteomics needs Synapse login+clickwrap; catalogue + frozen PREREG in experiments/urine-flare, commit 73d8dc0] Q9 Add a flare early-warning test using urine markers (CD163/CD206) if any public longitudinal urine dataset exists (round 89 follow-up).
+- [doing] Q10 Put IFN in the patient-state layer as a therapy-lowered set point; re-fit the CAR-T and CD3xCD19 kinetics jointly (round 89 follow-up).
 - [todo] Q11 GSE224705 (448 blood samples, MMF/AZA responders vs non-responders, longitudinal): pre-register whether a blood IFN/plasmablast signature predicts MMF response beyond UPCR and SLEDAI.
 - [todo] Q12 Validate the round-91 H3 interstitial myeloid/TGF-beta non-responder programme in an independent kidney dataset (AMP, KURDS-like, or GEO), pre-registered.
 - [todo] Q13 (round 92 follow-up) Batch-aware embedding test: regress out or match on QC covariates (% mito, counts) and re-run IFN vs PCA vs Geneformer LODO; also test whether the IFN score alone survives QC adjustment. Pre-register.
