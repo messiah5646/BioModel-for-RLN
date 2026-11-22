@@ -11,7 +11,17 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 5. Never contact anyone, create accounts, submit forms, or spend money. Never delete data.
 6. Research and simulation only. No clinical advice.
 
+## Open-data-only policy (Thomas, 2026-11-22)
+Use only data downloadable without an account or a data-use agreement (GEO, CELLxGENE, ArrayExpress/BioStudies, ClinicalTrials.gov,
+Zenodo/figshare, paper supplements). ARK/AMP Synapse is ALL controlled (every file carries the ARK controlled AR), ImmPort and dbGaP
+need accounts: do not plan around them. When a task needs such data, look for an open substitute or mark it [dropped: not open].
+
 ## Queue
+- [doing] Q0 OPEN-DATA HARVEST (Thomas: "get all of them"). Step 1 (live session 2026-11-22): stream the metadata header of every
+  GEO series matrix in data/real/catalogues/geo_lupus_series.csv (597) -> per-sample index data/real/catalogues/geo_sample_index.tsv.gz
+  + per-series label flags (nephritis, SLEDAI, response, UPCR, biopsy class, timepoint). Step 2: add CELLxGENE, ArrayExpress and
+  Zenodo lupus datasets to the same index. Step 3: rank datasets that can answer blocked/pending queue items (Q12, Q14, Q15, Q16, Q19,
+  Q22, Q23, Q26) and append concrete [todo] tests. Expression files are NOT committed (size); runs re-download on demand.
 - [done] Q1 GSE254176 flare test (round 89: all 4 tests fail; IFN is a patient set point, not a flare marker): pre-register whether the monocyte IFN score rises BEFORE a flare (pre-flare vs
   post-flare samples, 6 patients), then run it. Data: /home/claude/data/geo/GSE254176 (re-download from GEO if missing).
 - [blocked: nephritis/SLEDAI labels not public (dbGaP phs002812 controlled); see experiments/perez-ln/BLOCKED.md] Q2 Perez 2022 (CELLxGENE 436154da): stream a subset; pre-register whether the blood IFN score separates SLE
@@ -43,7 +53,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 - [todo] Q21 (round 95 follow-up) D2 gap: write a class V (membranous) LN sub-section from primary literature (PLA2R-negative antigens such as EXT1/EXT2, NCAM1; podocyte-facing mechanism).
 - [todo] Q22 (round 96 follow-up) Out-of-sample test of the frozen set-point multiplier (setpoint.py, F_LATE 0.73, flat to day 28): find a third public B-cell-depletion lupus blood dataset (rituximab/obinutuzumab bulk or scRNA, another CAR-T cohort) and pre-register that baseline x 0.73 beats carry-forward and the population mean at the late visit.
 - [todo] Q23 (round 96 follow-up) Identify the IFN lag and half-life: look for public lupus blood data with weekly or day-14/day-56 samples after B-cell depletion; until then the lag (28 d) and half-life are bounds, not estimates.
-- [blocked: needs Thomas's Synapse login + ARK clickwrap] Q24 (Q9 follow-up) Run experiments/urine-flare/PREREG-AMP-urine.md on AMP Phase II urine proteomics (syn53124971) once the files are in Downloads/BioModel-data/amp-urine.
+- [dropped 2026-11-22: Thomas chose open data only; ARK/AMP data are all controlled-access (DUC + institutional signing official), checked file by file] Q24 (Q9 follow-up) Run experiments/urine-flare/PREREG-AMP-urine.md on AMP Phase II urine proteomics (syn53124971) once the files are in Downloads/BioModel-data/amp-urine.
 - [todo] Q25 (round 97 follow-up) GSE224705 longitudinal: does the within-patient IFN6 trajectory (first->last visit) differ between MMF responders and non-responders (KURDS claim: IFN falls only in responders)? Pre-register a trajectory-vs-carry-forward test; patient-level, labels are constant per patient.
 - [todo] Q26 (round 97 follow-up) Exploratory AZA signal (higher baseline IFN6 with non-response, n 18) needs an independent AZA cohort; search GEO for azathioprine-treated SLE/LN blood with outcome labels; catalogue, then pre-register.
 - [todo] Q27 (round 98 follow-up) The QC-matched result says the PCA/Geneformer edge over IFN is mostly technical. Pre-register a within-library test: a dataset where perturbed and control cells share one library (hashtag/multiplexed lupus PBMC stimulation, e.g. IFN-alpha in vitro on GEO), then rerun IFN vs PCA vs Geneformer.
