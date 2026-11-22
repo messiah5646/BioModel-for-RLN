@@ -1,0 +1,249 @@
+{
+ "results": {
+  "B0": {
+   "auc": 0.74,
+   "paired_acc": 0.9,
+   "signflip_p": 0.0293
+  },
+  "B1": {
+   "auc": 0.61,
+   "paired_acc": 0.7,
+   "signflip_p": 0.0703
+  },
+  "B2": {
+   "auc": 0.81,
+   "paired_acc": 0.9,
+   "signflip_p": 0.002
+  },
+  "B3": {
+   "auc": 0.57,
+   "paired_acc": 0.5,
+   "signflip_p": 0.2354
+  },
+  "B4": {
+   "auc": 0.94,
+   "paired_acc": 0.9,
+   "signflip_p": 0.002
+  },
+  "D1": {
+   "auc": 0.91,
+   "paired_acc": 0.9,
+   "signflip_p": 0.002
+  },
+  "D1+B0": {
+   "auc": 0.91,
+   "paired_acc": 0.9,
+   "signflip_p": 0.0039
+  }
+ },
+ "rule1": {
+  "best": "B4",
+  "delta": -0.03,
+  "ci": [
+   -0.15,
+   0.08
+  ],
+  "pass": false
+ },
+ "rule2": {
+  "delta": 0.17,
+  "d1b0_gt_b0": true,
+  "pass": true
+ },
+ "rule3": {
+  "matched_cells": 14240,
+  "B0_matched": 0.43,
+  "B4_matched": 0.87,
+  "D1_matched": 0.93,
+  "b0_check": true,
+  "d1_gain_survives": true,
+  "pass": true
+ },
+ "rule4": "not applicable (library == donor x timepoint)",
+ "H1": false,
+ "n_samples": 20,
+ "pb_types": [
+  "CD4_T",
+  "CD8_T",
+  "NK",
+  "monocyte",
+  "other_T",
+  "platelet_other"
+ ],
+ "latent_types": [
+  "B_plasma",
+  "CD4_T",
+  "CD8_T",
+  "NK",
+  "monocyte",
+  "other_T",
+  "platelet_other"
+ ],
+ "folds": 11,
+ "scvi_epochs": {
+  "P5": 200,
+  "P8": 200,
+  "P9": 200,
+  "P12": 200,
+  "P4": 200,
+  "P3": 200,
+  "P11": 200,
+  "P7": 200,
+  "P2": 200,
+  "P6": 200,
+  "P1": 200
+ },
+ "qc_fail_rate_by_type": {
+  "CD4_T": 0.001,
+  "CD8_T": 0.001,
+  "other_T": 0.011,
+  "NK": 0.001,
+  "B_plasma": 0.077,
+  "monocyte": 0.007,
+  "neutrophil": 0.031,
+  "platelet_other": 0.111,
+  "DC": 0.007
+ },
+ "removal": [
+  {
+   "sample": "S01_Base",
+   "n": 6449,
+   "qc": 26,
+   "dbl": 0,
+   "tp": "Base"
+  },
+  {
+   "sample": "S01_M3",
+   "n": 8481,
+   "qc": 28,
+   "dbl": 1,
+   "tp": "M3"
+  },
+  {
+   "sample": "S02_Base",
+   "n": 8302,
+   "qc": 51,
+   "dbl": 0,
+   "tp": "Base"
+  },
+  {
+   "sample": "S02_M3",
+   "n": 5315,
+   "qc": 40,
+   "dbl": 1,
+   "tp": "M3"
+  },
+  {
+   "sample": "S03_Base",
+   "n": 5769,
+   "qc": 321,
+   "dbl": 2,
+   "tp": "Base"
+  },
+  {
+   "sample": "S03_M3",
+   "n": 8960,
+   "qc": 79,
+   "dbl": 0,
+   "tp": "M3"
+  },
+  {
+   "sample": "S04_Base",
+   "n": 8063,
+   "qc": 77,
+   "dbl": 0,
+   "tp": "Base"
+  },
+  {
+   "sample": "S04_M3",
+   "n": 7250,
+   "qc": 199,
+   "dbl": 0,
+   "tp": "M3"
+  },
+  {
+   "sample": "S05_Base",
+   "n": 7794,
+   "qc": 62,
+   "dbl": 1,
+   "tp": "Base"
+  },
+  {
+   "sample": "S05_M3",
+   "n": 10769,
+   "qc": 273,
+   "dbl": 1,
+   "tp": "M3"
+  },
+  {
+   "sample": "S06_Base",
+   "n": 11034,
+   "qc": 126,
+   "dbl": 0,
+   "tp": "Base"
+  },
+  {
+   "sample": "S06_M3",
+   "n": 8620,
+   "qc": 178,
+   "dbl": 0,
+   "tp": "M3"
+  },
+  {
+   "sample": "S09_Base",
+   "n": 6076,
+   "qc": 294,
+   "dbl": 0,
+   "tp": "Base"
+  },
+  {
+   "sample": "S09_M3",
+   "n": 9102,
+   "qc": 232,
+   "dbl": 1,
+   "tp": "M3"
+  },
+  {
+   "sample": "S14_Base",
+   "n": 9993,
+   "qc": 52,
+   "dbl": 1,
+   "tp": "Base"
+  },
+  {
+   "sample": "S14_M13",
+   "n": 9503,
+   "qc": 110,
+   "dbl": 3,
+   "tp": "M3"
+  },
+  {
+   "sample": "S16_Base",
+   "n": 2564,
+   "qc": 149,
+   "dbl": 2,
+   "tp": "Base"
+  },
+  {
+   "sample": "S16_M3",
+   "n": 9379,
+   "qc": 164,
+   "dbl": 2,
+   "tp": "M3"
+  },
+  {
+   "sample": "S17_Base",
+   "n": 7494,
+   "qc": 361,
+   "dbl": 2,
+   "tp": "Base"
+  },
+  {
+   "sample": "S17_M3",
+   "n": 4854,
+   "qc": 28,
+   "dbl": 0,
+   "tp": "M3"
+  }
+ ]
+}
