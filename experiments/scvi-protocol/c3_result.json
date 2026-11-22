@@ -1,0 +1,109 @@
+{
+ "contrast": "C3",
+ "n_samples": 20,
+ "n_pos": 10,
+ "results": {
+  "B0": {
+   "auc": 0.33,
+   "paired_acc": 0.3,
+   "signflip_p": 0.9746
+  },
+  "B1": {
+   "auc": 0.26,
+   "paired_acc": 0.3,
+   "signflip_p": 0.9746
+  },
+  "B2": {
+   "auc": 0.75,
+   "paired_acc": 0.6,
+   "signflip_p": 0.0254
+  },
+  "B3": {
+   "auc": 0.48,
+   "paired_acc": 0.4,
+   "signflip_p": 0.7207
+  },
+  "B4": {
+   "auc": 0.31,
+   "paired_acc": 0.4,
+   "signflip_p": 0.9512
+  },
+  "D1": {
+   "auc": 0.5,
+   "paired_acc": 0.5,
+   "signflip_p": 0.4434
+  },
+  "D1+B0": {
+   "auc": 0.55,
+   "paired_acc": 0.8,
+   "signflip_p": 0.4736
+  }
+ },
+ "rule1": {
+  "best": "B2",
+  "delta": -0.25,
+  "ci": [
+   -0.58,
+   0.11
+  ],
+  "pass": false
+ },
+ "rule2": {
+  "delta": 0.17,
+  "d1b0": 0.55,
+  "d1b0_gt_b0": true,
+  "pass": true
+ },
+ "rule3": {
+  "matched_cells": 8194,
+  "B0_matched": 0.53,
+  "B4_matched": 0.4,
+  "D1_matched": 0.5,
+  "b0_check": true,
+  "d1_gain_survives": false,
+  "pass": false
+ },
+ "rule4": {
+  "fold": "1130",
+  "label_skill": 0.225,
+  "library_skill": 0.039,
+  "pass": true
+ },
+ "H1": false,
+ "strict_qc": {
+  "B0": 0.35,
+  "B1": 0.28,
+  "B2": 0.71
+ },
+ "ifn6_means": {
+  "pos_mean": 0.898,
+  "neg_mean": 0.857
+ },
+ "pb_types": [
+  "T4",
+  "T8",
+  "cM"
+ ],
+ "latent_types": [
+  "T4",
+  "T8",
+  "cM"
+ ],
+ "scvi_epochs": {
+  "FLARE011": 200,
+  "FLARE004": 200,
+  "FLARE001": 200,
+  "1763": 200,
+  "FLARE016": 200,
+  "1586": 200,
+  "1130": 200,
+  "FLARE009": 200,
+  "FLARE010": 200,
+  "FLARE013": 200
+ },
+ "cells": 51483,
+ "removed": 150,
+ "removed_strict": 997,
+ "protected_kept": 157,
+ "sub_cells": 11236
+}
