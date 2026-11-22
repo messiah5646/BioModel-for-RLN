@@ -80,13 +80,14 @@ if stage == 'full':
     a, s = fit_ref(ref, genes)
     q, sq, nm = map_query(s, Q, genes)
     print('query genes zero-filled', nm)
+    s.save(f'{wd}/k1_scanvi_ref', overwrite=True); sq.save(f'{wd}/k1_scanvi_query', overwrite=True)
     Q.obs['pred_scanvi'] = sq.predict(q)
     pr = sq.predict(q, soft=True); Q.obs['maxprob'] = pr.max(1).values
     zr = s.get_latent_representation(a); zq = sq.get_latent_representation(q)
     nn = NearestNeighbors(n_neighbors=15).fit(zr)
     _, idx = nn.kneighbors(zq)
-    rl = a.obs.label_train.values[idx]
-    Q.obs['knn_unc'] = (rl != Q.obs.pred_scanvi.values[:, None]).mean(1)
+    rl = np.asarray(a.obs.label_train.values, dtype=str)[idx]
+    Q.obs['knn_unc'] = (rl != np.asarray(Q.obs.pred_scanvi.values, dtype=str)[:, None]).mean(1)
     # kNN-PCA secondary labels
     Xr, Xq = lognorm(a), lognorm(q)
     p = PCA(50, random_state=0).fit(Xr)
