@@ -40,3 +40,7 @@ Q43 (VCC "copy nearest measured response" baseline) targets response prediction,
 
 ## Expected
 C4: composition and IFN near ceiling (SLE vs control is strong in Perez), so a deep gain >= 0.05 is unlikely. C3: n = 10 pairs, flare/treated each in different libraries, so library effects can mimic the label; FAIL expected.
+
+## Deviation logged 2026-11-22 ~14:20 UTC, BEFORE any evaluation output was seen
+C4 fold f0: batch-aware seurat_v3 HVG selection failed (loess near-singularity in small per-library cell sets, 30 cells/type cap).
+Fallback: same call with span = 1.0 when the default span raises. C3 latents were all computed with the default span.

@@ -20,7 +20,9 @@ pd.Series(fo).to_csv(f'{W}/latent_{C}/folds.csv')
 for d in folds:
     if os.path.exists(f'{W}/latent_{C}/{d}.npz'): continue
     tr = A[A.obs.fold != d].copy(); te = A[A.obs.fold == d].copy()
-    sc.pp.highly_variable_genes(tr, flavor='seurat_v3', n_top_genes=2000, batch_key='library_uuid')
+    try: sc.pp.highly_variable_genes(tr, flavor='seurat_v3', n_top_genes=2000, batch_key='library_uuid')
+    except ValueError:  # deviation logged in PREREG-C3C4-round102.md: loess singular in small libraries -> span 1.0
+        sc.pp.highly_variable_genes(tr, flavor='seurat_v3', n_top_genes=2000, batch_key='library_uuid', span=1.0); print('HVG span 1.0 fallback', d, flush=True)
     hv = tr.var_names[tr.var.highly_variable]
     def ln(a):
         b = a[:, hv].copy(); sc.pp.normalize_total(b, target_sum=1e4); sc.pp.log1p(b); return b
