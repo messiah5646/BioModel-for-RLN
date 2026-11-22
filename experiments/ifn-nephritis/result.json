@@ -1,0 +1,92 @@
+{
+ "describe": {
+  "A": {
+   "n": 158,
+   "n_active_LN": 76,
+   "raw_auc_erSLEDAI": 0.621,
+   "raw_auc_IFN6": 0.63,
+   "spearman_IFN6_erSLEDAI": 0.438,
+   "mean_IFN6_LN": 0.186,
+   "mean_IFN6_noLN": -0.173
+  },
+  "B": {
+   "n": 60,
+   "n_active_LN": 23,
+   "raw_auc_erSLEDAI": 0.759,
+   "raw_auc_IFN6": 0.531,
+   "spearman_IFN6_erSLEDAI": 0.115,
+   "mean_IFN6_LN": -0.005,
+   "mean_IFN6_noLN": 0.003
+  }
+ },
+ "LOCO": {
+  "train A -> test B": {
+   "T1 serology": 0.398,
+   "T0 erSLEDAI": 0.759,
+   "BASE": 0.656,
+   "FULL": 0.636,
+   "IFN-alone": 0.531,
+   "FULL-BASE": -0.02,
+   "FULL-BASE_CI": [
+    -0.084,
+    0.036
+   ],
+   "IFN-T1_CI": [
+    -0.068,
+    0.35
+   ]
+  },
+  "train B -> test A": {
+   "T1 serology": 0.484,
+   "T0 erSLEDAI": 0.621,
+   "BASE": 0.539,
+   "FULL": 0.55,
+   "IFN-alone": 0.37,
+   "FULL-BASE": 0.011,
+   "FULL-BASE_CI": [
+    -0.016,
+    0.037
+   ],
+   "IFN-T1_CI": [
+    -0.245,
+    0.016
+   ]
+  }
+ },
+ "withinCV": {
+  "A": {
+   "T1 serology": 0.529,
+   "T0 erSLEDAI": 0.605,
+   "BASE": 0.632,
+   "FULL": 0.639,
+   "IFN-alone": 0.617,
+   "FULL-BASE": 0.007
+  },
+  "B": {
+   "T1 serology": 0.6,
+   "T0 erSLEDAI": 0.733,
+   "BASE": 0.719,
+   "FULL": 0.698,
+   "IFN-alone": 0.369,
+   "FULL-BASE": -0.021
+  }
+ },
+ "sens_B_continuous_dsDNA": {
+  "BASEc": 0.72,
+  "FULLc": 0.697,
+  "n": 60
+ },
+ "C": {
+  "n": 42,
+  "n_ALN": 29,
+  "auc_IFN6": 0.366,
+  "auc_CI": [
+   0.205,
+   0.531
+  ],
+  "raw_auc_total_SLEDAI_(includes renal items)": 0.568
+ },
+ "H1_PASS": false,
+ "H2_PASS": false,
+ "H3_PASS": false
+}
