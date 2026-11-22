@@ -44,3 +44,8 @@ CI: donor bootstrap (2,000) of AUC differences.
 
 ## Expected (literature + rounds 92/98)
 B2 composition near ceiling (B cells are depleted by design), so a deep gain >= 0.05 is unlikely. A FAIL is the expected outcome.
+
+## Deviation logged 2026-11-22 12:15 UTC, BEFORE any evaluation output was seen
+Sample S08_M3 (donor P7, month 3) was silently killed by the 7 GB memory limit during per-sample QC (largest myeloid sample), so no
+QC/latent data exist for it. Donor P7 is therefore dropped from evaluation (10 donor pairs, 20 samples; sign-flip null 2^10 = 1,024).
+P7's baseline cells stayed in the scVI/PCA training sets of the other folds. A full 11-donor rerun is queued.
