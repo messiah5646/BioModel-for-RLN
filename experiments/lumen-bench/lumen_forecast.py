@@ -10,7 +10,7 @@ Round 116 (2026-11-23): across 40 non-renal SLE trials, molecule/target anchorin
 Round 127 (2026-11-23, RT-1 time-forward test, pre-registered c8e07af): the shrunk early update FAILED (lost to raw
 carry-forward by >=10%); the CLI headline is now the pooled prior even when --early is given (--use-early-update restores it). The function keeps anchor=True as its default so that frozen forecasts and audits
 (check_frozen.py, q53/run_q53.py) reproduce exactly.
-Round 128 (2026-11-23, RT-2, PREREG d5b5f84): a control-arm meta-regression (posting year + steroid-stringent definition)
+Round 129 (2026-11-23, RT-2, PREREG d5b5f84): a control-arm meta-regression (posting year + steroid-stringent definition)
 did NOT beat the pooled control rate (60 trials: INCONCLUSIVE 1.06x; LN 20 trials FAIL 1.17x; time-forward FAIL 1.38x).
 LUMEN therefore outputs relative effects (log OR) only; control rate = pooled, not modelled. Pooled control-rate 95%
 intervals covered 0.88 (LN 0.85) < 0.90, so any future absolute-rate output must widen them.
@@ -71,5 +71,5 @@ if __name__=='__main__':
         else: out['early_update_EMERGING']={k:upd[k] for k in ('early_logOR','post_logOR','post_sd','OR','OR_95') if k in upd}
         out['early_note']=('Round 127 (RT-1, time-forward, PREREG c8e07af): the shrunk early update FAILED, losing to raw carry-forward '
                            'of the early read-out by >=10% (13 arms / 7 trials, voclosporin excluded; Emerging). Headline = pooled prior.')
-    out['control_rate']='pooled, not modelled; absolute arm rates not output (round 128, RT-2 PREREG d5b5f84)'
+    out['control_rate']='pooled, not modelled; absolute arm rates not output (round 129, RT-2 PREREG d5b5f84)'
     print(json.dumps(out,indent=1))

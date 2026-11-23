@@ -1,4 +1,4 @@
-# RESULT RT-20261123-2 (round 128): control-arm response model
+# RESULT RT-20261123-2 (round 129; PREREG was round 128): control-arm response model
 
 PREREG: PREREG-RT2.md, commit d5b5f84 (2026-11-23T17:25:36Z). Code: run_rt2.py. Output: rt2_coding.csv, rt2_predictions.csv,
 rt2_result.json (stamp: run_utc 18:25:37Z, git_head 5ae2eb7).
