@@ -49,7 +49,7 @@ antibody rose (P9) had the lowest IFN. This is the opposite of H1.
 - Report the GEO label inconsistency to the data owners when Thomas does outreach (not contacted by the loop, rule 5).
 
 ## Round 114 self-audit (2026-11-23): two checks, one correction
-1. **Assumption A1 (GEO "Patient N" = paper "SLE #N") now supported.** CD38 mRNA in TCR+ CD8-negative cells at week 0
+1. **Assumption A1 (GEO "Patient N" = paper "SLE #N") is consistent with independent data** (n 5; audit r115 wording). CD38 mRNA in TCR+ CD8-negative cells at week 0
    ranks patients like the paper's flow cytometry (% CD38+ CD4 T, Fig 3b source data): Spearman 0.90, exact p 0.042,
    n = 5 (P3 lowest and P9 highest in both). `check_A1_cd38.py`, out/check_A1_cd38.txt. (CITE-seq CD38 protein could not
    be used: P9's week-0 library has a different 344-antibody panel.)
