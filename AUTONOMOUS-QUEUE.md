@@ -31,11 +31,12 @@ Rounds 91-110 mostly re-confirmed negatives (scVI/Geneformer lose to simple base
     n < 10 patients or on a test that was not pre-registered. An audit round that finds nothing wrong says so.
 11. **Main stays Thomas's review point.** Never push or merge to main. After each audit round, add one line to
     claude/TODO-for-Thomas-at-the-PC.md: "Audit round NN passed/failed; branch rounds-70-72 is ready/not ready to merge."
+12a. **Verifiable pre-registration (round 111).** Push the PREREG, then the data download, then the analysis, as separate commits.
 12. **Sample-size honesty.** Any claim labelled Supported or Established must state n (patients or trials) in the same line.
 
 ## PRIORITY queue (take these first, in order)
 When a P item points at a main-queue item ("P2 = Q53"), mark both done with the same result line.
-- [doing] P1 AUDIT of rounds 91-110 (rule 10). List every Supported/Established claim with its n and whether it was
+- [done] P1 (round 111: audit FAILS on labels, PASSES on code; resp_table/result86/round-90/W1 reproduce exactly; 15 Supported/Established labels -> Emerging incl. IFN set point and LLPC reservoir; round-90 wk-104 PASS is n=2 trials -> Emerging; 19 literature claims held from preprint until n stated; commit 51b5b79) AUDIT of rounds 91-110 (rule 10). List every Supported/Established claim with its n and whether it was
   pre-registered; count tests run; flag claims on n < 10; check rounds 86/90/107 forecaster numbers reproduce from
   build_resp_table.py + lumen_forecast.py. Output: claude/round-111-audit-of-rounds-91-110.md. Decision: which claims
   enter the preprint (P4) and which are downgraded.
@@ -126,3 +127,4 @@ When a P item points at a main-queue item ("P2 = Q53"), mark both done with the 
 - [parked: miRNA proxy, descriptive, cannot change the kidney IFN decision (rule 7)] Q54 (round 108 follow-up; Q19 substitute) Weaker open version of Q19: GSE42648 binary chronicity high/low per repeat biopsy with miRNA only; pre-register whether interferon-induced miRNAs (miR-146a, miR-155) are lower in high-chronicity biopsies, within-patient where both states occur; descriptive if n<10 pairs.
 - [todo] Q55 (round 109/D1 follow-up) Banchereau replication with LUMEN scores: in GSE65391 (longitudinal paediatric SLE), pre-register whether a within-patient plasmablast score tracks visit-level SLEDAI better than IFN6 (mixed model, patient-held-out); trivial baselines = carry-forward SLEDAI and anti-dsDNA/C3. Prediction from D1: plasmablast > IFN6 for activity, IFN6 > plasmablast for patient identity.
 - [todo] Q56 (round 110/D4 follow-up) Plasma-cell reservoir identifiability: from published per-patient or aggregate autoantibody (anti-dsDNA, anti-Sm, vaccine titres) decay curves after CD20 (rituximab/obinutuzumab), CD19 CAR-T, CD38 (daratumumab) and CD19+BCMA CAR-T, pre-register whether a two-pool model (fast B-effector-fed + slow CD19- plasma-cell pool) beats a one-pool exponential on held-out curves (AICc and held-out MAE); trivial baseline = carry-forward titre. Add the state to LUMEN only if it wins.
+- [todo] Q57 (round 111 follow-up) Commit a script that regenerates round-91 kidney-compartments/result.txt from GSE200306 (re-download), check it matches; if it cannot be reproduced, drop round-91 numbers from the preprint. Decision: whether the interstitial myeloid/TGF-beta programme is cited in P4.
