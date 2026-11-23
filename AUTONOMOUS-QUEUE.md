@@ -35,7 +35,7 @@ Rounds 91-110 mostly re-confirmed negatives (scVI/Geneformer lose to simple base
 
 ## PRIORITY queue (take these first, in order)
 When a P item points at a main-queue item ("P2 = Q53"), mark both done with the same result line.
-- [todo] P1 AUDIT of rounds 91-110 (rule 10). List every Supported/Established claim with its n and whether it was
+- [doing] P1 AUDIT of rounds 91-110 (rule 10). List every Supported/Established claim with its n and whether it was
   pre-registered; count tests run; flag claims on n < 10; check rounds 86/90/107 forecaster numbers reproduce from
   build_resp_table.py + lumen_forecast.py. Output: claude/round-111-audit-of-rounds-91-110.md. Decision: which claims
   enter the preprint (P4) and which are downgraded.
