@@ -1,0 +1,107 @@
+{
+ "GSE88885_genes_used": [
+  "IFI27",
+  "IFI44L",
+  "IFIT1",
+  "ISG15",
+  "RSAD2",
+  "SIGLEC1"
+ ],
+ "GSE88885_samples_matched": 908,
+ "GSE88886_genes_used": [
+  "IFI27",
+  "IFI44L",
+  "IFIT1",
+  "ISG15",
+  "RSAD2",
+  "SIGLEC1"
+ ],
+ "GSE88886_samples_matched": 418,
+ "A_persistence_placebo": {
+  "GSE88885": {
+   "n": 94,
+   "rho_base_w52": 0.81,
+   "icc_3visits": 0.87,
+   "n_icc": 92
+  },
+  "GSE88886": {
+   "n": 41,
+   "rho_base_w52": 0.823,
+   "icc_3visits": 0.926,
+   "n_icc": 37
+  },
+  "verdict": "PASS"
+ },
+ "B_out_of_trial_w52": {
+  "train_GSE88885_test_GSE88886": {
+   "n_test": 137,
+   "mse": {
+    "M0": 1.9792,
+    "M1": 0.4317,
+    "M2": 0.4186,
+    "M3": 0.3856
+   },
+   "M3_slope_on_baseline": 0.848,
+   "setpoint_gain_vs_M0": 0.805
+  },
+  "train_GSE88886_test_GSE88885": {
+   "n_test": 297,
+   "mse": {
+    "M0": 1.8304,
+    "M1": 0.5807,
+    "M2": 0.5862,
+    "M3": 0.5483
+   },
+   "M3_slope_on_baseline": 0.869,
+   "setpoint_gain_vs_M0": 0.7
+  },
+  "verdict": "set-point model WINS"
+ },
+ "DECISION": "keep set-point layer",
+ "C_arm_effect": {
+  "GSE88885": {
+   "placebo_change": 0.092,
+   "tabalumab_change": -0.098,
+   "tab_minus_placebo": -0.19,
+   "ci95": [
+    -0.376,
+    -0.003
+   ],
+   "n_pl": 94,
+   "n_tab": 203
+  },
+  "GSE88886": {
+   "placebo_change": -0.017,
+   "tabalumab_change": -0.186,
+   "tab_minus_placebo": -0.168,
+   "ci95": [
+    -0.41,
+    0.073
+   ],
+   "n_pl": 41,
+   "n_tab": 96
+  }
+ },
+ "D_w16_vs_baseline": {
+  "GSE88885": {
+   "n": 291,
+   "rho_w16_w52": 0.834,
+   "rho_base_w52": 0.782,
+   "mse_carry_w16": 0.468,
+   "mse_carry_base": 0.5868
+  },
+  "GSE88886": {
+   "n": 126,
+   "rho_w16_w52": 0.847,
+   "rho_base_w52": 0.806,
+   "mse_carry_w16": 0.3116,
+   "mse_carry_base": 0.4397
+  }
+ },
+ "E_serology_vs_IFN_change": {
+  "GSE88885_dsdna_vs_change": -0.067,
+  "GSE88885_c3_vs_change": 0.042,
+  "GSE88886_dsdna_vs_change": -0.239,
+  "GSE88886_c3_vs_change": 0.071
+ }
+}
