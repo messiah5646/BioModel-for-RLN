@@ -42,6 +42,13 @@ When a P item points at a main-queue item ("P2 = Q53"), mark both done with the 
   enter the preprint (P4) and which are downgraded.
 - [todo] P2 = Q53 (below): forecaster robustness with the week-104 rows. Decision: whether "carry the early read-out
   forward" stays the forecaster's default update.
+- [todo] P2b = Q41 (below), re-aimed by claude/SYNTHESIS-what-the-results-imply.md (H1). GSE294789 daratumumab: does blood
+  IFN6 (in T cells; within-library week-0/week-36 pairs as the primary contrast) FALL when plasma cells are removed but
+  memory B cells persist? H1 (antibody-pool-driven IFN) predicts a fall tracking autoantibody change; the B-cell-driven
+  alternative predicts multiplier ~1. PREREG both kill conditions before opening expression; separate PREREG, download
+  and analysis pushes (rule 12a). Secondary, descriptive (n 7): GSE263931 per-patient IFN6 fall vs published anti-dsDNA
+  fall vs B-cell depletion depth. Decision: whether LUMEN's IFN state is driven by the B-cell compartment or the
+  antibody pool (input to P6).
 - [todo] P3 WIDEN THE FORECASTER BENCHMARK. The headline rests on 3 frozen trials and a 20-trial LN table. Extend
   build_resp_table.py to the non-renal SLE RCTs already harvested (data/real/ctgov/lupus_with_results.json.gz: SRI-4 /
   BICLA responder counts by arm), pre-register a leave-one-molecule-out test (forecaster vs pooled mean vs null, IV-weighted
