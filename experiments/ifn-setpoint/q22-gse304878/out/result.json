@@ -1,0 +1,157 @@
+{
+ "primary_monocyte": {
+  "mean_rel_error": {
+   "B0": 0.948,
+   "B1": 0.5803,
+   "M2": 0.894
+  },
+  "median_ratio": 0.428,
+  "ratio_boot90": [
+   0.216,
+   3.102
+  ],
+  "spearman_base_post": 0.4,
+  "verdict": "INCONCLUSIVE",
+  "per_patient": [
+   {
+    "B0": 2.102,
+    "B1": 2.066,
+    "M2": 2.372,
+    "patient": "P1",
+    "ratio": 3.102
+   },
+   {
+    "B0": 0.638,
+    "B1": 0.58,
+    "M2": 0.908,
+    "patient": "P2",
+    "ratio": 1.638
+   },
+   {
+    "B0": 0.643,
+    "B1": 0.191,
+    "M2": 0.373,
+    "patient": "P3",
+    "ratio": 0.357
+   },
+   {
+    "B0": 0.572,
+    "B1": 0.015,
+    "M2": 0.302,
+    "patient": "P4",
+    "ratio": 0.428
+   },
+   {
+    "B0": 0.784,
+    "B1": 0.049,
+    "M2": 0.514,
+    "patient": "P5",
+    "ratio": 0.216
+   }
+  ]
+ },
+ "secondary_tcell": {
+  "mean_rel_error": {
+   "B0": 0.5831,
+   "B1": 0.2036,
+   "M2": 0.5291
+  },
+  "median_ratio": 0.415,
+  "ratio_boot90": [
+   0.186,
+   1.519
+  ],
+  "spearman_base_post": 0.4,
+  "verdict": "INCONCLUSIVE",
+  "per_patient": [
+   {
+    "B0": 0.387,
+    "B1": 0.785,
+    "M2": 0.657,
+    "patient": "P1",
+    "ratio": 1.387
+   },
+   {
+    "B0": 0.519,
+    "B1": 0.071,
+    "M2": 0.789,
+    "patient": "P2",
+    "ratio": 1.519
+   },
+   {
+    "B0": 0.611,
+    "B1": 0.106,
+    "M2": 0.341,
+    "patient": "P3",
+    "ratio": 0.389
+   },
+   {
+    "B0": 0.585,
+    "B1": 0.036,
+    "M2": 0.315,
+    "patient": "P4",
+    "ratio": 0.415
+   },
+   {
+    "B0": 0.814,
+    "B1": 0.02,
+    "M2": 0.544,
+    "patient": "P5",
+    "ratio": 0.186
+   }
+  ]
+ },
+ "qc_residualised_monocyte": {
+  "mean_rel_error": {
+   "B0": 1.0753,
+   "B1": 0.3459,
+   "M2": 0.9133
+  },
+  "median_ratio": 0.632,
+  "ratio_boot90": [
+   0.19,
+   4.121
+  ],
+  "spearman_base_post": 0.1,
+  "verdict": "INCONCLUSIVE",
+  "per_patient": [
+   {
+    "B0": 0.317,
+    "B1": 0.542,
+    "M2": 0.047,
+    "patient": "P1",
+    "ratio": 0.683
+   },
+   {
+    "B0": 3.121,
+    "B1": 0.608,
+    "M2": 3.391,
+    "patient": "P2",
+    "ratio": 4.121
+   },
+   {
+    "B0": 0.368,
+    "B1": 0.345,
+    "M2": 0.098,
+    "patient": "P3",
+    "ratio": 0.632
+   },
+   {
+    "B0": 0.761,
+    "B1": 0.203,
+    "M2": 0.491,
+    "patient": "P4",
+    "ratio": 0.239
+   },
+   {
+    "B0": 0.81,
+    "B1": 0.031,
+    "M2": 0.54,
+    "patient": "P5",
+    "ratio": 0.19
+   }
+  ]
+ },
+ "qc_flip": false,
+ "final_verdict": "INCONCLUSIVE"
+}
