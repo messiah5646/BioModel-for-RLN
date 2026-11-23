@@ -1,0 +1,19 @@
+matched keys: 94 {'CR': np.int64(49), 'PR': np.int64(27), 'NR': np.int64(18)}
+source: matrix glom (70, 522) TI (92, 502)
+H1 as pre-registered (CD68): NOT TESTABLE - CD68 not on the panel.
+EXPLORATORY glomerular macrophage score Bx1: CR n=20 median 4.59 | NR n=7 median 4.38 | p(CR>NR)=0.196 p(NR>CR)=0.819
+EXPLORATORY TI macrophage score Bx1: CR n=23 median 5.41 | NR n=9 median 5.42 | p(CR>NR)=0.567 p(NR>CR)=0.450
+H2 TI: n=45 (CR=23) | clinical AUC 0.555 | +3 PCs AUC 0.520 | gain -0.036 -> FAIL
+H2 glom: n=34 (CR=20) | clinical AUC 0.561 | +3 PCs AUC 0.561 | gain +0.000 -> FAIL
+H3 TI at Bx2, NR n=9 vs CR n=24. Higher in NR: {'CSF1R': 1.13, 'MAP4K4': 1.04, 'CD8B': 1.04, 'C3': 0.96, 'PTPN6': 0.96, 'C1S': 0.95, 'ITGAX': 0.94, 'CD99': 0.9, 'CXCL1': 0.89, 'LILRB1': 0.86}
+   Higher in CR: {'IL1RN': -1.7, 'CFP': -0.95, 'ENTPD1': -0.93, 'CCL18': -0.88, 'KCNJ2': -0.82}
+   rank of TGFB1 (higher in NR): 13 of 502, d 0.81
+   rank of CSF1R (higher in NR): 1 of 502, d 1.13
+   rank of CD99 (higher in NR): 8 of 502, d 0.90
+   rank of MAP4K4 (higher in NR): 2 of 502, d 1.04
+   rank of PTPN6 (higher in NR): 5 of 502, d 0.96
+   rank of HLA-DRA (higher in NR): 41 of 502, d 0.57
+   rank of IFI16 (higher in NR): 11 of 502, d 0.86
+   rank of LILRB1 (higher in NR): 10 of 502, d 0.86
+   rank of LILRB2 (higher in NR): 19 of 502, d 0.74
+   rank of C1S (higher in NR): 6 of 502, d 0.95
