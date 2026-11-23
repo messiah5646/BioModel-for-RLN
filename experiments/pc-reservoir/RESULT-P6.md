@@ -49,3 +49,12 @@ of 11 (patient 9, SLEDAI 22 at last visit) — n 1, descriptive only.
 
 ## Tests counted
 0 pre-registered tests run (underpowered by rule). 1 descriptive computation (ratios). 0 models fitted.
+
+## Audit r120 correction (2026-11-23; experiments/audit-r120/r118_mackensen_recheck.py)
+- The Mackensen row above is wrong. Source data MOESM5 (Fig 4B) holds clinical anti-dsDNA (IU/mL) per patient at months
+  0-15: P1 6 visits (5 post), P2 5 (4 post), P3/P4 3 (2 post), P5 2 (1 post). **2 C1 curves qualify, not 0.**
+  2 < 8, so the verdict (UNDERPOWERED) and decision B are unchanged.
+- The 0.013-0.114 ratios come from the multiplex autoantigen panel (Fig 3F, arbitrary units), not the clinical assay.
+  Clinical-assay month-3/baseline ratios: 0.0009, 0.0015, 0.0021 (3 high-titre patients, at the assay floor), 0.089
+  (P5, baseline 52). The <= 0.11 bound stays a valid conservative upper bound; the clinical assay gives <= 0.002 in 3
+  patients (LOD-limited). Both Emerging (n 3-4, one source). P1/P2 stay at 0-5 IU/mL to months 12-15: no rebound.

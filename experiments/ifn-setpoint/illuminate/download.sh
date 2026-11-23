@@ -8,5 +8,7 @@ for g in GSE88885 GSE88886; do
 done
 [ -s GSE88885_ILLUMINATE1_pd_preprocessed.txt.gz ] || curl -s --retry 3 --max-time 3600 -o GSE88885_ILLUMINATE1_pd_preprocessed.txt.gz $B/GSE88885/suppl/GSE88885_ILLUMINATE1_pd_preprocessed.txt.gz
 [ -s GSE88886_ILLUMINATE2_pd_preprocessed.txt.gz ] || curl -s --retry 3 --max-time 3600 -o GSE88886_ILLUMINATE2_pd_preprocessed.txt.gz $B/GSE88886/suppl/GSE88886_ILLUMINATE2_pd_preprocessed.txt.gz
+# audit r120: analyse_p5.py also needs the GPL17586 annotation table (was missing from this script)
+[ -s gpl_data.txt ] || curl -s --retry 3 --max-time 1800 -o gpl_data.txt "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL17586&targ=self&form=text&view=data"
 for f in *.gz; do python3 -I -c "import sys;h=open(sys.argv[1],'rb').read(2);print(sys.argv[1], 'OK' if h==b'\x1f\x8b' else 'NOT SERVED')" "$f"; done
 sha256sum *.gz > SHA256SUMS
