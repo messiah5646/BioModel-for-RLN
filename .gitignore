@@ -44,3 +44,8 @@ Thumbs.db
 !data/real/
 !data/real/*.csv
 experiments/kidney-compartments/data/
+
+# Small result tables are load-bearing (resp_table.csv was lost once, round 94). Keep them tracked.
+!experiments/lumen-bench/**/*.csv
+!experiments/**/prospective/**
+!experiments/**/results/*.csv
