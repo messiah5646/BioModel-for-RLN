@@ -5,7 +5,8 @@
 set -euo pipefail
 URL=$1; OUT=$2; MAN=$3
 HDR=$(mktemp)
-curl -sSfL -D "$HDR" -o "$OUT" "$URL"
+# NCBI returns transient 403s (seen twice in audit r125); retry up to 4 times, 30 s apart
+for i in 1 2 3 4; do curl -sSfL -D "$HDR" -o "$OUT" "$URL" && break; [ $i -eq 4 ] && exit 22; sleep 30; done
 LM=$(grep -i '^last-modified:' "$HDR" | tail -1 | cut -d' ' -f2- | tr -d '\r' || true)
 rm -f "$HDR"
 [ -f "$MAN" ] || printf 'fetch_utc\turl\toutfile\tbytes\tmd5\thttp_last_modified\n' > "$MAN"

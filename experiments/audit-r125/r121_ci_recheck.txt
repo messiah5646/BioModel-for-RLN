@@ -1,0 +1,6 @@
+MMF seed 0 c 95% CI -0.125 0.31 | SD first 1.091 | corr first-last 0.966 | lo/SD -0.114
+MMF seed 1 c 95% CI -0.127 0.301 | SD first 1.091 | corr first-last 0.966 | lo/SD -0.116
+MMF seed 2 c 95% CI -0.121 0.305 | SD first 1.091 | corr first-last 0.966 | lo/SD -0.111
+AZA seed 0 c 95% CI -0.126 0.536 | SD first 1.003 | corr first-last 0.961 | lo/SD -0.125
+AZA seed 1 c 95% CI -0.129 0.54 | SD first 1.003 | corr first-last 0.961 | lo/SD -0.129
+AZA seed 2 c 95% CI -0.136 0.531 | SD first 1.003 | corr first-last 0.961 | lo/SD -0.135
