@@ -1,0 +1,346 @@
+{
+ "prereg": "experiments/lumen-bench/control-arm/PREREG-RT2.md",
+ "interpretations": [
+  "Measure location: measure_ctrl in the committed tables is the outcome index chosen by build_resp_table.py / build_sle_table.py; both builders were re-run this run and reproduce the committed CSVs byte-identically (md5 3ce67bdb.., b37dd7cd..), so the index IS the re-run selection.",
+  "S3 visit-matched: unit re-selected as the latest control row with 48<=week<=56 (LN) or week==52 (SLE); trials without such a row are dropped from S3 only.",
+  "S4 M1 interval: pred +/- 1.96 sqrt(tau2 + x'(X'WX)^-1 x + se_obs^2), tau2 = the DL tau2 used for the M1 weights.",
+  "S5 time-forward: train on trials of the same stratum with strictly earlier resultsFirstPostDate; score only trials with >= 5 such earlier trials; same pass/FAIL thresholds, reported as secondary.",
+  "S6: early = latest control row with week <= 26 and week < target week; error vs observed target logit; compared with the LOTO B1 prediction on the same subset (descriptive)."
+ ],
+ "n_units": {
+  "LN": 20,
+  "SLE": 40
+ },
+ "stringent_counts": {
+  "LN": 8,
+  "SLE": 3
+ },
+ "minimum_n_met": true,
+ "primary": {
+  "combined": {
+   "n_trials": 60,
+   "ivmse": {
+    "B1": 0.22695856361742506,
+    "B2": 0.22317251443312713,
+    "M1": 0.2364644105124512
+   },
+   "strongest_baseline": "B2",
+   "ratio_M1_to_best": 1.0595588399991207,
+   "verdict": "INCONCLUSIVE",
+   "folds_str_dropped": 0
+  },
+  "LN": {
+   "n_trials": 20,
+   "ivmse": {
+    "B1": 0.45610477079033723,
+    "B2": 0.4353951474458209,
+    "M1": 0.5094230599081495
+   },
+   "strongest_baseline": "B2",
+   "ratio_M1_to_best": 1.17002466126828,
+   "verdict": "FAIL",
+   "folds_str_dropped": 0
+  },
+  "SLE": {
+   "n_trials": 40,
+   "ivmse": {
+    "B1": 0.16552875503058367,
+    "B2": 0.1662795992738211,
+    "M1": 0.1632893063229779
+   },
+   "strongest_baseline": "B1",
+   "ratio_M1_to_best": 0.9864709384952964,
+   "verdict": "INCONCLUSIVE",
+   "folds_str_dropped": 0
+  }
+ },
+ "primary_verdict": "INCONCLUSIVE",
+ "S2_LN_guard": "FAIL",
+ "S1": {
+  "YEAR_only": {
+   "combined": {
+    "n_trials": 60,
+    "ivmse": {
+     "B1": 0.22695856361742506,
+     "B2": 0.22317251443312713,
+     "M1": 0.23476072117527608
+    },
+    "strongest_baseline": "B2",
+    "ratio_M1_to_best": 1.0519248831854753,
+    "verdict": "INCONCLUSIVE",
+    "folds_str_dropped": 0
+   },
+   "LN": {
+    "n_trials": 20,
+    "ivmse": {
+     "B1": 0.45610477079033723,
+     "B2": 0.4353951474458209,
+     "M1": 0.5006658045936826
+    },
+    "strongest_baseline": "B2",
+    "ratio_M1_to_best": 1.1499113105204823,
+    "verdict": "FAIL",
+    "folds_str_dropped": 0
+   },
+   "SLE": {
+    "n_trials": 40,
+    "ivmse": {
+     "B1": 0.16552875503058367,
+     "B2": 0.1662795992738211,
+     "M1": 0.16347654598343056
+    },
+    "strongest_baseline": "B1",
+    "ratio_M1_to_best": 0.9876020994251183,
+    "verdict": "INCONCLUSIVE",
+    "folds_str_dropped": 0
+   }
+  },
+  "STRINGENT_only": {
+   "combined": {
+    "n_trials": 60,
+    "ivmse": {
+     "B1": 0.22695856361742506,
+     "B2": 0.22317251443312713,
+     "M1": 0.21387966682141493
+    },
+    "strongest_baseline": "B2",
+    "ratio_M1_to_best": 0.9583602504308533,
+    "verdict": "INCONCLUSIVE",
+    "folds_str_dropped": 0
+   },
+   "LN": {
+    "n_trials": 20,
+    "ivmse": {
+     "B1": 0.45610477079033723,
+     "B2": 0.4353951474458209,
+     "M1": 0.40429608375358944
+    },
+    "strongest_baseline": "B2",
+    "ratio_M1_to_best": 0.9285727829658429,
+    "verdict": "INCONCLUSIVE",
+    "folds_str_dropped": 0
+   },
+   "SLE": {
+    "n_trials": 40,
+    "ivmse": {
+     "B1": 0.16552875503058367,
+     "B2": 0.1662795992738211,
+     "M1": 0.16283258998671526
+    },
+    "strongest_baseline": "B1",
+    "ratio_M1_to_best": 0.9837118025604056,
+    "verdict": "INCONCLUSIVE",
+    "folds_str_dropped": 0
+   }
+  }
+ },
+ "S3_visit_matched": {
+  "combined": {
+   "n_trials": 32,
+   "ivmse": {
+    "B1": 0.18191535394728145,
+    "B2": 0.19186900308342592,
+    "M1": 0.22270388959081236
+   },
+   "strongest_baseline": "B1",
+   "ratio_M1_to_best": 1.224217113940538,
+   "verdict": "FAIL",
+   "folds_str_dropped": 17
+  },
+  "LN": {
+   "n_trials": 15,
+   "ivmse": {
+    "B1": 0.2670014539333758,
+    "B2": 0.27813012800284587,
+    "M1": 0.46736415669957077
+   },
+   "strongest_baseline": "B1",
+   "ratio_M1_to_best": 1.7504180213797298,
+   "verdict": "FAIL",
+   "folds_str_dropped": 0
+  },
+  "SLE": {
+   "n_trials": 17,
+   "ivmse": {
+    "B1": 0.15924783287680747,
+    "B2": 0.16888844730529878,
+    "M1": 0.1575247150757982
+   },
+   "strongest_baseline": "B1",
+   "ratio_M1_to_best": 0.9891796467814903,
+   "verdict": "INCONCLUSIVE",
+   "folds_str_dropped": 17
+  }
+ },
+ "S4_coverage": {
+  "combined": {
+   "B1": 0.8833333333333333,
+   "M1": 0.9166666666666666
+  },
+  "LN": {
+   "B1": 0.85,
+   "M1": 0.95
+  },
+  "SLE": {
+   "B1": 0.9,
+   "M1": 0.9
+  }
+ },
+ "S5_time_forward": {
+  "combined": {
+   "n_trials": 50,
+   "ivmse": {
+    "B1": 0.2117676047804031,
+    "B2": 0.19185926863283914,
+    "M1": 0.26402433844343426
+   },
+   "strongest_baseline": "B2",
+   "ratio_M1_to_best": 1.3761354367961098,
+   "verdict": "FAIL",
+   "folds_str_dropped": 2
+  },
+  "LN": {
+   "n_trials": 15,
+   "ivmse": {
+    "B1": 0.24786265569038834,
+    "B2": 0.165132696534802,
+    "M1": 0.4827754587438304
+   },
+   "strongest_baseline": "B2",
+   "ratio_M1_to_best": 2.9235606810434698,
+   "verdict": "FAIL",
+   "folds_str_dropped": 0
+  },
+  "SLE": {
+   "n_trials": 35,
+   "ivmse": {
+    "B1": 0.20281376461731868,
+    "B2": 0.1984891375107017,
+    "M1": 0.20976031838290138
+   },
+   "strongest_baseline": "B2",
+   "ratio_M1_to_best": 1.056784875049356,
+   "verdict": "INCONCLUSIVE",
+   "folds_str_dropped": 2
+  }
+ },
+ "S6_drift": {
+  "n_trials": 16,
+  "ivmse_carry_forward": 0.11006756209613061,
+  "ivmse_B1_same_subset": 0.18409786862457397,
+  "mean_logit_change_early_to_target": -0.026051052400622464,
+  "trials": [
+   {
+    "stratum": "LN",
+    "trial": "ALXN2050",
+    "early_week": 26,
+    "target_week": 50
+   },
+   {
+    "stratum": "LN",
+    "trial": "AURA-LV",
+    "early_week": 24,
+    "target_week": 48
+   },
+   {
+    "stratum": "LN",
+    "trial": "AURORA",
+    "early_week": 24,
+    "target_week": 52
+   },
+   {
+    "stratum": "LN",
+    "trial": "BI655064",
+    "early_week": 26,
+    "target_week": 52
+   },
+   {
+    "stratum": "LN",
+    "trial": "CALIBRATE",
+    "early_week": 24,
+    "target_week": 96
+   },
+   {
+    "stratum": "LN",
+    "trial": "NOBILITY",
+    "early_week": 24,
+    "target_week": 52
+   },
+   {
+    "stratum": "LN",
+    "trial": "ORCHID-LN",
+    "early_week": 24,
+    "target_week": 52
+   },
+   {
+    "stratum": "LN",
+    "trial": "SANCTUARY",
+    "early_week": 26,
+    "target_week": 50
+   },
+   {
+    "stratum": "SLE",
+    "trial": "ALLEGORY",
+    "early_week": 24,
+    "target_week": 52
+   },
+   {
+    "stratum": "SLE",
+    "trial": "PF-04236921-ph2",
+    "early_week": 20,
+    "target_week": 24
+   },
+   {
+    "stratum": "SLE",
+    "trial": "PRV-3279-ph2",
+    "early_week": 20,
+    "target_week": 24
+   },
+   {
+    "stratum": "SLE",
+    "trial": "TULIP-1",
+    "early_week": 24,
+    "target_week": 52
+   },
+   {
+    "stratum": "SLE",
+    "trial": "fenebrutinib-ph2",
+    "early_week": 24,
+    "target_week": 48
+   },
+   {
+    "stratum": "SLE",
+    "trial": "lenabasum-ph2",
+    "early_week": 12,
+    "target_week": 16
+   },
+   {
+    "stratum": "SLE",
+    "trial": "lulizumab-ph2",
+    "early_week": 12,
+    "target_week": 24
+   },
+   {
+    "stratum": "SLE",
+    "trial": "rozibafusp-ph2",
+    "early_week": 24,
+    "target_week": 52
+   }
+  ]
+ },
+ "control_rate_summary": {
+  "LN": {
+   "median": 0.3058390022675737,
+   "min": 0.0625,
+   "max": 0.5369458128078818
+  },
+  "SLE": {
+   "median": 0.4233775114787196,
+   "min": 0.0,
+   "max": 0.6506024096385542
+  }
+ },
+ "run_utc": "2026-11-23T18:25:37Z",
+ "git_head": "5ae2eb7",
+ "prereg_commit": "d5b5f84 2026-11-23T17:25:36+00:00"
+}
