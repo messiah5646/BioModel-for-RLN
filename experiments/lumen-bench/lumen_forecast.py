@@ -6,7 +6,9 @@ Evidence-anchored, as validated in rounds 85-87:
 Mechanism class is NOT used for magnitude (leave-one-molecule-out: it does worse than the pooled average).
 Round 116 (2026-11-23): across 40 non-renal SLE trials, molecule/target anchoring was 31% WORSE than the pooled mean
 (Supported), and in LN it never cleared its pre-registered margin. The command-line default is therefore the pooled prior
-(--anchor restores the old behaviour). The function keeps anchor=True as its default so that frozen forecasts and audits
+(--anchor restores the old behaviour).
+Round 127 (2026-11-23, RT-1 time-forward test, pre-registered c8e07af): the shrunk early update FAILED (lost to raw
+carry-forward by >=10%); the CLI headline is now the pooled prior even when --early is given (--use-early-update restores it). The function keeps anchor=True as its default so that frozen forecasts and audits
 (check_frozen.py, q53/run_q53.py) reproduce exactly.
 Research and simulation only. Not clinical guidance.
 """
@@ -56,4 +58,13 @@ def forecast(molecule,target,early=None,R=None,holdout=None,anchor=True):
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('molecule');ap.add_argument('target')
     ap.add_argument('--holdout');ap.add_argument('--anchor',action='store_true',help='use molecule/target anchoring (not default since round 116)');ap.add_argument('--early',nargs=5,type=float,metavar=('WEEK','R_DRUG','N_DRUG','R_CTRL','N_CTRL'))
-    x=ap.parse_args();print(json.dumps(forecast(x.molecule,x.target,x.early,holdout=x.holdout,anchor=x.anchor),indent=1))
+    ap.add_argument('--use-early-update',action='store_true',help='make the shrunk early update the headline (off by default since round 127)')
+    x=ap.parse_args()
+    out=forecast(x.molecule,x.target,None,holdout=x.holdout,anchor=x.anchor)
+    if x.early:
+        upd=forecast(x.molecule,x.target,x.early,holdout=x.holdout,anchor=x.anchor)
+        if x.use_early_update: out=upd
+        else: out['early_update_EMERGING']={k:upd[k] for k in ('early_logOR','post_logOR','post_sd','OR','OR_95') if k in upd}
+        out['early_note']=('Round 127 (RT-1, time-forward, PREREG c8e07af): the shrunk early update FAILED, losing to raw carry-forward '
+                           'of the early read-out by >=10% (13 arms / 7 trials, voclosporin excluded; Emerging). Headline = pooled prior.')
+    print(json.dumps(out,indent=1))

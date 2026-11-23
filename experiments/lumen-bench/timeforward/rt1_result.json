@@ -1,0 +1,193 @@
+{
+ "prereg": "experiments/lumen-bench/timeforward/PREREG-RT1.md",
+ "primary": {
+  "label": "time-forward early subset, LN+SLE, voclosporin excluded",
+  "n_arms": 13,
+  "n_trials": 7,
+  "trials": [
+   "ALLEGORY",
+   "ALXN2050",
+   "BI655064",
+   "ORCHID-LN",
+   "SANCTUARY",
+   "fenebrutinib-ph2",
+   "rozibafusp-ph2"
+  ],
+  "ivmse_M0": 0.3672,
+  "ivmse_M1": 0.3114,
+  "ivmse_M2": 0.2586,
+  "ivmse_C0": 0.1461,
+  "ivmse_M3": 0.3114,
+  "verdict_by_rule": "FAIL",
+  "M2_over_M1": 0.83
+ },
+ "early_subset_unscored_for_M2": [
+  {
+   "stratum": "LN",
+   "trial": "CALIBRATE",
+   "arm": "belimumab"
+  },
+  {
+   "stratum": "LN",
+   "trial": "NOBILITY",
+   "arm": "obinutuzumab"
+  },
+  {
+   "stratum": "SLE",
+   "trial": "TULIP-1",
+   "arm": "Anifrolumab 150 mg"
+  },
+  {
+   "stratum": "SLE",
+   "trial": "TULIP-1",
+   "arm": "Anifrolumab 300 mg"
+  }
+ ],
+ "S1_with_voclosporin": {
+  "label": "time-forward early subset, LN+SLE, voclosporin included",
+  "n_arms": 16,
+  "n_trials": 9,
+  "trials": [
+   "ALLEGORY",
+   "ALXN2050",
+   "AURA-LV",
+   "AURORA",
+   "BI655064",
+   "ORCHID-LN",
+   "SANCTUARY",
+   "fenebrutinib-ph2",
+   "rozibafusp-ph2"
+  ],
+  "ivmse_M0": 0.5227,
+  "ivmse_M1": 0.3223,
+  "ivmse_M2": 0.2763,
+  "ivmse_C0": 0.1262,
+  "ivmse_M3": 0.3209,
+  "verdict_by_rule": "FAIL",
+  "M2_over_M1": 0.857
+ },
+ "S2_LN_novoc": {
+  "label": "LN only, voclosporin excluded",
+  "n_arms": 7,
+  "n_trials": 4,
+  "trials": [
+   "ALXN2050",
+   "BI655064",
+   "ORCHID-LN",
+   "SANCTUARY"
+  ],
+  "ivmse_M0": 0.2794,
+  "ivmse_M1": 0.6259,
+  "ivmse_M2": 0.5867,
+  "ivmse_C0": 0.4757,
+  "ivmse_M3": 0.6259,
+  "verdict_by_rule": "FAIL",
+  "M2_over_M1": 0.937
+ },
+ "S2_LN_with_voc": {
+  "label": "LN only, voclosporin included",
+  "n_arms": 10,
+  "n_trials": 6,
+  "trials": [
+   "ALXN2050",
+   "AURA-LV",
+   "AURORA",
+   "BI655064",
+   "ORCHID-LN",
+   "SANCTUARY"
+  ],
+  "ivmse_M0": 0.6457,
+  "ivmse_M1": 0.4348,
+  "ivmse_M2": 0.3998,
+  "ivmse_C0": 0.2135,
+  "ivmse_M3": 0.4321,
+  "verdict_by_rule": "FAIL",
+  "M2_over_M1": 0.92
+ },
+ "S2_SLE": {
+  "label": "SLE only",
+  "n_arms": 6,
+  "n_trials": 3,
+  "trials": [
+   "ALLEGORY",
+   "fenebrutinib-ph2",
+   "rozibafusp-ph2"
+  ],
+  "ivmse_M0": 0.3964,
+  "ivmse_M1": 0.2069,
+  "ivmse_M2": 0.1496,
+  "ivmse_C0": 0.0366,
+  "ivmse_M3": 0.2069,
+  "verdict_by_rule": "UNDERPOWERED",
+  "M2_over_M1": 0.723
+ },
+ "S3_all_arm": {
+  "LN": {
+   "n_arms": 22,
+   "n_trials": 15,
+   "ivmse_M0": 0.4267,
+   "ivmse_M1": 0.3266,
+   "ivmse_M3": 0.3225
+  },
+  "SLE": {
+   "n_arms": 71,
+   "n_trials": 35,
+   "ivmse_M0": 0.1899,
+   "ivmse_M1": 0.1323,
+   "ivmse_M3": 0.1384
+  },
+  "combined": {
+   "n_arms": 93,
+   "n_trials": 50,
+   "ivmse_M0": 0.2244,
+   "ivmse_M1": 0.1606,
+   "ivmse_M3": 0.1651
+  }
+ },
+ "S4_coverage": {
+  "M1_all_combined": {
+   "n": 93,
+   "coverage": 0.892
+  },
+  "M1_early_novoc": {
+   "n": 13,
+   "coverage": 0.923
+  },
+  "M2_early_novoc": {
+   "n": 13,
+   "coverage": 0.923
+  }
+ },
+ "S4_W1_rule": "coverage < 0.90; W1 (a) stays",
+ "S5_loto_primary": {
+  "label": "LOTO, same primary subset",
+  "n_arms": 17,
+  "n_trials": 10,
+  "trials": [
+   "ALLEGORY",
+   "ALXN2050",
+   "BI655064",
+   "CALIBRATE",
+   "NOBILITY",
+   "ORCHID-LN",
+   "SANCTUARY",
+   "TULIP-1",
+   "fenebrutinib-ph2",
+   "rozibafusp-ph2"
+  ],
+  "ivmse_M0": 0.2549,
+  "ivmse_M1": 0.255,
+  "ivmse_M2": 0.1914,
+  "ivmse_C0": 0.1233,
+  "ivmse_M3": 0.3412,
+  "verdict_by_rule": "FAIL",
+  "M2_over_M1": 0.751
+ },
+ "burn_in_scored_trials": {
+  "LN": 15,
+  "SLE": 35
+ },
+ "run_utc": "2026-11-23T16:29:42Z",
+ "git_head": "cdd60f7",
+ "prereg_commit": "c8e07af 2026-11-23T15:29:02+00:00"
+}
