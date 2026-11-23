@@ -1,0 +1,5 @@
+Q53 step 2 (data), 2026-11-23: rebuilt resp_table from committed CT.gov snapshot
+(data/real/ctgov/lupus_with_results.json.gz) with resp_table/build_resp_table.py -> 43 rows, 29 arms, 20 trials;
+counts identical to resp_table.csv. resp_table_plus_pub rebuilt (+3 published wk104 rows) is byte-identical:
+sha256 cd5ce0412f93cd0a22ac25363d5385075699137d02de9fcca3b7b5ef236a9dd0.
+Published rows: NOBILITY wk104 26/63 vs 14/62 (Furie 2022 ARD, 41% vs 23%); TULIP-LN1 wk104 from Jayne 2023 percentages.
