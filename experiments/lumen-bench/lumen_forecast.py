@@ -4,6 +4,10 @@ Evidence-anchored, as validated in rounds 85-87:
   prior  = same molecule > same target > all trials (inverse-variance, shrunk with between-trial tau^2)
   update = the drug's own early read-out (week <= 26), allowing early->late drift (estimated from trial data)
 Mechanism class is NOT used for magnitude (leave-one-molecule-out: it does worse than the pooled average).
+Round 116 (2026-11-23): across 40 non-renal SLE trials, molecule/target anchoring was 31% WORSE than the pooled mean
+(Supported), and in LN it never cleared its pre-registered margin. The command-line default is therefore the pooled prior
+(--anchor restores the old behaviour). The function keeps anchor=True as its default so that frozen forecasts and audits
+(check_frozen.py, q53/run_q53.py) reproduce exactly.
 Research and simulation only. Not clinical guidance.
 """
 import sys,json,argparse
@@ -25,13 +29,13 @@ def drift_var(R):
             e=e.sort_values('week').iloc[-1];l=l.sort_values('week').iloc[0]
             rows.append((l.lor-e.lor,e.se**2+l.se**2))
     x=np.array(rows);return max(0.0,float(np.mean(x[:,0]**2-x[:,1])))
-def forecast(molecule,target,early=None,R=None,holdout=None):
+def forecast(molecule,target,early=None,R=None,holdout=None,anchor=True):
     R=load() if R is None else R
     P=R[R.week<=104].sort_values('week').groupby(['trial','arm']).tail(1)
     if holdout: P=P[P.trial!=holdout]   # for validation: remove the trial being predicted
     mu,_=iv(P.lor,P.se);t2=dl(P.lor.values,P.se.values)
-    anc=P[P.molecule==molecule];lvl='molecule'
-    if not len(anc): anc=P[P.target==target];lvl='target'
+    anc=P[P.molecule==molecule] if anchor else P.iloc[0:0];lvl='molecule'
+    if not len(anc) and anchor: anc=P[P.target==target];lvl='target'
     if len(anc):
         am,ase=iv(anc.lor,anc.se);w=t2/(t2+ase**2)
         m0=mu+w*(am-mu);v0=t2*(1-w)+t2   # uncertainty about the drug's mean + a new trial's deviation
@@ -51,5 +55,5 @@ def forecast(molecule,target,early=None,R=None,holdout=None):
     return out
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('molecule');ap.add_argument('target')
-    ap.add_argument('--holdout');ap.add_argument('--early',nargs=5,type=float,metavar=('WEEK','R_DRUG','N_DRUG','R_CTRL','N_CTRL'))
-    x=ap.parse_args();print(json.dumps(forecast(x.molecule,x.target,x.early,holdout=x.holdout),indent=1))
+    ap.add_argument('--holdout');ap.add_argument('--anchor',action='store_true',help='use molecule/target anchoring (not default since round 116)');ap.add_argument('--early',nargs=5,type=float,metavar=('WEEK','R_DRUG','N_DRUG','R_CTRL','N_CTRL'))
+    x=ap.parse_args();print(json.dumps(forecast(x.molecule,x.target,x.early,holdout=x.holdout,anchor=x.anchor),indent=1))
