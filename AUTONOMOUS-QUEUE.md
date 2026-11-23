@@ -63,7 +63,7 @@ When a P item points at a main-queue item ("P2 = Q53"), mark both done with the 
   negative results (mechanistic simulation and cell embeddings lose to trivial rules) and the limits. Write to the
   project as claude/PREPRINT-draft-LN-forecasting.md. Claims only at the level P1 left them. Decision: what is shipped.
 - [done] P5 = Q32 (round 117: PASS; placebo Spearman baseline-w52 0.81/0.82, ICC 0.87/0.93 (n 94/41); out-of-trial set-point model beats arm mean by 70-80% both directions (M3 MSE 0.39 vs 1.98; 0.55 vs 1.83); tabalumab -0.19 log2 vs placebo; DECISION keep set-point layer, shrunk slope ~0.86; set-point claim Emerging -> Supported n~450; experiments/ifn-setpoint/illuminate) (below): ILLUMINATE set-point test, 1,760 patients. Decision: keep or drop the IFN set-point layer.
-- [todo] P6 = Q56 (below): plasma-cell reservoir two-pool test. Decision: add the slow plasma-cell state to LUMEN or not.
+- [doing] P6 = Q56 (round 118, started 2026-11-23 scheduled run) (below): plasma-cell reservoir two-pool test. Decision: add the slow plasma-cell state to LUMEN or not.
 
 ## Queue
 (Main queue. Each item now needs a decision line, rule 7. Items marked [parked] were parked on 2026-11-23 under rules 7-8; un-park only if a new decision depends on them.)
