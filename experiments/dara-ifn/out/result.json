@@ -1,0 +1,211 @@
+{
+ "ifn6": {
+  "n36": 5,
+  "rho36": -0.3,
+  "perm_p36": 0.7416666666666667,
+  "R1": "H1 fails",
+  "median_m36": 1.1030894296822913,
+  "median_bfrac_ratio36": 2.7590325287584063,
+  "R2": "B-cell explanation not rejected",
+  "R3_frac_fall36": 0.4,
+  "n9": 6,
+  "rho9": -0.4285714285714286,
+  "median_m9": 0.968092446319798,
+  "per_patient36": [
+   {
+    "patient": 1,
+    "m": 1.103,
+    "ds_ratio": 0.286,
+    "bfrac_ratio": 2.759
+   },
+   {
+    "patient": 3,
+    "m": 1.111,
+    "ds_ratio": 0.482,
+    "bfrac_ratio": 33.055
+   },
+   {
+    "patient": 5,
+    "m": 1.172,
+    "ds_ratio": 0.421,
+    "bfrac_ratio": NaN
+   },
+   {
+    "patient": 7,
+    "m": 0.842,
+    "ds_ratio": 0.422,
+    "bfrac_ratio": NaN
+   },
+   {
+    "patient": 9,
+    "m": 0.954,
+    "ds_ratio": 1.364,
+    "bfrac_ratio": 1.228
+   }
+  ],
+  "per_patient9": [
+   {
+    "patient": 1,
+    "m": 1.208,
+    "ds_ratio": 0.222,
+    "bfrac_ratio": 2.275
+   },
+   {
+    "patient": 2,
+    "m": 1.047,
+    "ds_ratio": 0.114,
+    "bfrac_ratio": 0.954
+   },
+   {
+    "patient": 3,
+    "m": 0.66,
+    "ds_ratio": 0.428,
+    "bfrac_ratio": 15.29
+   },
+   {
+    "patient": 4,
+    "m": 0.626,
+    "ds_ratio": 0.369,
+    "bfrac_ratio": 0.498
+   },
+   {
+    "patient": 5,
+    "m": 0.889,
+    "ds_ratio": 0.352,
+    "bfrac_ratio": NaN
+   },
+   {
+    "patient": 7,
+    "m": 1.148,
+    "ds_ratio": 0.377,
+    "bfrac_ratio": NaN
+   }
+  ]
+ },
+ "ifn6_res": {
+  "n36": 5,
+  "rho36": -0.7999999999999999,
+  "perm_p36": 0.9583333333333334,
+  "R1": "H1 fails",
+  "median_m36": 0.9787117844126503,
+  "median_bfrac_ratio36": 2.7590325287584063,
+  "R2": "B-cell explanation not rejected",
+  "R3_frac_fall36": 0.6,
+  "n9": 6,
+  "rho9": -0.7142857142857143,
+  "median_m9": 1.155887033519594,
+  "per_patient36": [
+   {
+    "patient": 1,
+    "m": 1.022,
+    "ds_ratio": 0.286,
+    "bfrac_ratio": 2.759
+   },
+   {
+    "patient": 3,
+    "m": 0.979,
+    "ds_ratio": 0.482,
+    "bfrac_ratio": 33.055
+   },
+   {
+    "patient": 5,
+    "m": 1.07,
+    "ds_ratio": 0.421,
+    "bfrac_ratio": NaN
+   },
+   {
+    "patient": 7,
+    "m": 0.949,
+    "ds_ratio": 0.422,
+    "bfrac_ratio": NaN
+   },
+   {
+    "patient": 9,
+    "m": 0.753,
+    "ds_ratio": 1.364,
+    "bfrac_ratio": 1.228
+   }
+  ],
+  "per_patient9": [
+   {
+    "patient": 1,
+    "m": 1.322,
+    "ds_ratio": 0.222,
+    "bfrac_ratio": 2.275
+   },
+   {
+    "patient": 2,
+    "m": 1.45,
+    "ds_ratio": 0.114,
+    "bfrac_ratio": 0.954
+   },
+   {
+    "patient": 3,
+    "m": 0.963,
+    "ds_ratio": 0.428,
+    "bfrac_ratio": 15.29
+   },
+   {
+    "patient": 4,
+    "m": 0.652,
+    "ds_ratio": 0.369,
+    "bfrac_ratio": 0.498
+   },
+   {
+    "patient": 5,
+    "m": 1.037,
+    "ds_ratio": 0.352,
+    "bfrac_ratio": NaN
+   },
+   {
+    "patient": 7,
+    "m": 1.275,
+    "ds_ratio": 0.377,
+    "bfrac_ratio": NaN
+   }
+  ]
+ },
+ "skipped_libraries": [
+  "GSM8919766"
+ ],
+ "qc_flip": false,
+ "final_R1": "H1 fails",
+ "NOT_PREREG_sensitivity_p10": {
+  "p10_bcr_matched_B": 0
+ },
+ "NOT_PREREG_reliable_subset": {
+  "table": [
+   {
+    "patient": 1,
+    "nT36": 967,
+    "m36": 1.103,
+    "m36_res": 1.022,
+    "ds_ratio": 0.286
+   },
+   {
+    "patient": 2,
+    "nT36": 193,
+    "m36": 1.776,
+    "m36_res": 1.962,
+    "ds_ratio": 0.072
+   },
+   {
+    "patient": 3,
+    "nT36": 9618,
+    "m36": 1.111,
+    "m36_res": 0.979,
+    "ds_ratio": 0.482
+   },
+   {
+    "patient": 9,
+    "nT36": 2116,
+    "m36": 0.954,
+    "m36_res": 0.753,
+    "ds_ratio": 1.364
+   }
+  ],
+  "rho": -0.7999999999999999,
+  "rho_res": -1.0,
+  "note": "GEO titles of GSM8919760 and GSM8919763 contradict TCR overlap; P5/P7/P10 w36 assignments unreliable"
+ }
+}

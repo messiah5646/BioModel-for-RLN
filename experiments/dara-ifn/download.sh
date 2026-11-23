@@ -9,3 +9,10 @@ cut -f3 manifest.tsv | while read -r u; do
 done
 sha256sum *.h5 *.csv.gz > SHA256SUMS
 wc -l manifest.tsv SHA256SUMS
+# report files GEO did not serve (403 pages saved instead of data)
+python3 -I -c "
+import glob
+for f in sorted(glob.glob('*.gz')+glob.glob('*.h5')):
+    h=open(f,'rb').read(4)
+    if not (h[:2]==b'\x1f\x8b' if f.endswith('.gz') else h==b'\x89HDF'): print('NOT SERVED', f)
+" | tee NOT_SERVED.txt
