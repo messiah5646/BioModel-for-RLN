@@ -58,7 +58,7 @@ When a P item points at a main-queue item ("P2 = Q53"), mark both done with the 
   MSE on log OR, same rules as round 86), then run it. Decision: whether the molecule -> target -> pooled hierarchy
   generalises beyond LN or is an LN-only artefact of n = 20. Report the prior-art comparison (claude/PRIOR-ART-
   trial-forecasting-2026-11-23.md) in the result.
-- [todo] P4 PREPRINT DRAFT, only after P1 and P3. "What can and cannot be forecast in lupus nephritis trials": the
+- [doing] P4 (draft v0.1 written 2026-11-23 live: claude/PREPRINT-draft-LN-forecasting.md, all claims at r111/r115 labels incl. r116 SLE fail and r117 set point; remaining: round-82 numbers, 2 figures, MBMA comparison, clinician read) PREPRINT DRAFT, only after P1 and P3. "What can and cannot be forecast in lupus nephritis trials": the
   forecaster (rounds 85-90, P3), the frozen prospective set (round 94), the refractory-LN switching bar (round 88), the
   negative results (mechanistic simulation and cell embeddings lose to trivial rules) and the limits. Write to the
   project as claude/PREPRINT-draft-LN-forecasting.md. Claims only at the level P1 left them. Decision: what is shipped.
