@@ -1,0 +1,78 @@
+{
+ "MMF": {
+  "n_patients_ge2_samples": 43,
+  "n_patients_dropped_1_sample": 1,
+  "primary": {
+   "n": 43,
+   "n_R": 34,
+   "n_NR": 9,
+   "median_dt_days": 109.0,
+   "MSE_C0_carry": 0.09893004991074555,
+   "MSE_C1_setpoint": 0.06319685628401116,
+   "MSE_C2_resp": 0.06653953031726964,
+   "c_full": 0.07218427552685698,
+   "b_full_C1": 0.8206592333048555,
+   "median_delta_R": 0.02503697915349995,
+   "median_delta_NR": 0.00022562902372968985,
+   "MW_p": 0.9880903908338858,
+   "ratio_C2_C1": 1.052893042942457,
+   "PASS": false,
+   "H3": {
+    "n": 43,
+    "c_without_dSLEDAI": 0.07218427552685698,
+    "c_with_dSLEDAI": 0.0714407013059317,
+    "d_dSLEDAI": -0.0008577416498180217
+   }
+  },
+  "sens_dt_ge180": {
+   "n": 14,
+   "n_R": 12,
+   "n_NR": 2,
+   "median_dt_days": 547.5,
+   "note": "too few in a class"
+  },
+  "sens_per_year_slope_MW_p": 0.8931310971916058,
+  "sens_per_year_median_R_NR": [
+   0.058234878826932235,
+   0.0015848269407167156
+  ]
+ },
+ "AZA": {
+  "n_patients_ge2_samples": 20,
+  "n_patients_dropped_1_sample": 0,
+  "primary": {
+   "n": 20,
+   "n_R": 11,
+   "n_NR": 9,
+   "median_dt_days": 103.5,
+   "MSE_C0_carry": 0.0806017939953706,
+   "MSE_C1_setpoint": 0.10213538558603705,
+   "MSE_C2_resp": 0.10684495649492201,
+   "c_full": 0.23125920064856634,
+   "b_full_C1": 1.0015416878037653,
+   "median_delta_R": 0.14250329734522277,
+   "median_delta_NR": -0.0055119338633873305,
+   "MW_p": 0.2874954188691684,
+   "ratio_C2_C1": 1.0461110601566947,
+   "PASS": false,
+   "H3": {
+    "n": 20,
+    "c_without_dSLEDAI": 0.23125920064856634,
+    "c_with_dSLEDAI": 0.2941851027416773,
+    "d_dSLEDAI": 0.023204000364526883
+   }
+  },
+  "sens_dt_ge180": {
+   "n": 4,
+   "n_R": 1,
+   "n_NR": 3,
+   "median_dt_days": 297.5,
+   "note": "too few in a class"
+  },
+  "sens_per_year_slope_MW_p": 0.3619347669211923,
+  "sens_per_year_median_R_NR": [
+   0.40348317329722955,
+   -0.01765994599651072
+  ]
+ }
+}

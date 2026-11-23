@@ -1,8 +1,8 @@
 #!/bin/bash
 # Usage: bash download.sh <data_dir>. Rebuilds the inputs run.py / q25_trajectory.py read (GSE224705, open GEO).
 set -e; D=$1; mkdir -p $D
-curl -sS -o $D/sm.txt.gz https://ftp.ncbi.nlm.nih.gov/geo/series/GSE224nnn/GSE224705/matrix/GSE224705_series_matrix.txt.gz
-curl -sS -o $D/gpl.txt.gz https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL13nnn/GPL13158/annot/GPL13158.annot.gz
+curl -fsS --retry 3 -o $D/sm.txt.gz https://ftp.ncbi.nlm.nih.gov/geo/series/GSE224nnn/GSE224705/matrix/GSE224705_series_matrix.txt.gz
+curl -fsS --retry 3 -o $D/gpl.txt.gz https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL13nnn/GPL13158/annot/GPL13158.annot.gz
 python3 -I - $D <<'PY'
 import sys, gzip, csv
 D = sys.argv[1]; rows = {}; gsm = None
