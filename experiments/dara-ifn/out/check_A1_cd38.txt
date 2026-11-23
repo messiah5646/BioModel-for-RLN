@@ -1,0 +1,8 @@
+   patient  n_cd4  cd38_mrna_pos_frac  cd38_cp10k  flow_pct
+0        1   5538               0.057       0.181     52.70
+1        2   2468               0.039       0.093     34.60
+2        3   6984               0.015       0.049      5.56
+3        4   3883               0.065       0.176     20.50
+4        9   4581               0.068       0.259     69.50
+cd38_mrna_pos_frac: Spearman vs paper flow = 0.70; exact p(rho >= obs) = 0.117
+cd38_cp10k: Spearman vs paper flow = 0.90; exact p(rho >= obs) = 0.042

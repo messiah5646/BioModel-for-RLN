@@ -47,3 +47,16 @@ antibody rose (P9) had the lowest IFN. This is the opposite of H1.
   of H1 (B-lineage drugs separate late) is untouched and is tested by the frozen VIBRANT forecast (H3).
 - P6 (plasma-cell two-pool test) no longer depends on H1 and can run on its own question (refractoriness).
 - Report the GEO label inconsistency to the data owners when Thomas does outreach (not contacted by the loop, rule 5).
+
+## Round 114 self-audit (2026-11-23): two checks, one correction
+1. **Assumption A1 (GEO "Patient N" = paper "SLE #N") now supported.** CD38 mRNA in TCR+ CD8-negative cells at week 0
+   ranks patients like the paper's flow cytometry (% CD38+ CD4 T, Fig 3b source data): Spearman 0.90, exact p 0.042,
+   n = 5 (P3 lowest and P9 highest in both). `check_A1_cd38.py`, out/check_A1_cd38.txt. (CITE-seq CD38 protein could not
+   be used: P9's week-0 library has a different 344-antibody panel.)
+2. **Gene set is not driving the result.** The paper's own T-cell IFN genes (MX1, IFI44L, XAF1, ISG15, IFIT1) give the
+   same week-36 answer on clonotype-confirmed samples: median m36 1.13, rho vs anti-dsDNA -0.80 (n 4).
+   `check_geneset.py`, out/check_geneset.txt.
+3. **Correction.** The table above says week 9 showed "no clear early fall" (median 0.97). That median included the
+   mislabelled P5/P7 samples. On clonotype-confirmed samples (P1-P4) median m9 is 0.82-0.85: P3 and P4 fall ~35%,
+   P1 and P2 do not. So there is a partial early fall (consistent with the paper) that is gone by week 36. That pattern
+   fits a transient dexamethasone/acute-drug effect, not the antibody pool. The H1 verdict is unchanged.
