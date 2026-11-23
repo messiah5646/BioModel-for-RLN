@@ -1,0 +1,14 @@
+# R-20261123-1 consumer grep, run 2026-11-23T13:29:37Z, commit d992395
+$ grep -rn "setpoint\|IFN6" experiments/lumen-bench experiments/sle-virtual-trial
+(exit 1; no output = no consumer)
+
+$ grep -rn -i "interferon\|\bIFN\b" --include=*.py experiments/lumen-bench experiments/sle-virtual-trial
+experiments/lumen-bench/sle/build_sle_table.py:8: 'NCT01283139': ('sifalimumab-ph2', 'sifalimumab', 'IFN-alpha', 'fast'),
+experiments/lumen-bench/sle/build_sle_table.py:30: 'NCT02665364': ('IFN-K-ph2b', 'IFN-kinoid', 'IFN-alpha', 'fast'),
+experiments/lumen-bench/sle/build_sle_table.py:63:EXC = re.compile(r'[5-8]\)|SRI-?[5-8]|steroid|OCS|corticosteroid|prednis|sustain|time to|duration|interferon|IFN|test.?high|'
+experiments/sle-virtual-trial/vtrial.py:138:    'interferon_blockade': 'the model has no interferon state (anifrolumab-like drugs cannot be represented)',
+experiments/sle-virtual-trial/vtrial.py:201:                         'No interferon, Tregs, T-cell help or long-lived plasma-cell kill in the model.',
+
+$ grep -rln "setpoint" --include=*.py .  (all python files mentioning setpoint)
+./experiments/ifn-setpoint/illuminate/analyse_p5.py
+./experiments/gse224705-mmf/q25_trajectory.py
