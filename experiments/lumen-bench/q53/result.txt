@@ -1,0 +1,98 @@
+
+===== resp_table.csv pool=0.319 tau2=0.089 drift_var(all)=0.118
+
+ALL ROWS (primary): rows=13 arms=12 trials=8
+  C0: IV-MSE=0.224  noise-corr=0.531
+  C1: IV-MSE=0.577  noise-corr=0.219
+  C2: IV-MSE=0.251  noise-corr=0.288
+  F: IV-MSE=0.204  noise-corr=0.281
+  C0/C1=0.39 (H1 pass if <=0.90): PASS
+
+===== resp_table_plus_pub.csv pool=0.340 tau2=0.069 drift_var(all)=0.118
+
+ALL ROWS (primary): rows=14 arms=12 trials=8
+  C0: IV-MSE=0.286  noise-corr=0.548
+  C1: IV-MSE=0.592  noise-corr=0.245
+  C2: IV-MSE=0.274  noise-corr=0.304
+  F: IV-MSE=0.230  noise-corr=0.296
+  C0/C1=0.48 (H1 pass if <=0.90): PASS
+
+(a) one row per arm, latest late visit: rows=12 arms=12 trials=8
+  C0: IV-MSE=0.278  noise-corr=0.643
+  C1: IV-MSE=0.637  noise-corr=0.295
+  C2: IV-MSE=0.297  noise-corr=0.386
+  F: IV-MSE=0.253  noise-corr=0.379
+  C0/C1=0.44 (H1 pass if <=0.90): PASS
+
+(b) n_drug>=10: rows=13 arms=11 trials=8
+  C0: IV-MSE=0.235  noise-corr=0.034
+  C1: IV-MSE=0.572  noise-corr=0.144
+  C2: IV-MSE=0.244  noise-corr=0.081
+  F: IV-MSE=0.200  noise-corr=0.068
+  C0/C1=0.41 (H1 pass if <=0.90): PASS
+
+(c) trial-balanced weights: rows=14 arms=12 trials=8
+  C0: IV-MSE=0.671  noise-corr=0.548
+  C1: IV-MSE=0.645  noise-corr=0.245
+  C2: IV-MSE=0.648  noise-corr=0.304
+  F: IV-MSE=0.635  noise-corr=0.296
+  C0/C1=1.04 (H1 pass if <=0.90): FAIL
+
+H1 primary: PASS; H1 robust (a,b,c): FAIL; H2 forecaster: PASS
+H3 drift var: 48-52 wk 0.118 (n rows 12); 76-104 wk -0.102 (n rows 2); ratio -0.86
+        trial           arm  n_drug  te   tl    de   see    dl   sel    C0   C1    C2     F
+0    ALXN2050        fD_120       4  26   50  1.10  1.31 -2.03  1.60  1.10  0.0  0.37  0.38
+1    ALXN2050        fD_180      14  26   50  0.34  1.11 -1.02  0.84  0.34  0.0  0.34  0.35
+2     AURA-LV     vocl_high      88  24   48  0.44  0.36  0.73  0.33  0.44  0.0  0.38  0.51
+3     AURA-LV      vocl_low      89  24   48  0.69  0.35  1.12  0.33  0.69  0.0  0.47  0.55
+4      AURORA   voclosporin     179  24   52  0.67  0.25  0.86  0.23  0.67  0.0  0.51  0.61
+5    BI655064        bi_120      21  26   52 -0.37  0.57 -0.36  0.54 -0.37  0.0  0.22  0.27
+6    BI655064        bi_180      20  26   52  0.50  0.54 -0.09  0.54  0.50  0.0  0.37  0.42
+7    BI655064        bi_240      40  26   52 -0.11  0.46 -0.10  0.44 -0.11  0.0  0.23  0.30
+8   CALIBRATE     belimumab      21  24   48  0.29  0.68  0.26  0.61  0.29  0.0  0.33  0.44
+9   CALIBRATE     belimumab      21  24   96  0.29  0.68  0.45  0.62  0.29  0.0  0.33  0.44
+10   NOBILITY  obinutuzumab      63  24   52 -0.10  0.40  0.60  0.40 -0.10  0.0  0.21  0.30
+11   NOBILITY  obinutuzumab      63  24  104 -0.10  0.40  0.86  0.39 -0.10  0.0  0.21  0.30
+12  ORCHID-LN    guselkumab      17  24   52 -0.07  0.85 -0.95  1.07 -0.07  0.0  0.30  0.32
+13  SANCTUARY   ravulizumab      38  26   50  0.24  0.65  0.42  0.58  0.24  0.0  0.33  0.33
+
+per-row IV contribution share (C0 err^2 * w):
+        trial           arm   tl     C0     C1
+0    ALXN2050        fD_120   50  0.053  0.022
+1    ALXN2050        fD_180   50  0.036  0.020
+2     AURA-LV     vocl_high   48  0.011  0.068
+3     AURA-LV      vocl_low   48  0.024  0.164
+4      AURORA   voclosporin   52  0.009  0.185
+5    BI655064        bi_120   52  0.000  0.006
+6    BI655064        bi_180   52  0.017  0.000
+7    BI655064        bi_240   52  0.000  0.001
+8   CALIBRATE     belimumab   48  0.000  0.002
+9   CALIBRATE     belimumab   96  0.001  0.007
+10   NOBILITY  obinutuzumab   52  0.042  0.031
+11   NOBILITY  obinutuzumab  104  0.083  0.066
+12  ORCHID-LN    guselkumab   52  0.009  0.011
+13  SANCTUARY   ravulizumab   50  0.001  0.007
+  drop ALXN2050  : C0/C1=0.36  F/C0=0.82
+  drop AURA-LV   : C0/C1=0.70  F/C0=0.72
+  drop AURORA    : C0/C1=0.68  F/C0=0.78
+  drop BI655064  : C0/C1=0.46  F/C0=0.70
+  drop CALIBRATE : C0/C1=0.49  F/C0=0.80
+  drop NOBILITY  : C0/C1=0.33  F/C0=1.21
+  drop ORCHID-LN : C0/C1=0.48  F/C0=0.76
+  drop SANCTUARY : C0/C1=0.49  F/C0=0.81
+
+EXPLORATORY, not pre-registered:
+
+drop voclosporin trials (IV weights): rows=11 arms=9 trials=6
+  C0: IV-MSE=0.491  noise-corr=0.694
+  C1: IV-MSE=0.355  noise-corr=0.106
+  C2: IV-MSE=0.349  noise-corr=0.350
+  F: IV-MSE=0.339  noise-corr=0.361
+  C0/C1=1.38 (H1 pass if <=0.90): FAIL
+
+drop voclosporin trials (trial-balanced): rows=11 arms=9 trials=6
+  C0: IV-MSE=0.865  noise-corr=0.694
+  C1: IV-MSE=0.586  noise-corr=0.106
+  C2: IV-MSE=0.797  noise-corr=0.350
+  F: IV-MSE=0.805  noise-corr=0.361
+  C0/C1=1.48 (H1 pass if <=0.90): FAIL
