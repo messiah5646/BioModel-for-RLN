@@ -1,0 +1,84 @@
+trial,nct,arm,molecule,target,cls,week,r_drug,n_drug,r_ctrl,n_ctrl,measure_drug,measure_ctrl,title
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,4,12,45,9,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,8,12,45,14,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,12,15,45,15,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,16,20,45,12,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,20,20,45,10,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,24,22,45,11,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,4,10,47,9,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,8,14,47,14,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,12,19,47,15,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,16,18,47,12,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,20,15,47,10,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,24,19,47,11,45,3,3,Percentage of Participants Achieving British Isles Lupus Assessment Group-based Composite Lupus Asse
+ADDRESS-II,NCT01972568,Atacicept 150 mg,atacicept,BAFF/APRIL,slow,24,49,100,42,93,5,5,Percentage of Subjects With British Isles Lupus Assessment Group (BILAG)-Based Combined Lupus Assess
+ADDRESS-II,NCT01972568,Atacicept 75 mg,atacicept,BAFF/APRIL,slow,24,47,88,42,93,5,5,Percentage of Subjects With British Isles Lupus Assessment Group (BILAG)-Based Combined Lupus Assess
+lulizumab-ph2,NCT02265744,Experimental: 1.25mg SCBMS-931699 Every Other Week,lulizumab,CD28,slow,12,40,70,39,71,3,3,Percentage of Participants With BICLA Response (BICLA Response Rate) at Day 85
+lulizumab-ph2,NCT02265744,Experimental: 1.25mg SCBMS-931699 Every Other Week,lulizumab,CD28,slow,24,41,70,42,71,0,0,Percentage of Participants Who Achieve a BICLA Response (BICLA Response Rate) at Day 169
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Every Other Week,lulizumab,CD28,slow,12,44,68,39,71,3,3,Percentage of Participants With BICLA Response (BICLA Response Rate) at Day 85
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Every Other Week,lulizumab,CD28,slow,24,43,68,42,71,0,0,Percentage of Participants Who Achieve a BICLA Response (BICLA Response Rate) at Day 169
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Weekly,lulizumab,CD28,slow,12,48,69,39,71,3,3,Percentage of Participants With BICLA Response (BICLA Response Rate) at Day 85
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Weekly,lulizumab,CD28,slow,24,41,69,42,71,0,0,Percentage of Participants Who Achieve a BICLA Response (BICLA Response Rate) at Day 169
+lulizumab-ph2,NCT02265744,Experimental: 5mg SC Injection BMS-931699 Every Other Week,lulizumab,CD28,slow,12,39,68,39,71,3,3,Percentage of Participants With BICLA Response (BICLA Response Rate) at Day 85
+lulizumab-ph2,NCT02265744,Experimental: 5mg SC Injection BMS-931699 Every Other Week,lulizumab,CD28,slow,24,39,68,42,71,0,0,Percentage of Participants Who Achieve a BICLA Response (BICLA Response Rate) at Day 169
+ACCESS-abatacept-SLE,NCT02270957,Abatacept,abatacept,CD80/86,slow,26,8,31,8,35,0,0,British Isles Lupus Assessment Group Index-based Combined Lupus Assessment (BICLA)
+ustekinumab-ph2,NCT02349061,Ustekinumab,ustekinumab,IL-12/23,other,24,21,60,14,42,3,3,Number of Participants With BILAG-based Combined Lupus Assessment (BICLA) Response at Week 24
+vobarilizumab-ph2,NCT02437890,ALX-0061 150 mg q2w,vobarilizumab,IL-6,other,24,24,62,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+vobarilizumab-ph2,NCT02437890,ALX-0061 150 mg q2w,vobarilizumab,IL-6,other,48,19,62,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+vobarilizumab-ph2,NCT02437890,ALX-0061 150 mg q4w,vobarilizumab,IL-6,other,24,22,62,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+vobarilizumab-ph2,NCT02437890,ALX-0061 150 mg q4w,vobarilizumab,IL-6,other,48,22,62,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+vobarilizumab-ph2,NCT02437890,ALX-0061 225 mg q2w,vobarilizumab,IL-6,other,24,22,62,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+vobarilizumab-ph2,NCT02437890,ALX-0061 225 mg q2w,vobarilizumab,IL-6,other,48,22,62,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+vobarilizumab-ph2,NCT02437890,ALX-0061 75 mg q4w,vobarilizumab,IL-6,other,24,28,64,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+vobarilizumab-ph2,NCT02437890,ALX-0061 75 mg q4w,vobarilizumab,IL-6,other,48,32,64,28,62,1,1,Number and Percentage of Subjects With mBICLA Response at Week 24 and Week 48
+TULIP-2,NCT02446899,Anifrolumab 300 mg,anifrolumab,IFNAR,fast,52,86,180,57,182,0,0,Number of Participants Who Achieved the British Isles Lupus Assessment Group Based Composite Lupus A
+TULIP-1,NCT02446912,Anifrolumab 150 mg,anifrolumab,IFNAR,fast,52,27,93,49,184,11,11,Number of Participants Who Met the Criteria for British Isles Lupus Assessment Group-based Composite
+TULIP-1,NCT02446912,Anifrolumab 300 mg,anifrolumab,IFNAR,fast,52,67,180,49,184,11,11,Number of Participants Who Met the Criteria for British Isles Lupus Assessment Group-based Composite
+RSLV-132-ph2,NCT02660944,RSLV-132,RSLV-132,RNA,other,24,10,42,4,22,3,3,Percentage of Participants With a British Isles Lupus Assessment Group-based Composite Lupus Assessm
+IFN-K-ph2b,NCT02665364,IFN-K,IFN-kinoid,IFN-alpha,fast,36,35,85,29,84,1,1,Number of Participants Who Achieved a British Isles Lupus Assessment Group-based Composite Lupus Ass
+dapirolizumab-ph2,NCT02804763,SOC + DZP 24mg/kg iv Q4W (FAS),dapirolizumab,CD40L,slow,24,0,44,0,43,0,0,Percentage of Participants With British Isles Lupus Assessment Group Disease Activity Index 2004 (BI
+dapirolizumab-ph2,NCT02804763,SOC + DZP 45mg/kg iv Q4W (FAS),dapirolizumab,CD40L,slow,24,0,46,0,43,0,0,Percentage of Participants With British Isles Lupus Assessment Group Disease Activity Index 2004 (BI
+dapirolizumab-ph2,NCT02804763,SOC + DZP 6mg/kg iv Q4W (FAS),dapirolizumab,CD40L,slow,24,0,43,0,43,0,0,Percentage of Participants With British Isles Lupus Assessment Group Disease Activity Index 2004 (BI
+fenebrutinib-ph2,NCT02908100,GDC-0853 (150mg) QD,fenebrutinib,BTK,slow,24,39,85,38,80,7,7,BILAG-based Composite Lupus Assessment (BICLA) Response at Week 24 and 48
+fenebrutinib-ph2,NCT02908100,GDC-0853 (150mg) QD,fenebrutinib,BTK,slow,48,45,85,33,80,7,7,BILAG-based Composite Lupus Assessment (BICLA) Response at Week 24 and 48
+fenebrutinib-ph2,NCT02908100,GDC-0853 (200mg) BID,fenebrutinib,BTK,slow,24,37,83,38,80,7,7,BILAG-based Composite Lupus Assessment (BICLA) Response at Week 24 and 48
+fenebrutinib-ph2,NCT02908100,GDC-0853 (200mg) BID,fenebrutinib,BTK,slow,48,35,83,33,80,7,7,BILAG-based Composite Lupus Assessment (BICLA) Response at Week 24 and 48
+evobrutinib-ph2,NCT02975336,DBPC Period: M2951 25 mg QD,evobrutinib,BTK,slow,52,29,73,30,76,39,39,DBPC Period: Number of Participants With Response Based on BILAG-Based Composite Lupus Assessment (B
+evobrutinib-ph2,NCT02975336,DBPC Period: M2951 50 mg BID,evobrutinib,BTK,slow,52,24,70,30,76,39,39,DBPC Period: Number of Participants With Response Based on BILAG-Based Composite Lupus Assessment (B
+evobrutinib-ph2,NCT02975336,DBPC Period: M2951 75 mg QD,evobrutinib,BTK,slow,52,33,76,30,76,39,39,DBPC Period: Number of Participants With Response Based on BILAG-Based Composite Lupus Assessment (B
+PAISLEY,NCT03252587,BMS-986165 12 mg,deucravacitinib,TYK2,fast,48,32,89,23,90,2,2,Number of Participants Who Achieve British Isles Lupus Assessment Group-Based Composite Lupus Assess
+PAISLEY,NCT03252587,BMS-986165 3 mg,deucravacitinib,TYK2,fast,48,43,91,23,90,2,2,Number of Participants Who Achieve British Isles Lupus Assessment Group-Based Composite Lupus Assess
+PAISLEY,NCT03252587,BMS-986165 6 mg,deucravacitinib,TYK2,fast,48,33,93,23,90,2,2,Number of Participants Who Achieve British Isles Lupus Assessment Group-Based Composite Lupus Assess
+BOS161721-ph2,NCT03371251,Phase 2: BOS161721 120 mg,BOS161721,IL-21,other,30,28,75,12,37,20,20,Phase 2: Number of Participants With a BILAG-based Composite Lupus Assessment (BICLA) Response at Da
+brepocitinib-ph2,NCT03845517,PF-06700841 15 mg,brepocitinib,TYK2,fast,52,20,47,42,96,1,1,Percentage of Participants Achieving British Isles Lupus Assessment Group-Based Composite Lupus Asse
+brepocitinib-ph2,NCT03845517,PF-06700841 30 mg,brepocitinib,TYK2,fast,52,52,99,42,96,1,1,Percentage of Participants Achieving British Isles Lupus Assessment Group-Based Composite Lupus Asse
+brepocitinib-ph2,NCT03845517,PF-06700841 45 mg,brepocitinib,TYK2,fast,52,49,92,42,96,1,1,Percentage of Participants Achieving British Isles Lupus Assessment Group-Based Composite Lupus Asse
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 280mg,rozibafusp,BAFF/ICOSL,slow,24,18,36,24,54,2,2,Number of Participants Who Achieved a BILAG Based Combined Lupus Assessment (BICLA) Response at Week
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 280mg,rozibafusp,BAFF/ICOSL,slow,52,15,35,21,43,4,4,Number of Participants Who Achieved a BICLA Response at Week 52
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 420mg,rozibafusp,BAFF/ICOSL,slow,24,35,66,24,54,2,2,Number of Participants Who Achieved a BILAG Based Combined Lupus Assessment (BICLA) Response at Week
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 420mg,rozibafusp,BAFF/ICOSL,slow,52,29,48,21,43,4,4,Number of Participants Who Achieved a BICLA Response at Week 52
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 70mg,rozibafusp,BAFF/ICOSL,slow,24,19,58,24,54,2,2,Number of Participants Who Achieved a BILAG Based Combined Lupus Assessment (BICLA) Response at Week
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 70mg,rozibafusp,BAFF/ICOSL,slow,52,20,51,21,43,4,4,Number of Participants Who Achieved a BICLA Response at Week 52
+branebrutinib-ph2,NCT04186871,SLE- Branebrutinib,branebrutinib,BTK,slow,24,5,15,1,5,2,2,Percent of Participants With BICLA Response at Week 24 - SLE
+PHOENYCS-GO,NCT04294667,DZP+SOC,dapirolizumab,CD40L,slow,12,83,208,31,107,2,2,Percentage of Participants With Achievement of BICLA Response at Week 12
+PHOENYCS-GO,NCT04294667,DZP+SOC,dapirolizumab,CD40L,slow,24,97,208,41,107,1,1,Percentage of Participants With Achievement of BICLA Response at Week 24
+PHOENYCS-GO,NCT04294667,DZP+SOC,dapirolizumab,CD40L,slow,48,103,208,37,107,0,0,Percentage of Participants With Achievement of BILAG 2004-based Composite Lupus Assessment (BICLA) R
+LY3471851-ph2,NCT04433585,LY3471851 High Dose,LY3471851,IL-2R,other,24,12,60,18,60,1,1,Percentage of Participants Who Achieved British Isles Lupus Assessment Group (BILAG) Based Composite
+LY3471851-ph2,NCT04433585,LY3471851 Low Dose,LY3471851,IL-2R,other,24,18,59,18,60,1,1,Percentage of Participants Who Achieved British Isles Lupus Assessment Group (BILAG) Based Composite
+LY3471851-ph2,NCT04433585,LY3471851 Mid Dose,LY3471851,IL-2R,other,24,26,56,18,60,1,1,Percentage of Participants Who Achieved British Isles Lupus Assessment Group (BILAG) Based Composite
+efavaleukin-ph2,NCT04680637,Efavaleukin Alfa High Dose,efavaleukin,IL-2R,other,24,17,44,17,34,5,5,Number of Participants Who Achieved a BICLA Response at Week 24
+efavaleukin-ph2,NCT04680637,Efavaleukin Alfa Low Dose,efavaleukin,IL-2R,other,24,12,29,17,34,5,5,Number of Participants Who Achieved a BICLA Response at Week 24
+efavaleukin-ph2,NCT04680637,Efavaleukin Alfa Medium Dose,efavaleukin,IL-2R,other,24,5,31,17,34,5,5,Number of Participants Who Achieved a BICLA Response at Week 24
+acazicolcept-ph2,NCT04835441,ALPN-101 (Acazicolcept),acazicolcept,ICOSL/CD86,slow,24,8,37,12,37,2,2,Percentage of Participants Achieving a British Isles Lupus Assessment Group-based Composite Lupus As
+ALLEGORY,NCT04963296,Obinutuzumab,obinutuzumab,CD20,slow,52,94,151,61,152,1,1,Percentage of Participants Who Achieved British Isles Lupus Assessment Group Based Composite Lupus A
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,4,7,13,6,14,5,5,Percentage of Participants Who Met the British Isles Lupus Assessment Group-Based Combined Lupus Ass
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,8,7,13,7,14,5,5,Percentage of Participants Who Met the British Isles Lupus Assessment Group-Based Combined Lupus Ass
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,12,6,13,8,14,5,5,Percentage of Participants Who Met the British Isles Lupus Assessment Group-Based Combined Lupus Ass
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,16,6,13,6,14,5,5,Percentage of Participants Who Met the British Isles Lupus Assessment Group-Based Combined Lupus Ass
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,20,7,13,7,14,5,5,Percentage of Participants Who Met the British Isles Lupus Assessment Group-Based Combined Lupus Ass
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,24,7,13,4,14,5,5,Percentage of Participants Who Met the British Isles Lupus Assessment Group-Based Combined Lupus Ass
+WILLOW,NCT05162586,Cohort B (Part 1 + Part 2): Enpatoran 100 mg,enpatoran,TLR7/8,other,24,56,114,37,95,1,1,Cohort B: Number of Participants With British Isles Lupus Assessment Group (BILAG)-Based Composite L
+WILLOW,NCT05162586,Cohort B (Part 2): Enpatoran 25 mg,enpatoran,TLR7/8,other,24,41,71,37,95,1,1,Cohort B: Number of Participants With British Isles Lupus Assessment Group (BILAG)-Based Composite L
+WILLOW,NCT05162586,Cohort B (Part 2): Enpatoran 50 mg,enpatoran,TLR7/8,other,24,36,74,37,95,1,1,Cohort B: Number of Participants With British Isles Lupus Assessment Group (BILAG)-Based Composite L
+MK-6194-ph2,NCT06161116,MK-6194 3 mg Q2W,MK-6194,IL-2R,other,28,12,30,6,27,0,0,Number of Participants Achieving British Isles Lupus Assessment Group (BILAG)-Based Composite Lupus 
+MK-6194-ph2,NCT06161116,MK-6194 3 mg Q4W,MK-6194,IL-2R,other,28,6,29,6,27,0,0,Number of Participants Achieving British Isles Lupus Assessment Group (BILAG)-Based Composite Lupus 

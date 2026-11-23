@@ -1,0 +1,120 @@
+trial,nct,arm,molecule,target,cls,week,r_drug,n_drug,r_ctrl,n_ctrl,measure_drug,measure_ctrl,title
+BLISS-76,NCT00410384,Belimumab 1 mg/kg,belimumab,BAFF,slow,52,110,271,92,275,0,0,SLE Responder Index (SRI) Response Rate at Week 52
+BLISS-76,NCT00410384,Belimumab 10 mg/kg,belimumab,BAFF,slow,52,118,273,92,275,0,0,SLE Responder Index (SRI) Response Rate at Week 52
+BLISS-52,NCT00424476,Belimumab 1 mg/kg,belimumab,BAFF,slow,52,148,288,125,287,0,0,SLE Responder Index (SRI) Response Rate at Week 52
+BLISS-52,NCT00424476,Belimumab 10 mg/kg,belimumab,BAFF,slow,52,167,290,125,287,0,0,SLE Responder Index (SRI) Response Rate at Week 52
+rigerimod-ph2,NCT01135459,CEP-33457,rigerimod,P140 peptide,other,24,31,90,37,92,0,0,Number of Participants Achieving a Combined Clinical Response Using the Systemic Lupus Erythematosus
+ILLUMINATE-1,NCT01196091,LY2127399 Every 2 Weeks,tabalumab,BAFF,slow,52,121,381,111,379,0,0,Percentage of Participants Achieving an SLE Responder Index Response at Week 52
+ILLUMINATE-1,NCT01196091,LY2127399 Every 4 Wks,tabalumab,BAFF,slow,52,133,378,111,379,0,0,Percentage of Participants Achieving an SLE Responder Index Response at Week 52
+ILLUMINATE-2,NCT01205438,LY2127399 Every 2 Weeks,tabalumab,BAFF,slow,52,143,372,104,376,0,0,Percentage of Participants Achieving an SLE Responder Index Response at Week 52
+ILLUMINATE-2,NCT01205438,LY2127399 Every 4 Weeks,tabalumab,BAFF,slow,52,131,376,104,376,0,0,Percentage of Participants Achieving an SLE Responder Index Response at Week 52
+sifalimumab-ph2,NCT01283139,"Sifalimumab 1,200 mg",sifalimumab,IFN-alpha,fast,52,64,107,49,108,0,0,Percentage of Participants Achieving a Response in Systemic Lupus Erythematosus Responder Index 4 (S
+sifalimumab-ph2,NCT01283139,Sifalimumab 200 Milligram (mg),sifalimumab,IFN-alpha,fast,52,63,108,49,108,0,0,Percentage of Participants Achieving a Response in Systemic Lupus Erythematosus Responder Index 4 (S
+sifalimumab-ph2,NCT01283139,Sifalimumab 600 mg,sifalimumab,IFN-alpha,fast,52,61,108,49,108,0,0,Percentage of Participants Achieving a Response in Systemic Lupus Erythematosus Responder Index 4 (S
+belimumab-NEA,NCT01345253,Belimumab 10 mg/kg,belimumab,BAFF,slow,52,240,446,87,217,0,0,Percent of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) Response 
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,4,5,45,2,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,8,12,45,12,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,12,15,45,16,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,16,22,45,17,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,20,25,45,17,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 10 Milligram (10 mg),PF-04236921,IL-6,other,24,21,35,17,42,0,0,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,4,3,47,2,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,8,10,47,12,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,12,9,47,16,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,16,14,47,17,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,20,17,47,17,45,1,1,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+PF-04236921-ph2,NCT01405196,PF-04236921 50 mg,PF-04236921,IL-6,other,24,14,36,17,42,0,0,Percentage of Participants Achieving Systemic Lupus Erythematosus (SLE) Responder Index (SRI) at Wee
+BLISS-SC,NCT01484496,Belimumab 200 mg SC,belimumab,BAFF,slow,52,340,554,135,279,0,0,Percentage of Par. Achieving a SLE Responder Index (SRI) Response Rate at Week 52
+PLUTO,NCT01649765,Part A: Belimumab 10 mg/kg,belimumab,BAFF,slow,52,28,53,17,39,0,0,Percentage of Participants With SLE Responder Index (SRI) Response at Week 52
+ADDRESS-II,NCT01972568,Atacicept 150 mg,atacicept,BAFF/APRIL,slow,24,56,104,44,100,0,0,Percentage of Subjects With Systemic Lupus Erythematosus (SLE) Responder Index (SRI) Response at Wee
+ADDRESS-II,NCT01972568,Atacicept 75 mg,atacicept,BAFF/APRIL,slow,24,59,102,44,100,0,0,Percentage of Subjects With Systemic Lupus Erythematosus (SLE) Responder Index (SRI) Response at Wee
+lulizumab-ph2,NCT02265744,Experimental: 1.25mg SCBMS-931699 Every Other Week,lulizumab,CD28,slow,12,33,70,31,71,2,2,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index: SRI(4), SRI(5) an"
+lulizumab-ph2,NCT02265744,Experimental: 1.25mg SCBMS-931699 Every Other Week,lulizumab,CD28,slow,24,31,70,35,71,1,1,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index : SRI(4), SRI(5) a"
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Every Other Week,lulizumab,CD28,slow,12,33,68,31,71,2,2,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index: SRI(4), SRI(5) an"
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Every Other Week,lulizumab,CD28,slow,24,33,68,35,71,1,1,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index : SRI(4), SRI(5) a"
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Weekly,lulizumab,CD28,slow,12,34,69,31,71,2,2,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index: SRI(4), SRI(5) an"
+lulizumab-ph2,NCT02265744,Experimental: 12.5mg SC BMS-931699 Weekly,lulizumab,CD28,slow,24,38,69,35,71,1,1,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index : SRI(4), SRI(5) a"
+lulizumab-ph2,NCT02265744,Experimental: 5mg SC Injection BMS-931699 Every Other Week,lulizumab,CD28,slow,12,28,68,31,71,2,2,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index: SRI(4), SRI(5) an"
+lulizumab-ph2,NCT02265744,Experimental: 5mg SC Injection BMS-931699 Every Other Week,lulizumab,CD28,slow,24,27,68,35,71,1,1,"Percentage of Participants Who Meet Response Criteria for the SLE Responder Index : SRI(4), SRI(5) a"
+ACCESS-abatacept-SLE,NCT02270957,Abatacept,abatacept,CD80/86,slow,26,9,31,8,35,1,1,SLE Responder Index-4 (SRI-4)
+TULIP-1,NCT02446912,Anifrolumab 150 mg,anifrolumab,IFNAR,fast,24,34,93,75,184,8,8,Number of Participants Who Achieved a Systemic Lupus Erythematosus (SLE) Responder Index of ≥4 (SRI[
+TULIP-1,NCT02446912,Anifrolumab 150 mg,anifrolumab,IFNAR,fast,52,35,93,74,184,0,0,Number of Participants Who Achieved a Systemic Lupus Erythematosus (SLE) Responder Index ≥4 (SRI[4])
+TULIP-1,NCT02446912,Anifrolumab 300 mg,anifrolumab,IFNAR,fast,24,74,180,75,184,8,8,Number of Participants Who Achieved a Systemic Lupus Erythematosus (SLE) Responder Index of ≥4 (SRI[
+TULIP-1,NCT02446912,Anifrolumab 300 mg,anifrolumab,IFNAR,fast,52,65,180,74,184,0,0,Number of Participants Who Achieved a Systemic Lupus Erythematosus (SLE) Responder Index ≥4 (SRI[4])
+rigerimod-ph3,NCT02504645,IPP-201101 200-mcg Plus SOC,rigerimod,P140 peptide,other,52,53,101,45,101,0,0,Assessment of Systemic Lupus Erythematosus Responder Index (SRI) at Week 52
+RSLV-132-ph2,NCT02660944,RSLV-132,RSLV-132,RNA,other,24,11,42,7,22,2,2,Percentage of Participants With SRI-4 Response
+IFN-K-ph2b,NCT02665364,IFN-K,IFN-kinoid,IFN-alpha,fast,36,57,84,54,83,2,2,Number of Participants Who Achieved a Systematic Lupus Erythematosus (SLE) Responder Index (SRI)-4 a
+baricitinib-ph2,NCT02708095,2 mg Baricitinib,baricitinib,JAK,fast,24,54,105,50,105,1,1,Percentage of Participants Who Achieve SLE Responder Index 4 (SRI-4) Response
+baricitinib-ph2,NCT02708095,4 mg Baricitinib,baricitinib,JAK,fast,24,67,104,50,105,1,1,Percentage of Participants Who Achieve SLE Responder Index 4 (SRI-4) Response
+LILAC,NCT02847598,Part A: BIIB059 150 mg,litifilimab,BDCA2,fast,24,1,6,16,56,10,10,Part A: Percentage of Participants Achieving a Systemic Lupus Erythematosus (SLE) Responder Index >=
+LILAC,NCT02847598,Part A: BIIB059 450 mg,litifilimab,BDCA2,fast,24,36,64,16,56,10,10,Part A: Percentage of Participants Achieving a Systemic Lupus Erythematosus (SLE) Responder Index >=
+LILAC,NCT02847598,Part A: BIIB059 50 mg,litifilimab,BDCA2,fast,24,2,6,16,56,10,10,Part A: Percentage of Participants Achieving a Systemic Lupus Erythematosus (SLE) Responder Index >=
+fenebrutinib-ph2,NCT02908100,GDC-0853 (150mg) QD,fenebrutinib,BTK,slow,24,46,87,40,86,3,3,SRI-4 Response at Week 24
+fenebrutinib-ph2,NCT02908100,GDC-0853 (150mg) QD,fenebrutinib,BTK,slow,48,44,87,38,86,0,0,Systemic Lupus Erythematosus Responder Index (SRI)-4 Response at Week 48
+fenebrutinib-ph2,NCT02908100,GDC-0853 (200mg) BID,fenebrutinib,BTK,slow,24,46,87,40,86,3,3,SRI-4 Response at Week 24
+fenebrutinib-ph2,NCT02908100,GDC-0853 (200mg) BID,fenebrutinib,BTK,slow,48,45,87,38,86,0,0,Systemic Lupus Erythematosus Responder Index (SRI)-4 Response at Week 48
+evobrutinib-ph2,NCT02975336,DBPC Period: M2951 25 mg QD,evobrutinib,BTK,slow,52,64,115,52,114,0,0,DBPC Period: Number of Participants With Response Based on Systemic Lupus Erythematosus Responder In
+evobrutinib-ph2,NCT02975336,DBPC Period: M2951 50 mg BID,evobrutinib,BTK,slow,52,55,114,52,114,0,0,DBPC Period: Number of Participants With Response Based on Systemic Lupus Erythematosus Responder In
+evobrutinib-ph2,NCT02975336,DBPC Period: M2951 75 mg QD,evobrutinib,BTK,slow,52,60,116,52,114,0,0,DBPC Period: Number of Participants With Response Based on Systemic Lupus Erythematosus Responder In
+lenabasum-ph2,NCT03093402,High: JBT-101 20mg/20mg,lenabasum,CB2,other,4,5,25,5,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,High: JBT-101 20mg/20mg,lenabasum,CB2,other,8,10,25,8,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,High: JBT-101 20mg/20mg,lenabasum,CB2,other,12,13,25,10,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,High: JBT-101 20mg/20mg,lenabasum,CB2,other,16,5,25,7,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Low: JBT-101 5mg/5mg,lenabasum,CB2,other,4,6,24,5,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Low: JBT-101 5mg/5mg,lenabasum,CB2,other,8,10,24,8,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Low: JBT-101 5mg/5mg,lenabasum,CB2,other,12,13,24,10,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Low: JBT-101 5mg/5mg,lenabasum,CB2,other,16,8,24,7,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Medium: JBT-101 20mg/Placebo,lenabasum,CB2,other,4,8,27,5,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Medium: JBT-101 20mg/Placebo,lenabasum,CB2,other,8,9,27,8,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Medium: JBT-101 20mg/Placebo,lenabasum,CB2,other,12,11,27,10,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+lenabasum-ph2,NCT03093402,Medium: JBT-101 20mg/Placebo,lenabasum,CB2,other,16,9,27,7,25,18,18,Percentage of Participants as Responders Using the SLE Responder Index (SRI)
+iberdomide-ph2,NCT03161483,0.15 mg QD,iberdomide,cereblon,other,24,20,42,29,83,0,0,Number of Participants Who Achieve SLE Responder Index (SRI) (4) Response
+iberdomide-ph2,NCT03161483,0.30 mg QD,iberdomide,cereblon,other,24,33,82,29,83,0,0,Number of Participants Who Achieve SLE Responder Index (SRI) (4) Response
+iberdomide-ph2,NCT03161483,0.45 mg QD,iberdomide,cereblon,other,24,44,81,29,83,0,0,Number of Participants Who Achieve SLE Responder Index (SRI) (4) Response
+PAISLEY,NCT03252587,BMS-986165 12 mg,deucravacitinib,TYK2,fast,32,40,89,31,90,0,0,Number of Participants Who Meet Response Criteria for Systemic Lupus Erythematosus (SLE) Responder I
+PAISLEY,NCT03252587,BMS-986165 12 mg,deucravacitinib,TYK2,fast,48,42,89,31,90,1,1,Number of Participants Who Meet Response Criteria for Systemic Lupus Erythematosus (SLE) Responder I
+PAISLEY,NCT03252587,BMS-986165 3 mg,deucravacitinib,TYK2,fast,32,53,91,31,90,0,0,Number of Participants Who Meet Response Criteria for Systemic Lupus Erythematosus (SLE) Responder I
+PAISLEY,NCT03252587,BMS-986165 3 mg,deucravacitinib,TYK2,fast,48,52,91,31,90,1,1,Number of Participants Who Meet Response Criteria for Systemic Lupus Erythematosus (SLE) Responder I
+PAISLEY,NCT03252587,BMS-986165 6 mg,deucravacitinib,TYK2,fast,32,46,93,31,90,0,0,Number of Participants Who Meet Response Criteria for Systemic Lupus Erythematosus (SLE) Responder I
+PAISLEY,NCT03252587,BMS-986165 6 mg,deucravacitinib,TYK2,fast,48,44,93,31,90,1,1,Number of Participants Who Meet Response Criteria for Systemic Lupus Erythematosus (SLE) Responder I
+BOS161721-ph2,NCT03371251,Phase 2: BOS161721 120 mg,BOS161721,IL-21,other,30,40,75,19,37,1,1,Phase 2: Number of Participants With an SLE Responder Index 4 (SRI-4) Response at Day 210
+SLE-BRAVE-I,NCT03616912,2 mg Baricitinib,baricitinib,JAK,fast,52,127,255,116,253,1,0,Percentage of Participants Achieving SRI-4 Response - 2 mg Baricitinib
+SLE-BRAVE-I,NCT03616912,4 mg Baricitinib,baricitinib,JAK,fast,52,143,252,116,253,0,0,Percentage of Participants Achieving a Systemic Lupus Erythematosus Responder Index 4 (SRI-4) Respon
+SLE-BRAVE-II,NCT03616964,2 mg Baricitinib,baricitinib,JAK,fast,52,121,261,117,256,1,0,Percentage of Participants Achieving SRI-4 Response (2 mg Baricitinib)
+SLE-BRAVE-II,NCT03616964,4 mg Baricitinib,baricitinib,JAK,fast,52,122,258,117,256,0,0,Percentage of Participants Achieving a Systemic Lupus Erythematosus Responder Index 4 (SRI-4) Respon
+CARE-cenerimod,NCT03742037,Cenerimod 0.5 mg,cenerimod,S1P1,other,26,36,85,34,86,1,1,Response on Systemic Lupus Erythematosus Responder Index 4 (SRI-4) at Month 6 as Compared to Baselin
+CARE-cenerimod,NCT03742037,Cenerimod 1 mg,cenerimod,S1P1,other,26,41,85,34,86,1,1,Response on Systemic Lupus Erythematosus Responder Index 4 (SRI-4) at Month 6 as Compared to Baselin
+CARE-cenerimod,NCT03742037,Cenerimod 2 mg,cenerimod,S1P1,other,26,38,86,34,86,1,1,Response on Systemic Lupus Erythematosus Responder Index 4 (SRI-4) at Month 6 as Compared to Baselin
+CARE-cenerimod,NCT03742037,Cenerimod 4 mg,cenerimod,S1P1,other,26,41,85,34,86,1,1,Response on Systemic Lupus Erythematosus Responder Index 4 (SRI-4) at Month 6 as Compared to Baselin
+brepocitinib-ph2,NCT03845517,PF-06700841 15 mg,brepocitinib,TYK2,fast,52,27,47,62,96,0,0,Percentage of Participants Achieving SLE Responder Index (SRI) Change of 4 (SRI-4) at Week 52
+brepocitinib-ph2,NCT03845517,PF-06700841 30 mg,brepocitinib,TYK2,fast,52,69,99,62,96,0,0,Percentage of Participants Achieving SLE Responder Index (SRI) Change of 4 (SRI-4) at Week 52
+brepocitinib-ph2,NCT03845517,PF-06700841 45 mg,brepocitinib,TYK2,fast,52,61,92,62,96,0,0,Percentage of Participants Achieving SLE Responder Index (SRI) Change of 4 (SRI-4) at Week 52
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 280mg,rozibafusp,BAFF/ICOSL,slow,24,20,36,33,54,1,1,Number of Participants With a SRI-4 Response at Week 24
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 280mg,rozibafusp,BAFF/ICOSL,slow,52,21,35,26,43,0,0,Number of Participants With a SLE Responder Index (SRI-4) Response at Week 52
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 420mg,rozibafusp,BAFF/ICOSL,slow,24,46,66,33,54,1,1,Number of Participants With a SRI-4 Response at Week 24
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 420mg,rozibafusp,BAFF/ICOSL,slow,52,35,48,26,43,0,0,Number of Participants With a SLE Responder Index (SRI-4) Response at Week 52
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 70mg,rozibafusp,BAFF/ICOSL,slow,24,30,58,33,54,1,1,Number of Participants With a SRI-4 Response at Week 24
+rozibafusp-ph2,NCT04058028,Rozibafusp Alfa 70mg,rozibafusp,BAFF/ICOSL,slow,52,29,51,26,43,0,0,Number of Participants With a SLE Responder Index (SRI-4) Response at Week 52
+PHOENYCS-GO,NCT04294667,DZP+SOC,dapirolizumab,CD40L,slow,48,125,208,44,107,8,8,Percentage of Participants With Achievement of Systemic Lupus Erythematosus Responder Index Response
+LY3471851-ph2,NCT04433585,LY3471851 High Dose,LY3471851,IL-2R,other,24,20,73,22,74,2,2,Percentage of Participants Who Achieved Systemic Lupus Erythematosus Responder Index 4 (SRI-4) Respo
+LY3471851-ph2,NCT04433585,LY3471851 Low Dose,LY3471851,IL-2R,other,24,22,74,22,74,2,2,Percentage of Participants Who Achieved Systemic Lupus Erythematosus Responder Index 4 (SRI-4) Respo
+LY3471851-ph2,NCT04433585,LY3471851 Mid Dose,LY3471851,IL-2R,other,24,27,70,22,74,2,2,Percentage of Participants Who Achieved Systemic Lupus Erythematosus Responder Index 4 (SRI-4) Respo
+efavaleukin-ph2,NCT04680637,Efavaleukin Alfa High Dose,efavaleukin,IL-2R,other,24,21,44,20,34,4,4,Number of Participants Who Achieved a SRI-4 Response at Week 24
+efavaleukin-ph2,NCT04680637,Efavaleukin Alfa Low Dose,efavaleukin,IL-2R,other,24,13,29,20,34,4,4,Number of Participants Who Achieved a SRI-4 Response at Week 24
+efavaleukin-ph2,NCT04680637,Efavaleukin Alfa Medium Dose,efavaleukin,IL-2R,other,24,13,31,20,34,4,4,Number of Participants Who Achieved a SRI-4 Response at Week 24
+acazicolcept-ph2,NCT04835441,ALPN-101 (Acazicolcept),acazicolcept,ICOSL/CD86,slow,24,10,37,17,37,1,1,Percentage of Participants Achieving a Systemic Lupus Erythematosus (SLE) Responder Index (SRI)-4
+anifrolumab-Asia,NCT04931563,Anifrolumab 300mg,anifrolumab,IFNAR,fast,52,90,138,50,138,1,1,The Proportion of Participants Who Achieve SRI(4) Response at Week 52
+ALLEGORY,NCT04963296,Obinutuzumab,obinutuzumab,CD20,slow,24,111,151,85,152,6,6,Percentage of Participants Who Achieved SRI(4) at Week 24
+ALLEGORY,NCT04963296,Obinutuzumab,obinutuzumab,CD20,slow,52,116,151,81,152,0,0,Percentage of Participants Who Achieved SLE Responder Index (SRI4) at Week 52
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,4,8,13,6,14,4,4,Percentage of Participants Who Met the Criteria for Systemic Lupus Erythematosus Responder Index-4 (
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,8,6,13,7,14,4,4,Percentage of Participants Who Met the Criteria for Systemic Lupus Erythematosus Responder Index-4 (
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,12,6,13,8,14,4,4,Percentage of Participants Who Met the Criteria for Systemic Lupus Erythematosus Responder Index-4 (
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,16,7,13,9,14,4,4,Percentage of Participants Who Met the Criteria for Systemic Lupus Erythematosus Responder Index-4 (
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,20,8,13,8,14,4,4,Percentage of Participants Who Met the Criteria for Systemic Lupus Erythematosus Responder Index-4 (
+PRV-3279-ph2,NCT05087628,PRV-3279 10 mg/kg,PRV-3279,CD32B/CD79B,slow,24,0,13,0,14,4,4,Percentage of Participants Who Met the Criteria for Systemic Lupus Erythematosus Responder Index-4 (
+LY3361237-ph2,NCT05123586,450 mg - LY3361237,LY3361237,BTLA,other,24,4,42,7,43,2,2,Percentage of Participants Who Achieve Systemic Lupus Erythematosus Responder Index-4 (SRI-4 Respons
+WILLOW,NCT05162586,Cohort B (Part 1 + Part 2): Enpatoran 100 mg,enpatoran,TLR7/8,other,24,77,114,50,94,10,10,Cohort B: Number of Participants With Systemic Lupus Erythematosus Responder Index-4 (SRI-4) Respons
+WILLOW,NCT05162586,Cohort B (Part 2): Enpatoran 25 mg,enpatoran,TLR7/8,other,24,44,71,50,94,10,10,Cohort B: Number of Participants With Systemic Lupus Erythematosus Responder Index-4 (SRI-4) Respons
+WILLOW,NCT05162586,Cohort B (Part 2): Enpatoran 50 mg,enpatoran,TLR7/8,other,24,48,74,50,94,10,10,Cohort B: Number of Participants With Systemic Lupus Erythematosus Responder Index-4 (SRI-4) Respons
+MK-6194-ph2,NCT06161116,MK-6194 3 mg Q2W,MK-6194,IL-2R,other,28,15,30,10,27,16,16,Number of Participants Achieving Systemic Lupus Erythematosus Responder Index (SRI-4) Response at We
+MK-6194-ph2,NCT06161116,MK-6194 3 mg Q4W,MK-6194,IL-2R,other,28,9,29,10,27,16,16,Number of Participants Achieving Systemic Lupus Erythematosus Responder Index (SRI-4) Response at We

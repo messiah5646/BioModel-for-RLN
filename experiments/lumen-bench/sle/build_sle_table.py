@@ -64,11 +64,17 @@ EXC = re.compile(r'[5-8]\)|SRI-?[5-8]|steroid|OCS|corticosteroid|prednis|sustain
                  r'test.?low|modified|mSRI|subgroup|stratum|composite response|with no|without|and OCG|dose ≤|dose <=', re.I)
 DROPG = re.compile(r'open-label|extension|\bLTE\b|long-term|safety follow|Part B|Part C|\(MEE\)|Cohort A|Phase 1b|pSS|'
                    r'Sj[oö]gren|Rheumatoid|\(RA\)|Main Study\) /', re.I)
-DOSE = re.compile(r'\d+(\.\d+)? ?(mg|mcg|µg|mg/kg)', re.I)
+_DOSE = re.compile(r'(\d+(\.\d+)?) ?(mg|mcg|µg|mg/kg)', re.I)
+class _D:  # parser fix 4 (round 115, reported): a '0mg' placebo label is not a dose
+    def search(self, t): return any(float(m.group(1)) > 0 for m in _DOSE.finditer(t))
+DOSE = _D()
 def weeks(txt):
     m = re.search(r'(week|day|month)s?\s*(\d+)', txt or '', re.I)
-    if not m: return None
-    u, v = m.group(1).lower(), int(m.group(2))
+    if m: u, v = m.group(1).lower(), int(m.group(2))
+    else:  # parser fix 2 (round 115, reported): 'N weeks/days/months' word order
+        m = re.search(r'(\d+)\s*(week|day|month)s?\b', txt or '', re.I)
+        if not m: return None
+        u, v = m.group(2).lower(), int(m.group(1))
     return v if u == 'week' else round(v / 7) if u == 'day' else round(v * 52 / 12)
 def half_up(x): return int(math.floor(x + 0.5))
 D = {s['protocolSection']['identificationModule']['nctId']: s for s in json.load(gzip.open(sys.argv[1]))}
@@ -79,7 +85,9 @@ def build(endpoint, extra_exc=None):
         for i, m in enumerate(D[nct].get('resultsSection', {}).get('outcomeMeasuresModule', {}).get('outcomeMeasures', [])):
             ttl = m['title']
             if not endpoint.search(ttl): continue
-            if EXC.search(ttl) and not (endpoint is BIC and re.search(r'BICLA', ttl) and not EXC.search(ttl.replace('BICLA', ''))): continue
+            multi = endpoint is SRI and re.search(r'SRI ?\(?4\)?', ttl) and any(re.search(r'SRI ?\(?4\)?|SRI-4', c.get('title', '')) for c in m.get('classes', []))
+            if multi and not EXC.search(re.sub(r'SRI ?\(?[5-8]\)?', '', ttl)): pass  # parser fix 3 (round 115, reported)
+            elif EXC.search(ttl) and not (endpoint is BIC and re.search(r'BICLA', ttl) and not EXC.search(ttl.replace('BICLA', ''))): continue
             if endpoint is SRI and BIC.search(ttl): continue
             if m.get('paramType') not in ('COUNT_OF_PARTICIPANTS', 'NUMBER'): continue
             pct = 'percent' in (m.get('unitOfMeasure') or '').lower() or m.get('paramType') == 'NUMBER' and 'participants' not in (m.get('unitOfMeasure') or '').lower()
@@ -87,6 +95,7 @@ def build(endpoint, extra_exc=None):
             den = {c['groupId']: int(c['value']) for d in m.get('denoms', []) for c in d['counts']}
             for c in m.get('classes', []):
                 ct = c.get('title', '')
+                if multi and not re.search(r'SRI ?\(?4\)?|SRI-4', ct): continue
                 if ct and re.search(r'non-?responder|did not|^no\b|not achiev', ct, re.I): continue
                 wk = weeks(ct) or weeks(ttl) or weeks(m.get('timeFrame', ''))
                 if wk is None: continue
@@ -100,7 +109,7 @@ def build(endpoint, extra_exc=None):
     best = {}
     for nct, gt, wk, r, N, i, ty, ttl in cand:
         if DROPG.search(gt): continue
-        is_ctrl = bool(re.search(r'placebo', gt, re.I)) and not DOSE.search(gt)
+        is_ctrl = bool(re.search(r'placebo|\bPBO\b', gt, re.I)) and not DOSE.search(gt)  # parser fix 1 (round 115, reported): PBO
         if is_ctrl and re.search(r'followed by', gt, re.I) and wk > 24: continue
         arm = 'ctrl' if is_ctrl else re.sub(r'\s+', ' ', gt)[:60]
         k = (nct, arm, wk); sc = (N, ty == 'PRIMARY', -i)
