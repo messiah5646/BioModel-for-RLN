@@ -1,0 +1,224 @@
+{
+ "SRI4_LOTO_primary_anchored": {
+  "n_arms": 45,
+  "n_trials": 23,
+  "D0": [
+   0.1704,
+   0.0943
+  ],
+  "D1": [
+   0.0819,
+   0.0499
+  ],
+  "D3": [
+   0.1076,
+   0.0746
+  ],
+  "D3_vs_D1": 0.314,
+  "D3_vs_D0": -0.369,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "SRI4_LOTO_all_arms": {
+  "n_arms": 80,
+  "n_trials": 40,
+  "D0": [
+   0.1979,
+   0.016
+  ],
+  "D1": [
+   0.104,
+   -0.0225
+  ],
+  "D3": [
+   0.1236,
+   -0.0086
+  ],
+  "D3_vs_D1": 0.188,
+  "D3_vs_D0": -0.375,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "SRI4_LOMO_anchored": {
+  "n_arms": 34,
+  "n_trials": 16,
+  "D0": [
+   0.1719,
+   0.0753
+  ],
+  "D1": [
+   0.0615,
+   0.0299
+  ],
+  "D3": [
+   0.0713,
+   0.0345
+  ],
+  "D3_vs_D1": 0.159,
+  "D3_vs_D0": -0.585,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "SRI4_LOMO_all_arms": {
+  "n_arms": 80,
+  "n_trials": 40,
+  "D0": [
+   0.1979,
+   0.016
+  ],
+  "D1": [
+   0.1046,
+   -0.0226
+  ],
+  "D3": [
+   0.11,
+   -0.0207
+  ],
+  "D3_vs_D1": 0.052,
+  "D3_vs_D0": -0.444,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "anchor_levels_LOTO": {
+  "none": 35,
+  "target": 23,
+  "molecule": 22
+ },
+ "SRI4_LOTO_one_arm_per_trial_anchored": {
+  "n_arms": 23,
+  "n_trials": 23,
+  "D0": [
+   0.219,
+   0.1284
+  ],
+  "D1": [
+   0.0924,
+   0.0783
+  ],
+  "D3": [
+   0.1311,
+   0.0934
+  ],
+  "D3_vs_D1": 0.419,
+  "D3_vs_D0": -0.401,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "Q58": {
+  "overall": {
+   "C0": 0.031,
+   "C1": 0.2446,
+   "C2": 0.1236,
+   "n": 8,
+   "gain_C2_vs_C1": 0.495,
+   "gain_best_vs_C1": 0.873,
+   "verdict": "early read-out fast-forwards"
+  },
+  "tau2": 0.0281,
+  "fast": {
+   "C0": 0.0227,
+   "C1": 0.0223,
+   "C2": 0.1129,
+   "n": 2,
+   "gain_C2_vs_C1": -4.063,
+   "gain_best_vs_C1": -0.018
+  },
+  "slow": {
+   "C0": 0.0366,
+   "C1": 0.3964,
+   "C2": 0.1308,
+   "n": 6,
+   "gain_C2_vs_C1": 0.67,
+   "gain_best_vs_C1": 0.908
+  },
+  "split_verdict": "not supported"
+ },
+ "BICLA_LOTO_anchored": {
+  "n_arms": 33,
+  "n_trials": 14,
+  "D0": [
+   0.2719,
+   -0.2377
+  ],
+  "D1": [
+   0.2257,
+   -0.2228
+  ],
+  "D3": [
+   0.273,
+   -0.1491
+  ],
+  "D3_vs_D1": 0.21,
+  "D3_vs_D0": 0.004,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "BICLA_LOTO_all_arms": {
+  "n_arms": 53,
+  "n_trials": 26,
+  "D0": [
+   0.2455,
+   -0.1444
+  ],
+  "D1": [
+   0.1918,
+   -0.1488
+  ],
+  "D3": [
+   0.221,
+   -0.103
+  ],
+  "D3_vs_D1": 0.152,
+  "D3_vs_D0": -0.1,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ }
+}
+               trial                             arm         molecule    anchor    obs     se   D0     D1     D3   tau2
+10   baricitinib-ph2                2 mg Baricitinib      baricitinib  molecule  0.151  0.275  0.0  0.310  0.199  0.029
+11   baricitinib-ph2                4 mg Baricitinib      baricitinib  molecule  0.682  0.282  0.0  0.310  0.199  0.029
+13   efavaleukin-ph2      Efavaleukin Alfa High Dose      efavaleukin    target -0.435  0.455  0.0  0.323  0.236  0.022
+14   efavaleukin-ph2       Efavaleukin Alfa Low Dose      efavaleukin    target -0.547  0.502  0.0  0.323  0.236  0.022
+15   efavaleukin-ph2    Efavaleukin Alfa Medium Dose      efavaleukin    target -0.661  0.496  0.0  0.323  0.236  0.022
+29     rigerimod-ph2                       CEP-33457        rigerimod  molecule -0.244  0.305  0.0  0.318  0.317  0.026
+30     LY3471851-ph2              LY3471851 Low Dose        LY3471851    target  0.000  0.356  0.0  0.318  0.089  0.030
+31     LY3471851-ph2              LY3471851 Mid Dose        LY3471851    target  0.389  0.350  0.0  0.318  0.089  0.030
+32     LY3471851-ph2             LY3471851 High Dose        LY3471851    target -0.112  0.362  0.0  0.318  0.089  0.030
+38       MK-6194-ph2                MK-6194 3 mg Q2W          MK-6194    target  0.511  0.530  0.0  0.314  0.087  0.029
+39       MK-6194-ph2                MK-6194 3 mg Q4W          MK-6194    target -0.258  0.554  0.0  0.314  0.087  0.029
+41        IFN-K-ph2b                           IFN-K       IFN-kinoid    target  0.124  0.326  0.0  0.314  0.421  0.029
+42           PAISLEY                BMS-986165 12 mg  deucravacitinib    target  0.525  0.305  0.0  0.302  0.184  0.027
+43           PAISLEY                 BMS-986165 3 mg  deucravacitinib    target  0.921  0.305  0.0  0.302  0.184  0.027
+44           PAISLEY                 BMS-986165 6 mg  deucravacitinib    target  0.530  0.302  0.0  0.302  0.184  0.027
+46  fenebrutinib-ph2             GDC-0853 (150mg) QD     fenebrutinib    target  0.254  0.303  0.0  0.314  0.277  0.031
+47  fenebrutinib-ph2            GDC-0853 (200mg) BID     fenebrutinib    target  0.299  0.303  0.0  0.314  0.277  0.031
+48   sifalimumab-ph2              Sifalimumab 600 mg      sifalimumab    target  0.442  0.273  0.0  0.305  0.265  0.030
+49   sifalimumab-ph2            Sifalimumab 1,200 mg      sifalimumab    target  0.578  0.275  0.0  0.305  0.265  0.030
+50   sifalimumab-ph2  Sifalimumab 200 Milligram (mg)      sifalimumab    target  0.517  0.273  0.0  0.305  0.265  0.030
+51     belimumab-NEA              Belimumab 10 mg/kg        belimumab  molecule  0.552  0.168  0.0  0.305  0.410  0.028
+52          BLISS-52              Belimumab 10 mg/kg        belimumab  molecule  0.563  0.168  0.0  0.304  0.428  0.030
+53          BLISS-52               Belimumab 1 mg/kg        belimumab  molecule  0.314  0.167  0.0  0.304  0.428  0.030
+54      ILLUMINATE-2         LY2127399 Every 4 Weeks        tabalumab  molecule  0.334  0.158  0.0  0.305  0.225  0.031
+55      ILLUMINATE-2         LY2127399 Every 2 Weeks        tabalumab  molecule  0.489  0.157  0.0  0.305  0.225  0.031
+56      ILLUMINATE-1         LY2127399 Every 2 Weeks        tabalumab  molecule  0.116  0.157  0.0  0.322  0.386  0.031
+57      ILLUMINATE-1           LY2127399 Every 4 Wks        tabalumab  molecule  0.270  0.156  0.0  0.322  0.386  0.031
+58             PLUTO      Part A: Belimumab 10 mg/kg        belimumab  molecule  0.363  0.419  0.0  0.313  0.433  0.029
+59          BLISS-SC             Belimumab 200 mg SC        belimumab  molecule  0.526  0.148  0.0  0.303  0.409  0.028
+60   evobrutinib-ph2     DBPC Period: M2951 75 mg QD      evobrutinib    target  0.243  0.263  0.0  0.315  0.300  0.031
+61   evobrutinib-ph2    DBPC Period: M2951 50 mg BID      evobrutinib    target  0.105  0.264  0.0  0.315  0.300  0.031
+62   evobrutinib-ph2     DBPC Period: M2951 25 mg QD      evobrutinib    target  0.399  0.265  0.0  0.315  0.300  0.031
+63           TULIP-1              Anifrolumab 300 mg      anifrolumab  molecule -0.173  0.215  0.0  0.329  0.561  0.023
+64           TULIP-1              Anifrolumab 150 mg      anifrolumab  molecule -0.105  0.260  0.0  0.329  0.561  0.023
+65     rigerimod-ph3     IPP-201101 200-mcg Plus SOC        rigerimod  molecule  0.315  0.281  0.0  0.313  0.179  0.029
+66          BLISS-76              Belimumab 10 mg/kg        belimumab  molecule  0.413  0.176  0.0  0.310  0.457  0.032
+67          BLISS-76               Belimumab 1 mg/kg        belimumab  molecule  0.306  0.177  0.0  0.310  0.457  0.032
+68       SLE-BRAVE-I                2 mg Baricitinib      baricitinib  molecule  0.158  0.177  0.0  0.314  0.193  0.031
+69       SLE-BRAVE-I                4 mg Baricitinib      baricitinib  molecule  0.436  0.179  0.0  0.314  0.193  0.031
+70      SLE-BRAVE-II                4 mg Baricitinib      baricitinib  molecule  0.063  0.177  0.0  0.330  0.329  0.027
+71      SLE-BRAVE-II                2 mg Baricitinib      baricitinib  molecule  0.026  0.176  0.0  0.330  0.329  0.027
+72  brepocitinib-ph2               PF-06700841 15 mg     brepocitinib    target -0.300  0.361  0.0  0.320  0.482  0.028
+73  brepocitinib-ph2               PF-06700841 45 mg     brepocitinib    target  0.075  0.305  0.0  0.320  0.482  0.028
+74  brepocitinib-ph2               PF-06700841 30 mg     brepocitinib    target  0.229  0.304  0.0  0.320  0.482  0.028
+79  anifrolumab-Asia               Anifrolumab 300mg      anifrolumab  molecule  1.185  0.251  0.0  0.300  0.125  0.018
+              trial                    arm   cls  te  tl     de    see     dl    sel     C0   C1     C2
+0          ALLEGORY           Obinutuzumab  slow  24  52  0.776  0.245  1.057  0.251  0.776  0.0  0.460
+1           TULIP-1     Anifrolumab 150 mg  fast  24  52 -0.173  0.261 -0.105  0.260 -0.173  0.0  0.171
+2           TULIP-1     Anifrolumab 300 mg  fast  24  52  0.014  0.213 -0.173  0.215  0.014  0.0  0.198
+3  fenebrutinib-ph2    GDC-0853 (150mg) QD  slow  24  48  0.252  0.303  0.254  0.303  0.252  0.0  0.299
+4  fenebrutinib-ph2   GDC-0853 (200mg) BID  slow  24  48  0.252  0.303  0.299  0.303  0.252  0.0  0.299
+5    rozibafusp-ph2  Rozibafusp Alfa 280mg  slow  24  52 -0.226  0.431 -0.021  0.459 -0.226  0.0  0.242
+6    rozibafusp-ph2  Rozibafusp Alfa 420mg  slow  24  52  0.376  0.383  0.552  0.444  0.376  0.0  0.323
+7    rozibafusp-ph2   Rozibafusp Alfa 70mg  slow  24  52 -0.376  0.380 -0.144  0.416 -0.376  0.0  0.200

@@ -1,0 +1,169 @@
+{
+ "SRI4_LOTO_primary_anchored": {
+  "n_arms": 45,
+  "n_trials": 23,
+  "D0": [
+   0.1704,
+   0.0943
+  ],
+  "D1": [
+   0.0819,
+   0.0499
+  ],
+  "D3": [
+   0.1076,
+   0.0746
+  ],
+  "D3_vs_D1": 0.314,
+  "D3_vs_D0": -0.369,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "SRI4_LOTO_all_arms": {
+  "n_arms": 80,
+  "n_trials": 40,
+  "D0": [
+   0.1979,
+   0.016
+  ],
+  "D1": [
+   0.104,
+   -0.0225
+  ],
+  "D3": [
+   0.1236,
+   -0.0086
+  ],
+  "D3_vs_D1": 0.188,
+  "D3_vs_D0": -0.375,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "SRI4_LOMO_anchored": {
+  "n_arms": 34,
+  "n_trials": 16,
+  "D0": [
+   0.1719,
+   0.0753
+  ],
+  "D1": [
+   0.0615,
+   0.0299
+  ],
+  "D3": [
+   0.0713,
+   0.0345
+  ],
+  "D3_vs_D1": 0.159,
+  "D3_vs_D0": -0.585,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "SRI4_LOMO_all_arms": {
+  "n_arms": 80,
+  "n_trials": 40,
+  "D0": [
+   0.1979,
+   0.016
+  ],
+  "D1": [
+   0.1046,
+   -0.0226
+  ],
+  "D3": [
+   0.11,
+   -0.0207
+  ],
+  "D3_vs_D1": 0.052,
+  "D3_vs_D0": -0.444,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "anchor_levels_LOTO": {
+  "none": 35,
+  "target": 23,
+  "molecule": 22
+ },
+ "SRI4_LOTO_one_arm_per_trial_anchored": {
+  "n_arms": 23,
+  "n_trials": 23,
+  "D0": [
+   0.219,
+   0.1284
+  ],
+  "D1": [
+   0.0924,
+   0.0783
+  ],
+  "D3": [
+   0.1311,
+   0.0934
+  ],
+  "D3_vs_D1": 0.419,
+  "D3_vs_D0": -0.401,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "Q58": {
+  "overall": {
+   "C0": 0.031,
+   "C1": 0.2446,
+   "C2": 0.1236,
+   "n": 8,
+   "gain_C2_vs_C1": 0.495,
+   "gain_best_vs_C1": 0.873,
+   "verdict": "early read-out fast-forwards"
+  },
+  "tau2": 0.0281,
+  "fast": {
+   "C0": 0.0227,
+   "C1": 0.0223,
+   "C2": 0.1129,
+   "n": 2,
+   "gain_C2_vs_C1": -4.063,
+   "gain_best_vs_C1": -0.018
+  },
+  "slow": {
+   "C0": 0.0366,
+   "C1": 0.3964,
+   "C2": 0.1308,
+   "n": 6,
+   "gain_C2_vs_C1": 0.67,
+   "gain_best_vs_C1": 0.908
+  },
+  "split_verdict": "not supported"
+ },
+ "BICLA_LOTO_anchored": {
+  "n_arms": 33,
+  "n_trials": 14,
+  "D0": [
+   0.2719,
+   -0.2377
+  ],
+  "D1": [
+   0.2257,
+   -0.2228
+  ],
+  "D3": [
+   0.273,
+   -0.1491
+  ],
+  "D3_vs_D1": 0.21,
+  "D3_vs_D0": 0.004,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ },
+ "BICLA_LOTO_all_arms": {
+  "n_arms": 53,
+  "n_trials": 26,
+  "D0": [
+   0.2455,
+   -0.1444
+  ],
+  "D1": [
+   0.1918,
+   -0.1488
+  ],
+  "D3": [
+   0.221,
+   -0.103
+  ],
+  "D3_vs_D1": 0.152,
+  "D3_vs_D0": -0.1,
+  "verdict": "FAIL (D3 does not beat pooled mean)"
+ }
+}
