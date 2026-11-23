@@ -34,6 +34,8 @@ Rounds 91-110 mostly re-confirmed negatives (scVI/Geneformer lose to simple base
 12a. **Verifiable pre-registration (round 111).** Push the PREREG, then the data download, then the analysis, as separate commits.
 12. **Sample-size honesty.** Any claim labelled Supported or Established must state n (patients or trials) in the same line.
 
+13. **Daily reviewer (Thomas, 2026-11-23).** An independent reviewer task runs once a day and writes claude/REVIEW-YYYY-MM-DD.md. Its `R-...` REVIEWER FLAG items in the PRIORITY queue are taken BEFORE any P item (fix errors before new work). `R-... reviewer minor` and `RT-... REVIEWER ROUTE` items in the main queue are normal gated items. When finishing an R/RT item, say in the round doc whether the reviewer was right; if you disagree, say why with evidence instead of silently skipping it.
+
 ## PRIORITY queue (take these first, in order)
 When a P item points at a main-queue item ("P2 = Q53"), mark both done with the same result line.
 - [done] P1 (round 111: audit FAILS on labels, PASSES on code; resp_table/result86/round-90/W1 reproduce exactly; 15 Supported/Established labels -> Emerging incl. IFN set point and LLPC reservoir; round-90 wk-104 PASS is n=2 trials -> Emerging; 19 literature claims held from preprint until n stated; commit 51b5b79) AUDIT of rounds 91-110 (rule 10). List every Supported/Established claim with its n and whether it was
