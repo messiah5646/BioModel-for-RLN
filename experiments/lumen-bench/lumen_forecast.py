@@ -70,6 +70,9 @@ if __name__=='__main__':
         if x.use_early_update: out=upd
         else: out['early_update_EMERGING']={k:upd[k] for k in ('early_logOR','post_logOR','post_sd','OR','OR_95') if k in upd}
         out['early_note']=('Round 127 (RT-1, time-forward, PREREG c8e07af): the shrunk early update FAILED, losing to raw carry-forward '
-                           'of the early read-out by >=10% (13 arms / 7 trials, voclosporin excluded; Emerging). Headline = pooled prior.')
+                           'of the early read-out by >=10% (13 arms / 7 trials, voclosporin excluded; Emerging). Headline = pooled prior, BUT on the same arms '
+                           'the pooled headline was itself worse than the update (IV-MSE 0.311 vs 0.259) and than carry-forward (0.146); '
+                           'in LN without voclosporin (4 trials) null was best (0.279 vs pooled 0.626). NO early rule is validated '
+                           '(reviewer R-20261124-1, round 132).')
     out['control_rate']='pooled, not modelled; absolute arm rates not output (round 129, RT-2 PREREG d5b5f84)'
     print(json.dumps(out,indent=1))

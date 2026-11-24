@@ -6,7 +6,7 @@ and the commit hash, and add any new follow-ups at the end. One item per run unl
 ## Standing rules (never break)
 1. Pre-register (commit a PREREG file) BEFORE looking at the outcome data of any test. State the pass rule.
 2. Every model is compared with trivial baselines on held-out data. Report failures as failures.
-2b. **Strongest baseline, real FAIL branch (reviewer R-20261123-5, round 126).** Every PREREG's pass rule names the strongest available trivial baseline (carry-forward whenever the patient's or trial's own earlier value exists), and losing to ANY trivial baseline by >= 10% = FAIL, not inconclusive. Template: docs/PREREG-TEMPLATE.md.
+2b. **Strongest baseline, real FAIL branch (reviewer R-20261123-5, round 126).** Every PREREG's pass rule names the strongest available trivial baseline (carry-forward whenever the patient's or trial's own earlier value exists), and losing to ANY trivial baseline by >= 10% = FAIL, not inconclusive. The clause applies to whatever the decision ships, including the default it falls back to (R-20261124-1, round 132). Template: docs/PREREG-TEMPLATE.md.
 3. Label claims Established / Supported / Emerging / Hypothetical. Human data first.
 4. Write each round to the claude.ai project as `claude/round-NN-<finding>.md`; push code to branch `rounds-70-72`.
 5. Never contact anyone, create accounts, submit forms, or spend money. Never delete data.
