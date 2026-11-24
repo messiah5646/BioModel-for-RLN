@@ -1,0 +1,37 @@
+cid,name,rule,reason
+N01,orelabrutinib-ph2,3,not open: not in PMC; Europe PMC isOpenAccess=N (J Autoimmun); no CT.gov results
+N02,anifrolumab-SC-ph3,3,not open: not in PMC; Europe PMC isOpenAccess=N (Arthritis Rheumatol); no registry ID in catalogue
+N03,ianalumab-ph2,3,not open: not in PMC; Europe PMC isOpenAccess=N (Ann Rheum Dis)
+N04,CM313-ph2,5,no target visit: treatment period to day 57 (PMC12647876)
+N05,telitacicept-ph3-China,3,not open: NEJM; Europe PMC isOpenAccess=N; no CT.gov results
+N06,telitacicept-ph2b,5(primary),INCLUDED for S3 only: SRI-4 wk48 by arm in Table 2; early-visit by-arm numbers only in Fig 2B and online supplemental table 1 (publisher site ard.bmj.com 403; not in PMC XML) -> no qualifying early visit
+N07,upadacitinib-elsubrutinib-SLEek,1,already tabulated/excluded: SLEek NCT03978520 is in build_sle_table.py EXCLUDED set (also not open)
+N08,obexelimab-ph2,2/4,loss-of-improvement design after steroid-induced improvement (CT.gov results NCT02725515); no SRI-4 add-on comparison
+N09,LUPIL-2,3,not open: not in PMC; Europe PMC isOpenAccess=N (Ann Rheum Dis); no CT.gov results
+N10,iberdomide-ph2a,5,no target visit: 12-week dose-escalation phase (PMC8852715); target wk48-52 absent
+N11,IL-2-He-2020,5,no target visit: 12 weeks treatment + follow-up to wk24 (PMC6937406)
+N12,IL-2-ph2b-2026,5,no target visit: 24-week study (PMC13284199 Fig 1/3)
+N13,CHABLIS-SC1,3,not open: Ann Rheum Dis not in PMC; Europe PMC isOpenAccess=N; no CT.gov results
+N14,EMBODY-1,5(primary),INCLUDED for S3 only: SRI-4 (post hoc modified) only at wk48 (Table 2); early visits exist for BICLA only (CT.gov) and rule 4 routes SRI-4-reporting trials to SRI-4
+N15,EMBODY-2,5(primary),INCLUDED for S3 only: as N14
+N16,ROSE-rontalizumab,3,not open: Ann Rheum Dis not in PMC; Europe PMC isOpenAccess=N; no CT.gov results
+N17,PEARL-SC,3,not open: Ann Rheum Dis not in PMC; Europe PMC isOpenAccess=N; no CT.gov results
+N18,EMBLEM,5,no target visit: 12-week primary (PMC3888603)
+N19,Lupuzor-ph2b,5,no target visit: weeks 12 and 24 only (PMC3812851 Tables 3-4)
+N20,EXPLORER,4,index is BILAG MCR/PCR; no SRI-4 or BICLA by arm (PMC4548300; CT.gov results)
+N21,belimumab-ph2-2009,4,no by-arm SRI-4 responder counts (primary = % change SELENA-SLEDAI; PMC2758229 Table 2; CT.gov results)
+N22,BLISS-BELIEVE,4,index is disease control (SLEDAI-2K<=2 off immunosuppressants); no SRI-4/BICLA by arm (PMC11503042; CT.gov results)
+N23,UCMSC-secretome,5,no target visit: day 43 (PMC12059846)
+N24,sirukumab-LN-ph2,5,no target visit: efficacy at week 24, follow-up to wk40 (PMC5129491)
+N25,UCMSC-LN,3,not open: Ann Rheum Dis not in PMC; Europe PMC isOpenAccess=N; no CT.gov results
+N26,HCQ-paediatric-LN,6,not ITT: CRR at 6 and 12 months reported for completers only (30+30 after 16 post-allocation exclusions; PMC10167107 Table 1/4)
+N27,CCL2-inhibition-LN,3,not open: Am J Nephrol; Europe PMC isOpenAccess=N
+N28,tacrolimus-LN-Japan,3,not open: Mod Rheumatol; Europe PMC isOpenAccess=N
+N29,mizoribine-LN-China,2,head-to-head vs cyclophosphamide (JAMA Netw Open 2025 PMID 40085084 title); no CT.gov results
+N30,nipocalimab-JASMINE,3,no results: no CT.gov results and no PubMed results paper (sources/pubmed_N29_N36_esummary.json); r131 numbers are congress/press percentages
+N31,litifilimab-TOPAZ-1,3,no results: active not recruiting; no CT.gov results; no paper
+N32,litifilimab-TOPAZ-2,3,no results: active not recruiting; no CT.gov results; no paper
+N33,litifilimab-ph2-3-2part,3,no results: active not recruiting; no CT.gov results; no paper
+N34,afimetoran-ph2,3,no results: active not recruiting; no CT.gov results; no SLE paper (only cutaneous LE ph1b)
+N35,telitacicept-global-ph3,3,no results: terminated; no CT.gov results; no paper
+N36,MIL62-ph2,3,no results: no CT.gov results; no paper

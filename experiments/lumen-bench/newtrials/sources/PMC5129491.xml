@@ -1,0 +1,795 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Arthritis Rheumatol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">101623795</journal-id><journal-id journal-id-type="publisher-id">ART</journal-id><journal-title-group><journal-title>Arthritis &amp; Rheumatology (Hoboken, N.j.)</journal-title></journal-title-group><issn pub-type="ppub">2326-5191</issn><issn pub-type="epub">2326-5205</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC5129491</article-id><article-id pub-id-type="pmcid-ver">PMC5129491.1</article-id><article-id pub-id-type="pmcaid">5129491</article-id><article-id pub-id-type="pmcaiid">5129491</article-id><article-id pub-id-type="pmid">27110697</article-id><article-id pub-id-type="doi">10.1002/art.39722</article-id><article-id pub-id-type="publisher-id">ART39722</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Systemic Lupus Erythematosus</subject></subj-group><subj-group subj-group-type="heading"><subject>Systemic Lupus Erythematosus</subject></subj-group></article-categories><title-group><article-title>A Multicenter, Randomized, Double‐Blind, Placebo‐Controlled Study to Evaluate the Efficacy and Safety of Treatment With Sirukumab (CNTO 136) in Patients With Active Lupus Nephritis</article-title><alt-title alt-title-type="right-running-head">ANTI–IL‐6 mAb SIRUKUMAB IN ACTIVE LUPUS NEPHRITIS</alt-title><alt-title alt-title-type="left-running-head">ROVIN ET AL</alt-title></title-group><contrib-group><contrib id="art39722-cr-0001" contrib-type="author"><name name-style="western"><surname>Rovin</surname><given-names initials="BH">Brad H.</given-names></name><xref ref-type="aff" rid="art39722-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="art39722-cr-0002" contrib-type="author"><name name-style="western"><surname>van Vollenhoven</surname><given-names initials="RF">Ronald F.</given-names></name><xref ref-type="aff" rid="art39722-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="art39722-cr-0003" contrib-type="author"><name name-style="western"><surname>Aranow</surname><given-names initials="C">Cynthia</given-names></name><xref ref-type="aff" rid="art39722-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="art39722-cr-0004" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wagner</surname><given-names initials="C">Carrie</given-names></name><xref ref-type="aff" rid="art39722-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="art39722-cr-0005" contrib-type="author"><name name-style="western"><surname>Gordon</surname><given-names initials="R">Robert</given-names></name><xref ref-type="aff" rid="art39722-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="art39722-cr-0006" contrib-type="author"><name name-style="western"><surname>Zhuang</surname><given-names initials="Y">Yanli</given-names></name><xref ref-type="aff" rid="art39722-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="art39722-cr-0007" contrib-type="author"><name name-style="western"><surname>Belkowski</surname><given-names initials="S">Stanley</given-names></name><xref ref-type="aff" rid="art39722-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="art39722-cr-0008" contrib-type="author"><name name-style="western"><surname>Hsu</surname><given-names initials="B">Benjamin</given-names></name><xref ref-type="aff" rid="art39722-aff-0005">
+<sup>5</sup>
+</xref></contrib></contrib-group><aff id="art39722-aff-0001"><label><sup>1</sup></label><institution>Ohio State University and Ohio State University Wexner Medical Center</institution><named-content content-type="city">Columbus</named-content></aff><aff id="art39722-aff-0002"><label><sup>2</sup></label><institution>Amsterdam Rheumatology and Immunology Center</institution><named-content content-type="city">Amsterdam</named-content><country>The Netherlands)</country></aff><aff id="art39722-aff-0003"><label><sup>3</sup></label><institution>Feinstein Institute for Medical Research, Northwell Health</institution><named-content content-type="city">Manhasset</named-content><named-content content-type="country-part">New York</named-content></aff><aff id="art39722-aff-0004"><label><sup>4</sup></label><institution>Janssen Research &amp; Development, LLC</institution><named-content content-type="city">Spring House</named-content><named-content content-type="country-part">Pennsylvania</named-content></aff><aff id="art39722-aff-0005"><label><sup>5</sup></label><institution>Janssen Research &amp; Development</institution><named-content content-type="city">San Carlos</named-content><named-content content-type="country-part">California</named-content></aff><author-notes><corresp id="correspondenceTo"><label>*</label>Address correspondence to Carrie Wagner, PhD, Janssen Research &amp; Development, LLC, 1400 McKean Road, PO Box 776, Spring House, PA 19477. E‐mail: <email>cwagner@its.jnj.com</email>.</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>8</month><year>2016</year></pub-date><pub-date pub-type="ppub"><month>9</month><year>2016</year></pub-date><volume>68</volume><issue>9</issue><issue-id pub-id-type="pmc-issue-id">279895</issue-id><issue-id pub-id-type="doi">10.1002/art.v68.9</issue-id><fpage>2174</fpage><lpage>2183</lpage><history><date date-type="received"><day>09</day><month>11</month><year>2015</year></date><date date-type="accepted"><day>12</day><month>4</month><year>2016</year></date></history><pub-history><event event-type="pmc-release"><date><day>30</day><month>11</month><year>2016</year></date></event><event event-type="pmc-live"><date><day>30</day><month>11</month><year>2016</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2016-12-01 02:05:27.953"><day>01</day><month>12</month><year>2016</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2016 The Authors. Arthritis &amp; Rheumatology published by Wiley Periodicals, Inc. on behalf of the American College of Rheumatology.</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution‐NonCommercial‐NoDerivs</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ART-68-2174.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ART-68-2174.pdf"/><abstract><sec id="art39722-sec-0001"><title>Objective</title><p>To assess the efficacy and safety of sirukumab, an anti–interleukin‐6 monoclonal antibody, for the treatment of patients with active lupus nephritis (LN).</p></sec><sec id="art39722-sec-0002"><title>Methods</title><p>Patients with class III or class IV LN (as determined by renal biopsy within 14 months of randomization) who had persistent proteinuria (&gt;0.5 gm/day) despite receiving immunosuppressive therapy and who were being treated with stable doses of a renin‐angiotensin system blocker were randomized (5:1) to receive treatment with sirukumab at a dose of 10 mg/kg intravenously (n = 21) or placebo (n = 4) every 4 weeks through week 24. The primary end point was the percent reduction in proteinuria (measured as the protein‐to‐creatinine [P:C] ratio in a 12‐hour urine collection) from baseline to week 24.</p></sec><sec id="art39722-sec-0003"><title>Results</title><p>Twenty‐five patients were enrolled, of whom 19 (76.0%) completed treatment through week 24 and 6 (24.0%) discontinued the study agent early, with 5 of the 6 discontinuing due to adverse events. At week 24, the median percent change in proteinuria from baseline to week 24 in sirukumab‐treated patients was 0.0% (95% confidence interval −61.8, 39.6). In contrast, the 4 placebo‐treated patients showed an increase in proteinuria (median percent reduction −43.3%) at week 24. Of note, a subset of 5 sirukumab‐treated patients had ≥50% improvement in their P:C ratio through week 28. In the sirukumab group, 47.6% of patients experienced ≥1 serious adverse event through week 40; most were infection‐related. No deaths or malignancies occurred. No serious adverse events were observed in the 4 placebo‐treated patients.</p></sec><sec id="art39722-sec-0004"><title>Conclusion</title><p>This proof‐of‐concept study did not demonstrate the anticipated efficacy nor did it demonstrate an acceptable safety profile for sirukumab treatment in this population of patients with active LN receiving concomitant immunosuppressive treatment.</p></sec></abstract><funding-group><award-group><funding-source>Janssen Research &amp; Development, LLC.</funding-source></award-group></funding-group><counts><page-count count="10"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>art39722</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.8 mode:remove_FC converted:24.11.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group><fn id="art39722-note-0001"><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ClinicalTrials.gov">ClinicalTrials.gov</ext-link> identifier: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01273389">NCT01273389</ext-link>.</p></fn><fn id="art39722-note-0002"><p>Supported by Janssen Research &amp; Development, LLC.</p></fn><fn id="art39722-note-0003"><p>Dr. Rovin has received honoraria from Janssen Research &amp; Development (less than $10,000).</p><p>Dr. van Vollenhoven has received consulting fees and/or honoraria from AbbVie, Biotest, Bristol‐Myers Squibb, Celgene, Crescendo, GlaxoSmithKline, Janssen, Lilly, Merck, Novartis, Pfizer, Roche, UCB, and Vertex (less than $10,000 each) and research grants from AbbVie, Amgen, Bristol‐Myers Squibb, GlaxoSmithKline, Pfizer, Roche, and UCB.</p><p>Dr. Aranow has received consulting fees from Celgene, GlaxoSmithKline, Janssen, and Mallinckrodt (less than $10,000 each).</p><p>Dr. Wagner, Mr. Gordon, and Drs. Zhuang, Belkowski, and Hsu own stock in Johnson &amp; Johnson, of which Janssen Research &amp; Development, LLC is a wholly owned subsidiary.</p></fn></fn-group></notes></front><body><p>Clinically important kidney involvement occurs in up to 60% of patients with systemic lupus erythematosus (SLE) <xref rid="art39722-bib-0001" ref-type="ref">1</xref>. The presence of lupus nephritis (LN), especially the proliferative classes III and IV, is a predictor of worsened patient survival <xref rid="art39722-bib-0002" ref-type="ref">2</xref>, <xref rid="art39722-bib-0003" ref-type="ref">3</xref>. Treatment regimens, including intravenous (IV) cyclophosphamide (CYC) and mycophenolate mofetil (MMF), both being widely considered the standard‐of‐care for patients with LN, are characterized by slow and/or incomplete responses and are associated with serious adverse effects <xref rid="art39722-bib-0004" ref-type="ref">4</xref>. To address the unmet need of improving kidney outcomes in patients with LN while decreasing therapeutic toxicity, several biologic therapies targeting specific pathways important in the pathogenesis of LN have been examined in recent clinical trials <xref rid="art39722-bib-0005" ref-type="ref">5</xref>, <xref rid="art39722-bib-0006" ref-type="ref">6</xref>, <xref rid="art39722-bib-0007" ref-type="ref">7</xref>, <xref rid="art39722-bib-0008" ref-type="ref">8</xref>. However, to date, none of these therapies have been approved to treat LN.</p><p>The pleiotropic cytokine interleukin‐6 (IL‐6) has been implicated in the pathogenesis of LN <xref rid="art39722-bib-0009" ref-type="ref">9</xref>, <xref rid="art39722-bib-0010" ref-type="ref">10</xref>. In murine models, inhibition of IL‐6 activity resulted in improved outcomes related to renal disease, including delayed onset of LN, reduced proteinuria and serum creatinine levels, improved survival, reduced anti–double‐stranded DNA (anti‐dsDNA) antibody levels, and preservation of glomerular function and structure <xref rid="art39722-bib-0011" ref-type="ref">11</xref>, <xref rid="art39722-bib-0012" ref-type="ref">12</xref>, <xref rid="art39722-bib-0013" ref-type="ref">13</xref>. There is also indirect evidence to indicate that IL‐6 is involved in the pathogenesis of SLE and LN. In an exploratory analysis of 29 patients with active LN, urine IL‐6 levels were ∼9‐fold greater in patients with class IV LN relative to those with class II or class V LN. IL‐6 was not detected in the urine of healthy controls <xref rid="art39722-bib-0014" ref-type="ref">14</xref>. Importantly, no correlation between urine and serum IL‐6 levels was observed, and serum IL‐6 levels did not vary with LN class <xref rid="art39722-bib-0014" ref-type="ref">14</xref>. In a separate analysis of 56 patients with SLE, urine IL‐6 levels correlated with disease activity as measured by the Systemic Lupus Activity Measure (SLAM) <xref rid="art39722-bib-0015" ref-type="ref">15</xref> and the SLAM index for active renal disease <xref rid="art39722-bib-0016" ref-type="ref">16</xref>. Other studies have also found higher serum IL‐6 levels in patients with LN when compared with healthy controls; however, findings of an association of urine and serum IL‐6 levels with LN disease activity have been inconsistent <xref rid="art39722-bib-0016" ref-type="ref">16</xref>, <xref rid="art39722-bib-0017" ref-type="ref">17</xref>.</p><p>Taken together, these data provide a strong rationale for therapeutic targeting of the IL‐6 pathway in LN. Thus, the high‐affinity human anti–IL‐6 monoclonal antibody sirukumab (CNTO 136; Janssen Research &amp; Development, LLC) was evaluated in this proof‐of‐concept study in patients with SLE and active LN. Results from a phase I study indicated that the pharmacokinetic profile of sirukumab was linear in healthy subjects and that multiple doses were generally well tolerated in patients with SLE, some of whom also had mild cutaneous lupus <xref rid="art39722-bib-0018" ref-type="ref">18</xref>. Thus, the current study was undertaken to evaluate the effects of short‐term (6 months) treatment with sirukumab in patients with active LN (class III and class IV LN according to the International Society of Nephrology/Renal Pathology Society [ISN/RPS] classification criteria [19]) who were receiving concomitant immunosuppressive treatment and other standard‐of‐care medications for LN.</p><sec id="art39722-sec-0006"><title>PATIENTS AND METHODS</title><sec id="art39722-sec-0007"><title>Ethics</title><p>This study was conducted in accordance with the ethics principles of the Declaration of Helsinki, the Guidelines for Good Clinical Practice, and applicable regulatory requirements. The protocol was approved at each clinical site by an Institutional Review Board or Independent Ethics Committee, and all patients provided written informed consent prior to the conduct of any study‐related procedures.</p></sec><sec id="art39722-sec-0008"><title>Patients</title><p>Adults (ages 18–70 years) were eligible for the study if they met the disease classification criteria for SLE from the American College of Rheumatology <xref rid="art39722-bib-0020" ref-type="ref">20</xref> or the Systemic Lupus International Collaborating Clinics <xref rid="art39722-bib-0021" ref-type="ref">21</xref>, which include seropositivity for antinuclear antibodies and/or anti‐dsDNA autoantibodies, presence of biopsy‐proven (within 14 months of randomization) ISN/RPS class III or class IV LN <xref rid="art39722-bib-0019" ref-type="ref">19</xref>, and presence of persistently active disease despite standard‐of‐care induction and maintenance immunosuppressive treatment. Persistently active disease was defined as proteinuria of &gt;0.5 gm/day plus class III or class IV LN as determined by kidney biopsy (conducted within 14 months of randomization) or at least 1 of the following criteria: hematuria (≥5 red blood cells/high‐power field), positive test result for anti‐dsDNA autoantibodies, or C3 or C4 complement levels below the lower limit of normal. Stable concomitant treatment with MMF at a dosage of 1–3 gm/day (or equivalent dosages of mycophenolic acid/mycophenolate sodium) or azathioprine at 1–3 mg/kg/day, with or without oral corticosteroids (≤20 mg/day prednisone or equivalent), was permitted. Patients could not have received CYC within 3 months of randomization. Unless there was a history of treatment intolerance, patients were required to be taking a stable dose of an angiotensin‐converting enzyme inhibitor and/or an angiotensin II receptor blocker. Patients with poorly controlled hypertension (mean systolic pressure &gt;150 mm Hg) or a pattern of worsening or unstable renal disease during the 8‐week screening period were not eligible.</p></sec><sec id="art39722-sec-0009"><title>Study design</title><p>This trial was designed as a multicenter, randomized, double‐blind, placebo‐controlled, parallel‐group proof‐of‐concept study. The study included an 8‐week screening period to establish the stability of each patient's baseline renal parameters. After meeting the study inclusion criteria, 25 patients were randomized (5:1) to receive either sirukumab at a dose of 10 mg/kg IV or placebo every 4 weeks through week 24. In a previous phase I trial, a limited sirukumab dosing regimen of 10 mg/kg IV infusions at weeks 0, 2, 4, and 6 was generally well tolerated in patients with SLE, although the use of concomitant medications was more limited than that in the current trial <xref rid="art39722-bib-0022" ref-type="ref">22</xref>. It was therefore decided to use a less frequent dosing regimen of 10 mg/kg every 4 weeks in the current trial, as patients would also be receiving significant concomitant immunosuppression. This dosing frequency was expected to result in ∼50% lower exposure compared with the every‐2‐week dosing. Patients were followed through week 40 for assessment of the safety and potential efficacy of sirukumab, as well as its pharmacokinetics, immunogenicity, and pharmacodynamics.</p><p>Clinical response evaluations and patient‐reported outcomes included proteinuria defined as the protein‐to‐creatinine (P:C) ratio in a 12‐hour urine collection <xref rid="art39722-bib-0023" ref-type="ref">23</xref>, serum creatinine levels, estimated glomerular filtration rate (eGFR) using the serum creatinine levels (calculated using the Modification of Diet in Renal Disease study equation [24]), and patient's and physician's global assessments of disease activity <xref rid="art39722-bib-0025" ref-type="ref">25</xref> (both evaluated via a 0–10‐cm visual analog scale). Disease activity was also assessed using the SLE Disease Activity Index 2000 (SLEDAI‐2K) <xref rid="art39722-bib-0026" ref-type="ref">26</xref>, with scores assessed as either a &lt;50% improvement or a ≥50% improvement in each of the SLEDAI‐2K descriptors (referred to as the SLEDAI‐2K Responder Index 50 [RI‐50] response) <xref rid="art39722-bib-0027" ref-type="ref">27</xref>. A post hoc analysis was performed to evaluate serum IL‐6 levels and the ratio of urine IL‐6 to creatinine in responders and nonresponders. In this analysis, response was defined as having a ≥50% reduction in proteinuria from baseline at 2 or more consecutive visits through week 28.</p><p>Adverse events (AEs) and clinical laboratory assessments were monitored through week 40. Serum and urine samples were collected to evaluate sirukumab concentrations and pharmacokinetic parameters over time using noncompartmental analyses. To assess immunogenicity, serum samples were obtained at weeks 0, 4, 12, 28, and 40 and screened for the presence of antibodies to sirukumab using an electrochemiluminescence immunoassay. Confirmed antibody‐positive samples were further tested for titer and the presence of sirukumab‐neutralizing antibodies. Clinical pharmacodynamic markers were analyzed at a central laboratory (Covance). The markers evaluated included levels of complement components C3 and C4, anti‐dsDNA autoantibodies, and serum biomarkers of inflammation such as C‐reactive protein (CRP) and serum amyloid A (SAA). Serum IL‐6 levels were assessed using a human multianalyte profiling (MAP) technology platform (version 2.0; Myriad Rules Based Medicine). The lower limit of quantitation (LLOQ) of this method was 4.4 pg/ml; values below the LLOQ were assigned the value of one‐half the LLOQ (2.2 pg/ml). Urine IL‐6 levels were analyzed using a Meso Scale Discovery assay; the LLOQ of this assay was 1 pg/ml.</p></sec><sec id="art39722-sec-0010"><title>Statistical analysis</title><p>This trial was a proof‐of‐concept study to assess safety and changes in proteinuria following treatment with sirukumab. Results were summarized using descriptive statistics. Efficacy data were summarized by treatment group. Due to the small sample size, between‐group comparisons were not performed. Efficacy was evaluated in a modified intent‐to‐treat population, and included all patients who had received ≥1 dose of study agent and had ≥1 postbaseline efficacy outcome measurement. The last observation carried forward method was used to impute missing values for continuous end points if a patient had data for ≥1 postbaseline evaluation. Patients with missing values for dichotomous end points were classified as nonresponders.</p><p>The primary end point was the percent reduction in proteinuria from baseline to week 24, determined according to the P:C ratio in a 12‐hour urine collection. A meaningful reduction in proteinuria was defined on the basis of the amount of proteinuria measured at baseline (i.e., patients with a P:C ratio of ≤3.0 at baseline achieving a posttreatment P:C ratio of &lt;0.5, or patients with a P:C ratio of &gt;3.0 at baseline achieving a reduction in proteinuria of ≥50% as well as a posttreatment P:C ratio of &lt;3.0). Major secondary end points included the following: 1) the proportion of patients with a ≥50% reduction in proteinuria from baseline at any time through week 24; 2) the proportion of patients with a meaningful reduction in proteinuria (as defined above) at any time through week 24; 3) the proportion of patients with no decrease in the eGFR at any time through week 24; and 4) the absolute and percent change from baseline in the patient's and physician's global assessments of disease activity at week 24. The 95% confidence intervals (95% CIs) around median changes were calculated based on nonparametric methods. Continuous end points (change and percent change) were summarized using 95% CIs that were calculated by nonparametric methods, due to data variability. For the percentage of patients, exact 95% CIs were constructed, based on a binary distribution.</p><p>Safety analyses were summarized by treatment group and included all randomized patients who received ≥1 dose of study agent. AEs and serious AEs (SAEs) were also captured for all screened patients during the 8‐week screening period and are summarized separately.</p><p>Pharmacokinetic, pharmacodynamic, and immunogenicity analyses included data from all patients who received ≥1 dose of sirukumab and had ≥1 sample obtained following the first dose of sirukumab.</p></sec></sec><sec id="art39722-sec-0011"><title>RESULTS</title><sec id="art39722-sec-0012"><title>Disposition and baseline characteristics of the patients</title><p>Sixty‐two patients from 18 sites in 6 countries were screened, and of these, 25 were randomized to receive either placebo (n = 4) or sirukumab (n = 21). Among all randomized patients, 6 (24.0%, all in the sirukumab group) discontinued the study agent before week 24 (5 due to AEs, while 1 patient withdrew consent on day 2 before any efficacy data or serum samples were collected); thus, 19 patients (76.0%) completed treatment through week 24. In total, 20 (80.0%) of the 25 randomized patients continued study participation through week 40, including the 16‐week follow‐up. The majority of the study population were female (84.0%), with a mean age of 32 years. The demographic characteristics of the patients were generally similar between the 2 treatment groups, except that all 4 placebo‐treated patients were female, 3 (75.0%) of the 4 placebo‐treated patients were Asian, and patients in the placebo group were slightly older than those in the sirukumab group (mean age 37.8 years versus 30.6 years) (Table <xref rid="art39722-tbl-0001" ref-type="table-wrap">1</xref>).</p><table-wrap id="art39722-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Baseline characteristics of the study patients<xref ref-type="fn" rid="art39722-note-0004">a</xref>
+</p></caption><table frame="hsides" rules="groups"><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Placebo (n = 4)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Sirukumab 10 mg/kg (n = 21)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Sex</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Male</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4 (19.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Female</td><td align="center" valign="top" rowspan="1" colspan="1">4 (100.0)</td><td align="center" valign="top" rowspan="1" colspan="1">17 (81.0)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age, mean ± SD years</td><td align="center" valign="top" rowspan="1" colspan="1">37.8 ± 11.4</td><td align="center" valign="top" rowspan="1" colspan="1">30.6 ± 7.7</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Race</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">White</td><td align="center" valign="top" rowspan="1" colspan="1">1 (25.0)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (33.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Asian</td><td align="center" valign="top" rowspan="1" colspan="1">3 (75.0)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (19.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Black</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">1 (4.8)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Pacific Islander</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">1 (4.8)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Other</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">8 (38.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Renal biopsy class</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Class III</td><td align="center" valign="top" rowspan="1" colspan="1">2 (50.0)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (33.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Class IV</td><td align="center" valign="top" rowspan="1" colspan="1">2 (50.0)</td><td align="center" valign="top" rowspan="1" colspan="1">14 (66.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">eGFR</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">≥90 ml/minute/1.73 m<sup>2</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1 (25.0)</td><td align="center" valign="top" rowspan="1" colspan="1">10 (47.6)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">≥60 to &lt;90 ml/minute/1.73 m<sup>2</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1 (25.0)</td><td align="center" valign="top" rowspan="1" colspan="1">9 (42.9)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">≥30 to &lt;60 ml/minute/1.73 m<sup>2</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2 (50.0)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (9.5)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Duration of SLE, mean ± SD years</td><td align="center" valign="top" rowspan="1" colspan="1">6.5 ± 7.2</td><td align="center" valign="top" rowspan="1" colspan="1">8.1 ± 4.4<xref ref-type="fn" rid="art39722-note-0005">b</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Duration of LN, mean ± SD years</td><td align="center" valign="top" rowspan="1" colspan="1">3.8 ± 2.8</td><td align="center" valign="top" rowspan="1" colspan="1">5.2 ± 4.8</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Proteinuria, mean ± SD</td><td align="center" valign="top" rowspan="1" colspan="1">2.7 ± 1.7</td><td align="center" valign="top" rowspan="1" colspan="1">3.1 ± 2.4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SLEDAI‐2K, mean ± SD score (scale 0–105)</td><td align="center" valign="top" rowspan="1" colspan="1">18.0 ± 6.5</td><td align="center" valign="top" rowspan="1" colspan="1">15.7 ± 5.3</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Patient's global assessment, mean ± SD VAS (scale 0–10 cm)</td><td align="center" valign="top" rowspan="1" colspan="1">3.5 ± 1.2</td><td align="center" valign="top" rowspan="1" colspan="1">4.1 ± 2.5</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Physician's global assessment, mean ± SD VAS (scale 0–10 cm)</td><td align="center" valign="top" rowspan="1" colspan="1">4.5 ± 2.3</td><td align="center" valign="top" rowspan="1" colspan="1">4.2 ± 2.6</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Concomitant medications</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Mycophenolate mofetil</td><td align="center" valign="top" rowspan="1" colspan="1">3 (75.0)</td><td align="center" valign="top" rowspan="1" colspan="1">15 (71.4)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Dosage, mean ± SD gm/day</td><td align="center" valign="top" rowspan="1" colspan="1">1.3 ± 0.6</td><td align="center" valign="top" rowspan="1" colspan="1">1.8 ± 0.6</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Azathioprine</td><td align="center" valign="top" rowspan="1" colspan="1">1 (25.0)</td><td align="center" valign="top" rowspan="1" colspan="1">6 (28.6)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Dosage, mean ± SD mg/day</td><td align="center" valign="top" rowspan="1" colspan="1">100</td><td align="center" valign="top" rowspan="1" colspan="1">104.2 ± 33.2</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Prednisone or equivalent</td><td align="center" valign="top" rowspan="1" colspan="1">4 (100)</td><td align="center" valign="top" rowspan="1" colspan="1">20 (95.2)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Dosage, mean ± SD mg/day</td><td align="center" valign="top" rowspan="1" colspan="1">12.5 ± 2.9</td><td align="center" valign="top" rowspan="1" colspan="1">11.1 ± 4.3</td></tr></tbody></table><table-wrap-foot><fn id="art39722-note-0004"><label>a</label><p>Except where indicated otherwise, values are the number (%) of patients. eGFR = estimated glomerular filtration rate; SLE = systemic lupus erythematosus; LN = lupus nephritis; SLEDAI‐2K = SLE Disease Activity Index 2000; VAS = visual analog scale.</p></fn><fn id="art39722-note-0005"><label>b</label><p>n = 19.</p></fn></table-wrap-foot></table-wrap><p>Baseline features of disease were comparable between the 2 treatment groups, with the exception of duration of SLE (mean 8.1 years in the sirukumab group and 6.5 years in the placebo group) (Table <xref rid="art39722-tbl-0001" ref-type="table-wrap">1</xref>). Mean SLEDAI‐2K scores at baseline were consistent, showing moderately high disease activity in both groups, which could be attributed to the weighting of active renal disease in the SLEDAI‐2K score. In this trial population, SLEDAI‐2K scores were mainly driven by the components measuring proteinuria, urinary casts, hematuria, low levels of complement, and rash (data not shown).</p></sec><sec id="art39722-sec-0013"><title>Pharmacokinetics</title><p>Serum concentrations of sirukumab reached steady state by week 12. The mean trough serum sirukumab concentration at week 12 (20.6 μg/ml) was maintained through week 24 (22.7 μg/ml) (Figure <xref rid="art39722-fig-0001" ref-type="fig">1</xref>). The fact that drug accumulation was minimal in the patients’ serum was reflected by the mean accumulation ratios of 1.1 for maximum concentration (C<sub>max</sub>) and 1.2 for area under the 28‐day concentration curve (AUC<sub>0–28d</sub>). The mean half‐life was ∼16 days. The mean C<sub>max</sub> and AUC<sub>0–28d</sub> values for sirukumab were 239.7 μg/ml and 1,421.3 μg/day/ml, respectively, after the first administration, and were 259.5 μg/ml and 1,864.9 μg/day/ml, respectively, following the last administration. Low, but measurable, sirukumab concentrations were detected in 12‐hour urine samples from 7 of 20 patients following the first administration and in 5 of 15 patients after the administration at week 24.</p><fig fig-type="Figure" xml:lang="en" id="art39722-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Serum concentrations of sirukumab over time in patients with active lupus nephritis, following the intravenous administration of 10 mg/kg sirukumab every 4 weeks. LLOQ = lower limit of quantification.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-1" position="float" orientation="portrait" xlink:href="ART-68-2174-g001.jpg"/></fig></sec><sec id="art39722-sec-0014"><title>Immunogenicity</title><p>Through week 40, 1 (5.0%) of the 20 sirukumab‐treated patients who had serum samples available for testing was positive for antibodies to sirukumab. This patient had a low antibody titer (1:20), and tested negative for neutralizing antibodies.</p></sec><sec id="art39722-sec-0015"><title>Clinical pharmacodynamics</title><p>Total IL‐6 levels in the patients’ sera were determined using a Luminex‐based analysis on a human MAP platform. Samples collected at 8, 4, and 2 weeks before randomization revealed that only 6 of the 21 patients in the sirukumab group had detectable baseline levels of serum IL‐6. These 6 patients had a mean IL‐6 level of 9.5 pg/ml (range 4.5–17 pg/ml). After sirukumab administration, serum IL‐6 levels increased rapidly in all sirukumab‐treated patients, including those who did not have detectable IL‐6 at baseline. Thereafter, the serum IL‐6 levels plateaued at week 20, and remained elevated through week 40. In contrast, IL‐6 levels were not elevated above the LLOQ at any time in the placebo‐treated patients.</p><p>A pronounced reduction in the levels of acute‐phase reactants (CRP and SAA) was observed following sirukumab treatment, and reductions in both C3 and C4 complement levels were also observed after administration of sirukumab. Two patients in the placebo group and 12 patients in the sirukumab group had positive or equivocal findings for anti‐dsDNA autoantibodies at baseline. Of these, both of the placebo‐treated patients and 8 of the sirukumab‐treated patients became anti‐dsDNA negative by week 24. The patients who were anti‐dsDNA negative at baseline (n = 2 in the placebo group and n = 8 in the sirukumab group) remained negative through week 24.</p></sec><sec id="art39722-sec-0016"><title>Efficacy</title><p>Treatment with sirukumab did not result in an overall change in proteinuria from baseline to week 24. Specifically, the median percent reduction in proteinuria from baseline to week 24 was 0.0% in the sirukumab group and −43.3% (a negative reduction indicates an increase in proteinuria) in the placebo group (Table <xref rid="art39722-tbl-0002" ref-type="table-wrap">2</xref>), and these changes were generally maintained through week 36 (data not shown). At week 24, 3 (15.0%) of the 20 patients in the sirukumab group had a meaningful reduction in proteinuria (defined as achieving a P:C ratio of &lt;0.5 in those with nonnephrotic levels of proteinuria at baseline, or achieving a reduction in proteinuria of ≥50% together with a P:C ratio of &lt;3.0 in those with nephrotic‐range proteinuria at baseline), and 4 patients (20.0%) in the sirukumab group had a reduction in proteinuria of ≥50% by week 24. The proportions of patients with either a reduction in proteinuria of ≥50% or a meaningful reduction in proteinuria at any time through week 24 are shown in Figures <xref rid="art39722-fig-0002" ref-type="fig">2</xref>A and B. No patient in the placebo group had a meaningful reduction in proteinuria or a decrease in proteinuria of ≥50% at any time through week 24.</p><fig fig-type="Figure" xml:lang="en" id="art39722-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Secondary end points through week 24 in patients receiving 10 mg/kg sirukumab compared with those receiving placebo, assessing the proportion of patients who experienced a decrease in proteinuria of ≥50% <bold>(A)</bold>, a meaningful decrease in proteinuria <bold>(B)</bold>, and no worsening of the estimated glomerular filtration rate (eGFR) <bold>(C)</bold>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-3" position="float" orientation="portrait" xlink:href="ART-68-2174-g002.jpg"/></fig><table-wrap id="art39722-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Summary of efficacy at week 24</p></caption><table frame="hsides" rules="groups"><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Placebo (n = 4)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Sirukumab 10 mg/kg (n = 20)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Percentage reduction in proteinuria from baseline to week 24 (primary end point)<xref ref-type="fn" rid="art39722-note-0006">a</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Mean ± SD</td><td align="center" valign="top" rowspan="1" colspan="1">−73.6 ± 131.4</td><td align="center" valign="top" rowspan="1" colspan="1">−37.1 ± 131.2</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Median (95% CI)<xref ref-type="fn" rid="art39722-note-0007">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">−43.3</td><td align="center" valign="top" rowspan="1" colspan="1">0.0 (−61.8, 39.6)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Major secondary end points at week 24</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Decrease in proteinuria of ≥50% from baseline</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:15%" valign="top" rowspan="1" colspan="1">No. (%) of patients</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4 (20.0)</td></tr><tr><td align="left" style="padding-left:20%" valign="top" rowspan="1" colspan="1">95% CI</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">5.7, 43.7</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Meaningful reduction in proteinuria from baseline<xref ref-type="fn" rid="art39722-note-0008">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:15%" valign="top" rowspan="1" colspan="1">No. (%) of patients</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">3 (15.0)</td></tr><tr><td align="left" style="padding-left:20%" valign="top" rowspan="1" colspan="1">95% CI</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">3.2, 37.9</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">No worsening of eGFR<xref ref-type="fn" rid="art39722-note-0009">d</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:15%" valign="top" rowspan="1" colspan="1">No. (%) of patients</td><td align="center" valign="top" rowspan="1" colspan="1">3 (75.0)</td><td align="center" valign="top" rowspan="1" colspan="1">9 (45.0)</td></tr><tr><td align="left" style="padding-left:20%" valign="top" rowspan="1" colspan="1">95% CI</td><td align="center" valign="top" rowspan="1" colspan="1">–</td><td align="center" valign="top" rowspan="1" colspan="1">23.1, 68.5</td></tr></tbody></table><table-wrap-foot><fn id="art39722-note-0006"><label>a</label><p>A negative reduction in proteinuria indicates an increase in proteinuria.</p></fn><fn id="art39722-note-0007"><label>b</label><p>The 95% confidence interval (95% CI) was not calculated for the placebo group due to the small sample size and lack of statistical powering.</p></fn><fn id="art39722-note-0008"><label>c</label><p>Meaningful reduction in proteinuria was defined as patients with a protein‐to‐creatinine (P:C) ratio of ≤3.0 at baseline achieving a posttreatment P:C ratio of &lt;0.5, or patients with a P:C ratio of &gt;3.0 at baseline achieving a reduction in proteinuria of ≥50% as well as a posttreatment P:C ratio of &lt;3.0.</p></fn><fn id="art39722-note-0009"><label>d</label><p>No worsening of the estimated glomerular filtration rate (eGFR) was defined as a ≤15% decrease from baseline, assessed using the serum creatinine levels.</p></fn></table-wrap-foot></table-wrap><p>Moreover, at week 24, 9 patients (45.0%) in the sirukumab group and 3 (75.0%) in the placebo group had no worsening of their eGFR (i.e., patients experienced a ≤15% decrease in the eGFR from baseline, which was calculated from serum creatinine levels) (Table <xref rid="art39722-tbl-0002" ref-type="table-wrap">2</xref>). The proportion of patients with no worsening of the eGFR at any time through week 24 is shown in Figure <xref rid="art39722-fig-0002" ref-type="fig">2</xref>C. In contrast to the eGFR results reported at week 24, when the eGFR was assessed as the median percent change from baseline, the change in the eGFR was comparable between the 2 treatment groups at several posttreatment time points (data not shown). In addition, no discernable relationship was observed between the eGFR and the amount of proteinuria at baseline or between changes in the eGFR and the amount of proteinuria at week 24 (data not shown).</p><p>Neither the patient's nor the physician's global assessment scores of disease activity showed notable improvement over time in either treatment group (data not shown). Eighteen patients (14 in the sirukumab group and 4 in the placebo group) had a SLEDAI‐2K RI‐50 response at any time through week 24; of these, 3 (21.4%) and 1 (25.0%), respectively, had sustained response through week 36. There was a trend toward modest improvement through week 24 in the following SLEDAI‐2K components: proteinuria, arthritis severity, urinary casts, hematuria, and rash (data not shown). The subscore for complement levels showed an increase from baseline, consistent with the expected posttreatment decrease in complement levels. As expected for the effects of an anti–IL‐6 agent on acute‐phase reactants, complement levels decreased as a result of treatment with sirukumab.</p><p>An exploratory post hoc analysis was performed to examine baseline demographic and disease characteristics in responders and nonresponders in the sirukumab group, with response defined as a reduction in proteinuria of ≥50% from baseline at 2 or more visits through week 28. Of the 20 patients in the sirukumab group, 5 were classified as responders and 15 as nonresponders (see Supplementary Table 1, available on the <italic toggle="yes">Arthritis &amp; Rheumatology</italic> web site at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://onlinelibrary.wiley.com/doi/10.1002/art.39722/abstract">http://onlinelibrary.wiley.com/doi/10.1002/art.39722/abstract</ext-link>). Of these 5 responders, 3 were men (only 4 male patients were enrolled in the active treatment group), and 4 had class IV renal disease. In addition, 4 of the 5 responders had nonnephrotic levels of proteinuria (P:C ratio &lt;3) at baseline, and 3 were anti‐dsDNA negative at baseline. Although these parameters appear to be enriched in this subset of responding patients, some of these features (nonnephrotic proteinuria levels, anti‐dsDNA–negative status, and class IV renal disease) were also present in a number of nonresponders.</p><p>A retrospective analysis of serum IL‐6 levels and the urine IL‐6:creatinine ratios at screening (through week 0) and at week 24 was performed in sirukumab‐treated responders compared with nonresponders. No trends were observed with regard to differences in serum IL‐6 levels during screening or at week 24 between the responding and nonresponding patients (Table <xref rid="art39722-tbl-0003" ref-type="table-wrap">3</xref>). At screening, serum IL‐6 was undetectable in 15 of the 20 patients who received sirukumab. Serum IL‐6 levels increased by week 24 in most of the sirukumab‐treated patients, reflecting the binding of sirukumab to IL‐6 and the complex remaining in the circulation. Interestingly, 4 (80%) of the 5 responders had very low urine IL‐6 levels at screening, compared with only 40% of the nonresponders. Furthermore, 4 (80%) of the 5 responders showed a &gt;50% decrease in urine IL‐6 levels at 1 or more visits through week 24, compared with only 66.7% of nonresponders. Three responders had both a low urine IL‐6 level during screening and a decrease of &gt;50% in urine IL‐6 levels through week 24.</p><table-wrap id="art39722-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Baseline and posttreatment serum interleukin‐6 (IL‐6) levels and ratios of urine IL‐6 to creatinine in sirukumab responders and nonresponders</p></caption><table frame="hsides" rules="groups"><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Responders*</th><th align="center" valign="bottom" rowspan="1" colspan="1">Nonresponders</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">No. of patients</td><td align="center" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">15</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Serum IL‐6 level, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">&lt;4 pg/ml during screening</td><td align="center" valign="top" rowspan="1" colspan="1">3 (60.0)</td><td align="center" valign="top" rowspan="1" colspan="1">12 (80.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">&lt;1,000 pg/ml at week 24</td><td align="center" valign="top" rowspan="1" colspan="1">3 (60.0)</td><td align="center" valign="top" rowspan="1" colspan="1">10 (66.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Urine IL‐6:creatinine ratio, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">&lt;1 during screening</td><td align="center" valign="top" rowspan="1" colspan="1">4 (80.0)</td><td align="center" valign="top" rowspan="1" colspan="1">6 (40.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">≥50% decrease through week 24</td><td align="center" valign="top" rowspan="1" colspan="1">4 (80.0)</td><td align="center" valign="top" rowspan="1" colspan="1">10 (66.7)</td></tr></tbody></table><table-wrap-foot><fn id="art39722-note-0010"><p>*Response was defined as having a ≥50% reduction in proteinuria from baseline at 2 or more visits through week 28.</p></fn></table-wrap-foot></table-wrap></sec><sec id="art39722-sec-0017"><title>Safety</title><p>All patients who had been randomized to receive sirukumab and who had been administered ≥1 dose of sirukumab during the trial were included in the safety analysis. There was a mean follow‐up time of 36 weeks in the sirukumab group and 40 weeks in the placebo group (Table <xref rid="art39722-tbl-0004" ref-type="table-wrap">4</xref>). There were no deaths or malignancies during the study. All patients had ≥1 AE following study randomization. The most frequently reported AEs were infections and gastrointestinal disorders (primarily diarrhea). Through week 40, 10 patients (47.6%) in the sirukumab group had ≥1 SAE; no SAEs occurred in those receiving placebo. The most common SAEs were infections and worsening of LN (AE term provided by the investigator). Five patients, all in the sirukumab treatment group, discontinued the study treatment due to AEs, which included <italic toggle="yes">Haemophilus</italic> pneumonia, increased hepatic enzyme levels, anaphylactic reaction (observed following the first administration of sirukumab), neutropenia, and worsening of LN. Infections were reported in 18 patients (85.7%) in the sirukumab group and 2 patients (50.0%) in the placebo group. Eight sirukumab‐treated patients (38.1%) had serious infections. The most common serious infections were pneumonia (n = 4) and cellulitis (n = 2).</p><table-wrap id="art39722-tbl-0004" xml:lang="en" orientation="portrait" position="float"><label>Table 4</label><caption><p>Summary of adverse events through week 40</p></caption><table frame="hsides" rules="groups"><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Placebo (n = 4)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Sirukumab 10 mg/kg (n = 21)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Duration of follow‐up, mean weeks</td><td align="center" valign="top" rowspan="1" colspan="1">40.1</td><td align="center" valign="top" rowspan="1" colspan="1">36.1</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Patients with ≥1 adverse event, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (100.0)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (100.0)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Common adverse events (reported by &gt;2 patients), no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Upper respiratory infection</td><td align="center" valign="top" rowspan="1" colspan="1">1 (25.0)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (33.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Headache</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4 (19.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Lupus nephritis</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4 (19.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Diarrhea</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">3 (14.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Hypertension</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">3 (14.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Pneumonia</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">3 (14.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Sinusitis</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">3 (14.3)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Patients with ≥1 serious adverse event, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">10 (47.6)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Common serious adverse events (reported by &gt;1 patient), no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Lupus nephritis</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4 (19.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Pneumonia</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4 (19.0)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Cellulitis</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">2 (9.5)</td></tr></tbody></table></table-wrap><p>In the sirukumab group, levels of fasting lipids (high‐density lipoprotein, low‐density lipoprotein, triglycerides, and apolipoproteins A and B) increased by 11–46% at week 8 as compared to baseline. However, by week 36, these levels had decreased and were close to the values at baseline for most analytes, with the exception of triglycerides (mean increase in triglyceride levels 39%).</p><p>Of note, SAEs were also reported during the 8‐week screening period in patients who did not meet the criteria for randomization. Among the 37 screen‐failed patients, 4 (10.8%) had ≥1 SAE. These SAEs were serious infection events of infectious diarrhea, herpes zoster, pneumonia, septic shock, and urinary tract infection.</p></sec></sec><sec id="art39722-sec-0018"><title>DISCUSSION</title><p>This proof‐of‐concept study was designed to evaluate, in a small number of patients, whether inhibition of IL‐6 with sirukumab would provide improvement in proteinuria and other features of active LN. This study population included patients with class III or class IV LN who completed induction therapy with either MMF or IV CYC and continued to have significant proteinuria despite concomitant therapy with MMF or azathioprine. The addition of the anti–IL‐6 monoclonal antibody sirukumab to the treatment regimen did not result in an overall improvement in proteinuria at week 24, and a comparison of the major secondary and exploratory end points, including the patient's and physician's global assessments of disease activity, did not provide compelling evidence of a treatment benefit in this patient population.</p><p>Only 4 patients received placebo, which limits the interpretation of the safety and efficacy of sirukumab in this study population. All randomized patients had ≥1 AE during the trial; the most frequently reported AE was upper respiratory tract infection, which is consistent with the safety results observed in previous sirukumab trials <xref rid="art39722-bib-0018" ref-type="ref">18</xref>, <xref rid="art39722-bib-0028" ref-type="ref">28</xref>. Ten sirukumab‐treated patients experienced an SAE, the most common being infection. Of note, among the 37 patients who were screened but not randomized, 4 patients experienced a total of 5 SAEs during the 8‐week screening period. Although no SAEs occurred among the 4 patients in the placebo group, the number of SAEs observed during the study screening period suggests that all patients were at increased risk for AEs. No deaths or malignancies occurred during the trial.</p><p>Patients receiving sirukumab at a dose of 10 mg/kg every 4 weeks achieved steady‐state serum concentrations of sirukumab by week 12, with a median trough concentration of 20.6 µg/ml, which indicates that there was adequate sustained exposure to the drug to support a clinical response. Sirukumab was detected in the urine of approximately one‐third of the sirukumab‐treated patients, confirming that this monoclonal antibody can be excreted in patients with renal impairment. Low‐titer (1:20) antibodies to sirukumab were detected in 1 patient who had received the active study agent.</p><p>Treatment with sirukumab resulted in a pronounced reduction in the levels of acute‐phase reactants (CRP and SAA), as well as reductions in the C3 and C4 complement levels. Although a decrease in complement levels is usually an indicator of worsening disease in LN, the reduction in acute‐phase reactant levels, including the complement proteins, was an expected pharmacologic effect of the neutralization of IL‐6 with sirukumab. Measurement of complement split products could have distinguished whether the reductions in complement levels resulted from a worsening of LN or were simply an effect of sirukumab on acute‐phase reactants.</p><p>IL‐6 was also measured in the serum and urine of all patients, before and after randomization, using a commercial assay that was not designed to distinguish free IL‐6 from sirukumab‐bound IL‐6. Sirukumab binds to IL‐6 with high affinity and specificity <xref rid="art39722-bib-0029" ref-type="ref">29</xref>, and therefore the observation that serum IL‐6 levels increased in all sirukumab‐treated patients after the initiation of study treatment is consistent with a state of IL‐6 bound to sirukumab. The serum IL‐6 profile over time was typical for a cytokine bound to a therapeutic monoclonal antibody, with a gradual elimination of both the cytokine and the antibody together in an immune complex <xref rid="art39722-bib-0030" ref-type="ref">30</xref>, <xref rid="art39722-bib-0031" ref-type="ref">31</xref>.</p><p>Despite the overall lack of clinical benefit, there was an intriguing improvement of ≥50% in the P:C ratio in a small subset of 5 patients identified as responders. This exploratory analysis further examined the demographic and disease characteristics in this subset of responders to assess whether it might be possible to identify patients with LN who would be more likely to benefit from IL‐6–targeted therapy. There were certain baseline patient characteristics that were enriched in this retrospectively defined subset of responders, including a preponderance of men, negative anti‐dsDNA status, class IV disease, and nonnephrotic levels of proteinuria, although these characteristics were not unique to the responding patients. The data indicate that it would be difficult to identify potential responders based on their clinical characteristics alone.</p><p>In addition, the screening and posttreatment levels of serum and urine IL‐6 were retrospectively evaluated for a possible relationship to clinical response. There was no notable difference between the proportion of responders and proportion of nonresponders who had relatively low serum IL‐6 levels at baseline (screening through week 0) or posttreatment. With regard to urine IL‐6:creatinine ratios, it was interesting that 4 (80%) of 5 responders had a &gt;50% reduction in their urine IL‐6:creatinine ratios at all posttreatment visits through week 24; however, ∼70% of nonresponders showed a similar trend. The urine IL‐6:creatinine ratios at screening allowed for somewhat greater differentiation between responders (80% had a ratio &lt;1) compared with nonresponders (40% had a ratio &lt;1). Patients with lower urine IL‐6 levels at baseline generally had greater responses to sirukumab.</p><p>Although this study did not indicate that sirukumab would benefit most patients with this disease profile, several important lessons regarding trial design and targeted anticytokine therapies can be taken from these results. Conceptually, adding a therapy to resolve persistently active LN is important and relevant because most patients do not achieve a complete clinical renal response with currently available treatments, at least within the first year of standard treatment. However, it is difficult to identify patients with persistent disease activity using clinical measurements alone because there is considerable discordance between renal histopathologic features and measurements of disease activity in LN <xref rid="art39722-bib-0032" ref-type="ref">32</xref>. In the current study, renal biopsy samples from up to 14 months before enrollment were used to qualify patients for study entry. During that time, patients may have experienced changes in renal histologic features due to disease progression or to ongoing immunosuppressive therapy. It may be useful, in future studies, to consider collecting the kidney biopsy samples closer to the time of study enrollment to verify more recent histologic LN activity.</p><p>Beyond treatment‐induced changes in renal histologic features, it is possible that the exposure to immunosuppressive agents prior to trial enrollment may have affected or minimized the role of IL‐6 as a mediator of ongoing kidney injury. For example, the levels of urine IL‐6 have been shown to decrease after therapy with corticosteroids and cytotoxic drugs, and urine IL‐6 levels appear to reflect intrarenal IL‐6 expression <xref rid="art39722-bib-0014" ref-type="ref">14</xref>, <xref rid="art39722-bib-0016" ref-type="ref">16</xref>. Thus, after induction and maintenance therapy, IL‐6 may contribute to persistent LN in only a subset of patients. To address this possibility, screening patients for the level of the therapeutic target (IL‐6) might have been useful in differentiating patients who would be more likely to benefit from anti–IL‐6 therapy. As in other studies <xref rid="art39722-bib-0014" ref-type="ref">14</xref>, <xref rid="art39722-bib-0016" ref-type="ref">16</xref>, <xref rid="art39722-bib-0033" ref-type="ref">33</xref>, <xref rid="art39722-bib-0034" ref-type="ref">34</xref>, the serum IL‐6 levels at baseline were very low in this study population, and the clinical response to sirukumab was not associated with detectable changes in serum IL‐6 levels. However, urine levels of IL‐6 at baseline might help to differentiate potential responders and nonresponders or to guide drug dosing, although further research would be needed to evaluate this hypothesis.</p><p>Although global antagonism of the IL‐6 pathway, which has been achieved through genetic deletion of IL‐6 or by using an antibody to IL‐6 or the IL‐6 receptor, has been successful in ameliorating murine lupus <xref rid="art39722-bib-0011" ref-type="ref">11</xref>, <xref rid="art39722-bib-0012" ref-type="ref">12</xref>, <xref rid="art39722-bib-0013" ref-type="ref">13</xref>, therapeutic targeting of IL‐6 in humans appears to be more complex. Despite IL‐6 being characterized as a proinflammatory cytokine, it may also have antiinflammatory activity, perhaps by modulating the levels of other proinflammatory cytokines such as tumor necrosis factor <xref rid="art39722-bib-0035" ref-type="ref">35</xref>. These findings may be explained by emerging concepts, such as the finding that the actions of IL‐6 are transduced either by the IL‐6 receptor found in cell membranes (classic, <italic toggle="yes">cis</italic>‐signaling) or by soluble IL‐6 receptor shed from cell membranes (<italic toggle="yes">trans</italic>‐signaling) <xref rid="art39722-bib-0009" ref-type="ref">9</xref>, <xref rid="art39722-bib-0036" ref-type="ref">36</xref>. It is possible that specifically blocking the <italic toggle="yes">trans</italic>‐signaling pathway might be more effective in LN than blocking all of the IL‐6 pathways through a neutralizing IL‐6 antibody.</p><p>In conclusion, this trial was a proof‐of‐concept study conducted in a small number of patients, and was not powered to definitively compare the efficacy and safety of sirukumab treatment relative to placebo. In addition, the use of potent concomitant medications such as corticosteroids, azathioprine, and MMF further challenges the interpretation of these study results. In this study, adding treatment with the anti–IL‐6 monoclonal antibody sirukumab did not reduce proteinuria in the majority of patients with persistently active LN who were also receiving maintenance immunosuppression for their disease. When designing future trials evaluating the efficacy and safety of anticytokine therapies in patients with LN, it may be crucial to have the current renal histopathologic findings and urine or tissue cytokine levels to better assess which patients could benefit from the therapy. Finally, many cytokines have both pro‐ and antiinflammatory activities, and therapies that inhibit the proinflammatory effects, while leaving the antiinflammatory effects intact, may be more effective than global cytokine suppression, and may therefore have fewer adverse effects.</p></sec><sec id="art39722-sec-0020"><title>AUTHOR CONTRIBUTIONS</title><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be published. Dr. Wagner had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.</p><sec id="art39722-sec-0021"><title>Study conception and design</title><p>Rovin, van Vollenhoven, Aranow, Wagner, Gordon, Zhuang, Belkowski, Hsu.</p></sec><sec id="art39722-sec-0022"><title>Acquisition of data</title><p>Wagner, Gordon, Zhuang, Belkowski, Hsu.</p></sec><sec id="art39722-sec-0023"><title>Analysis and interpretation of data</title><p>Rovin, van Vollenhoven, Aranow, Wagner, Gordon, Zhuang, Belkowski, Hsu.</p></sec></sec><sec id="art39722-sec-0024"><title>ROLE OF THE STUDY SPONSOR</title><p>Authors who are employees of Janssen Research &amp; Development, LLC were involved in the study design and in the collection, analysis, and interpretation of the data, the writing of the manuscript, and the decision to submit the manuscript for publication. All authors approved the manuscript for submission.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Supplementary Table 1. Baseline characteristics of responders and nonresponders.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ART-68-2174-s001.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="art39722-sec-0019"><title>ACKNOWLEDGMENTS</title><p>We thank Rebecca Clemente, PhD (Janssen Scientific Affairs, LLC) for providing writing support, and Bei Zhou, PhD (Janssen Research &amp; Development, LLC) for participating in the design of the study.</p></ack><ref-list content-type="cited-references"><title>REFERENCES</title><ref id="art39722-bib-0001"><label>1</label><mixed-citation publication-type="book" id="art39722-cit-0001">
+<string-name name-style="western">
+<surname>Rovin</surname>
+<given-names>BH</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Stillman</surname>
+<given-names>IE.</given-names>
+</string-name>
+<chapter-title>The kidney in systemic lupus erythematosus</chapter-title> In: <person-group person-group-type="editor"><name name-style="western"><surname>Lahita</surname><given-names>RG</given-names></name></person-group>, editor. <source>Systemic lupus erythematosus</source>. <edition>Fifth ed.</edition>
+<publisher-loc>London</publisher-loc>: <publisher-name>Academic Press</publisher-name>; <year>2011</year> p. <fpage>769</fpage>–<lpage>814</lpage>.
+</mixed-citation></ref><ref id="art39722-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="art39722-cit-0002">
+<string-name name-style="western">
+<surname>Cervera</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Khamashta</surname>
+<given-names>MA</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Font</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sebastiani</surname>
+<given-names>GD</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gil</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lavilla</surname>
+<given-names>P</given-names>
+</string-name>, et al, <collab collab-type="authors">and the European Working Party on Systemic Lupus Erythematosus</collab>
+. <article-title>Morbidity and mortality in systemic lupus erythematosus during a 5‐year period: a multicenter prospective study of 1,000 patients</article-title>. <source>Medicine (Baltimore)</source>
+<year>1999</year>;<volume>78</volume>:<fpage>167</fpage>–<lpage>75</lpage>.
+<pub-id pub-id-type="pmid">10352648</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00005792-199905000-00003</pub-id></mixed-citation></ref><ref id="art39722-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="art39722-cit-0003">
+<string-name name-style="western">
+<surname>Mok</surname>
+<given-names>CC</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kwok</surname>
+<given-names>RC</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yip</surname>
+<given-names>PS.</given-names>
+</string-name>
+<article-title>Effect of renal disease on the standardized mortality ratio and life expectancy of patients with systemic lupus erythematosus</article-title>. <source>Arthritis Rheum</source>
+<year>2013</year>;<volume>65</volume>:<fpage>2154</fpage>–<lpage>60</lpage>.
+<pub-id pub-id-type="pmid">23754671</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.38006</pub-id></mixed-citation></ref><ref id="art39722-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="art39722-cit-0004">
+<string-name name-style="western">
+<surname>Rovin</surname>
+<given-names>BH</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Parikh</surname>
+<given-names>SV.</given-names>
+</string-name>
+<article-title>Lupus nephritis: the evolving role of novel therapeutics</article-title>. <source>Am J Kidney Dis</source>
+<year>2014</year>;<volume>63</volume>:<fpage>677</fpage>–<lpage>90</lpage>.
+<pub-id pub-id-type="pmid">24411715</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.ajkd.2013.11.023</pub-id><pub-id pub-id-type="pmcid">PMC4159074</pub-id></mixed-citation></ref><ref id="art39722-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="art39722-cit-0005">
+<string-name name-style="western">
+<surname>Furie</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nicholls</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>TT</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Houssiau</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Burgos‐Vargas</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>SL</given-names>
+</string-name>, et al. <article-title>Efficacy and safety of abatacept in lupus nephritis: a twelve‐month, randomized, double‐blind study</article-title>. <source>Arthritis Rheumatol</source>
+<year>2014</year>;<volume>66</volume>:<fpage>379</fpage>–<lpage>89</lpage>.
+<pub-id pub-id-type="pmid">24504810</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.38260</pub-id></mixed-citation></ref><ref id="art39722-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="art39722-cit-0006">
+<string-name name-style="western">
+<surname>Houssiau</surname>
+<given-names>FA.</given-names>
+</string-name>
+<article-title>Biologic therapy in lupus nephritis</article-title>. <source>Nephron Clin Pract</source>
+<year>2014</year>;<volume>128</volume>:<fpage>255</fpage>–<lpage>60</lpage>.
+<pub-id pub-id-type="pmid">25401689</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1159/000368587</pub-id></mixed-citation></ref><ref id="art39722-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="art39722-cit-0007">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Anders</surname>
+<given-names>HJ.</given-names>
+</string-name>
+<article-title>Lupus nephritis: from pathogenesis to targets for biologic treatment</article-title>. <source>Nephron Clin Pract</source>
+<year>2014</year>;<volume>128</volume>:<fpage>224</fpage>–<lpage>31</lpage>.
+<pub-id pub-id-type="pmid">25401461</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1159/000368581</pub-id></mixed-citation></ref><ref id="art39722-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="art39722-cit-0008">
+<string-name name-style="western">
+<surname>Rovin</surname>
+<given-names>BH</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Furie</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Latinis</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Looney</surname>
+<given-names>RJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fervenza</surname>
+<given-names>FC</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sanchez‐Guerrero</surname>
+<given-names>J</given-names>
+</string-name>, et al, <collab collab-type="authors">for the LUNAR Investigator Group</collab>
+. <article-title>Efficacy and safety of rituximab in patients with active proliferative lupus nephritis: the Lupus Nephritis Assessment with Rituximab study</article-title>. <source>Arthritis Rheum</source>
+<year>2012</year>;<volume>64</volume>:<fpage>1215</fpage>–<lpage>26</lpage>.
+<pub-id pub-id-type="pmid">22231479</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.34359</pub-id></mixed-citation></ref><ref id="art39722-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="art39722-cit-0009">
+<string-name name-style="western">
+<surname>Jones</surname>
+<given-names>SA</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fraser</surname>
+<given-names>DJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fielding</surname>
+<given-names>CA</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jones</surname>
+<given-names>GW.</given-names>
+</string-name>
+<article-title>Interleukin‐6 in renal disease and therapy</article-title>. <source>Nephrol Dial Transplant</source>
+<year>2014</year>;<volume>30</volume>:<fpage>564</fpage>–<lpage>74</lpage>.
+<pub-id pub-id-type="pmid">25011387</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ndt/gfu233</pub-id></mixed-citation></ref><ref id="art39722-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="art39722-cit-0010">
+<string-name name-style="western">
+<surname>Linker‐Israeli</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Deans</surname>
+<given-names>RJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>DJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Prehn</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ozeri‐Chen</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Klinenberg</surname>
+<given-names>JR.</given-names>
+</string-name>
+<article-title>Elevated levels of endogenous IL‐6 in systemic lupus erythematosus: a putative role in pathogenesis</article-title>. <source>J Immunol</source>
+<year>1991</year>;<volume>147</volume>:<fpage>117</fpage>–<lpage>23</lpage>.
+<pub-id pub-id-type="pmid">2051017</pub-id></mixed-citation></ref><ref id="art39722-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="art39722-cit-0011">
+<string-name name-style="western">
+<surname>Cash</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Relle</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Menke</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Brochhausen</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jones</surname>
+<given-names>SA</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Topley</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Interleukin 6 (IL‐6) deficiency delays lupus nephritis in MRL‐Faslpr mice: the IL‐6 pathway as a new therapeutic target in treatment of autoimmune kidney disease in systemic lupus erythematosus</article-title>. <source>J Rheumatol</source>
+<year>2010</year>;<volume>37</volume>:<fpage>60</fpage>–<lpage>70</lpage>.
+<pub-id pub-id-type="pmid">19955044</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3899/jrheum.090194</pub-id></mixed-citation></ref><ref id="art39722-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="art39722-cit-0012">
+<string-name name-style="western">
+<surname>Kiberd</surname>
+<given-names>BA.</given-names>
+</string-name>
+<article-title>Interleukin‐6 receptor blockage ameliorates murine lupus nephritis</article-title>. <source>J Am Soc Nephrol</source>
+<year>1993</year>;<volume>4</volume>:<fpage>58</fpage>–<lpage>61</lpage>.
+<pub-id pub-id-type="pmid">8400070</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1681/ASN.V4158</pub-id></mixed-citation></ref><ref id="art39722-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="art39722-cit-0013">
+<string-name name-style="western">
+<surname>Liang</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gardner</surname>
+<given-names>DB</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Griswold</surname>
+<given-names>DE</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bugelski</surname>
+<given-names>PJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Song</surname>
+<given-names>XY.</given-names>
+</string-name>
+<article-title>Anti‐interleukin‐6 monoclonal antibody inhibits autoimmune responses in a murine model of systemic lupus erythematosus</article-title>. <source>Immunology</source>
+<year>2006</year>;<volume>119</volume>:<fpage>296</fpage>–<lpage>305</lpage>.
+<pub-id pub-id-type="pmid">17067309</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-2567.2006.02433.x</pub-id><pub-id pub-id-type="pmcid">PMC1819578</pub-id></mixed-citation></ref><ref id="art39722-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="art39722-cit-0014">
+<string-name name-style="western">
+<surname>Iwano</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dohi</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hirata</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kurumatani</surname>
+<given-names>N</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Horii</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shiiki</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Urinary levels of IL‐6 in patients with active lupus nephritis</article-title>. <source>Clin Nephrol</source>
+<year>1993</year>;<volume>40</volume>:<fpage>16</fpage>–<lpage>21</lpage>.
+<pub-id pub-id-type="pmid">8358870</pub-id></mixed-citation></ref><ref id="art39722-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="art39722-cit-0015">
+<string-name name-style="western">
+<surname>Liang</surname>
+<given-names>MH</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Socher</surname>
+<given-names>SA</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Larson</surname>
+<given-names>MG</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Schur</surname>
+<given-names>PH.</given-names>
+</string-name>
+<article-title>Reliability and validity of six systems for the clinical assessment of disease activity in systemic lupus erythematosus</article-title>. <source>Arthritis Rheum</source>
+<year>1989</year>;<volume>32</volume>:<fpage>1107</fpage>–<lpage>18</lpage>.
+<pub-id pub-id-type="pmid">2775320</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/anr.1780320909</pub-id></mixed-citation></ref><ref id="art39722-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="art39722-cit-0016">
+<string-name name-style="western">
+<surname>Peterson</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Robertson</surname>
+<given-names>AD</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Emlen</surname>
+<given-names>W.</given-names>
+</string-name>
+<article-title>Serum and urinary interleukin‐6 in systemic lupus erythematosus</article-title>. <source>Lupus</source>
+<year>1996</year>;<volume>5</volume>:<fpage>571</fpage>–<lpage>5</lpage>.
+<pub-id pub-id-type="pmid">9116699</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/096120339600500603</pub-id></mixed-citation></ref><ref id="art39722-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="art39722-cit-0017">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>DY</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>YM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wen</surname>
+<given-names>MC</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hsieh</surname>
+<given-names>TY</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hung</surname>
+<given-names>WT</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lan</surname>
+<given-names>JL.</given-names>
+</string-name>
+<article-title>The potential role of Th17 cells and Th17‐related cytokines in the pathogenesis of lupus nephritis</article-title>. <source>Lupus</source>
+<year>2012</year>;<volume>21</volume>:<fpage>1385</fpage>–<lpage>96</lpage>.
+<pub-id pub-id-type="pmid">22892208</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0961203312457718</pub-id></mixed-citation></ref><ref id="art39722-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="art39722-cit-0018">
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>Z</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bouman‐Thio</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Comisar</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Frederick</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Van Hartingsveldt</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Marini</surname>
+<given-names>JC</given-names>
+</string-name>, et al. <article-title>Pharmacokinetics, pharmacodynamics and safety of a human anti‐IL‐6 monoclonal antibody (sirukumab) in healthy subjects in a first‐in‐human study</article-title>. <source>Br J Clin Pharmacol</source>
+<year>2011</year>;<volume>72</volume>:<fpage>270</fpage>–<lpage>81</lpage>.
+<pub-id pub-id-type="pmid">21392075</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-2125.2011.03964.x</pub-id><pub-id pub-id-type="pmcid">PMC3162657</pub-id></mixed-citation></ref><ref id="art39722-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="art39722-cit-0019">
+<string-name name-style="western">
+<surname>Weening</surname>
+<given-names>JJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>D'Agati</surname>
+<given-names>VD</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Schwartz</surname>
+<given-names>MM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Seshan</surname>
+<given-names>SV</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Alpers</surname>
+<given-names>CE</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Appel</surname>
+<given-names>GB</given-names>
+</string-name>, et al, <collab collab-type="authors">on behalf of the International Society of Nephrology and Renal Pathology Society Working Group on the Classification of Lupus Nephritis</collab>
+. <article-title>The classification of glomerulonephritis in systemic lupus erythematosus revisited [published erratum appears in J Am Soc Nephrol 2004;15:835–6]</article-title>. <source>J Am Soc Nephrol</source>
+<year>2004</year>;<volume>15</volume>:<fpage>241</fpage>–<lpage>50</lpage>.
+<pub-id pub-id-type="pmid">14747370</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/01.asn.0000108969.21691.5d</pub-id></mixed-citation></ref><ref id="art39722-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="art39722-cit-0020">
+<string-name name-style="western">
+<surname>Tan</surname>
+<given-names>EM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cohen</surname>
+<given-names>AS</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fries</surname>
+<given-names>JF</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Masi</surname>
+<given-names>AT</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>McShane</surname>
+<given-names>DJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rothfield</surname>
+<given-names>NF</given-names>
+</string-name>, et al. <article-title>The 1982 revised criteria for the classification of systemic lupus erythematosus</article-title>. <source>Arthritis Rheum</source>
+<year>1982</year>;<volume>25</volume>:<fpage>1271</fpage>–<lpage>7</lpage>.
+<pub-id pub-id-type="pmid">7138600</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.1780251101</pub-id></mixed-citation></ref><ref id="art39722-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="art39722-cit-0021">
+<string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Orbai</surname>
+<given-names>AM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Alarcon</surname>
+<given-names>GS</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gordon</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Merrill</surname>
+<given-names>JT</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fortin</surname>
+<given-names>PR</given-names>
+</string-name>, et al. <article-title>Derivation and validation of the Systemic Lupus International Collaborating Clinics classification criteria for systemic lupus erythematosus</article-title>. <source>Arthritis Rheum</source>
+<year>2012</year>;<volume>64</volume>:<fpage>2677</fpage>–<lpage>86</lpage>.
+<pub-id pub-id-type="pmid">22553077</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.34473</pub-id><pub-id pub-id-type="pmcid">PMC3409311</pub-id></mixed-citation></ref><ref id="art39722-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="art39722-cit-0022">
+<string-name name-style="western">
+<surname>Szepietowski</surname>
+<given-names>JC</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nilganuwong</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wozniacka</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kuhn</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nyberg</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>van Vollenhoven</surname>
+<given-names>RF</given-names>
+</string-name>, et al. <article-title>Phase I, randomized, double‐blind, placebo‐controlled, multiple intravenous, dose‐ascending study of sirukumab in cutaneous or systemic lupus erythematosus</article-title>. <source>Arthritis Rheum</source>
+<year>2013</year>;<volume>65</volume>:<fpage>2661</fpage>–<lpage>71</lpage>.
+<pub-id pub-id-type="pmid">23896980</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.38091</pub-id></mixed-citation></ref><ref id="art39722-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="art39722-cit-0023">
+<string-name name-style="western">
+<surname>Fine</surname>
+<given-names>DM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ziegenbein</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Han</surname>
+<given-names>EC</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>McKinley</surname>
+<given-names>AM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chellini</surname>
+<given-names>JW</given-names>
+</string-name>, et al. <article-title>A prospective study of protein excretion using short‐interval timed urine collections in patients with lupus nephritis</article-title>. <source>Kidney Int</source>
+<year>2009</year>;<volume>76</volume>:<fpage>1284</fpage>–<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">19759526</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ki.2009.344</pub-id><pub-id pub-id-type="pmcid">PMC3093656</pub-id></mixed-citation></ref><ref id="art39722-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="art39722-cit-0024">
+<string-name name-style="western">
+<surname>Levey</surname>
+<given-names>AS</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bosch</surname>
+<given-names>JP</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lewis</surname>
+<given-names>JB</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Greene</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rogers</surname>
+<given-names>N</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Roth</surname>
+<given-names>D</given-names>
+</string-name>, <collab collab-type="authors">for the Modification of Diet in Renal Disease Study Group</collab>
+. <article-title>A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation</article-title>. <source>Ann Intern Med</source>
+<year>1999</year>;<volume>130</volume>:<fpage>461</fpage>–<lpage>70</lpage>.
+<pub-id pub-id-type="pmid">10075613</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7326/0003-4819-130-6-199903160-00002</pub-id></mixed-citation></ref><ref id="art39722-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="art39722-cit-0025">
+<string-name name-style="western">
+<surname>Felson</surname>
+<given-names>DT</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Anderson</surname>
+<given-names>JJ</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Boers</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Bombardier</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Furst</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Goldsmith</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>American College of Rheumatology preliminary definition of improvement in rheumatoid arthritis</article-title>. <source>Arthritis Rheum</source>
+<year>1995</year>;<volume>38</volume>:<fpage>727</fpage>–<lpage>35</lpage>.
+<pub-id pub-id-type="pmid">7779114</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.1780380602</pub-id></mixed-citation></ref><ref id="art39722-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="art39722-cit-0026">
+<string-name name-style="western">
+<surname>Gladman</surname>
+<given-names>DD</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ibanez</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Urowitz</surname>
+<given-names>MB.</given-names>
+</string-name>
+<article-title>Systemic Lupus Erythematosus Disease Activity Index 2000</article-title>. <source>J Rheumatol</source>
+<year>2002</year>;<volume>29</volume>:<fpage>288</fpage>–<lpage>91</lpage>.
+<pub-id pub-id-type="pmid">11838846</pub-id></mixed-citation></ref><ref id="art39722-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="art39722-cit-0027">
+<string-name name-style="western">
+<surname>Touma</surname>
+<given-names>Z</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Urowitz</surname>
+<given-names>MB</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Taghavi‐Zadeh</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ibanez</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gladman</surname>
+<given-names>DD.</given-names>
+</string-name>
+<article-title>Systemic Lupus Erythematosus Disease Activity Index 2000 Responder Index 50: sensitivity to response at 6 and 12 months</article-title>. <source>Rheumatology (Oxford)</source>
+<year>2012</year>;<volume>51</volume>:<fpage>1814</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">22718868</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/rheumatology/kes146</pub-id></mixed-citation></ref><ref id="art39722-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="art39722-cit-0028">
+<string-name name-style="western">
+<surname>Smolen</surname>
+<given-names>JS</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Weinblatt</surname>
+<given-names>ME</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sheng</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhuang</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hsu</surname>
+<given-names>B.</given-names>
+</string-name>
+<article-title>Sirukumab, a human anti‐interleukin‐6 monoclonal antibody: a randomised, 2‐part (proof‐of‐concept and dose‐finding), phase II study in patients with active rheumatoid arthritis despite methotrexate therapy</article-title>. <source>Ann Rheum Dis</source>
+<year>2014</year>;<volume>73</volume>:<fpage>1616</fpage>–<lpage>25</lpage>.
+<pub-id pub-id-type="pmid">24699939</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/annrheumdis-2013-205137</pub-id><pub-id pub-id-type="pmcid">PMC4145446</pub-id></mixed-citation></ref><ref id="art39722-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="art39722-cit-0029">
+<string-name name-style="western">
+<surname>Gardner</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lacy</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Shealy</surname>
+<given-names>D.</given-names>
+</string-name>
+<article-title>Preclinical characterization of sirukumab, a human monoclonal antibody that targets human interleukin-6 signaling</article-title>. <source>Ann Rheum Dis</source>
+<year>2015</year>;<volume>74</volume>:<fpage>207</fpage>.
+</mixed-citation></ref><ref id="art39722-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="art39722-cit-0030">
+<string-name name-style="western">
+<surname>Puchalski</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Prabhakar</surname>
+<given-names>U</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jiao</surname>
+<given-names>Q</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Berns</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Davis</surname>
+<given-names>HM.</given-names>
+</string-name>
+<article-title>Pharmacokinetic and pharmacodynamic modeling of an anti‐interleukin‐6 chimeric monoclonal antibody (siltuximab) in patients with metastatic renal cell carcinoma</article-title>. <source>Clin Cancer Res</source>
+<year>2010</year>;<volume>16</volume>:<fpage>1652</fpage>–<lpage>61</lpage>.
+<pub-id pub-id-type="pmid">20179212</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-09-2581</pub-id></mixed-citation></ref><ref id="art39722-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="art39722-cit-0031">
+<string-name name-style="western">
+<surname>Davda</surname>
+<given-names>JP</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Hansen</surname>
+<given-names>RJ.</given-names>
+</string-name>
+<article-title>Properties of a general PK/PD model of antibody‐ligand interactions for therapeutic antibodies that bind to soluble endogenous targets</article-title>. <source>MAbs</source>
+<year>2010</year>;<volume>2</volume>:<fpage>576</fpage>–<lpage>88</lpage>.
+<pub-id pub-id-type="pmid">20676036</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4161/mabs.2.5.12833</pub-id><pub-id pub-id-type="pmcid">PMC2958579</pub-id></mixed-citation></ref><ref id="art39722-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="art39722-cit-0032">
+<string-name name-style="western">
+<surname>Alvarado</surname>
+<given-names>AS</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Malvar</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lococo</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Alberton</surname>
+<given-names>V</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Toniolo</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nagaraja</surname>
+<given-names>HN</given-names>
+</string-name>, et al. <article-title>The value of repeat kidney biopsy in quiescent Argentinian lupus nephritis patients</article-title>. <source>Lupus</source>
+<year>2014</year>;<volume>23</volume>:<fpage>840</fpage>–<lpage>7</lpage>.
+<pub-id pub-id-type="pmid">24401872</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0961203313518625</pub-id></mixed-citation></ref><ref id="art39722-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="art39722-cit-0033">
+<string-name name-style="western">
+<surname>Chun</surname>
+<given-names>HY</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chung</surname>
+<given-names>JW</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>HA</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yun</surname>
+<given-names>JM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jeon</surname>
+<given-names>JY</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Ye</surname>
+<given-names>YM</given-names>
+</string-name>, et al. <article-title>Cytokine IL‐6 and IL‐10 as biomarkers in systemic lupus erythematosus</article-title>. <source>J Clin Immunol</source>
+<year>2007</year>;<volume>27</volume>:<fpage>461</fpage>–<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">17587156</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10875-007-9104-0</pub-id></mixed-citation></ref><ref id="art39722-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="art39722-cit-0034">
+<string-name name-style="western">
+<surname>Davas</surname>
+<given-names>EM</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tsirogianni</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kappou</surname>
+<given-names>I</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Karamitsos</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Economidou</surname>
+<given-names>I</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Dantis</surname>
+<given-names>PC.</given-names>
+</string-name>
+<article-title>Serum IL‐6, TNFα, p55 srTNFα, p75srTNFα, srIL‐2α levels and disease activity in systemic lupus erythematosus</article-title>. <source>Clin Rheumatol</source>
+<year>1999</year>;<volume>18</volume>:<fpage>17</fpage>–<lpage>22</lpage>.
+<pub-id pub-id-type="pmid">10088943</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s100670050045</pub-id></mixed-citation></ref><ref id="art39722-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="art39722-cit-0035">
+<string-name name-style="western">
+<surname>Xing</surname>
+<given-names>Z</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gauldie</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cox</surname>
+<given-names>G</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Baumann</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Jordana</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lei</surname>
+<given-names>XF</given-names>
+</string-name>, et al. <article-title>IL‐6 is an antiinflammatory cytokine required for controlling local or systemic acute inflammatory responses</article-title>. <source>J Clin Invest</source>
+<year>1998</year>;<volume>101</volume>:<fpage>311</fpage>–<lpage>20</lpage>.
+<pub-id pub-id-type="pmid">9435302</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI1368</pub-id><pub-id pub-id-type="pmcid">PMC508569</pub-id></mixed-citation></ref><ref id="art39722-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="art39722-cit-0036">
+<string-name name-style="western">
+<surname>Scheller</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Garbers</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Rose‐John</surname>
+<given-names>S.</given-names>
+</string-name>
+<article-title>Interleukin‐6: from basic biology to selective blockade of pro‐inflammatory activities</article-title>. <source>Semin Immunol</source>
+<year>2014</year>;<volume>26</volume>:<fpage>2</fpage>–<lpage>12</lpage>.
+<pub-id pub-id-type="pmid">24325804</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.smim.2013.11.002</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

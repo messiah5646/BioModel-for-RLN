@@ -1,0 +1,8 @@
+cid,stratum,trial,nct,date,arm,molecule,target,index,week,r_drug,n_drug,r_ctrl,n_ctrl,source,location
+N06,SLE,telitacicept-ph2b,NCT02885610,2023-12-21,Telitacicept 240 mg,telitacicept,BAFF/APRIL,SRI-4,48,47,62,21,62,PMC10958275,Table 2 (FAS; LOCF)
+N06,SLE,telitacicept-ph2b,NCT02885610,2023-12-21,Telitacicept 160 mg,telitacicept,BAFF/APRIL,SRI-4,48,43,63,21,62,PMC10958275,Table 2 (FAS; LOCF)
+N06,SLE,telitacicept-ph2b,NCT02885610,2023-12-21,Telitacicept 80 mg,telitacicept,BAFF/APRIL,SRI-4,48,44,62,21,62,PMC10958275,Table 2 (FAS; LOCF)
+N14,SLE,EMBODY-1,NCT01262365,2018-06-29,Emab 1200 mg QOW,epratuzumab,CD22,SRI-4,48,93,244,89,249,PMC5299488,Table 2 (post hoc modified SRI-4)
+N14,SLE,EMBODY-1,NCT01262365,2018-06-29,Emab 600 mg QW,epratuzumab,CD22,SRI-4,48,83,248,89,249,PMC5299488,Table 2 (post hoc modified SRI-4)
+N15,SLE,EMBODY-2,NCT01261793,2018-06-29,Emab 1200 mg QOW,epratuzumab,CD22,SRI-4,48,91,261,85,263,PMC5299488,Table 2 (post hoc modified SRI-4)
+N15,SLE,EMBODY-2,NCT01261793,2018-06-29,Emab 600 mg QW,epratuzumab,CD22,SRI-4,48,96,264,85,263,PMC5299488,Table 2 (post hoc modified SRI-4)
