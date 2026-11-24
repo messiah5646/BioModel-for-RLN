@@ -1,0 +1,89 @@
+{
+ "prereg": "experiments/lumen-bench/newtrials/PREREG-RT3.md",
+ "amendment": "experiments/lumen-bench/newtrials/AMENDMENT-A135-RT3.md",
+ "n_candidates": 36,
+ "n_excluded_by_rule": {
+  "1": 1,
+  "2": 1,
+  "2/4": 1,
+  "3": 18,
+  "4": 3,
+  "5": 8,
+  "6": 1
+ },
+ "included_late_only": [
+  "EMBODY-1",
+  "EMBODY-2",
+  "telitacicept-ph2b"
+ ],
+ "primary": {
+  "n_trials": 0,
+  "n_arms": 0
+ },
+ "decision_rule_hit": "UNDERPOWERED",
+ "decision": "UNDERPOWERED -> park Q61-type early-read-out work; CLI keeps pooled + \"no early rule validated\" note; preprint unchanged",
+ "S7": {
+  "without_N30": {
+   "n_trials": 0,
+   "n_arms": 0
+  },
+  "clean_subset_N29_N31_N36": {
+   "n_trials": 0,
+   "n_arms": 0
+  }
+ },
+ "S3_late_only_new_trials": {
+  "n_trials": 3,
+  "n_arms": 7,
+  "trials": [
+   "EMBODY-1",
+   "EMBODY-2",
+   "telitacicept-ph2b"
+  ],
+  "ivmse_M0": 0.3822,
+  "ivmse_M1": 0.3492,
+  "ivmse_M3": 0.342,
+  "per_trial": {
+   "EMBODY-1": {
+    "M0": 0.0102,
+    "M1": 0.171,
+    "M3": 0.171
+   },
+   "EMBODY-2": {
+    "M0": 0.0225,
+    "M1": 0.0668,
+    "M3": 0.0668
+   },
+   "telitacicept-ph2b": {
+    "M0": 2.4831,
+    "M1": 1.677,
+    "M3": 1.6283
+   }
+  },
+  "S1_equal_trial_weights": {
+   "M0": 0.8386,
+   "M1": 0.6383,
+   "M3": 0.622
+  },
+  "label": "descriptive, n 3 trials / 7 arms, below any label threshold"
+ },
+ "S2": {
+  "LN": {
+   "n_trials": 0
+  },
+  "SLE": {
+   "n_trials": 0,
+   "n_arms": 0
+  }
+ },
+ "S4_BICLA_only": {
+  "n_trials": 0,
+  "note": "no included trial reports BICLA without SRI-4"
+ },
+ "S5_bootstrap": "not computed: primary subset empty",
+ "S6_new_plus_RT1": "not computed: no new primary arms to add",
+ "label": "12b-timed for N01-N28/N30 per amendment; no decision reached on a clean subset; UNDERPOWERED is the verdict",
+ "run_utc": "2026-11-24T16:32:13Z",
+ "git_head": "5abd3f3",
+ "prereg_commit": "68900fb 2026-11-24T14:39:01+00:00"
+}
