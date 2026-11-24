@@ -1,0 +1,37 @@
+cid,indication,name,molecule,registry,pmid,source_found,title_level_note
+N01,SLE,orelabrutinib-ph2,orelabrutinib,NCT04305197,42214214,pubmed,placebo-controlled RCT
+N02,SLE,anifrolumab-SC-ph3,anifrolumab (SC),,41466456,pubmed,randomised phase 3
+N03,SLE,ianalumab-ph2,ianalumab,,41353079,pubmed,phase 2 placebo-controlled then open-label
+N04,SLE,CM313-ph2,CM313 (anti-CD38),NCT05465707,41290616,pubmed,placebo-controlled RCT
+N05,SLE,telitacicept-ph3-China,telitacicept,NCT04082416,41092329,pubmed,phase 3
+N06,SLE,telitacicept-ph2b,telitacicept,NCT02885610,38129117,pubmed,phase 2b placebo-controlled
+N07,SLE,upadacitinib-elsubrutinib-SLEek,upadacitinib / elsubrutinib,,38923871,pubmed,phase 2 (check NCT vs build_sle_table EXCLUDED set)
+N08,SLE,obexelimab-ph2,obexelimab,NCT02725515,37459248,pubmed,phase 2 (design may be steroid-withdrawal loss-of-improvement)
+N09,SLE,LUPIL-2,low-dose IL-2,NCT02955615,35973803,pubmed,phase 2 placebo-controlled
+N10,SLE,iberdomide-ph2a,iberdomide,,35169036,pubmed,phase 2a ascending dose
+N11,SLE,IL-2-He-2020,low-dose IL-2,NCT02465580,31537547,pubmed,placebo-controlled RCT
+N12,SLE,IL-2-ph2b-2026,low-dose IL-2,NCT04077684,42014401,pubmed,phase 2b
+N13,SLE,CHABLIS-SC1,blisibimod,NCT01395745,29563108,pubmed,phase 3
+N14,SLE,EMBODY-1,epratuzumab,NCT01262365,27598855,pubmed,phase 3 (two trials in one paper)
+N15,SLE,EMBODY-2,epratuzumab,NCT01261793,27598855,pubmed,phase 3 (two trials in one paper)
+N16,SLE,ROSE-rontalizumab,rontalizumab,NCT00962832,26038091,pubmed,phase 2
+N17,SLE,PEARL-SC,blisibimod,NCT01162681,24748629,pubmed,phase 2
+N18,SLE,EMBLEM,epratuzumab,NCT00624351,23313811,pubmed,phase 2b
+N19,SLE,Lupuzor-ph2b,P140 peptide (rigerimod),,23172751,pubmed,phase 2b (check vs rigerimod-ph2 NCT01135459 in table)
+N20,SLE,EXPLORER,rituximab,NCT00137969,20039413,pubmed,phase 2/3
+N21,SLE,belimumab-ph2-2009,belimumab,NCT00071487,19714604,pubmed,phase 2 dose-ranging
+N22,SLE,BLISS-BELIEVE,belimumab + rituximab,NCT03312907,39159997,pubmed,phase 3 add-on rituximab vs placebo
+N23,SLE,UCMSC-secretome,UC-MSC secretome,,40352183,pubmed,double-blind RCT
+N24,LN,sirukumab-LN-ph2,sirukumab,NCT01273389,27110697,pubmed,phase 2 placebo-controlled
+N25,LN,UCMSC-LN,UC-MSC,NCT01539902,28478399,pubmed,placebo-controlled RCT
+N26,LN,HCQ-paediatric-LN,hydroxychloroquine,NCT03687905,36752895,pubmed,RCT (comparator to check)
+N27,LN,CCL2-inhibition-LN,CCL2 inhibitor,,21876349,pubmed,phase 2 (antiproteinuric)
+N28,LN,tacrolimus-LN-Japan,tacrolimus,,19688181,pubmed,placebo-controlled
+N29,LN,mizoribine-LN-China,mizoribine,NCT02256150,,ctgov_noresults,no RESULT publication registered
+N30,SLE,nipocalimab-JASMINE,nipocalimab,NCT04882878,,ctgov_noresults,no RESULT publication registered
+N31,SLE,litifilimab-TOPAZ-1,litifilimab,NCT04895241,,ctgov_noresults,no RESULT publication registered
+N32,SLE,litifilimab-TOPAZ-2,litifilimab,NCT04961567,,ctgov_noresults,no RESULT publication registered
+N33,SLE,litifilimab-ph2-3-2part,litifilimab,NCT05531565,,ctgov_noresults,no RESULT publication registered
+N34,SLE,afimetoran-ph2,afimetoran,NCT04895696,,ctgov_noresults,no RESULT publication registered
+N35,SLE,telitacicept-global-ph3,telitacicept,NCT05306574,,ctgov_noresults,no RESULT publication registered
+N36,SLE,MIL62-ph2,MIL62,NCT05796206,,ctgov_noresults,no RESULT publication registered
