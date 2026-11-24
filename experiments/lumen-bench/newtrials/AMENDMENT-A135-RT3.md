@@ -1,6 +1,6 @@
 # Amendment A135 to PREREG-RT3 (audit round 135) — labels and one reported sensitivity; models, metric, pass rules unchanged
 
-Committed 2026-11-24 ~15:35 UTC by the round-135 audit, BEFORE any run-3 fetch, extraction or scoring. PREREG-RT3.md
+Committed 2026-11-24 15:27:43 UTC (c181f31) by the round-135 audit, BEFORE any run-3 fetch, extraction or scoring. PREREG-RT3.md
 (68900fb) is not edited. This file changes no model, metric, subset, minimum n or decision rule (sections 5-9 stand), so
 it cannot move the decision; it fixes what the result may be CALLED and adds one reported sensitivity.
 
@@ -10,7 +10,7 @@ it cannot move the decision; it fixes what the result may be CALLED and adds one
    by arm. PREREG-RT3 section 2 ("no early-visit by-arm counts") is therefore wrong for N30.
 2. **Abstracts of all 28 PubMed-sourced candidates (N01-N28) were committed before the PREREG** inside
    `raw/pubmed_efetch.xml` (836f753, 13:38 UTC; disclosed in CATALOGUE section 1 as "downloaded but not parsed").
-   A blind flag scan (flags only, no text printed; audit-r135/abstract_flags.tsv) finds numeric content in 27/28 abstracts
+   A blind flag scan (flags only, no text printed; audit-r135/abstract_flags.tsv) finds numeric content in 28/28 abstracts (corrected from 27/28 in c181f31 by the committed scan)
    and an early-visit (12-26 wk / 3-6 mo) sentence carrying a number in 5 (N01, N11, N12, N19, N24).
    Rule 12b reserves "verifiably pre-registered" for outcome data that ARRIVE after the PREREG; re-fetching these sources in
    run 3 would give later fetch_utc values (PREREG section 11) while the outcome text was already committed earlier.
