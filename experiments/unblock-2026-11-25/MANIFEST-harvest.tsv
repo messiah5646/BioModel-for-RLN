@@ -1,0 +1,27 @@
+fetch_utc	url	outfile	bytes	md5	http_last_modified
+2026-11-25T11:21:14Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135779/matrix/GSE135779_series_matrix.txt.gz	GSE135779_series_matrix.txt.gz	5465	af850e504a985b2ccca14dc7ea24fd36	Tue, 24 Nov 2026 05:55:50 GMT
+2026-11-25T11:21:14Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135779/suppl/GSE135779_genes.tsv.gz	GSE135779_genes.tsv.gz	257271	20e58feb9fb05f6207235531e1a25dcc	Tue, 13 Aug 2019 16:31:14 GMT
+2026-11-25T11:21:14Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135779/suppl/filelist.txt	GSE135779_filelist.txt	7990	1e30cc54ab4c3b276762d71742bd1f67	Thu, 03 Sep 2020 22:09:57 GMT
+2026-11-25T11:21:14Z	https://static-content.springer.com/esm/art%3A10.1038%2Fs41590-020-0743-0/MediaObjects/41590_2020_743_MOESM3_ESM.xlsx	NeharBelaid2020_MOESM3_ESM.xlsx	463726	e32437dd912a0113dc34c7abb403708f	Tue, 14 Nov 2023 18:25:14 GMT
+2026-11-25T11:21:14Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE226nnn/GSE226147/matrix/GSE226147_series_matrix.txt.gz	GSE226147_series_matrix.txt.gz	8983	361da3c241f5986f0c77b7f058903638	Thu, 24 Sep 2026 04:40:46 GMT
+2026-11-25T11:21:15Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE226nnn/GSE226147/suppl/GSE226147_platelet_sle_raw_counttable.txt.gz	GSE226147_platelet_sle_raw_counttable.txt.gz	1849500	745ad8cf087c7a3a9010b4e3d8a3614b	Mon, 27 Feb 2023 02:28:47 GMT
+2026-11-25T11:21:15Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE226nnn/GSE226147/suppl/GSE226147_platelet_sle_normalized_counttable.txt.gz	GSE226147_platelet_sle_normalized_counttable.txt.gz	5117479	c4543b418ac9ea6fdbc4c94642205bea	Mon, 27 Feb 2023 02:28:47 GMT
+2026-11-25T11:21:16Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72747/matrix/GSE72747_series_matrix.txt.gz	GSE72747_series_matrix.txt.gz	8102280	d270dc21353cc71cdfc4f157e44fb81c	Wed, 16 Sep 2026 06:18:08 GMT
+2026-11-25T11:21:17Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72798/matrix/GSE72798_series_matrix.txt.gz	GSE72798_series_matrix.txt.gz	21748246	bbf3c9471ebb885fa55b0043d581389e	Wed, 16 Sep 2026 06:16:47 GMT
+2026-11-25T11:21:18Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211700/matrix/GSE211700_series_matrix.txt.gz	GSE211700_series_matrix.txt.gz	3629	8a10d94aa68040f501d8def0cea09a21	Thu, 17 Sep 2026 04:41:07 GMT
+2026-11-25T11:21:18Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211700/suppl/GSE211700_Transcript_FPKM.txt.gz	GSE211700_Transcript_FPKM.txt.gz	9315563	8dd3993c716d945f1f89b4466e79db9d	Sat, 20 Aug 2022 19:28:50 GMT
+2026-11-25T11:21:19Z	https://journals.plos.org/plosone/article/file?type=supplementary&id=10.1371/journal.pone.0263778.s002	PLoSOne2022_pone.0263778.s002.xlsx	87224	d57222f0767dc59415dcffb8ec4fc24e	Thu, 29 Oct 2026 20:29:29 GMT
+2026-11-25T11:21:19Z	https://journals.plos.org/plosone/article/file?type=supplementary&id=10.1371/journal.pone.0323334.s001	PLoSOne2025_pone.0323334.s001.xlsx	31016	6a9574bac53df4cbd3a489aa443005f9	Wed, 04 Nov 2026 23:43:24 GMT
+2026-11-25T11:22:04Z	https://zenodo.org/api/records/13964258/files/Childhood%20onset%20lupus%20nephritis%20analyses.zip/content	Danaher2024_analyses.zip	32938393	d3a8be4801f579dcacdaf9ba0b1205b7	NA
+2026-11-25T11:25:23Z	https://zenodo.org/api/records/15715577/files/Protein-Report.zip/content	STAR-T_Protein-Report.zip	607066	1b41a99492a703e9a4c9664140c91d57	NA
+2026-11-25T11:26:48Z	https://zenodo.org/api/records/15715577/files/visium_HD.zip/content	STAR-T_visium_HD.zip	54594660	06bc11aee847e55bd7d4c9005fe7fae8	NA
+2026-11-25T11:27:37Z	https://zenodo.org/api/records/15715577/files/Cytof_STAR-T.zip/content	STAR-T_Cytof.zip	43851908	2c4eb0850d64ec5c8d902e0a2a6a502e	NA
+2026-11-25T11:27:40Z	https://datasets.cellxgene.cziscience.com/f3d8a246-5608-493d-9859-564cc808ebe1.h5ad	CD3xCD19_Bcells.h5ad	63039131	5c869ad5331eb7a39834c71abca19b65	Tue, 24 Nov 2026 19:37:40 GMT
+2026-11-25T11:27:51Z	https://datasets.cellxgene.cziscience.com/5aea78fc-3b9d-481e-b218-53f70fb642c7.h5ad	CD3xCD19_LDG.h5ad	256263774	0cf6282bce02d897c115abdec98d8910	Tue, 24 Nov 2026 19:37:41 GMT
+2026-11-25T11:28:21Z	https://datasets.cellxgene.cziscience.com/e50cf20c-e9e1-4160-b85a-0cfe355308c5.h5ad	CD3xCD19_Monocytes.h5ad	747230430	ee2e06cd8ddafb9ba515567894c483d6	Tue, 24 Nov 2026 19:38:35 GMT
+2026-11-25T11:29:04Z	https://datasets.cellxgene.cziscience.com/60b09f14-c439-4cd2-881f-74b72b385762.h5ad	CD3xCD19_Tcells.h5ad	1084988364	dd61442c0fe93059517ea3b2d5bfd38b	Tue, 24 Nov 2026 19:42:36 GMT
+2026-11-25T11:29:49Z	https://datasets.cellxgene.cziscience.com/5713a9d0-622c-40f5-8f44-08ddb7834c39.h5ad	CD3xCD19_Myeloid.h5ad	1101762110	5fe73c9630dcf744d53d8fe7a881449f	Tue, 24 Nov 2026 19:45:47 GMT
+2026-11-25T11:30:38Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135779/suppl/GSE135779_RAW.tar	GSE135779_RAW.tar	1299783680	fc782bc8b6a59683b0e20e1f3c31a838	Thu, 03 Sep 2020 22:09:57 GMT
+2026-11-25T11:30:46Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72747/suppl/GSE72747_RAW.tar	GSE72747_RAW.tar	144517120	3873252a834f6597683342281844d66d	Mon, 29 Feb 2016 13:22:57 GMT
+2026-11-25T11:31:00Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72798/suppl/GSE72798_RAW.tar	GSE72798_RAW.tar	388577280	779ffa6da8a5c718479d93b84e61d6b8	Mon, 29 Feb 2016 13:23:04 GMT
+2026-11-25T11:35:18Z	https://zenodo.org/api/records/13964258/files/cleaneddata.RData/content	Danaher2024_cleaneddata.RData	991361875	39a85a01f19de5208f094b2319a443fa	NA
