@@ -16,3 +16,6 @@ Copy into `experiments/<dir>/PREREG-<item>.md`, fill in, commit and push, then E
 10. **Sensitivities / secondaries** (labelled; none can turn a FAIL into a pass).
 11. **Label rule** (rule 12): Supported/Established only with n stated; n < 10 -> Emerging at most.
 12. Result JSON written through `scripts/provenance/stamp.py`.
+
+**Catalogue runs (reviewer R-20261125-2, round 139).** A run that builds a catalogue of sources for a later PREREG records
+IDs/URLs only and never opens full texts, reviews or figures; finding table/figure locations moves to the post-PREREG run.
