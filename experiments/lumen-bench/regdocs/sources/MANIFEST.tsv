@@ -1,0 +1,17 @@
+fetch_utc	url	outfile	bytes	md5	http_last_modified
+2026-11-25T14:24:38Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC4528976&retmode=xml	PMC4528976.xml	83823	90730a3ed05f9e4704b9633df62973d5	NA
+2026-11-25T14:24:40Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5434872&retmode=xml	PMC5434872.xml	135951	a24d2b8c6e2eb6c812e4341b26ca3a4c	NA
+2026-11-25T14:24:41Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5867402&retmode=xml	PMC5867402.xml	89618	ce11b99a51dff4894e8f5a4424351870	NA
+2026-11-25T14:24:42Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC5007058&retmode=xml	PMC5007058.xml	128141	463bff0b70621c9504f9fa4a0bd4b0c6	NA
+2026-11-25T14:24:44Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC7509523&retmode=xml	PMC7509523.xml	106355	36dc22c57699e4ab6130fb05a59e2302	NA
+2026-11-25T14:24:45Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC9606504&retmode=xml	PMC9606504.xml	93396	096a2269e9308d44acda368f77f66f23	NA
+2026-11-25T14:24:47Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC10958275&retmode=xml	PMC10958275.xml	160150	64be294a558f06864518c84839e11487	NA
+2026-11-25T14:25:47Z	https://www.ema.europa.eu/en/documents/variation-report/benlysta-h-c-2015-ii-0080-epar-assessment-report-variation_en.pdf	EMA_Benlysta_II-0080.pdf	8509277	a04df4b3d893cc1c3dffa43469f33dba	Wed, 19 May 2021 15:03:25 GMT
+2026-11-25T14:26:09Z	https://www.ema.europa.eu/en/documents/assessment-report/saphnelo-epar-public-assessment-report_en.pdf	EMA_Saphnelo_EPAR.pdf	11946699	bc7f9c23c382c54bc25891c1fe87e0e0	Mon, 21 Feb 2022 13:24:03 GMT
+2026-11-25T14:29:27Z	https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b9de/5434872/e68e8ceb31b4/ART-69-1016-g002.jpg	PMC5434872_ART-69-1016-g002.jpg	67890	e68e8ceb31b42db66afa586714001412	Sun, 11 Feb 2024 21:57:36 GMT
+2026-11-25T14:29:32Z	https://cdn.ncbi.nlm.nih.gov/pmc/blobs/fcf1/9606504/6ea1509d1c40/ard-2022-222858f02.jpg	PMC9606504_ard-2022-222858f02.jpg	78802	6ea1509d1c407fb363f9e1c622b4c443	Sun, 18 Feb 2024 06:50:45 GMT
+2026-11-25T14:29:34Z	https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5b2a/10958275/6c83e9880eae/ard-2023-224854f02.jpg	PMC10958275_ard-2023-224854f02.jpg	121002	6c83e9880eae4bd5b025fb41b112c2a3	Fri, 22 Mar 2024 12:36:27 GMT
+2026-11-25T14:30:41Z	https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e723/5007058/1cdcd82d53e7/nihms805718f2.jpg	PMC5007058_nihms805718f2.jpg	86369	1cdcd82d53e7154b9ddc0227623e7e39	Sun, 11 Feb 2024 15:57:34 GMT
+2026-11-25T14:31:41Z	https://cdn.ncbi.nlm.nih.gov/pmc/blobs/edfe/5867402/9f537a1f9392/annrheumdis-2017-211631f02.jpg	PMC5867402_annrheumdis-2017-211631f02.jpg	107866	9f537a1f93925825be84603e79c08de2	Tue, 13 Feb 2024 04:41:18 GMT
+2026-11-25T14:32:15Z	https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e299/7509523/d59f0f695584/annrheumdis-2020-217101f02.jpg	PMC7509523_annrheumdis-2020-217101f02.jpg	104222	d59f0f69558421e6d344a06a6fd2422c	Wed, 14 Feb 2024 12:47:34 GMT
+2026-11-25T14:33:02Z	https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761123Orig1s000MultidisciplineR.pdf	FDA_761123_MultidisciplineR.pdf	8391637	2f26f8e792abb316b40d856afa6bb83a	Tue, 17 Aug 2021 17:00:26 GMT

@@ -1,0 +1,887 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Arthritis Rheumatol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">101623795</journal-id><journal-id journal-id-type="publisher-id">ART</journal-id><journal-title-group><journal-title>Arthritis &amp; Rheumatology (Hoboken, N.j.)</journal-title></journal-title-group><issn pub-type="ppub">2326-5191</issn><issn pub-type="epub">2326-5205</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC5434872</article-id><article-id pub-id-type="pmcid-ver">PMC5434872.1</article-id><article-id pub-id-type="pmcaid">5434872</article-id><article-id pub-id-type="pmcaiid">5434872</article-id><article-id pub-id-type="pmid">28118533</article-id><article-id pub-id-type="doi">10.1002/art.40049</article-id><article-id pub-id-type="publisher-id">ART40049</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Systemic Lupus Erythematosus</subject></subj-group><subj-group subj-group-type="heading"><subject>Systemic Lupus Erythematosus</subject></subj-group></article-categories><title-group><article-title>Efficacy and Safety of Subcutaneous Belimumab in Systemic Lupus Erythematosus: A Fifty‐Two–Week Randomized, Double‐Blind, Placebo‐Controlled Study</article-title><alt-title alt-title-type="right-running-head">EFFICACY AND SAFETY OF SC BELIMUMAB IN SLE</alt-title><alt-title alt-title-type="left-running-head">STOHL ET AL</alt-title></title-group><contrib-group><contrib id="art40049-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Stohl</surname><given-names initials="W">William</given-names></name><address><email>stohl@usc.edu</email></address><xref ref-type="aff" rid="art40049-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="art40049-cr-0002" contrib-type="author"><name name-style="western"><surname>Schwarting</surname><given-names initials="A">Andreas</given-names></name><xref ref-type="aff" rid="art40049-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="art40049-cr-0003" contrib-type="author"><name name-style="western"><surname>Okada</surname><given-names initials="M">Masato</given-names></name><xref ref-type="aff" rid="art40049-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="art40049-cr-0004" contrib-type="author"><name name-style="western"><surname>Scheinberg</surname><given-names initials="M">Morton</given-names></name><xref ref-type="aff" rid="art40049-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="art40049-cr-0005" contrib-type="author"><name name-style="western"><surname>Doria</surname><given-names initials="A">Andrea</given-names></name><xref ref-type="aff" rid="art40049-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="art40049-cr-0006" contrib-type="author"><name name-style="western"><surname>Hammer</surname><given-names initials="AE">Anne E.</given-names></name><xref ref-type="aff" rid="art40049-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="art40049-cr-0007" contrib-type="author"><name name-style="western"><surname>Kleoudis</surname><given-names initials="C">Christi</given-names></name><xref ref-type="aff" rid="art40049-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="art40049-cr-0008" contrib-type="author"><name name-style="western"><surname>Groark</surname><given-names initials="J">James</given-names></name><xref ref-type="aff" rid="art40049-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="art40049-cr-0009" contrib-type="author"><name name-style="western"><surname>Bass</surname><given-names initials="D">Damon</given-names></name><xref ref-type="aff" rid="art40049-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="art40049-cr-00010" contrib-type="author"><name name-style="western"><surname>Fox</surname><given-names initials="NL">Norma Lynn</given-names></name><xref ref-type="aff" rid="art40049-aff-0009">
+<sup>9</sup>
+</xref></contrib><contrib id="art40049-cr-00011" contrib-type="author"><name name-style="western"><surname>Roth</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="art40049-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="art40049-cr-00012" contrib-type="author"><name name-style="western"><surname>Gordon</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="art40049-aff-0008">
+<sup>8</sup>
+</xref></contrib></contrib-group><aff id="art40049-aff-0001"><label><sup>1</sup></label><institution>University of Southern California</institution><named-content content-type="city">Los Angeles</named-content></aff><aff id="art40049-aff-0002"><label><sup>2</sup></label><institution>Acura Kliniken Rheinland‐Pfalz AG</institution><named-content content-type="city">Bad Kreuznach</named-content><country country="DE">Germany</country></aff><aff id="art40049-aff-0003"><label><sup>3</sup></label><institution>St. Luke's International Hospital</institution><named-content content-type="city">Tokyo</named-content><country country="JP">Japan</country></aff><aff id="art40049-aff-0004"><label><sup>4</sup></label><institution>Rheumatology Hospital Abreu Sodre</institution><named-content content-type="city">São Paulo</named-content><country country="BR">Brazil</country></aff><aff id="art40049-aff-0005"><label><sup>5</sup></label><institution>University of Padua</institution><named-content content-type="city">Padua</named-content><country country="IT">Italy</country></aff><aff id="art40049-aff-0006"><label><sup>6</sup></label><institution>GlaxoSmithKline, Research Triangle Park</institution><named-content content-type="country-part">North Carolina</named-content></aff><aff id="art40049-aff-0007"><label><sup>7</sup></label><institution>Parexel</institution><named-content content-type="city">Raleigh‐Durham</named-content><named-content content-type="country-part">North Carolina</named-content></aff><aff id="art40049-aff-0008"><label><sup>8</sup></label><institution>GlaxoSmithKline</institution><named-content content-type="city">Philadelphia</named-content><named-content content-type="country-part">Pennsylvania</named-content></aff><aff id="art40049-aff-0009"><label><sup>9</sup></label><institution>GlaxoSmithKline</institution><named-content content-type="city">Rockville</named-content><named-content content-type="country-part">Maryland</named-content></aff><author-notes><corresp id="correspondenceTo"><label>*</label>Address correspondence to William Stohl, MD, PhD, University of Southern California Keck School of Medicine, 2011 Zonal Avenue, HMR 711, Los Angeles, CA 90033. E‐mail: <email>stohl@usc.edu</email>.</corresp></author-notes><pub-date pub-type="epub"><day>07</day><month>4</month><year>2017</year></pub-date><pub-date pub-type="ppub"><month>5</month><year>2017</year></pub-date><volume>69</volume><issue>5</issue><issue-id pub-id-type="pmc-issue-id">292603</issue-id><issue-id pub-id-type="doi">10.1002/art.v69.5</issue-id><fpage>1016</fpage><lpage>1027</lpage><history><date date-type="received"><day>23</day><month>5</month><year>2016</year></date><date date-type="accepted"><day>12</day><month>1</month><year>2017</year></date></history><pub-history><event event-type="pmc-release"><date><day>17</day><month>05</month><year>2017</year></date></event><event event-type="pmc-live"><date><day>01</day><month>06</month><year>2017</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-07-16 00:25:16.707"><day>16</day><month>07</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2017 The Authors. Arthritis &amp; Rheumatology published by Wiley Periodicals, Inc. on behalf of American College of Rheumatology.</copyright-statement><license license-type="creativeCommonsBy-nc"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution‐NonCommercial</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ART-69-1016.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ART-69-1016.pdf"/><abstract><sec id="art40049-sec-0001"><title>Objective</title><p>To assess the efficacy and safety of subcutaneous (SC) belimumab in patients with systemic lupus erythematosus (SLE).</p></sec><sec id="art40049-sec-0002"><title>Methods</title><p>Patients with moderate‐to‐severe SLE (score of ≥8 on the Safety of Estrogens in Lupus Erythematosus National Assessment [SELENA] version of the SLE Disease Activity Index [SLEDAI]) were randomized 2:1 to receive weekly SC belimumab 200 mg or placebo by prefilled syringe in addition to standard SLE therapy for 52 weeks. The primary end point was the SLE Responder Index (SRI4) at week 52. Secondary end points were reduction in the corticosteroid dosage and time to severe flare. Safety was assessed according to the adverse events (AEs) reported and the laboratory test results.</p></sec><sec id="art40049-sec-0003"><title>Results</title><p>Of 839 patients randomized, 836 (556 in the belimumab group and 280 in the placebo group) received treatment. A total of 159 patients withdrew before the end of the study. At entry, mean SELENA–SLEDAI scores were 10.5 in the belimumab group and 10.3 in the placebo group. More patients who received belimumab were SRI4 responders than those who received placebo (61.4% versus 48.4%; odds ratio [OR] 1.68 [95% confidence interval (95% CI) 1.25–2.25]; <italic toggle="yes">P</italic> = 0.0006). In the belimumab group, both time to and risk of severe flare were improved (median 171.0 days versus 118.0 days; hazard ratio 0.51 [95% CI 0.35–0.74]; <italic toggle="yes">P</italic> = 0.0004), and more patients were able to reduce their corticosteroid dosage by ≥25% (to ≤7.5 mg/day) during weeks 40–52 (18.2% versus 11.9%; OR 1.65 [95% CI 0.95–2.84]; <italic toggle="yes">P</italic> = 0.0732), compared with placebo. AE incidence was comparable between treatment groups; serious AEs were reported by 10.8% of patients taking belimumab and 15.7% of those taking placebo. A worsening of IgG hypoglobulinemia by ≥2 grades occurred in 0.9% of patients taking belimumab and 1.4% of those taking placebo.</p></sec><sec id="art40049-sec-0004"><title>Conclusion</title><p>In patients with moderate‐to‐severe SLE, weekly SC doses of belimumab 200 mg plus standard SLE therapy significantly improved their SRI4 response, decreased severe disease flares as compared with placebo, and had a safety profile similar to placebo plus standard SLE therapy.</p></sec></abstract><funding-group><award-group><funding-source>GlaxoSmithKline</funding-source><award-id>BLISS‐SC identifier: BEL112341</award-id></award-group></funding-group><funding-group><award-group><funding-source>Human Genome Sciences, Inc.</funding-source></award-group></funding-group><counts><fig-count count="4"/><table-count count="2"/><page-count count="12"/><word-count count="8987"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>art40049</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2017</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.0.9 mode:remove_FC converted:17.05.2017</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group><fn id="art40049-note-0001"><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ClinicalTrials.gov">ClinicalTrials.gov</ext-link> identifier: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01484496">NCT01484496</ext-link>.</p></fn><fn id="art40049-note-0002"><p>Supported by GlaxoSmithKline (BLISS‐SC identifier: BEL112341) and Human Genome Sciences, Inc., a subsidiary of GlaxoSmithKline.</p></fn><fn id="art40049-note-0003"><p>Dr. Stohl has received consulting fees and/or honoraria from Akros Pharma, Jansen, Sanofi, GlaxoSmithKline, and Pfizer (less than $10,000 each). Dr. Schwarting has received speaking fees (less than $10,000) and research grants from GlaxoSmithKline. Dr. Okada has received speaking fees and/or honoraria from Santen Pharmaceutical, Mitsubishi Tanabe Pharma, Pfizer, and Abbott Japan (less than $10,000 each). Dr. Scheinberg has received consulting fees from Pfizer, GlaxoSmithKline, Epirus, Samsung Bioepis, and Janssen (less than $10,000 each). Dr. Doria has received speaking fees and/or honoraria from GlaxoSmithKline and Eli Lilly (less than $10,000 each). Ms Hammer, Ms Kleoudis, and Mr. Gordon, and Drs. Groark, Bass, Fox, and Roth own stock or stock options in GlaxoSmithKline.</p></fn></fn-group></notes></front><body><p>B lymphocyte stimulator (BLyS), also known as B cell–activating factor, is a potent B cell survival and differentiation factor <xref rid="art40049-bib-0001" ref-type="ref">1</xref>, <xref rid="art40049-bib-0002" ref-type="ref">2</xref>, <xref rid="art40049-bib-0003" ref-type="ref">3</xref>, <xref rid="art40049-bib-0004" ref-type="ref">4</xref>, <xref rid="art40049-bib-0005" ref-type="ref">5</xref>. Its overexpression drives systemic lupus erythematosus (SLE)–like disease in mice <xref rid="art40049-bib-0006" ref-type="ref">6</xref>, <xref rid="art40049-bib-0007" ref-type="ref">7</xref>, <xref rid="art40049-bib-0008" ref-type="ref">8</xref>. BLyS is also associated with SLE in humans <xref rid="art40049-bib-0009" ref-type="ref">9</xref>, <xref rid="art40049-bib-0010" ref-type="ref">10</xref>, <xref rid="art40049-bib-0011" ref-type="ref">11</xref> and correlates with disease activity <xref rid="art40049-bib-0012" ref-type="ref">12</xref>, <xref rid="art40049-bib-0013" ref-type="ref">13</xref>. Pharmacologic neutralization or genetic elimination of BLyS successfully treats and/or prevents murine SLE <xref rid="art40049-bib-0006" ref-type="ref">6</xref>, <xref rid="art40049-bib-0014" ref-type="ref">14</xref>, <xref rid="art40049-bib-0015" ref-type="ref">15</xref>.</p><p>Intravenous (IV) administration of belimumab, a recombinant human monoclonal antibody that binds to and inhibits the biologic activity of BLyS <xref rid="art40049-bib-0016" ref-type="ref">16</xref>, was shown in 2 large, multicenter, randomized, double‐blind, placebo‐controlled trials in patients with SLE (the Study of Belimumab in Subjects with SLE 52‐week trial [BLISS‐52] and the BLISS 76‐week trial [BLISS‐76]) to be safe and efficacious at a dose of 10 mg/kg in combination with standard SLE therapy <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>. IV administration of belimumab was subsequently approved by the US Food and Drug Administration and the European Medicines Agency for the treatment of patients with active, autoantibody‐positive SLE who are receiving standard SLE therapy, including corticosteroids, antimalarials, immunosuppressants, and nonsteroidal antiinflammatory drugs <xref rid="art40049-bib-0019" ref-type="ref">19</xref>, <xref rid="art40049-bib-0020" ref-type="ref">20</xref>.</p><p>The approval of a drug for SLE was a breakthrough; however, the IV route of administration poses challenges for some patients. Patients must visit a clinic or infusion center every 2 weeks for the first 3 doses and then every 4 weeks thereafter <xref rid="art40049-bib-0021" ref-type="ref">21</xref>, thereby incurring substantial costs in time for travel to/from the drug‐administering site, time for the infusion itself, and time for postinfusion monitoring. In addition, substantial financial expenses related to clinic personnel and supplies are incurred.</p><p>The ability to administer subcutaneous (SC) belimumab away from the clinic would largely eliminate these costs and thereby enhance treatment options for patients with SLE. Indeed, more patients chose SC treatment over IV treatment in a study of patients with rheumatoid arthritis, with a decreased need to travel to receive an infusion being an influential factor <xref rid="art40049-bib-0022" ref-type="ref">22</xref>.</p><p>A liquid formulation of belimumab has been developed, along with a prefilled syringe and an autoinjector device for administering belimumab SC. In a single‐dose study, healthy volunteers self‐administered belimumab 200 mg SC using the prefilled syringe or the autoinjector device; both injection devices demonstrated good usability, reliability, and safety <xref rid="art40049-bib-0023" ref-type="ref">23</xref>. The 200 mg SC dose was selected in order to achieve a target belimumab steady‐state area under the curve exposure following SC administration similar to that obtained with 10 mg/kg IV every 4 weeks <xref rid="art40049-bib-0024" ref-type="ref">24</xref>, <xref rid="art40049-bib-0025" ref-type="ref">25</xref>.</p><p>The objectives of the present study were to evaluate the efficacy, safety, and tolerability of belimumab SC administered via prefilled syringe in patients with active, autoantibody‐positive SLE. Our findings are presented below.</p><sec id="art40049-sec-0006"><title>PATIENTS AND METHODS</title><sec id="art40049-sec-0007"><title>Study design and patient population</title><p>This was a 52‐week randomized, double‐blind, placebo‐controlled study (BLISS‐SC ID BEL112341; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://ClinicalTrials.gov">ClinicalTrials.gov</ext-link> ID <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01484496">NCT01484496</ext-link>) carried out at 177 sites in 30 countries in North, Central, and South America, Eastern and Western Europe, Australia, and Asia between November 2011 and February 2015. All study patients provided written informed consent prior to enrollment. The study and all protocols were institutional review board–approved and were conducted in accordance with the Declaration of Helsinki, 2008 <xref rid="art40049-bib-0026" ref-type="ref">26</xref>.</p><p>Patients ≥18 years of age were required to have a diagnosis of SLE according to the American College of Rheumatology criteria <xref rid="art40049-bib-0027" ref-type="ref">27</xref>, with antinuclear antibodies and/or anti–double‐stranded DNA (anti‐dsDNA) antibodies and a score of ≥8 on the Safety of Estrogens in Lupus Erythematosus National Assessment (SELENA) version of the SLE Disease Activity Index (SLEDAI) at screening (range 0–105) <xref rid="art40049-bib-0028" ref-type="ref">28</xref>. Those with severe lupus kidney disease (proteinuria &gt;6 gm/24 hours or equivalent according to a spot urinary protein‐to‐creatinine ratio or a serum creatinine level &gt;2.5 mg/dl) or severe central nervous system (CNS) lupus were excluded.</p><p>Patients were randomized 2:1 to receive weekly doses of belimumab 200 mg or placebo administered SC with a prefilled syringe in addition to stable doses of standard SLE therapy. No loading dose was used. Randomization was stratified by a screening SELENA–SLEDAI score (≤9 versus ≥10), complement level (those with versus those without low C3 and/or C4), and race (black versus non‐black). Patients must have received a stable SLE medication regimen for at least 30 days prior to enrollment. Background SLE medications were restricted, such that patients who received a protocol‐prohibited medication or a dosage that exceeded the protocol‐defined limits were deemed to have failed treatment and were analyzed as nonresponders from the date of treatment failure through week 52. The first and second SC doses of study drug were carried out at the study site under supervision; at the investigator's discretion, patients or caregivers could then administer subsequent doses at home. The injection site was rotated weekly between the abdomen and the thigh. Patients recorded in a logbook the date, injection site, and amount of dose administered.</p></sec><sec id="art40049-sec-0008"><title>End points and assessments</title><p>The primary end point was the SLE Responder Index (SRI4) response rate at week 52 <xref rid="art40049-bib-0029" ref-type="ref">29</xref>. The SRI4 is a composite index requiring a ≥4‐point reduction in the SELENA–SLEDAI score, no worsening (increase of &lt;0.3 from baseline) in the physician's global assessment (on a 0–10‐cm visual analog scale), and no new British Isles Lupus Assessment Group (BILAG) A organ domain score or 2 new BILAG B organ domain scores at week 52 compared with baseline. On sensitivity analyses, the primary end point at week 52 was also repeated for the completer and per‐protocol populations.</p><p>The end points that supported the primary end point included the SRI4 by visit, SRI4 components by visit, and the SRI5–8 by visit. The definition of SRI5–8 was the same as that of SRI4, except with increasingly higher thresholds for SELENA–SLEDAI score reduction of 5–8 points. The time to first SRI4 that was maintained through week 52 was also assessed. The SRI4 response and change from baseline in SELENA–SLEDAI score, excluding the anti‐dsDNA and complement components, were analyzed post hoc.</p><p>Key secondary end points were time to first severe flare (as measured by the SLE flare index, modified to exclude the single criterion of increased SELENA–SLEDAI score to &gt;12) <xref rid="art40049-bib-0030" ref-type="ref">30</xref>, <xref rid="art40049-bib-0031" ref-type="ref">31</xref>, <xref rid="art40049-bib-0032" ref-type="ref">32</xref> and reduction in corticosteroid dosage (percentage of patients among those receiving &gt;7.5 mg/day at baseline who experienced a mean dosage reduction of ≥25% from baseline to ≤7.5 mg/day during weeks 40–52).</p><p>Other prespecified corticosteroid use end points included the percentage of patients with any increase in corticosteroid use, the percentage of patients whose dosage was reduced from &gt;7.5 mg/day at baseline to ≤7.5 mg/day, and cumulative corticosteroid dose.</p><p>The SRI4 was analyzed across subgroups, including the baseline SELENA–SLEDAI score (≤9 and ≥10), race (black and non‐black), baseline corticosteroid use (receiving and not receiving corticosteroids), and body weight quartiles (&lt;55.05 kg, ≥55.05 kg to &lt;65.15 kg, ≥65.15 kg to &lt;78.25 kg, and ≥78.25 kg). Subgroup analyses were also completed post hoc for Hispanic or Latino patients. Mean change from baseline in the Functional Assessment of Chronic Illness Therapy–Fatigue (FACIT‐Fatigue) score (range 0–52) <xref rid="art40049-bib-0033" ref-type="ref">33</xref> and the percentage of patients with an improvement in the FACIT‐Fatigue score of ≥4 (minimal clinically important difference) were analyzed by visit (weeks 4, 8, 12, 24, 36, and 52).</p><p>The time to first renal flare over 52 weeks was analyzed among patients with baseline proteinuria &gt;0.5 gm/24 hours. Renal flare was defined as the reproducible development (i.e., confirmed at the subsequent clinical visit) of 1 or more of the following 3 features: 1) an increase in 24‐hour urinary protein to &gt;1,000 mg if baseline was &lt;200 mg or to &gt;2,000 mg if baseline was 200–1,000 mg or to more than twice a baseline value of &gt;1,000 mg; 2) a decrease in the glomerular filtration rate of &gt;20%, accompanied by proteinuria (&gt;1,000 mg/24 hours), hematuria (≥4 red blood cells [RBCs]/high‐power field [hpf]), and/or cellular (RBC and white blood cell) casts; and 3) new hematuria (≥11–20 RBCs/hpf) or a 2‐grade increase in hematuria compared with baseline, associated with &gt;25% dysmorphic RBCs, glomerular in origin, and accompanied by an 800‐mg increase in 24‐hour urinary protein level or new RBC casts <xref rid="art40049-bib-0034" ref-type="ref">34</xref>.</p><p>Safety was evaluated by adverse event (AE) reporting, laboratory parameters, and immunogenicity testing. AEs were coded according to the Medical Dictionary for Regulatory Activities system organ class and preferred term. A serious AE (SAE) was defined as an AE that resulted in any of the following outcomes: death, was life‐threatening (i.e., an immediate threat to life), inpatient hospitalization, prolongation of an existing hospitalization, persistent or significant disability/incapacity, congenital anomaly/birth defect, or was medically important (i.e., required treatment to prevent one of the medical outcomes above).</p><p>Blood samples for pharmacokinetic analyses were obtained from all randomized patients before the injection at weeks 0, 4, 8, 16, 24, and 52 and at the 8‐week follow‐up visit.</p></sec><sec id="art40049-sec-0009"><title>Statistical analysis</title><p>A sample size of 816 (544 taking belimumab and 272 taking placebo) was calculated to provide at least 90% power at a <italic toggle="yes">P</italic> = 0.05 significance level, assuming the true treatment difference was 12% improvement (belimumab versus placebo) at week 52; the treatment difference was based on the response in the phase III belimumab IV studies <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>. The intent‐to‐treat (ITT) population was defined as all patients who were randomized and received at least 1 dose of study medication. A completer population (patients who completed 52 weeks of treatment) and a per‐protocol population (patients in the ITT who did not have a major protocol deviation) were included in the sensitivity analyses. The pharmacokinetic population included all patients who received at least 1 dose of study medication and who contributed at least 1 post‐belimumab pharmacokinetic sample.</p><p>A step‐down sequential testing procedure was used for the primary and 2 key secondary end points to control the overall Type I error rate (the incorrect rejection of a true null hypothesis). The prespecified sequence for assessing statistical significance (2‐sided α = 0.05) was as follows: 1) SRI4 response rate at 52 weeks; 2) time to first severe SLE flare; and 3) percentage of patients with a reduction in corticosteroid dosage. End points in this sequence could only be interpreted as being statistically significant if statistical significance was achieved by all prior tests. The proportion of patients with an SRI4 response at week 52 was compared between treatment groups using a logistic regression model. Analyses of other efficacy end points (all 2‐sided with a significance level of 0.05) were not subjected to a multiple comparison procedure. Patients who withdrew or were deemed to have failed treatment were analyzed as nonresponders in the primary analysis.</p></sec></sec><sec id="art40049-sec-0010"><title>RESULTS</title><sec id="art40049-sec-0011"><title>Patient population</title><p>There were 836 patients in the ITT population, and 159 withdrew overall. The most common reasons for withdrawal were AEs, patient request, and disease progression/lack of efficacy (Figure <xref rid="art40049-fig-0001" ref-type="fig">1</xref>). The majority of patients were female (93.7% receiving belimumab, 95.7% receiving placebo), with a mean age of 38.6 years (38.1 years in the belimumab group, 39.6 years in the placebo group) and a mean/median baseline SELENA–SLEDAI score of 10.4/10.0 (10.5/10.0 in the belimumab group, 10.3/10.0 in the placebo group) (Table <xref rid="art40049-tbl-0001" ref-type="table-wrap">1</xref>). The majority of patients received corticosteroids at baseline (86.5% belimumab, 86.1% placebo), and approximately one‐third of patients received corticosteroids in combination with antimalarials. Almost half of the patients received immunosuppressants (43.9% belimumab, 48.9% placebo), with azathioprine being the one most commonly received (Table <xref rid="art40049-tbl-0001" ref-type="table-wrap">1</xref>). The mean ± SD self‐reported compliance with the SC injections was 96.4 ± 9.37% for belimumab and 96.4 ± 9.75% for placebo.</p><fig fig-type="Figure" xml:lang="en" id="art40049-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Flow chart showing the disposition of the study patients from initial screening to the end of week 52. ITT = intent‐to‐treat; SC = subcutaneous.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-1" position="float" orientation="portrait" xlink:href="ART-69-1016-g001.jpg"/></fig><table-wrap id="art40049-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Demographic and clinical characteristics of the study patients at baseline, by treatment group<xref ref-type="fn" rid="art40049-note-0004">a</xref>
+</p></caption><table frame="hsides" rules="groups"><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">
+Placebo<break/>
+(n = 280)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+Belimumab<break/>
+200 mg SC<break/>
+(n = 556)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Female, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1">268 (95.7)</td><td align="center" valign="top" rowspan="1" colspan="1">521 (93.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age, mean ± SD years</td><td align="center" valign="top" rowspan="1" colspan="1">39.6 ± 12.61</td><td align="center" valign="top" rowspan="1" colspan="1">38.1 ± 12.10</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Weight, mean ± SD kg</td><td align="center" valign="top" rowspan="1" colspan="1">69.5 ± 19.76</td><td align="center" valign="top" rowspan="1" colspan="1">68.6 ± 18.15</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Enrollment by region, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">US</td><td align="center" valign="top" rowspan="1" colspan="1">84 (30.0)</td><td align="center" valign="top" rowspan="1" colspan="1">153 (27.5)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Americas, excluding US</td><td align="center" valign="top" rowspan="1" colspan="1">57 (20.4)</td><td align="center" valign="top" rowspan="1" colspan="1">115 (20.7)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Western Europe/Australia/Israel</td><td align="center" valign="top" rowspan="1" colspan="1">19 (6.8)</td><td align="center" valign="top" rowspan="1" colspan="1">48 (8.6)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Eastern Europe</td><td align="center" valign="top" rowspan="1" colspan="1">59 (21.1)</td><td align="center" valign="top" rowspan="1" colspan="1">129 (23.2)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Asia</td><td align="center" valign="top" rowspan="1" colspan="1">61 (21.8)</td><td align="center" valign="top" rowspan="1" colspan="1">111 (20.0)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Race/ethnicity</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Hispanic or Latino</td><td align="center" valign="top" rowspan="1" colspan="1">80 (28.6)</td><td align="center" valign="top" rowspan="1" colspan="1">160 (28.8)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Not Hispanic or Latino</td><td align="center" valign="top" rowspan="1" colspan="1">200 (71.4)</td><td align="center" valign="top" rowspan="1" colspan="1">396 (71.2)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Disease duration, median (range) years</td><td align="center" valign="top" rowspan="1" colspan="1">4.6 (0–38)</td><td align="center" valign="top" rowspan="1" colspan="1">4.3 (0–35)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SELENA–SLEDAI (range 0–105)<xref ref-type="fn" rid="art40049-note-0005">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Mean ± SD</td><td align="center" valign="top" rowspan="1" colspan="1">10.3 ± 3.04</td><td align="center" valign="top" rowspan="1" colspan="1">10.5 ± 3.19</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Median (range)</td><td align="center" valign="top" rowspan="1" colspan="1">10.0 <xref rid="art40049-bib-0004" ref-type="ref">4</xref>, <xref rid="art40049-bib-0005" ref-type="ref">5</xref>, <xref rid="art40049-bib-0006" ref-type="ref">6</xref>, <xref rid="art40049-bib-0007" ref-type="ref">7</xref>, <xref rid="art40049-bib-0008" ref-type="ref">8</xref>, <xref rid="art40049-bib-0009" ref-type="ref">9</xref>, <xref rid="art40049-bib-0010" ref-type="ref">10</xref>, <xref rid="art40049-bib-0011" ref-type="ref">11</xref>, <xref rid="art40049-bib-0012" ref-type="ref">12</xref>, <xref rid="art40049-bib-0013" ref-type="ref">13</xref>, <xref rid="art40049-bib-0014" ref-type="ref">14</xref>, <xref rid="art40049-bib-0015" ref-type="ref">15</xref>, <xref rid="art40049-bib-0016" ref-type="ref">16</xref>, <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>, <xref rid="art40049-bib-0019" ref-type="ref">19</xref>, <xref rid="art40049-bib-0020" ref-type="ref">20</xref>, <xref rid="art40049-bib-0021" ref-type="ref">21</xref>, <xref rid="art40049-bib-0022" ref-type="ref">22</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">10.0 <xref rid="art40049-bib-0002" ref-type="ref">2</xref>, <xref rid="art40049-bib-0003" ref-type="ref">3</xref>, <xref rid="art40049-bib-0004" ref-type="ref">4</xref>, <xref rid="art40049-bib-0005" ref-type="ref">5</xref>, <xref rid="art40049-bib-0006" ref-type="ref">6</xref>, <xref rid="art40049-bib-0007" ref-type="ref">7</xref>, <xref rid="art40049-bib-0008" ref-type="ref">8</xref>, <xref rid="art40049-bib-0009" ref-type="ref">9</xref>, <xref rid="art40049-bib-0010" ref-type="ref">10</xref>, <xref rid="art40049-bib-0011" ref-type="ref">11</xref>, <xref rid="art40049-bib-0012" ref-type="ref">12</xref>, <xref rid="art40049-bib-0013" ref-type="ref">13</xref>, <xref rid="art40049-bib-0014" ref-type="ref">14</xref>, <xref rid="art40049-bib-0015" ref-type="ref">15</xref>, <xref rid="art40049-bib-0016" ref-type="ref">16</xref>, <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>, <xref rid="art40049-bib-0019" ref-type="ref">19</xref>, <xref rid="art40049-bib-0020" ref-type="ref">20</xref>, <xref rid="art40049-bib-0021" ref-type="ref">21</xref>, <xref rid="art40049-bib-0022" ref-type="ref">22</xref>, <xref rid="art40049-bib-0023" ref-type="ref">23</xref>, <xref rid="art40049-bib-0024" ref-type="ref">24</xref>
+</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Score of ≤9, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1">112 (40.0)</td><td align="center" valign="top" rowspan="1" colspan="1">204 (36.7)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Score of ≥10, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1">168 (60.0)</td><td align="center" valign="top" rowspan="1" colspan="1">352 (63.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Organ system involvement, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Mucocutaneous</td><td align="center" valign="top" rowspan="1" colspan="1">248 (88.6)</td><td align="center" valign="top" rowspan="1" colspan="1">487 (87.6)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Musculoskeletal</td><td align="center" valign="top" rowspan="1" colspan="1">218 (77.9)</td><td align="center" valign="top" rowspan="1" colspan="1">438 (78.8)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Immunologic</td><td align="center" valign="top" rowspan="1" colspan="1">210 (75.0)</td><td align="center" valign="top" rowspan="1" colspan="1">423 (76.1)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Renal</td><td align="center" valign="top" rowspan="1" colspan="1">41 (14.6)</td><td align="center" valign="top" rowspan="1" colspan="1">58 (10.4)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Hematologic</td><td align="center" valign="top" rowspan="1" colspan="1">23 (8.2)</td><td align="center" valign="top" rowspan="1" colspan="1">40 (7.2)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Vascular</td><td align="center" valign="top" rowspan="1" colspan="1">18 (6.4)</td><td align="center" valign="top" rowspan="1" colspan="1">46 (8.3)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Cardiovascular and respiratory</td><td align="center" valign="top" rowspan="1" colspan="1">18 (6.4)</td><td align="center" valign="top" rowspan="1" colspan="1">29 (5.2)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Constitutional</td><td align="center" valign="top" rowspan="1" colspan="1">3 (1.1)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (1.3)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Central nervous system</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.7)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (1.3)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Disease flare, no. (%)<xref ref-type="fn" rid="art40049-note-0006">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">At least 1 flare</td><td align="center" valign="top" rowspan="1" colspan="1">57 (20.4)</td><td align="center" valign="top" rowspan="1" colspan="1">92 (16.5)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">At least 1 severe flare</td><td align="center" valign="top" rowspan="1" colspan="1">4 (1.4)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (1.4)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+Physician's global assessment, mean ± SD<break/>
+(0–10‐cm VAS)</td><td align="center" valign="top" rowspan="1" colspan="1">1.5 ± 0.45</td><td align="center" valign="top" rowspan="1" colspan="1">1.6 ± 0.43</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">FACIT‐Fatigue, mean ± SD (range 0–52)</td><td align="center" valign="top" rowspan="1" colspan="1">32.1 ± 11.35</td><td align="center" valign="top" rowspan="1" colspan="1">31.9 ± 12.17</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Medications, no. (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Corticosteroids only</td><td align="center" valign="top" rowspan="1" colspan="1">31 (11.1)</td><td align="center" valign="top" rowspan="1" colspan="1">59 (10.6)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Immunosuppressants only</td><td align="center" valign="top" rowspan="1" colspan="1">7 (2.5)</td><td align="center" valign="top" rowspan="1" colspan="1">10 (1.8)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Antimalarials only</td><td align="center" valign="top" rowspan="1" colspan="1">16 (5.7)</td><td align="center" valign="top" rowspan="1" colspan="1">44 (7.9)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Corticosteroids and immunosuppressants only</td><td align="center" valign="top" rowspan="1" colspan="1">50 (17.9)</td><td align="center" valign="top" rowspan="1" colspan="1">88 (15.8)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Corticosteroids and antimalarials only</td><td align="center" valign="top" rowspan="1" colspan="1">93 (33.2)</td><td align="center" valign="top" rowspan="1" colspan="1">201 (36.2)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Immunosuppressants and antimalarials only</td><td align="center" valign="top" rowspan="1" colspan="1">13 (4.6)</td><td align="center" valign="top" rowspan="1" colspan="1">13 (2.3)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Corticosteroids, immunosuppressants, and antimalarials</td><td align="center" valign="top" rowspan="1" colspan="1">67 (23.9)</td><td align="center" valign="top" rowspan="1" colspan="1">133 (23.9)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Immunosuppressants</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Azathioprine</td><td align="center" valign="top" rowspan="1" colspan="1">58 (20.7)</td><td align="center" valign="top" rowspan="1" colspan="1">107 (19.2)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Methotrexate</td><td align="center" valign="top" rowspan="1" colspan="1">39 (13.9)</td><td align="center" valign="top" rowspan="1" colspan="1">52 (9.4)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Mycophenolate mofetil</td><td align="center" valign="top" rowspan="1" colspan="1">34 (12.1)</td><td align="center" valign="top" rowspan="1" colspan="1">70 (12.6)</td></tr></tbody></table><table-wrap-foot><fn id="art40049-note-0004"><label>a</label><p>SC = subcutaneous; VAS = visual analog scale; FACIT‐Fatigue = Functional Assessment of Chronic Illness Therapy–Fatigue subscale.</p></fn><fn id="art40049-note-0005"><label>b</label><p>Patients had a score of ≥8 on the Safety of Estrogens in Lupus Erythematosus National Assessment version of the Systemic Lupus Erythematosus Disease Activity Index (SELENA–SLEDAI) at screening (occurring within 35 days prior to baseline). A total of 39 belimumab‐treated patients and 24 placebo‐treated patients had scores that were &lt;8 at baseline (lowest score was 2).</p></fn><fn id="art40049-note-0006"><label>c</label><p>Occurring during the screening period (day −35 to day 0).</p></fn></table-wrap-foot></table-wrap></sec><sec id="art40049-sec-0012"><title>SRI4 response</title><p>At week 52, 61.4% of belimumab patients were SRI4 responders compared with 48.4% for placebo (odds ratio [OR] 1.68 [95% confidence interval (95% CI) 1.25–2.25]; <italic toggle="yes">P</italic> = 0.0006) (Figure <xref rid="art40049-fig-0002" ref-type="fig">2</xref>A). The SRI4 response was significantly greater in the belimumab group as compared with the placebo group as early as week 16, and the significant difference was sustained up to week 52 (Figure <xref rid="art40049-fig-0002" ref-type="fig">2</xref>A). At week 52, more patients who received belimumab were SRI4 responders compared with placebo in both the completer population (n = 677) (72.9% versus 63.1%; OR 1.54 [95% CI 1.07–2.20]; <italic toggle="yes">P</italic> = 0.0185) and the per‐protocol population (n = 789) (61.9% versus 48.3%; OR 1.75 [95% CI 1.29–2.37]; <italic toggle="yes">P</italic> = 0.0003).</p><fig fig-type="Figure" xml:lang="en" id="art40049-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>
+<bold>A,</bold> Systemic Lupus Erythematosus Responder Index (SRI4) responses over time in patients randomized to receive placebo or belimumab 200 mg subcutaneously (SC). <bold>B,</bold> Percentage of patients with responses on the individual components of the SRI4 at week 52: the Safety of Estrogens in Lupus Erythematosus National Assessment version of the Systemic Lupus Erythematosus Disease Activity Index (SS), the physician's global assessment (PGA), and the British Isles Lupus Assessment Group (BILAG) domain, by treatment group. <bold>C,</bold> SRI5, 6, 7, and 8 responses over time in the 2 treatment groups. <bold>D,</bold> Time to first SRI4 response that was maintained through week 52 in the intent‐to‐treat population, by treatment group. <bold>∗</bold> = <italic toggle="yes">P</italic> ≤ 0.05; † = <italic toggle="yes">P</italic> ≤ 0.01; ‡ = <italic toggle="yes">P</italic> ≤ 0.001; § = <italic toggle="yes">P</italic> ≤ 0.0001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-3" position="float" orientation="portrait" xlink:href="ART-69-1016-g002.jpg"/></fig><p>All components of the SRI4 showed statistical significance at week 52 (Figure <xref rid="art40049-fig-0002" ref-type="fig">2</xref>B). The immunologic, musculoskeletal, mucocutaneous, and vascular SELENA–SLEDAI organ systems improved significantly more in the belimumab group than in the placebo group at week 52 (data not shown). Improvement in the other organ systems (including renal) favored belimumab numerically, but the analyses in these other organ systems were limited by small sample sizes. Among patients with a BILAG A or B organ domain score at baseline, a significantly greater improvement was observed at week 52 in the belimumab group compared with the placebo group for the vasculitis, mucocutaneous, and musculoskeletal organ domains, but not the other organ domains.</p><p>Compared with the placebo group, the SRI5 response was significantly greater in the belimumab group from week 12 through week 52 (Figure <xref rid="art40049-fig-0002" ref-type="fig">2</xref>C). The SRI6, SRI7, and SRI8 responses were significantly greater from week 8 through week 52 (<italic toggle="yes">P</italic> ≤ 0.0001 for each comparison at week 52). The median time to first SRI4 response that was maintained through week 52 was 235.0 days (interquartile range [IQR] 85.0–not calculable) for belimumab and 338.0 days (IQR 141.0–386.0) for placebo (hazard ratio [HR] 1.48 [95% CI 1.21–1.81]; <italic toggle="yes">P</italic> = 0.0001) (Figure <xref rid="art40049-fig-0002" ref-type="fig">2</xref>D).</p><p>When the anti‐dsDNA and complement components of the SELENA–SLEDAI were excluded from the composite score (post hoc analysis), the SRI4 response rate was significantly greater in the belimumab group as compared with placebo (59.6% versus 48.0%; OR 1.58 [95% CI 1.18–2.13]; <italic toggle="yes">P</italic> = 0.0023). The least squares mean ± SEM change from baseline in the SELENA–SLEDAI score (excluding anti‐dsDNA and complement components) at week 52 was not significantly different between treatment groups (−3.96 ± 0.246 for belimumab, −3.47 ± 0.295 for placebo; <italic toggle="yes">P</italic> = 0.0997).</p></sec><sec id="art40049-sec-0013"><title>Time to severe flare</title><p>Patients who received belimumab were 49% less likely to experience severe flare as compared with placebo across the 52 weeks of study (HR 0.51 [95% CI 0.35–0.74]; <italic toggle="yes">P</italic> = 0.0004). Among patients experiencing a severe flare, the median time to severe flare was 171.0 days (IQR 57.0–257.0) for belimumab (n = 59 [10.6%]) versus 118.0 days (IQR 62.0–259.0) for placebo (n = 51 [18.2%]) (Figure <xref rid="art40049-fig-0003" ref-type="fig">3</xref>). The risk of any flare was also significantly lower in the belimumab group compared with placebo (60.6% versus 68.6%; HR 0.78 [95% CI 0.65–0.93]; <italic toggle="yes">P</italic> = 0.0061).</p><fig fig-type="Figure" xml:lang="en" id="art40049-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Time to severe flare in patients randomized to receive placebo or belimumab 200 mg subcutaneously (SC). The probability of experiencing a severe flare, according to the Systemic Lupus Erythematosus Flair Index (SFI), is plotted against the time since the first dose of study drug.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-5" position="float" orientation="portrait" xlink:href="ART-69-1016-g003.jpg"/></fig></sec><sec id="art40049-sec-0014"><title>Changes in corticosteroid dosage</title><p>At baseline, 335 patients in the belimumab group and 168 in the placebo group were receiving corticosteroids at a dosage of &gt;7.5 mg/day (60.2% of patients overall) and were eligible for this analysis. More patients who received belimumab were able to reduce their corticosteroid dosage by ≥25%, to ≤7.5 mg/day, during weeks 40–52 as compared with placebo (18.2% versus 11.9%), although this difference did not achieve statistical significance (OR 1.65 [95% CI 0.95–2.84]; <italic toggle="yes">P</italic> = 0.0732). Fewer patients in the belimumab group (8.1% [45 of 556]) than in the placebo group (13.2% [37 of 280]) had an increase in corticosteroid dosage through to week 52 (OR 0.55 [95% CI 0.34–0.87]; <italic toggle="yes">P</italic> = 0.0117); the differences were significant from week 20 to week 52, with the exception of week 32. The proportion of patients who had a corticosteroid dosage reduction from &gt;7.5 mg/day at baseline to ≤7.5 mg/day at week 52 was 20.0% (67 of 335) in the belimumab group and 14.3% (24 of 168) in the placebo group (<italic toggle="yes">P</italic> = 0.1181). There was a difference of 633.50 mg in the mean ± SD cumulative dose of corticosteroids over 52 weeks (3,933.8 ± 3,660.76 for belimumab and 4,567.3 ± 5,981.53 for placebo; <italic toggle="yes">P</italic> = 0.4299).</p></sec><sec id="art40049-sec-0015"><title>Subgroup responses at week 52</title><p>Results of the subgroup analyses are summarized in Figure <xref rid="art40049-fig-0004" ref-type="fig">4</xref>, which includes the number of patients in each subgroup. At week 52, significantly more patients with baseline SELENA–SLEDAI scores of ≥10 who received belimumab were SRI4 responders compared with those who received placebo. There was a trend toward an increase in SRI4 responders for belimumab versus placebo among patients with baseline SELENA–SLEDAI scores of ≤9, although this did not reach statistical significance (Figure <xref rid="art40049-fig-0004" ref-type="fig">4</xref>).</p><fig fig-type="Figure" xml:lang="en" id="art40049-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Systemic Lupus Erythematosus Responder Index (SRI4) subgroup responses at week 52 in patients randomized to receive belimumab 200 mg subcutaneously (SC) versus placebo. Bars illustrate the odds ratios (ORs) and 95% confidence intervals (95% CIs) that are given at the right. Broken vertical line indicates the overall OR. SRI = Systemic Lupus Erythematosus Responder index; SS = the Safety of Estrogens in Lupus Erythematosus National Assessment version of the Systemic Lupus Erythematosus Disease Activity Index.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-7" position="float" orientation="portrait" xlink:href="ART-69-1016-g004.jpg"/></fig><p>The SRI4 response among non‐black patients who received belimumab was statistically significantly higher than that among non‐black patients who received placebo (OR 1.75 [95% CI 1.29–2.39]; <italic toggle="yes">P</italic> = 0.0004) (Figure <xref rid="art40049-fig-0004" ref-type="fig">4</xref>). Among the black patients, the week 52 SRI4 response was numerically higher for belimumab than for placebo, but the difference did not achieve statistical significance. Post hoc analyses showed that 73.8% (118 of 160) of Hispanic or Latino patients receiving belimumab experienced an SRI4 response at week 52, compared with 50.0% (40 of 80) of those receiving placebo (<italic toggle="yes">P</italic> = 0.0003). Among patients of non‐Hispanic or Latino ethnicity, 56.3% (belimumab) and 47.7% (placebo) of patients were responders (<italic toggle="yes">P</italic> = 0.0407). While those receiving belimumab in both ethnic groups reported statistically significant improvements at week 52 (compared with placebo), the numerical difference was greater in the Hispanic or Latino group.</p><p>In the third and fourth quartiles for baseline body weight, significantly more patients who received belimumab were SRI4 responders than patients who received placebo (Figure <xref rid="art40049-fig-0004" ref-type="fig">4</xref>). For the first and second quartiles, the differences between treatment arms did not achieve statistical significance.</p><p>The SRI4 response at week 52 was significantly greater in belimumab‐treated patients who were receiving corticosteroids at baseline compared with placebo‐treated patients receiving corticosteroids at baseline (Figure <xref rid="art40049-fig-0004" ref-type="fig">4</xref>). There was no significant difference in SRI4 response at week 52 between belimumab and placebo among patients who were not taking corticosteroids at baseline.</p></sec><sec id="art40049-sec-0016"><title>FACIT‐Fatigue scores</title><p>Scores on the FACIT‐Fatigue scale improved over time in both treatment groups. The mean change from baseline was significantly greater in the belimumab group as compared with the placebo group at weeks 8, 36, and 52 (adjusted mean change at week 52 was 4.4 versus 2.7; <italic toggle="yes">P</italic> = 0.0130) but not at weeks 4, 12, and 24. The percentage of patients with an improvement in the FACIT‐Fatigue score of ≥4 also generally increased over time. At week 52, more patients who received belimumab had an improvement of ≥4 compared with placebo (44.4% versus 36.1%; OR 1.42 [95% CI 1.05–1.94]; <italic toggle="yes">P</italic> = 0.0245).</p></sec><sec id="art40049-sec-0017"><title>Time to first renal flare</title><p>Fewer patients with baseline proteinuria &gt;0.5 gm/24 hours in the belimumab group (11 of 99) had a renal flare compared with those in the placebo group (13 of 48) (11.1% versus 27.1%; HR 0.40 [95% CI 0.18–0.90]; <italic toggle="yes">P</italic> = 0.0272). The median time to first renal flare for patients with baseline proteinuria &gt;0.5 gm/24 hours who experienced a flare was 83.0 days (IQR 33.0–192.0) for belimumab versus 113.0 days (IQR 85.0–229.0) for placebo. In the overall population, fewer patients in the belimumab group had a renal flare as compared with placebo, although this difference was not statistically significant (4.7% versus 7.5%; HR 0.57 [95% CI 0.32–1.01]; <italic toggle="yes">P</italic> = 0.0532). All first renal flares had occurred by week 40 and week 48 in the belimumab and placebo groups, respectively.</p></sec><sec id="art40049-sec-0018"><title>Safety</title><p>Overall, 449 patients in the belimumab group (80.8%) and 236 patients in the placebo group (84.3%) experienced at least 1 AE (Table <xref rid="art40049-tbl-0002" ref-type="table-wrap">2</xref>). The most common types were infections and infestations. SAEs were reported for 10.8% and 15.7% of patients, respectively. The most common types were infections and infestations, renal and urinary disorders, and nervous system disorders. Treatment‐related AEs were reported for 31.1% of the belimumab group and 26.1% of the placebo group. For further details, see Supplementary Tables S1 and S2 (available on the <italic toggle="yes">Arthritis &amp; Rheumatology</italic> web site at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://onlinelibrary.wiley.com/doi/10.1002/art.40049/abstract">http://onlinelibrary.wiley.com/doi/10.1002/art.40049/abstract</ext-link>).</p><table-wrap id="art40049-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Summary of AEs reported during the study<xref ref-type="fn" rid="art40049-note-0007">a</xref>
+</p></caption><table frame="hsides" rules="groups"><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" width="80pt" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">
+Placebo<break/>
+(n = 280)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+Belimumab<break/>
+200 mg SC<break/>
+(n = 556)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">All AEs by system organ class</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">AEs<xref ref-type="fn" rid="art40049-note-0008">b</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">236 (84.3)</td><td align="center" valign="top" rowspan="1" colspan="1">449 (80.8)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Infections and infestations</td><td align="center" valign="top" rowspan="1" colspan="1">159 (56.8)</td><td align="center" valign="top" rowspan="1" colspan="1">308 (55.4)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Gastrointestinal disorders</td><td align="center" valign="top" rowspan="1" colspan="1">68 (24.3)</td><td align="center" valign="top" rowspan="1" colspan="1">125 (22.5)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Musculoskeletal and connective tissue disorders</td><td align="center" valign="top" rowspan="1" colspan="1">66 (23.6)</td><td align="center" valign="top" rowspan="1" colspan="1">124 (22.3)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Nervous system disorders</td><td align="center" valign="top" rowspan="1" colspan="1">53 (18.9)</td><td align="center" valign="top" rowspan="1" colspan="1">111 (20.0)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Skin and subcutaneous tissue disorders</td><td align="center" valign="top" rowspan="1" colspan="1">60 (21.4)</td><td align="center" valign="top" rowspan="1" colspan="1">80 (14.4)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">SAEs<xref ref-type="fn" rid="art40049-note-0009">c</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">44 (15.7)</td><td align="center" valign="top" rowspan="1" colspan="1">60 (10.8)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Infections and infestations</td><td align="center" valign="top" rowspan="1" colspan="1">15 (5.4)</td><td align="center" valign="top" rowspan="1" colspan="1">23 (4.1)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Renal and urinary disorders</td><td align="center" valign="top" rowspan="1" colspan="1">7 (2.5)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (1.4)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Nervous system disorders</td><td align="center" valign="top" rowspan="1" colspan="1">6 (2.1)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (1.4)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Treatment‐related AEs</td><td align="center" valign="top" rowspan="1" colspan="1">73 (26.1)</td><td align="center" valign="top" rowspan="1" colspan="1">173 (31.1)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">AEs resulting in study discontinuation</td><td align="center" valign="top" rowspan="1" colspan="1">25 (8.9)</td><td align="center" valign="top" rowspan="1" colspan="1">40 (7.2)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">AEs of special interest</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Malignancies</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.4)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.4)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Postinjection systemic reactions<xref ref-type="fn" rid="art40049-note-0010">d</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">25 (8.9)</td><td align="center" valign="top" rowspan="1" colspan="1">38 (6.8)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Serious</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Serious delayed nonacute hypersensitivity reactions<xref ref-type="fn" rid="art40049-note-0010">d</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.4)</td><td align="center" valign="top" rowspan="1" colspan="1">0</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">All infections</td><td align="center" valign="top" rowspan="1" colspan="1">21 (7.5)</td><td align="center" valign="top" rowspan="1" colspan="1">30 (5.4)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Serious</td><td align="center" valign="top" rowspan="1" colspan="1">3 (1.1)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (1.4)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Opportunistic infections<xref ref-type="fn" rid="art40049-note-0010">d</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.4)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.4)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Serious</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.2)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Herpes zoster</td><td align="center" valign="top" rowspan="1" colspan="1">13 (4.6)</td><td align="center" valign="top" rowspan="1" colspan="1">18 (3.2)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Serious</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.2)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Sepsis</td><td align="center" valign="top" rowspan="1" colspan="1">3 (1.1)</td><td align="center" valign="top" rowspan="1" colspan="1">6 (1.1)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Serious</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.7)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (0.7)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Depression</td><td align="center" valign="top" rowspan="1" colspan="1">10 (3.6)</td><td align="center" valign="top" rowspan="1" colspan="1">15 (2.7)</td></tr><tr><td style="padding-left:15%" align="left" valign="top" rowspan="1" colspan="1">Serious</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Serious suicidal ideation<xref ref-type="fn" rid="art40049-note-0010">d</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.4)</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Suicidal behavior<xref ref-type="fn" rid="art40049-note-0010">d</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Deaths</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.7)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (0.5)</td></tr></tbody></table><table-wrap-foot><fn id="art40049-note-0007"><label>a</label><p>Values are the number (%) of patients reporting the event. SC = subcutaneous.</p></fn><fn id="art40049-note-0008"><label>b</label><p>Adverse events (AEs) that occurred in ≥20% of patients in either treatment group are listed.</p></fn><fn id="art40049-note-0009"><label>c</label><p>Serious adverse events (SAEs) that occurred in &gt;2% of patients in either treatment group are listed.</p></fn><fn id="art40049-note-0010"><label>d</label><p>As adjudicated by GlaxoSmithKline physicians.</p></fn></table-wrap-foot></table-wrap><p>Local injection site reactions occurred in 34 patients in the belimumab group (6.1%) and 7 patients in the placebo group (2.5%). All were mild or moderate in severity, and no serious or severe injection site reactions were reported. The incidence of hypersensitivity reactions was similar between treatment groups. Three deaths were reported in the belimumab group (0.5%; 3 infections [bacterial sepsis, urosepsis, and tuberculosis of the CNS]) and 2 were reported in the placebo group (0.7%; 1 vascular [cardiac death] and 1 SLE‐related [thrombocytopenia]). Herpes zoster was reported in 18 patients in the belimumab group (3.2%) and 13 patients in the placebo group (4.6%); 1 case was serious (belimumab group). Fifteen patients in the belimumab group (2.7%) and 10 patients in the placebo group (3.6%) experienced depression; none of these episodes were serious. Two cases of serious suicidal ideation (0.4% taking belimumab, as adjudicated by GlaxoSmithKline physicians) and no cases of suicidal behavior were reported.</p><p>Four patients experienced worsening of IgG hypoglobulinemia from grade 0 to grade 2 in each treatment group (0.7% receiving belimumab and 1.4% receiving placebo). An additional case of worsening from grade 0 to grade 4 occurred in the belimumab group (0.2%).</p><p>The incidence of AEs was higher in both groups among patients in the highest body weight quartile (≥78.25 kg; 86.3% of the belimumab group and 90.0% of the placebo group) as compared with those in the lowest body weight quartile (&lt;55.05 kg; 76.3% of the belimumab group and 77.1% of the placebo group).</p></sec><sec id="art40049-sec-0019"><title>Pharmacokinetics</title><p>The median plasma concentration in the group taking belimumab increased from week 4 (65.0 μg/ml) to week 24 (104.8 μg/ml), and decreased slightly at week 52 (86.8 μg/ml) (Supplementary Figure 1, available on the <italic toggle="yes">Arthritis &amp; Rheumatology</italic> web site at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://onlinelibrary.wiley.com/doi/10.1002/art.40049/abstract">http://onlinelibrary.wiley.com/doi/10.1002/art.40049/abstract</ext-link>).</p></sec></sec><sec id="art40049-sec-0020"><title>DISCUSSION</title><p>This was the first phase III randomized, double‐blind, placebo‐controlled study to investigate the safety and efficacy of belimumab 200 mg SC plus standard SLE therapy in patients with SLE. The results demonstrate that weekly SC doses of belimumab 200 mg plus standard SLE therapy significantly reduced SLE disease activity as early as week 16. The treatment effect for belimumab SC is consistent with that observed with belimumab 10 mg/kg IV in the phase III, randomized, double‐blind, placebo‐controlled BLISS‐52 and BLISS‐76 studies <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>. The present study was designed to test the efficacy of belimumab SC rather than its equivalence (or lack of same) to belimumab IV, so no conclusion can be drawn with regard to equivalence. Nevertheless, the 2 previous belimumab IV trials and the present belimumab SC trial each met their respective primary end points and demonstrated consistent and significant clinical benefits of belimumab plus standard SLE therapy in patients with SLE.</p><p>The inclusion criteria for this study required a SELENA–SLEDAI score of ≥8 at screening, whereas the IV BLISS‐52 and BLISS‐76 studies required a SELENA–SLEDAI score of ≥6 <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>. This requirement for a higher SELENA–SLEDAI was driven by data from the IV studies that highlighted that patients needed a higher level of disease activity at baseline in order to have the opportunity to achieve the 4‐point reduction in SELENA–SLEDAI that was needed to meet the SRI4 end point. Despite that requirement, the mean baseline SELENA–SLEDAI scores in the present study were similar to those in the IV studies (10.0 and 9.5 for belimumab 10 mg/kg, 9.7 and 9.8 for placebo in the BLISS‐52 and BLISS‐76 studies, respectively). A greater proportion of patients in the present study had SELENA–SLEDAI scores of ≥10 (62%), as compared with those in the BLISS‐52 (53%) and BLISS‐76 (51%) studies <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>.</p><p>A post hoc analysis of the present (BLISS‐SC) study and the pooled BLISS‐52 and BLISS‐76 studies was undertaken to compare only patients with SELENA–SLEDAI scores of ≥8 at baseline. In this analysis, the SRI4 responses at week 52 were 63.2% for belimumab 200 mg SC versus 50.0% for placebo and 57.4% for belimumab 10 mg/kg IV versus 41.7% for placebo (data on file; GlaxoSmithKline). While no head‐to‐head comparison between SC and IV belimumab was done, the results of the present study and of this post hoc analysis suggest consistency across the IV and SC studies.</p><p>Belimumab SC demonstrated further efficacy benefits, such as reduction of severe flare by 49% over 52 weeks, onset of action as early as week 16, and a shorter time to first SRI4 response that was maintained through week 52 compared with placebo. Significant reductions in severe flare were observed with belimumab 10 mg/kg IV over 52 weeks in the BLISS‐52 study <xref rid="art40049-bib-0018" ref-type="ref">18</xref> and with belimumab 1 mg/kg IV over 76 weeks in the BLISS‐76 study <xref rid="art40049-bib-0017" ref-type="ref">17</xref>. Onset of action was also comparable to that in the BLISS‐52 and BLISS‐76 studies <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>. In addition, more patients in the belimumab SC group were able to reduce their corticosteroid dosage as compared with those in the placebo group, although this reduction did not achieve statistical significance. The decrease in corticosteroid dosage occurred in parallel with the reduction in risk of flare among those who received belimumab treatment compared with placebo. Since only patients receiving a baseline corticosteroid dosage &gt;7.5 mg/day were eligible for analysis, the absence of statistical significance may reflect insufficient power to detect such a difference in a subgroup of this size. It should be noted that the study design did not mandate or encourage corticosteroid taper, and treatment blinding may have limited the proactive reduction of corticosteroids due to concerns that a patient may have been receiving placebo. The observed reduction in corticosteroid use may therefore not faithfully reflect clinical practice, where a more aggressive approach to corticosteroid tapering might be taken.</p><p>In subgroup analyses, patients with SELENA–SLEDAI scores of ≥10 at baseline had significant treatment responses (SRI4) with belimumab, whereas those with scores of ≤9 did not. The difference in response rates in the subgroup with scores ≥10 appeared to be greater than in the overall population, suggesting that belimumab SC may be especially beneficial in patients with high levels of disease activity. Similarly, belimumab‐treated patients who were receiving corticosteroids at baseline had a significant treatment response relative to placebo‐treated patients, consistent with the findings of a post hoc analysis of the BLISS‐IV studies <xref rid="art40049-bib-0035" ref-type="ref">35</xref>. In the present study, the treatment effect on the SRI4 response in black patients indicated a positive trend, but statistical significance was not achieved. The number of patients in this subgroup was low, and the power was insufficient to draw firm conclusions. A separate study is underway to specifically assess the benefits of belimumab in black patients.</p><p>In baseline body weight subgroup analyses, the treatment effect did not appear to vary greatly between body weight subgroups. The effect achieved statistical significance for the third and fourth quartiles, but not for the first and second quartiles. As with other subgroup analyses, the patient numbers were low.</p><p>Fatigue is one of the most commonly reported symptoms among patients with SLE and has considerable impact on their lives <xref rid="art40049-bib-0036" ref-type="ref">36</xref>. Patient‐reported fatigue was significantly reduced with belimumab SC at weeks 8, 36, and 52 in the present study. Although the time to first renal flare was reduced in patients receiving belimumab 200 mg SC, few renal flares occurred later in the study in this group, resulting in a shorter median time to flare. Patients receiving belimumab experienced fewer renal flares overall, and fewer patients with baseline proteinuria &gt;0.5 gm/24 hours who were receiving belimumab experienced a renal flare as compared with those receiving placebo. Renal involvement is associated with increased morbidity in SLE <xref rid="art40049-bib-0037" ref-type="ref">37</xref>, and a post hoc analysis of BLISS‐52 and BLISS‐76 study data suggested that belimumab may have beneficial effects in patients with renal involvement <xref rid="art40049-bib-0038" ref-type="ref">38</xref>. However, while these data are encouraging, they offer no insight into efficacy in patients with severe active lupus nephritis, a subgroup that was excluded from the BLISS IV and SC studies <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>.</p><p>The safety profile of belimumab 200 mg SC plus standard SLE therapy was similar to that of placebo SC plus standard SLE therapy and was consistent with the known safety profile of belimumab IV <xref rid="art40049-bib-0021" ref-type="ref">21</xref>. The overall incidences of AEs and SAEs were numerically lower in the belimumab group compared with the placebo group. The increase in AEs with increasing body weight was similar among patients receiving placebo and belimumab, suggesting that body weight did not affect the safety of belimumab.</p><p>The incidence of treatment‐emergent suicidality was low. Two patients in the belimumab group and none in the placebo group experienced serious suicidal ideation, and there were no cases of suicidal behavior. In prior studies of IV belimumab (phase II and 2 phase III studies), there were 2 completed suicides in the belimumab groups (2 of 1,458 [0.1%]) and none in the placebo groups (0 of 675), and serious depression was reported in 0.4% (6 of 1,458) of patients receiving belimumab and 0.1% (1 of 675) of patients receiving placebo <xref rid="art40049-bib-0017" ref-type="ref">17</xref>, <xref rid="art40049-bib-0018" ref-type="ref">18</xref>, <xref rid="art40049-bib-0029" ref-type="ref">29</xref>, <xref rid="art40049-bib-0039" ref-type="ref">39</xref>. In a phase III trial of SC tabalumab, another BLyS antagonist, in SLE, cases of depression and suicidal ideation were more common in the tabalumab groups (120 mg every 2 or 4 weeks) compared with placebo, although the overall incidence was low (depression, 4.0% and 4.5% versus 0.8%; suicide attempts, 0.3% and 0.5% versus 0%; suicidal ideation, 3.0% and 5.3% versus 0.4%; and suicidal behavior, 0.9% and 1.3% versus 0.4%) <xref rid="art40049-bib-0040" ref-type="ref">40</xref>. Other studies of tabalumab did not report such an imbalance <xref rid="art40049-bib-0041" ref-type="ref">41</xref>. Similarly, no cases of suicidal ideation or behavior were reported in patients with SLE taking other BLyS antagonists blisibimod <xref rid="art40049-bib-0042" ref-type="ref">42</xref>, <xref rid="art40049-bib-0043" ref-type="ref">43</xref> or atacicept <xref rid="art40049-bib-0044" ref-type="ref">44</xref>, <xref rid="art40049-bib-0045" ref-type="ref">45</xref>, <xref rid="art40049-bib-0046" ref-type="ref">46</xref>.</p><p>The efficacy and safety results in this study support fixed dosing with the SC dose selection of 200 mg (as opposed to the weight‐based dosing used for the IV infusion) <xref rid="art40049-bib-0024" ref-type="ref">24</xref>. The pharmacokinetic profile is consistent with the simulated steady‐state concentrations for weekly belimumab 200 mg SC (104 μg/ml) and monthly belimumab 10 mg/kg IV (110 μg/ml) <xref rid="art40049-bib-0025" ref-type="ref">25</xref>.</p><p>Some aspects of this study may limit interpretation. Not all patients were included in the corticosteroid reduction analyses, as only 503 of 836 (60.2%) patients were receiving corticosteroids at a dosage of &gt;7.5 mg/day at baseline. The inclusion criteria did not permit inclusion of patients with SELENA–SLEDAI scores of &lt;8 at screening, nor did they permit entry of patients with active nephritis or active CNS disease, so no conclusions can be made about these subsets of patients. Sample sizes in some subgroups were small, which limits the conclusions that can be drawn.</p><p>In summary, fixed‐dose weekly belimumab 200 mg SC in patients with SLE reduced SLE disease activity in the overall population, and patient‐reported levels of fatigue were improved. Safety results were consistent with the known safety profile of belimumab. The ability of patients with SLE to administer their medication away from the clinic will provide a more convenient treatment regimen for belimumab, which may make it a more viable treatment option for some patients.</p></sec><sec id="art40049-sec-0021"><title>AUTHOR CONTRIBUTIONS</title><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be published. Dr. Stohl had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.</p><sec id="art40049-sec-0022"><title>Study conception and design</title><p>Stohl, Kleoudis, Bass, Fox, Roth, Gordon.</p></sec><sec id="art40049-sec-0023"><title>Acquisition of data</title><p>Stohl, Schwarting, Okada, Scheinberg, Doria, Hammer, Kleoudis, Groark, Bass, Fox, Roth, Gordon.</p></sec><sec id="art40049-sec-0024"><title>Analysis and interpretation of data</title><p>Stohl, Schwarting, Okada, Scheinberg, Doria, Hammer, Kleoudis, Groark, Bass, Fox, Roth, Gordon.</p></sec></sec><sec id="art40049-sec-0025"><title>ROLE OF THE STUDY SPONSORS</title><p>GlaxoSmithKline plc (GSK) designed, conducted, and funded the study, contributed to the collection, analysis, and interpretation of the data, and supported the authors in the development of the manuscript. All authors, including those employed by GSK, approved the content of the submitted manuscript. GSK is committed to publicly disclosing the results of GSK‐sponsored clinical research that evaluates GSK medicines and, as such, was involved in the decision and to submit the manuscript for publication. Medical writing and editorial assistance was funded by GSK and was provided by Louisa Pettinger, PhD (Fishawack Indicia Ltd).</p></sec><sec id="art40049-sec-1025"><title>ADDITIONAL DISCLOSURES</title><p>Author Kleoudis is an employee of Parexel.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Supplementary Figure S1. Belimumab concentration.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ART-69-1016-s001.eps" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Supplementary Table S1. AEs occurring in ≥5% of patients in either treatment group (preferred term)</p><p>Supplementary Table S2. Treatment‐related AEs occurring in ≥2% of patients in either treatment group (preferred term)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ART-69-1016-s002.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ref-list content-type="cited-references"><title>REFERENCES</title><ref id="art40049-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="art40049-cit-0001">
+<string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>MacKay</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Steiner</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hofmann</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bodmer</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holler</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>BAFF, a novel ligand of the tumor necrosis factor family, stimulates B cell growth</article-title>. <source>J Exp Med</source>
+<year>1999</year>;<volume>189</volume>:<fpage>1747</fpage>–<lpage>56</lpage>.
+<pub-id pub-id-type="pmid">10359578</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1084/jem.189.11.1747</pub-id><pub-id pub-id-type="pmcid">PMC2193079</pub-id></mixed-citation></ref><ref id="art40049-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="art40049-cit-0002">
+<string-name name-style="western">
+<surname>Moore</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belvedere</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Orr</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pieri</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>LaFleur</surname>
+<given-names>DW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feng</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>BLyS: member of the tumor necrosis factor family and B lymphocyte stimulator</article-title>. <source>Science</source>
+<year>1999</year>;<volume>285</volume>:<fpage>260</fpage>–<lpage>3</lpage>.
+<pub-id pub-id-type="pmid">10398604</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.285.5425.260</pub-id></mixed-citation></ref><ref id="art40049-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="art40049-cit-0003">
+<string-name name-style="western">
+<surname>Thompson</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalled</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lefevre</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cachero</surname>
+<given-names>TG</given-names>
+</string-name>, et al. <article-title>BAFF binds to the tumor necrosis factor receptor–like molecule B cell maturation antigen and is important for maintaining the peripheral B cell population</article-title>. <source>J Exp Med</source>
+<year>2000</year>;<volume>192</volume>:<fpage>129</fpage>–<lpage>36</lpage>.
+<pub-id pub-id-type="pmid">10880534</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1084/jem.192.1.129</pub-id><pub-id pub-id-type="pmcid">PMC1887706</pub-id></mixed-citation></ref><ref id="art40049-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="art40049-cit-0004">
+<string-name name-style="western">
+<surname>Do</surname>
+<given-names>RK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hatada</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tourigny</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hilbert</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen‐Kiang</surname>
+<given-names>S.</given-names>
+</string-name>
+<article-title>Attenuation of apoptosis underlies B lymphocyte stimulator enhancement of humoral immune response</article-title>. <source>J Exp Med</source>
+<year>2000</year>;<volume>192</volume>:<fpage>953</fpage>–<lpage>64</lpage>.
+<pub-id pub-id-type="pmid">11015437</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1084/jem.192.7.953</pub-id><pub-id pub-id-type="pmcid">PMC2193312</pub-id></mixed-citation></ref><ref id="art40049-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="art40049-cit-0005">
+<string-name name-style="western">
+<surname>Batten</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Groom</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cachero</surname>
+<given-names>TG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qian</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tschopp</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>BAFF mediates survival of peripheral immature B lymphocytes</article-title>. <source>J Exp Med</source>
+<year>2000</year>;<volume>192</volume>:<fpage>1453</fpage>–<lpage>66</lpage>.
+<pub-id pub-id-type="pmid">11085747</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1084/jem.192.10.1453</pub-id><pub-id pub-id-type="pmcid">PMC2193190</pub-id></mixed-citation></ref><ref id="art40049-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="art40049-cit-0006">
+<string-name name-style="western">
+<surname>Gross</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnston</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mudri</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Enselman</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dillon</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Madden</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>TACI and BCMA are receptors for a TNF homologue implicated in B‐cell autoimmune disease</article-title>. <source>Nature</source>
+<year>2000</year>;<volume>404</volume>:<fpage>995</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">10801128</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/35010115</pub-id></mixed-citation></ref><ref id="art40049-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="art40049-cit-0007">
+<string-name name-style="western">
+<surname>Khare</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sarosi</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xia</surname>
+<given-names>XZ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCabe</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miner</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Solovyev</surname>
+<given-names>I</given-names>
+</string-name>, et al. <article-title>Severe B cell hyperplasia and autoimmune disease in TALL‐1 transgenic mice</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<year>2000</year>;<volume>97</volume>:<fpage>3370</fpage>–<lpage>5</lpage>.
+<pub-id pub-id-type="pmid">10716715</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.050580697</pub-id><pub-id pub-id-type="pmcid">PMC16246</pub-id></mixed-citation></ref><ref id="art40049-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="art40049-cit-0008">
+<string-name name-style="western">
+<surname>Mackay</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Woodcock</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lawton</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ambrose</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baetscher</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Mice transgenic for BAFF develop lymphocytic disorders along with autoimmune manifestations</article-title>. <source>J Exp Med</source>
+<year>1999</year>;<volume>190</volume>:<fpage>1697</fpage>–<lpage>710</lpage>.
+<pub-id pub-id-type="pmid">10587360</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1084/jem.190.11.1697</pub-id><pub-id pub-id-type="pmcid">PMC2195729</pub-id></mixed-citation></ref><ref id="art40049-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="art40049-cit-0009">
+<string-name name-style="western">
+<surname>Cheema</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roschke</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hilbert</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stohl</surname>
+<given-names>W.</given-names>
+</string-name>
+<article-title>Elevated serum B lymphocyte stimulator levels in patients with systemic immune–based rheumatic diseases</article-title>. <source>Arthritis Rheum</source>
+<year>2001</year>;<volume>44</volume>:<fpage>1313</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">11407690</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/1529-0131(200106)44:6&lt;1313::AID-ART223&gt;3.0.CO;2-S</pub-id></mixed-citation></ref><ref id="art40049-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="art40049-cit-0010">
+<string-name name-style="western">
+<surname>Stohl</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Metyas</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tan</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheema</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oamar</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>B lymphocyte stimulator overexpression in patients with systemic lupus erythematosus: longitudinal observations</article-title>. <source>Arthritis Rheum</source>
+<year>2003</year>;<volume>48</volume>:<fpage>3475</fpage>–<lpage>86</lpage>.
+<pub-id pub-id-type="pmid">14673998</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.11354</pub-id></mixed-citation></ref><ref id="art40049-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="art40049-cit-0011">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roschke</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baker</surname>
+<given-names>KP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alarcón</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fessler</surname>
+<given-names>BJ</given-names>
+</string-name>, et al. <article-title>Cutting edge: a role for B lymphocyte stimulator in systemic lupus erythematosus</article-title>. <source>J Immunol</source>
+<year>2001</year>;<volume>166</volume>:<fpage>6</fpage>–<lpage>10</lpage>.
+<pub-id pub-id-type="pmid">11123269</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4049/jimmunol.166.1.6</pub-id></mixed-citation></ref><ref id="art40049-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="art40049-cit-0012">
+<string-name name-style="western">
+<surname>Hong</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reiff</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>HT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Migone</surname>
+<given-names>TS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ward</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marzan</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>B lymphocyte stimulator expression in pediatric systemic lupus erythematosus and juvenile idiopathic arthritis patients</article-title>. <source>Arthritis Rheum</source>
+<year>2009</year>;<volume>60</volume>:<fpage>3400</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">19877053</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.24902</pub-id></mixed-citation></ref><ref id="art40049-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="art40049-cit-0013">
+<string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stohl</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chatham</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCune</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chevrier</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ryel</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Association of plasma B lymphocyte stimulator levels and disease activity in systemic lupus erythematosus</article-title>. <source>Arthritis Rheum</source>
+<year>2008</year>;<volume>58</volume>:<fpage>2453</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">18668552</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.23678</pub-id></mixed-citation></ref><ref id="art40049-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="art40049-cit-0014">
+<string-name name-style="western">
+<surname>Jacob</surname>
+<given-names>CO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pricop</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Putterman</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koss</surname>
+<given-names>MN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kollaros</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Paucity of clinical disease despite serological autoimmunity and kidney pathology in lupus‐prone New Zealand mixed 2328 mice deficient in BAFF</article-title>. <source>J Immunol</source>
+<year>2006</year>;<volume>177</volume>:<fpage>2671</fpage>–<lpage>80</lpage>.
+<pub-id pub-id-type="pmid">16888029</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4049/jimmunol.177.4.2671</pub-id><pub-id pub-id-type="pmcid">PMC2896675</pub-id></mixed-citation></ref><ref id="art40049-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="art40049-cit-0015">
+<string-name name-style="western">
+<surname>Ramanujam</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schiffer</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tao</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Similarities and differences between selective and nonselective BAFF blockade in murine SLE</article-title>. <source>J Clin Invest</source>
+<year>2006</year>;<volume>116</volume>:<fpage>724</fpage>–<lpage>34</lpage>.
+<pub-id pub-id-type="pmid">16485042</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI26385</pub-id><pub-id pub-id-type="pmcid">PMC1366500</pub-id></mixed-citation></ref><ref id="art40049-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="art40049-cit-0016">
+<string-name name-style="western">
+<surname>Baker</surname>
+<given-names>KP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edwards</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Main</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choi</surname>
+<given-names>GH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wager</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Halpern</surname>
+<given-names>WG</given-names>
+</string-name>, et al. <article-title>Generation and characterization of LymphoStat‐B, a human monoclonal antibody that antagonizes the bioactivities of B lymphocyte stimulator</article-title>. <source>Arthritis Rheum</source>
+<year>2003</year>;<volume>48</volume>:<fpage>3253</fpage>–<lpage>65</lpage>.
+<pub-id pub-id-type="pmid">14613291</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.11299</pub-id></mixed-citation></ref><ref id="art40049-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="art40049-cit-0017">
+<string-name name-style="western">
+<surname>Furie</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zamani</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cervera</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tegzova</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>A phase III, randomized, placebo‐controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus</article-title>. <source>Arthritis Rheum</source>
+<year>2011</year>;<volume>63</volume>:<fpage>3918</fpage>–<lpage>30</lpage>.
+<pub-id pub-id-type="pmid">22127708</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.30613</pub-id><pub-id pub-id-type="pmcid">PMC5007058</pub-id></mixed-citation></ref><ref id="art40049-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="art40049-cit-0018">
+<string-name name-style="western">
+<surname>Navarra</surname>
+<given-names>SV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guzman</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallacher</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hall</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Levy</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jimenez</surname>
+<given-names>RE</given-names>
+</string-name>, et al. <article-title>Efficacy and safety of belimumab in patients with active systemic lupus erythematosus: a randomised, placebo‐controlled, phase 3 trial</article-title>. <source>Lancet</source>
+<year>2011</year>;<volume>377</volume>:<fpage>721</fpage>–<lpage>31</lpage>.
+<pub-id pub-id-type="pmid">21296403</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(10)61354-2</pub-id></mixed-citation></ref><ref id="art40049-bib-0019"><label>19</label><mixed-citation publication-type="miscellaneous" id="art40049-cit-0019">
+<collab collab-type="authors">US Food and Drug Administration</collab>
+. FDA approves Benlysta to treat lupus. March 9, <year>2011</year> URL: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm246489.htm">http://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm246489.htm</ext-link>.
+</mixed-citation></ref><ref id="art40049-bib-0020"><label>20</label><mixed-citation publication-type="miscellaneous" id="art40049-cit-0020">
+<collab collab-type="authors">European Medicines Agency</collab>
+. Summary of product characteristics: Benlysta (belimumab). September <year>2011</year> URL: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ema.europa.eu/ema/index.jsp?curl=pages/medicines/human/medicines/002015/human_med_001466.jsp&amp;mid=WC0b01ac058001d124">http://www.ema.europa.eu/ema/index.jsp?curl=pages/medicines/human/medicines/002015/human_med_001466.jsp&amp;mid=WC0b01ac058001d124</ext-link>.
+</mixed-citation></ref><ref id="art40049-bib-0021"><label>21</label><mixed-citation publication-type="book" id="art40049-cit-0021">
+<source>Benlysta (belimumab) prescribing information</source>. <publisher-loc>Rockville (MD)</publisher-loc>: <publisher-name>GlaxoSmithKline</publisher-name>; <year>2014</year> URL: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/125370s016lbl.pdf">http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/125370s016lbl.pdf</ext-link>.
+</mixed-citation></ref><ref id="art40049-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="art40049-cit-0022">
+<string-name name-style="western">
+<surname>Chilton</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Collett</surname>
+<given-names>RA.</given-names>
+</string-name>
+<article-title>Treatment choices, preferences and decision‐making by patients with rheumatoid arthritis</article-title>. <source>Musculoskeletal Care</source>
+<year>2008</year>;<volume>6</volume>:<fpage>1</fpage>–<lpage>14</lpage>.
+<pub-id pub-id-type="pmid">17726671</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/msc.110</pub-id></mixed-citation></ref><ref id="art40049-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="art40049-cit-0023">
+<string-name name-style="western">
+<surname>Struemper</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murtaugh</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gilbert</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barton</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fire</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Groark</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Relative bioavailability of a single dose of belimumab administered subcutaneously by prefilled syringe or autoinjector in healthy subjects</article-title>. <source>Clin Pharmacol Drug Dev</source>
+<year>2016</year>;<volume>5</volume>:<fpage>208</fpage>–<lpage>15</lpage>.
+<pub-id pub-id-type="pmid">27163500</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cpdd.219</pub-id><pub-id pub-id-type="pmcid">PMC5063175</pub-id></mixed-citation></ref><ref id="art40049-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="art40049-cit-0024">
+<string-name name-style="western">
+<surname>Cai</surname>
+<given-names>WW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fiscella</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>ZJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Freimuth</surname>
+<given-names>WW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Subich</surname>
+<given-names>DC.</given-names>
+</string-name>
+<article-title>Bioavailability, pharmacokinetics, and safety of belimumab administered subcutaneously in healthy subjects</article-title>. <source>Clin Pharmacol Drug Dev</source>
+<year>2013</year>;<volume>2</volume>:<fpage>349</fpage>–<lpage>57</lpage>.
+<pub-id pub-id-type="pmid">27121939</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cpdd.54</pub-id></mixed-citation></ref><ref id="art40049-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="art40049-cit-0025">
+<string-name name-style="western">
+<surname>Yapa</surname>
+<given-names>SW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roth</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gordon</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Struemper</surname>
+<given-names>H.</given-names>
+</string-name>
+<article-title>Comparison of intravenous and subcutaneous exposure supporting dose selection of subcutaneous belimumab systemic lupus erythematosus phase 3 program</article-title>. <source>Lupus</source>
+<year>2016</year>;<volume>25</volume>:<fpage>1448</fpage>–<lpage>55</lpage>.
+<pub-id pub-id-type="pmid">27072354</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0961203316642309</pub-id><pub-id pub-id-type="pmcid">PMC5054300</pub-id></mixed-citation></ref><ref id="art40049-bib-0026"><label>26</label><mixed-citation publication-type="miscellaneous" id="art40049-cit-0026">
+<collab collab-type="authors">World Medical Association</collab>
+. WMA declaration of Helsinki: ethical principles for medical research involving human subjects. URL: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.wma.net/en/30publications/10policies/b3/index.html">http://www.wma.net/en/30publications/10policies/b3/index.html</ext-link>.
+<pub-id pub-id-type="pmid">19886379</pub-id></mixed-citation></ref><ref id="art40049-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="art40049-cit-0027">
+<string-name name-style="western">
+<surname>Hochberg</surname>
+<given-names>MC.</given-names>
+</string-name>
+<article-title>Updating the American College of Rheumatology revised criteria for the classification of systemic lupus erythematosus [letter]</article-title>. <source>Arthritis Rheum</source>
+<year>1997</year>;<volume>40</volume>:<fpage>1725</fpage>.
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.1780400928</pub-id><pub-id pub-id-type="pmid">9324032</pub-id></mixed-citation></ref><ref id="art40049-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="art40049-cit-0028">
+<string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalunian</surname>
+<given-names>KC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grossman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hahn</surname>
+<given-names>BH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sammaritano</surname>
+<given-names>LR</given-names>
+</string-name>, et al, <article-title>for the OC‐SELENA Trial. Combined oral contraceptives in women with systemic lupus erythematosus</article-title>. <source>N Engl J Med</source>
+<year>2005</year>;<volume>353</volume>:<fpage>2550</fpage>–<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">16354891</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa051135</pub-id></mixed-citation></ref><ref id="art40049-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="art40049-cit-0029">
+<string-name name-style="western">
+<surname>Furie</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ginzler</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Merrill</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stohl</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Novel evidence‐based systemic lupus erythematosus responder index</article-title>. <source>Arthritis Rheum</source>
+<year>2009</year>;<volume>61</volume>:<fpage>1143</fpage>–<lpage>51</lpage>.
+<pub-id pub-id-type="pmid">19714615</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.24698</pub-id><pub-id pub-id-type="pmcid">PMC2748175</pub-id></mixed-citation></ref><ref id="art40049-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="art40049-cit-0030">
+<string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buyon</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>M.</given-names>
+</string-name>
+<article-title>Classification and definition of major flares in SLE clinical trials</article-title>. <source>Lupus</source>
+<year>1999</year>;<volume>8</volume>:<fpage>685</fpage>–<lpage>91</lpage>.
+<pub-id pub-id-type="pmid">10568907</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1191/096120399680411281</pub-id></mixed-citation></ref><ref id="art40049-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="art40049-cit-0031">
+<string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalunian</surname>
+<given-names>KC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grossman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hahn</surname>
+<given-names>BH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sammaritano</surname>
+<given-names>LR</given-names>
+</string-name>, et al. <article-title>Combined oral contraceptives in women with systemic lupus erythematosus</article-title>. <source>N Engl J Med</source>
+<year>2005</year>;<volume>353</volume>:<fpage>2550</fpage>–<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">16354891</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa051135</pub-id></mixed-citation></ref><ref id="art40049-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="art40049-cit-0032">
+<string-name name-style="western">
+<surname>Buyon</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalunian</surname>
+<given-names>KC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grossman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hahn</surname>
+<given-names>BH</given-names>
+</string-name>, et al. <article-title>The effect of combined estrogen and progesterone hormone replacement therapy on disease activity in systemic lupus erythematosus: a randomized trial</article-title>. <source>Ann Intern Med</source>
+<year>2005</year>;<volume>142</volume>:<fpage>953</fpage>–<lpage>62</lpage>.
+<pub-id pub-id-type="pmid">15968009</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7326/0003-4819-142-12_part_1-200506210-00004</pub-id></mixed-citation></ref><ref id="art40049-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="art40049-cit-0033">
+<string-name name-style="western">
+<surname>Cella</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yount</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sorensen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chartash</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sengupta</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grober</surname>
+<given-names>J.</given-names>
+</string-name>
+<article-title>Validation of the Functional Assessment of Chronic Illness Therapy Fatigue Scale relative to other instrumentation in patients with rheumatoid arthritis</article-title>. <source>J Rheumatol</source>
+<year>2005</year>;<volume>32</volume>:<fpage>811</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">15868614</pub-id></mixed-citation></ref><ref id="art40049-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="art40049-cit-0034">
+<string-name name-style="western">
+<surname>Alarcon‐Segovia</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tumlin</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furie</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McKay</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cardiel</surname>
+<given-names>MH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strand</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>LJP 394 for the prevention of renal flare in patients with systemic lupus erythematosus: results from a randomized, double‐blind, placebo‐controlled study</article-title>. <source>Arthritis Rheum</source>
+<year>2003</year>;<volume>48</volume>:<fpage>442</fpage>–<lpage>54</lpage>.
+<pub-id pub-id-type="pmid">12571854</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.10763</pub-id></mixed-citation></ref><ref id="art40049-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="art40049-cit-0035">
+<string-name name-style="western">
+<surname>Van Vollenhoven</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cervera</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roth</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ji</surname>
+<given-names>BN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kleoudis</surname>
+<given-names>CS</given-names>
+</string-name>, et al. <article-title>Belimumab in the treatment of systemic lupus erythematosus: high disease activity predictors of response</article-title>. <source>Ann Rheum Dis</source>
+<year>2012</year>;<volume>71</volume>:<fpage>1343</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">22337213</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/annrheumdis-2011-200937</pub-id><pub-id pub-id-type="pmcid">PMC3396451</pub-id></mixed-citation></ref><ref id="art40049-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="art40049-cit-0036">
+<string-name name-style="western">
+<surname>Tench</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCurdie</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>
+<given-names>PD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>D'Cruz</surname>
+<given-names>DP.</given-names>
+</string-name>
+<article-title>The prevalence and associations of fatigue in systemic lupus erythematosus</article-title>. <source>Rheumatology (Oxford)</source>
+<year>2000</year>;<volume>39</volume>:<fpage>1249</fpage>–<lpage>54</lpage>.
+<pub-id pub-id-type="pmid">11085805</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/rheumatology/39.11.1249</pub-id></mixed-citation></ref><ref id="art40049-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="art40049-cit-0037">
+<string-name name-style="western">
+<surname>Ward</surname>
+<given-names>MM.</given-names>
+</string-name>
+<article-title>Changes in the incidence of end‐stage renal disease due to lupus nephritis, 1982‐1995</article-title>. <source>Arch Intern Med</source>
+<year>2000</year>;<volume>160</volume>:<fpage>3136</fpage>–<lpage>40</lpage>.
+<pub-id pub-id-type="pmid">11074743</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/archinte.160.20.3136</pub-id></mixed-citation></ref><ref id="art40049-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="art40049-cit-0038">
+<string-name name-style="western">
+<surname>Dooley</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Houssiau</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aranow</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>D'Cruz</surname>
+<given-names>DP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Askanase</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roth</surname>
+<given-names>DA</given-names>
+</string-name>, et al. <article-title>Effect of belimumab treatment on renal outcomes: results from the phase 3 belimumab clinical trials in patients with SLE</article-title>. <source>Lupus</source>
+<year>2013</year>;<volume>22</volume>:<fpage>63</fpage>–<lpage>72</lpage>.
+<pub-id pub-id-type="pmid">23263865</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0961203312465781</pub-id></mixed-citation></ref><ref id="art40049-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="art40049-cit-0039">
+<string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Navarra</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallacher</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomas</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furie</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Safety profile of belimumab: pooled data from placebo‐controlled phase 2 and 3 studies in patients with systemic lupus erythematosus</article-title>. <source>Lupus</source>
+<year>2013</year>;<volume>22</volume>:<fpage>144</fpage>–<lpage>54</lpage>.
+<pub-id pub-id-type="pmid">23213069</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0961203312469259</pub-id></mixed-citation></ref><ref id="art40049-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="art40049-cit-0040">
+<string-name name-style="western">
+<surname>Merrill</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Vollenhoven</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buyon</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furie</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stohl</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morgan‐Cox</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Efficacy and safety of subcutaneous tabalumab, a monoclonal antibody to B‐cell activating factor, in patients with systemic lupus erythematosus: results from illuminate‐2, a 52‐week, phase III, multicentre, randomised, double‐blind, placebo‐controlled study</article-title>. <source>Ann Rheum Dis</source>
+<year>2016</year>;<volume>75</volume>:<fpage>332</fpage>–<lpage>40</lpage>.
+<pub-id pub-id-type="pmid">26293163</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/annrheumdis-2015-207654</pub-id></mixed-citation></ref><ref id="art40049-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="art40049-cit-0041">
+<string-name name-style="western">
+<surname>Isenberg</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalunian</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tanaka</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Urowitz</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoffman</surname>
+<given-names>RW</given-names>
+</string-name>, et al. <article-title>Efficacy and safety of subcutaneous tabalumab in patients with systemic lupus erythematosus: results from ILLUMINATE‐1, a 52‐week, phase III, multicentre, randomised, double‐blind, placebo‐controlled study</article-title>. <source>Ann Rheum Dis</source>
+<year>2016</year>;<volume>75</volume>:<fpage>323</fpage>–<lpage>31</lpage>.
+<pub-id pub-id-type="pmid">26338095</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/annrheumdis-2015-207653</pub-id></mixed-citation></ref><ref id="art40049-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="art40049-cit-0042">
+<string-name name-style="western">
+<surname>Furie</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leon</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomas</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chu</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hislop</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>A phase 2, randomised, placebo‐controlled clinical trial of blisibimod, an inhibitor of B cell activating factor, in patients with moderate‐to‐severe systemic lupus erythematosus, the PEARL‐SC study</article-title>. <source>Ann Rheum Dis</source>
+<year>2015</year>;<volume>74</volume>:<fpage>1667</fpage>–<lpage>75</lpage>.
+<pub-id pub-id-type="pmid">24748629</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/annrheumdis-2013-205144</pub-id></mixed-citation></ref><ref id="art40049-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="art40049-cit-0043">
+<string-name name-style="western">
+<surname>Stohl</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Merrill</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Looney</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buyon</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weisman</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Treatment of systemic lupus erythematosus patients with the BAFF antagonist “peptibody” blisibimod (AMG 623/A‐623): results from randomized, double‐blind phase 1a and phase 1b trials</article-title>. <source>Arthritis Res Ther</source>
+<year>2015</year>;<volume>17</volume>:<fpage>215</fpage>.
+<pub-id pub-id-type="pmid">26290435</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13075-015-0741-z</pub-id><pub-id pub-id-type="pmcid">PMC4545922</pub-id></mixed-citation></ref><ref id="art40049-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="art40049-cit-0044">
+<string-name name-style="western">
+<surname>Isenberg</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gordon</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Licu</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Copt</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rossi</surname>
+<given-names>CP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wofsy</surname>
+<given-names>D.</given-names>
+</string-name>
+<article-title>Efficacy and safety of atacicept for prevention of flares in patients with moderate‐to‐severe systemic lupus erythematosus (SLE): 52‐week data (April‐SLE randomised trial)</article-title>. <source>Ann Rheum Dis</source>
+<year>2015</year>;<volume>74</volume>:<fpage>2006</fpage>–<lpage>15</lpage>.
+<pub-id pub-id-type="pmid">24951103</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/annrheumdis-2013-205067</pub-id><pub-id pub-id-type="pmcid">PMC4680140</pub-id></mixed-citation></ref><ref id="art40049-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="art40049-cit-0045">
+<string-name name-style="western">
+<surname>Pena‐Rossi</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nasonov</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stanislav</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yakusevich</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ershova</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lomareva</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>An exploratory dose‐escalating study investigating the safety, tolerability, pharmacokinetics and pharmacodynamics of intravenous atacicept in patients with systemic lupus erythematosus</article-title>. <source>Lupus</source>
+<year>2009</year>;<volume>18</volume>:<fpage>547</fpage>–<lpage>55</lpage>.
+<pub-id pub-id-type="pmid">19395457</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/0961203309102803</pub-id><pub-id pub-id-type="pmcid">PMC3835146</pub-id></mixed-citation></ref><ref id="art40049-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="art40049-cit-0046">
+<string-name name-style="western">
+<surname>Dall'Era</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chakravarty</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Genovese</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weisman</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kavanaugh</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Reduced B lymphocyte and immunoglobulin levels after atacicept treatment in patients with systemic lupus erythematosus: results of a multicenter, phase Ib, double‐blind, placebo‐controlled, dose‐escalating trial</article-title>. <source>Arthritis Rheum</source>
+<year>2007</year>;<volume>56</volume>:<fpage>4142</fpage>–<lpage>50</lpage>.
+<pub-id pub-id-type="pmid">18050206</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/art.23047</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>
