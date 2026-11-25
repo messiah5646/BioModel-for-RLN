@@ -1,0 +1,8 @@
+trial,rule,reason
+BLISS-LN,no printed early value,EMA Benlysta II/0080 p58 'CRR over time' is text only (no figure or table of CRR by visit); Fig 19 is PERR (not CRR); Table A lists no second source
+BLISS-SC,figure not labelled,first source EMA Benlysta X/0046/G not located (2 EMA URL patterns 404; EMA 429 intermittently); second source PMC5434872 Fig 2A prints no values (unlabelled lines)
+BLISS-NEA,figure not labelled,PMC5867402 Fig 2A unlabelled lines; only wk52 printed (240/446 vs 87/217)
+BLISS-76,figure not labelled,PMC5007058 Fig 2A labels only wk76 values; no early value printed in text
+PLUTO,figure not labelled,PMC7509523 Fig 2A labels only wk52 (52.8%/43.6%); early points unlabelled
+TULIP-2,figure not labelled / no SRI-4 both visits,EMA Saphnelo EPAR Fig 8 p87 prints n per visit but not response values; no SRI-4 wk24 printed for study 04 -> out of primary and out of S4
+telitacicept-ph2b,figure not labelled,PMC10958275 Fig 2B unlabelled lines; text gives no by-arm early SRI-4

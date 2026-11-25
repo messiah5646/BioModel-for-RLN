@@ -1,0 +1,8 @@
+trial,nct,stratum,arm,molecule,target,cls,week,r_drug,n_drug,r_ctrl,n_ctrl,kind,date,source,location,how
+ACCESS,NCT00774852,LN,abatacept,abatacept,CD80/86,slow,52,18,66,22,68,late,,PMC4528976,Table 4 (wk52 CR = CR among wk24 CR + CR among wk24 PR; wk24 non-responders did not continue -> non-responders; 11+7 vs 13+9),table
+LOTUS,NCT03517722,SLE,Ustekinumab,ustekinumab,IL-12/23,other,24,79,173,65,116,early,2022-03-09,PMC9606504,Fig 2B label 45.7% n=293 / 47.2% n=193 (full FAS) minus text post-hoc non-mFAS 55/120 and 26/77 -> mFAS; equals CT.gov 45.7%/56% of 173/116,figure-label+text
+LOTUS,NCT03517722,SLE,Ustekinumab,ustekinumab,IL-12/23,other,52,76,173,65,116,late,2022-03-09,PMC9606504,Fig 2A label 43.9% n=173 / 56.0% n=116 (mFAS),figure-label
+MUSE,NCT01438489,SLE,Anifrolumab 300 mg,anifrolumab,IFNAR,fast,24,60,99,44,102,early,2016-08-15,FDA BLA 761123 MultidisciplineR,Table 21 p86 Treatment Policy (no OCS-taper condition; wk24 = Day 169),table
+MUSE,NCT01438489,SLE,Anifrolumab 1000 mg,anifrolumab,IFNAR,fast,24,63,104,44,102,early,2016-08-15,FDA BLA 761123 MultidisciplineR,Table 21 p86 Treatment Policy,table
+MUSE,NCT01438489,SLE,Anifrolumab 300 mg,anifrolumab,IFNAR,fast,52,69,99,45,102,late,2016-08-15,FDA BLA 761123 MultidisciplineR,Table 23 p87 Treatment Policy,table
+MUSE,NCT01438489,SLE,Anifrolumab 1000 mg,anifrolumab,IFNAR,fast,52,62,104,45,102,late,2016-08-15,FDA BLA 761123 MultidisciplineR,Table 23 p87 Treatment Policy,table
