@@ -1,7 +1,7 @@
 # Round 137b open-data harvest (live session, 2026-11-25; Thomas: "do more, get all data")
 
 Every file in `harvest_list.tsv` was fetched with `scripts/provenance/fetch.sh` into `data/real/harvest-r137/`
-(gitignored, about 17 GB). Fetch times, sizes, md5 and HTTP Last-Modified are in `MANIFEST-harvest.tsv`; failures
+(gitignored, 17 GB, 31 files; all 10 Zenodo files match the md5 published by Zenodo). Fetch times, sizes, md5 and HTTP Last-Modified are in `MANIFEST-harvest.tsv`; failures
 in `harvest_failures.tsv`. Re-run: `bash experiments/unblock-2026-11-25/harvest.sh` (skips files already in the manifest).
 
 ## What was fetched and why

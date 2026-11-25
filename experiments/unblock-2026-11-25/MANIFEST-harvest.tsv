@@ -25,3 +25,8 @@ fetch_utc	url	outfile	bytes	md5	http_last_modified
 2026-11-25T11:30:46Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72747/suppl/GSE72747_RAW.tar	GSE72747_RAW.tar	144517120	3873252a834f6597683342281844d66d	Mon, 29 Feb 2016 13:22:57 GMT
 2026-11-25T11:31:00Z	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE72nnn/GSE72798/suppl/GSE72798_RAW.tar	GSE72798_RAW.tar	388577280	779ffa6da8a5c718479d93b84e61d6b8	Mon, 29 Feb 2016 13:23:04 GMT
 2026-11-25T11:35:18Z	https://zenodo.org/api/records/13964258/files/cleaneddata.RData/content	Danaher2024_cleaneddata.RData	991361875	39a85a01f19de5208f094b2319a443fa	NA
+2026-11-25T11:51:48Z	https://zenodo.org/api/records/15868389/files/lupus_spatial_output.h5ad/content	VCAM1PT2025_lupus_spatial_output.h5ad	259194238	a928cc03aeff9fecec07cd98a5690623	NA
+2026-11-25T11:54:22Z	https://zenodo.org/api/records/15715577/files/scRNA-seq.zip/content	STAR-T_scRNA-seq.zip	2556614853	ffae0e3ab1a47a56ce51bb1cc08d1163	NA
+2026-11-25T12:04:05Z	https://zenodo.org/api/records/15868389/files/lupus_snRNA_output.h5ad/content	VCAM1PT2025_lupus_snRNA_output.h5ad	3242925033	c9f6aed3c654fe8e5442533ecf671de0	NA
+2026-11-25T12:10:24Z	https://zenodo.org/api/records/15868389/files/lupus_snATAC_output.rds/content	VCAM1PT2025_lupus_snATAC_output.rds	4815038667	0910a6f30f378e7a7900bdf7ef57e74d	NA
+2026-11-25T12:18:33Z	https://zenodo.org/api/records/13964258/files/data_with_failed_slide.RData/content	Danaher2024_data_with_failed_slide.RData	1054946637	e26212fc8d81bf08a519118535de80d8	NA
