@@ -19,3 +19,8 @@ Copy into `experiments/<dir>/PREREG-<item>.md`, fill in, commit and push, then E
 
 **Catalogue runs (reviewer R-20261125-2, round 139).** A run that builds a catalogue of sources for a later PREREG records
 IDs/URLs only and never opens full texts, reviews or figures; finding table/figure locations moves to the post-PREREG run.
+
+**Amendments (reviewer R-20261126-2, round 144).** An amendment that changes a model, metric, pass rule or inclusion list
+restarts the 1-h clock of rule 12b: download and analysis wait >= 1 h after the amendment push. A descriptive-only amendment
+(new sensitivity, label or wording; decision rules unchanged) does not restart it, but its first line must say
+'Descriptive-only amendment: does not restart the 1-h clock.'

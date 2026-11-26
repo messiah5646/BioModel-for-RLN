@@ -73,6 +73,22 @@ if __name__=='__main__':
                            'of the early read-out by >=10% (13 arms / 7 trials, voclosporin excluded; Emerging). Headline = pooled prior, BUT on the same arms '
                            'the pooled headline was itself worse than the update (IV-MSE 0.311 vs 0.259) and than carry-forward (0.146); '
                            'in LN without voclosporin (4 trials) null was best (0.279 vs pooled 0.626). NO early rule is validated '
-                           '(reviewer R-20261124-1, round 132).')
+                           '(reviewer R-20261124-1, round 132). '
+                           'Round 141 (RT-4, regulatory documents, PREREG-RT4, UNDERPOWERED: 10 trials / 17 arms, only 1 RT-4-new trial scored): '
+                           'pooled again lost, IV-MSE pooled 0.322 vs carry-forward 0.110 vs null 0.253; LN only (5 trials) pooled 0.497 vs null 0.299; '
+                           'DEFAULT-FAIL pattern in all 9 leave-one-molecule-out variants. Rule 8: early-read-out rule settled; no further re-tests '
+                           '(round 144, reviewer R-20261126-3).')
+        # Rule 2b display (R-20261126-3, round 144): pooled loses to a trivial baseline by >=10% on every early subset,
+        # so with --early no single headline is given; M0/M1/C0 are printed side by side. forecast() is unchanged.
+        if not x.use_early_update:
+            wk,rd,nd,rc,nc=x.early
+            a,b,c,d=rd+.5,nd-rd+.5,rc+.5,nc-rc+.5
+            le=float(np.log(a*d/(b*c)));se=float(np.sqrt(1/a+1/b+1/c+1/d))
+            out['headline']='NONE: no validated rule; pooled lost to carry-forward on the all-trial early subsets (RT-1, RT-4) and to null in LN'
+            out['early_side_by_side']={
+                'M0_null':{'OR':1.0},
+                'M1_pooled_prior':{'OR':out['OR'],'OR_95':out['OR_95']},
+                'C0_carry_forward':{'OR':round(float(np.exp(le)),2),'OR_95_sampling_only':[round(float(np.exp(le-1.96*se)),2),round(float(np.exp(le+1.96*se)),2)],
+                                    'note':'raw early read-out (week %g) carried to the late visit; early->late drift not added'%wk}}
     out['control_rate']='pooled, not modelled; absolute arm rates not output (round 129, RT-2 PREREG d5b5f84)'
     print(json.dumps(out,indent=1))
