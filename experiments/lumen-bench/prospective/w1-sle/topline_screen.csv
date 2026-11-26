@@ -1,0 +1,21 @@
+nct,short_name,endpoint_family,topline_public_2026-11-26,source_of_screen,status_after_run1,carry_forward_slot
+NCT00611663,pneumococcal-vaccine-SLE,vaccine response,na,registry,EXCLUDE: endpoint not SRI/BICLA disease activity,no
+NCT05326841,vitaminD-Indonesia,MEX-SLEDAI level (continuous),na,registry,EXCLUDE: endpoint not a responder proportion,no
+NCT03951259,SM934-ph2,LLDAS,na,registry,EXCLUDE: endpoint LLDAS not SRI/BICLA (pooled prior not built on LLDAS),no
+NCT06001606,Shingrix-SLE,vaccine response,na,registry,EXCLUDE: endpoint not SRI/BICLA disease activity,no
+NCT00775476,N-acetylcysteine,SRI 12 mo,yes,PubMed PMID 22549432 (2012 randomised trial linked to this NCT),EXCLUDE: topline public,no
+NCT04877691,anifrolumab-SC TULIP-SC,BICLA wk52,yes,AstraZeneca 2026 press release; PubMed 41466456,EXCLUDE: topline public,no
+NCT05856448,GLPG3667 GALACELA,SRI-4 wk32,yes,Galapagos press release 2025-12-18,EXCLUDE: topline public,no
+NCT05966480,envudeucitinib LUMUS,SRI-4 wk48,yes,Alumis topline press release 2026,EXCLUDE: topline public,no
+NCT05617677,deucravacitinib POETYK SLE-1,SRI-4 wk52,yes,BMS press release 2026-11-25,EXCLUDE: topline public,no
+NCT05620407,deucravacitinib POETYK SLE-2,SRI-4 wk52,yes,BMS press release 2026-11-25,EXCLUDE: topline public,no
+NCT04582136,sirolimus China,SRI-4 wk24,uncertain,PubMed by NCT 0 hits; aerzteblatt headline on mTOR inhibition in lupus not opened,ELIGIBLE-PENDING: run 2 must resolve; exclude if still unresolved,no
+NCT02633163,MSC MiSLE,SRI wk24,no,PubMed by NCT 0 hits; web search none,ELIGIBLE,no
+NCT05039840,frexalimab APATURA,SRI-4 wk24,no,PubMed hit is a review (39899371); web search none,ELIGIBLE,no
+NCT06559163,obexelimab SunStone,BICLA wk24,no,PubMed 0; Zenas releases cover IgG4-RD only,ELIGIBLE,no
+NCT05672576,cenerimod OPUS-1,SRI-4 wk52,no,PubMed hit is the earlier CARE phase 2 (39586304); web search none,ELIGIBLE,no
+NCT05648500,cenerimod OPUS-2,SRI-4 wk52,no,as OPUS-1,ELIGIBLE,no
+NCT05843643,upadacitinib SELECT-SLE,BICLA wk52,no,PubMed 0; web search none,ELIGIBLE,no
+NCT05639114,ianalumab SIRIUS-SLE 1,SRI-4 wk60,no,PubMed 0; web search finds Sjogren's data only,ELIGIBLE,yes (registered SRI-4 wk36 -> wk60)
+NCT05624749,ianalumab SIRIUS-SLE 2,SRI-4 wk60,no,as SIRIUS-SLE 1,ELIGIBLE,yes (registered SRI-4 wk36 -> wk60)
+NCT06015230,GR1603 ph1b/2,BICLA wk24 (phase 2 part),no,PubMed 0; web search none,ELIGIBLE,no

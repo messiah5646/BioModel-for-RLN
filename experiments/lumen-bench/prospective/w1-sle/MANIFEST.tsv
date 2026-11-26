@@ -1,0 +1,14 @@
+fetch_utc	url	outfile	bytes	md5	http_last_modified
+2026-11-26T16:24:42Z	https://clinicaltrials.gov/api/v2/studies?query.cond=systemic+lupus+erythematosus&filter.overallStatus=COMPLETED|ACTIVE_NOT_RECRUITING&query.term=AREA%5BPhase%5D(PHASE2+OR+PHASE3)+AND+AREA%5BDesignAllocation%5DRANDOMIZED&pageSize=1000&format=json	ctgov_sle_p1.json	12325437	688da1d77368e35eb11aa16f71dcaa94	NA
+2026-11-26T16:26:23Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT04582136	NCT04582136.json	286	2dc4f69f699a5dde2fc994e5cae32960	NA
+2026-11-26T16:26:24Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT02633163	NCT02633163.json	286	6dea22d569e53701d0180466f7f67fd5	NA
+2026-11-26T16:26:25Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT05039840	NCT05039840.json	195	1f367c1f9ae0a7ee9dff02e5d100dd74	NA
+2026-11-26T16:26:25Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT06559163	NCT06559163.json	286	ef40a67d6305cf14e6cdeaf3b2d06b07	NA
+2026-11-26T16:26:26Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT05672576	NCT05672576.json	195	f72425745d8946bb0258125600d81888	NA
+2026-11-26T16:26:27Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT05648500	NCT05648500.json	195	bb7c9c9471dac189ba33523584978848	NA
+2026-11-26T16:26:28Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT05843643	NCT05843643.json	286	fc4f48a4f8a5188714bf0e924be1a59b	NA
+2026-11-26T16:26:29Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT05639114	NCT05639114.json	286	443d6f41fd7cf7892bab7e2dab744ba5	NA
+2026-11-26T16:26:30Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT05624749	NCT05624749.json	286	8ed0afd629d47f76e17baccd86fdd663	NA
+2026-11-26T16:26:30Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT06015230	NCT06015230.json	286	35ada665461ab511694096cecf55c95d	NA
+2026-11-26T16:26:31Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=NCT00775476	NCT00775476.json	206	f5a9bf25a3432d32276df5153809b740	NA
+2026-11-26T16:26:38Z	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=39899371,39586304,33687069,22549432	esummary_hits.json	9318	a9bbfce8ab78a05c789fc181fb522648	NA
