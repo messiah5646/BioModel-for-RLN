@@ -1,0 +1,11 @@
+nct,short_name,ctgov_hasResults_2026-11-26T17:3x,web_search_run2,status_run2
+NCT04582136,sirolimus China,false,"aerzteblatt headline 'Lupus erythematodes: mTOR-Inhibition verbessert klinische Ergebnisse' (not opened) is a positive-direction topline signal; could not be resolved without reading outcomes",EXCLUDE: topline possibly public (unresolved -> exclude per catalogue note)
+NCT02633163,MSC MiSLE,false,"lupus.org news 'New Mesenchymal Stromal Cell Therapy Shows Promise for People with Difficult-to-Treat Lupus' and an ACR abstract surfaced (not opened); may be MiSLE",EXCLUDE: topline possibly public (unresolved; same conservative rule as sirolimus)
+NCT05039840,frexalimab APATURA,false,none (registry/site listings only),ELIGIBLE
+NCT06559163,obexelimab SunStone,false,none (Zenas releases on IgG4-RD and MS only),ELIGIBLE
+NCT05672576,cenerimod OPUS-1,false,none (hits are phase 2b CARE),ELIGIBLE
+NCT05648500,cenerimod OPUS-2,false,none,ELIGIBLE
+NCT05843643,upadacitinib SELECT-SLE,false,none (SELECT-GCA release unrelated),ELIGIBLE
+NCT05639114,ianalumab SIRIUS-SLE 1,false,none,ELIGIBLE
+NCT05624749,ianalumab SIRIUS-SLE 2,false,none,ELIGIBLE
+NCT06015230,GR1603 ph1b/2,false,not re-searched by name beyond run 1 (no hits run 1),ELIGIBLE
