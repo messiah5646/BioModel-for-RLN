@@ -1,0 +1,1438 @@
+{
+ "note": "POST HOC, DESCRIPTIVE (reviewer R-20261126-1); cannot change the VC-1 FAIL",
+ "blocks": {
+  "all": {
+   "lopo_M3": {
+    "n_patients": 11,
+    "A": {
+     "B0": 0.05354166720384126,
+     "B1": 0.058356484609501554,
+     "B2": 0.03207269810159421,
+     "B2base": 0.03561386748392318,
+     "B3": 0.033165249546449393
+    },
+    "ratio_B2base_over_B2": 1.1104107104151912,
+    "boot95_B2base_over_B2": [
+     1.0346049808339457,
+     1.1836710068120693
+    ],
+    "wins_B2_over_B2base": 8,
+    "wins_B2_over_B0": 9,
+    "per_patient": [
+     {
+      "patient": "P1",
+      "n": 18,
+      "B0": 0.03095,
+      "B1": 0.03453,
+      "B2": 0.03238,
+      "B2base": 0.02912,
+      "B3": 0.02813
+     },
+     {
+      "patient": "P2",
+      "n": 15,
+      "B0": 0.02536,
+      "B1": 0.02937,
+      "B2": 0.02278,
+      "B2base": 0.0301,
+      "B3": 0.0174
+     },
+     {
+      "patient": "P3",
+      "n": 23,
+      "B0": 0.04338,
+      "B1": 0.04882,
+      "B2": 0.03301,
+      "B2base": 0.03103,
+      "B3": 0.03418
+     },
+     {
+      "patient": "P4",
+      "n": 15,
+      "B0": 0.06086,
+      "B1": 0.06065,
+      "B2": 0.02993,
+      "B2base": 0.03716,
+      "B3": 0.03651
+     },
+     {
+      "patient": "P5",
+      "n": 16,
+      "B0": 0.06955,
+      "B1": 0.07213,
+      "B2": 0.0333,
+      "B2base": 0.0367,
+      "B3": 0.0373
+     },
+     {
+      "patient": "P6",
+      "n": 14,
+      "B0": 0.11168,
+      "B1": 0.11591,
+      "B2": 0.04299,
+      "B2base": 0.05117,
+      "B3": 0.05103
+     },
+     {
+      "patient": "P7",
+      "n": 22,
+      "B0": 0.03876,
+      "B1": 0.03806,
+      "B2": 0.01844,
+      "B2base": 0.02147,
+      "B3": 0.01755
+     },
+     {
+      "patient": "P8",
+      "n": 23,
+      "B0": 0.0502,
+      "B1": 0.049,
+      "B2": 0.02442,
+      "B2base": 0.02773,
+      "B3": 0.02387
+     },
+     {
+      "patient": "P9",
+      "n": 22,
+      "B0": 0.0348,
+      "B1": 0.04947,
+      "B2": 0.04064,
+      "B2base": 0.04934,
+      "B3": 0.04318
+     },
+     {
+      "patient": "P11",
+      "n": 15,
+      "B0": 0.07863,
+      "B1": 0.08109,
+      "B2": 0.04204,
+      "B2base": 0.04828,
+      "B3": 0.04289
+     },
+     {
+      "patient": "P12",
+      "n": 20,
+      "B0": 0.0448,
+      "B1": 0.06289,
+      "B2": 0.03285,
+      "B2base": 0.02967,
+      "B3": 0.03278
+     }
+    ]
+   },
+   "lopo_D28": {
+    "n_patients": 11,
+    "A": {
+     "B0": 0.04505828377207904,
+     "B1": 0.04589664715496852,
+     "B2": 0.03257057512093451,
+     "B2base": 0.038530223669466554,
+     "B3": 0.028528771435543054
+    },
+    "ratio_B2base_over_B2": 1.1829764603911315,
+    "boot95_B2base_over_B2": [
+     1.0684418375175426,
+     1.3084229898109878
+    ],
+    "wins_B2_over_B2base": 8,
+    "wins_B2_over_B0": 9,
+    "per_patient": [
+     {
+      "patient": "P1",
+      "n": 17,
+      "B0": 0.04524,
+      "B1": 0.04664,
+      "B2": 0.04791,
+      "B2base": 0.04388,
+      "B3": 0.03853
+     },
+     {
+      "patient": "P2",
+      "n": 17,
+      "B0": 0.04159,
+      "B1": 0.05038,
+      "B2": 0.03905,
+      "B2base": 0.0364,
+      "B3": 0.0273
+     },
+     {
+      "patient": "P3",
+      "n": 19,
+      "B0": 0.03409,
+      "B1": 0.04103,
+      "B2": 0.02764,
+      "B2base": 0.02382,
+      "B3": 0.02654
+     },
+     {
+      "patient": "P4",
+      "n": 16,
+      "B0": 0.05886,
+      "B1": 0.05508,
+      "B2": 0.03797,
+      "B2base": 0.04689,
+      "B3": 0.0387
+     },
+     {
+      "patient": "P5",
+      "n": 14,
+      "B0": 0.07509,
+      "B1": 0.07452,
+      "B2": 0.02801,
+      "B2base": 0.03553,
+      "B3": 0.03154
+     },
+     {
+      "patient": "P6",
+      "n": 17,
+      "B0": 0.0453,
+      "B1": 0.04749,
+      "B2": 0.02492,
+      "B2base": 0.03669,
+      "B3": 0.02423
+     },
+     {
+      "patient": "P7",
+      "n": 22,
+      "B0": 0.0236,
+      "B1": 0.02425,
+      "B2": 0.02806,
+      "B2base": 0.03423,
+      "B3": 0.02167
+     },
+     {
+      "patient": "P8",
+      "n": 22,
+      "B0": 0.04605,
+      "B1": 0.04472,
+      "B2": 0.03739,
+      "B2base": 0.04605,
+      "B3": 0.03325
+     },
+     {
+      "patient": "P9",
+      "n": 22,
+      "B0": 0.04328,
+      "B1": 0.0379,
+      "B2": 0.03502,
+      "B2base": 0.04713,
+      "B3": 0.02639
+     },
+     {
+      "patient": "P11",
+      "n": 18,
+      "B0": 0.0511,
+      "B1": 0.05273,
+      "B2": 0.02657,
+      "B2base": 0.03905,
+      "B3": 0.02662
+     },
+     {
+      "patient": "P12",
+      "n": 22,
+      "B0": 0.03144,
+      "B1": 0.03013,
+      "B2": 0.02572,
+      "B2base": 0.03416,
+      "B3": 0.01904
+     }
+    ]
+   },
+   "disp_Base_M3": {
+    "n_cell_types": 26,
+    "median": {
+     "Base": 0.025120042829894836,
+     "M3": 0.018234673056164705
+    },
+    "n_lower_at_later": 22,
+    "per_ct": [
+     {
+      "ct": "B:naive B cell",
+      "n": 6,
+      "Base": 0.02617,
+      "M3": 0.01811
+     },
+     {
+      "ct": "LDG:immature neutrophil",
+      "n": 5,
+      "Base": 0.02906,
+      "M3": 0.02864
+     },
+     {
+      "ct": "LDG:neutrophil",
+      "n": 9,
+      "Base": 0.0381,
+      "M3": 0.0313
+     },
+     {
+      "ct": "Mono:classical monocyte",
+      "n": 5,
+      "Base": 0.03195,
+      "M3": 0.03357
+     },
+     {
+      "ct": "Mono:granulocyte",
+      "n": 7,
+      "Base": 0.02393,
+      "M3": 0.022
+     },
+     {
+      "ct": "Mono:monocyte",
+      "n": 11,
+      "Base": 0.0268,
+      "M3": 0.01834
+     },
+     {
+      "ct": "Mono:non-classical monocyte",
+      "n": 10,
+      "Base": 0.02418,
+      "M3": 0.01992
+     },
+     {
+      "ct": "Myeloid:CD1c-positive myeloid dendritic cell",
+      "n": 5,
+      "Base": 0.01833,
+      "M3": 0.01541
+     },
+     {
+      "ct": "Myeloid:immature neutrophil",
+      "n": 5,
+      "Base": 0.03121,
+      "M3": 0.03043
+     },
+     {
+      "ct": "Myeloid:megakaryocyte",
+      "n": 6,
+      "Base": 0.02002,
+      "M3": 0.02191
+     },
+     {
+      "ct": "Myeloid:monocyte",
+      "n": 11,
+      "Base": 0.02908,
+      "M3": 0.02299
+     },
+     {
+      "ct": "Myeloid:neutrophil",
+      "n": 9,
+      "Base": 0.03943,
+      "M3": 0.03017
+     },
+     {
+      "ct": "Myeloid:non-classical monocyte",
+      "n": 9,
+      "Base": 0.02283,
+      "M3": 0.01813
+     },
+     {
+      "ct": "Myeloid:platelet",
+      "n": 10,
+      "Base": 0.07369,
+      "M3": 0.06987
+     },
+     {
+      "ct": "T:CD16-negative, CD56-bright natural killer cell, human",
+      "n": 4,
+      "Base": 0.02695,
+      "M3": 0.01485
+     },
+     {
+      "ct": "T:CD16-positive, CD56-dim natural killer cell, human",
+      "n": 11,
+      "Base": 0.02122,
+      "M3": 0.01732
+     },
+     {
+      "ct": "T:T cell",
+      "n": 7,
+      "Base": 0.02735,
+      "M3": 0.0231
+     },
+     {
+      "ct": "T:T-helper 1 cell",
+      "n": 10,
+      "Base": 0.01901,
+      "M3": 0.01394
+     },
+     {
+      "ct": "T:T-helper 2 cell",
+      "n": 4,
+      "Base": 0.00904,
+      "M3": 0.01128
+     },
+     {
+      "ct": "T:activated CD4-positive, alpha-beta T cell",
+      "n": 9,
+      "Base": 0.02359,
+      "M3": 0.01736
+     },
+     {
+      "ct": "T:activated CD8-positive, alpha-beta T cell",
+      "n": 11,
+      "Base": 0.02134,
+      "M3": 0.0162
+     },
+     {
+      "ct": "T:gamma-delta T cell",
+      "n": 3,
+      "Base": 0.03328,
+      "M3": 0.02676
+     },
+     {
+      "ct": "T:mature NK T cell",
+      "n": 7,
+      "Base": 0.02606,
+      "M3": 0.01648
+     },
+     {
+      "ct": "T:naive thymus-derived CD4-positive, alpha-beta T cell",
+      "n": 8,
+      "Base": 0.01546,
+      "M3": 0.01267
+     },
+     {
+      "ct": "T:naive thymus-derived CD8-positive, alpha-beta T cell",
+      "n": 10,
+      "Base": 0.01996,
+      "M3": 0.0163
+     },
+     {
+      "ct": "T:regulatory T cell",
+      "n": 8,
+      "Base": 0.01324,
+      "M3": 0.01478
+     }
+    ]
+   },
+   "disp_Base_D28": {
+    "n_cell_types": 25,
+    "median": {
+     "Base": 0.024199820843293106,
+     "D28": 0.02065347708126733
+    },
+    "n_lower_at_later": 16,
+    "per_ct": [
+     {
+      "ct": "LDG:immature neutrophil",
+      "n": 9,
+      "Base": 0.0307,
+      "D28": 0.03262
+     },
+     {
+      "ct": "LDG:neutrophil",
+      "n": 9,
+      "Base": 0.03807,
+      "D28": 0.04022
+     },
+     {
+      "ct": "Mono:classical monocyte",
+      "n": 5,
+      "Base": 0.03206,
+      "D28": 0.03282
+     },
+     {
+      "ct": "Mono:granulocyte",
+      "n": 6,
+      "Base": 0.02088,
+      "D28": 0.02694
+     },
+     {
+      "ct": "Mono:monocyte",
+      "n": 11,
+      "Base": 0.02681,
+      "D28": 0.02095
+     },
+     {
+      "ct": "Mono:non-classical monocyte",
+      "n": 10,
+      "Base": 0.0242,
+      "D28": 0.02167
+     },
+     {
+      "ct": "Myeloid:CD1c-positive myeloid dendritic cell",
+      "n": 3,
+      "Base": 0.01563,
+      "D28": 0.0111
+     },
+     {
+      "ct": "Myeloid:immature neutrophil",
+      "n": 9,
+      "Base": 0.03374,
+      "D28": 0.03362
+     },
+     {
+      "ct": "Myeloid:megakaryocyte",
+      "n": 6,
+      "Base": 0.02793,
+      "D28": 0.02065
+     },
+     {
+      "ct": "Myeloid:monocyte",
+      "n": 11,
+      "Base": 0.02906,
+      "D28": 0.02424
+     },
+     {
+      "ct": "Myeloid:neutrophil",
+      "n": 9,
+      "Base": 0.03944,
+      "D28": 0.04096
+     },
+     {
+      "ct": "Myeloid:non-classical monocyte",
+      "n": 9,
+      "Base": 0.02287,
+      "D28": 0.02342
+     },
+     {
+      "ct": "Myeloid:platelet",
+      "n": 11,
+      "Base": 0.08131,
+      "D28": 0.04706
+     },
+     {
+      "ct": "T:CD16-negative, CD56-bright natural killer cell, human",
+      "n": 5,
+      "Base": 0.02464,
+      "D28": 0.01543
+     },
+     {
+      "ct": "T:CD16-positive, CD56-dim natural killer cell, human",
+      "n": 10,
+      "Base": 0.02074,
+      "D28": 0.01817
+     },
+     {
+      "ct": "T:T cell",
+      "n": 8,
+      "Base": 0.02408,
+      "D28": 0.01963
+     },
+     {
+      "ct": "T:T-helper 1 cell",
+      "n": 10,
+      "Base": 0.01898,
+      "D28": 0.0182
+     },
+     {
+      "ct": "T:T-helper 2 cell",
+      "n": 5,
+      "Base": 0.01257,
+      "D28": 0.01624
+     },
+     {
+      "ct": "T:activated CD4-positive, alpha-beta T cell",
+      "n": 8,
+      "Base": 0.02385,
+      "D28": 0.01782
+     },
+     {
+      "ct": "T:activated CD8-positive, alpha-beta T cell",
+      "n": 11,
+      "Base": 0.02134,
+      "D28": 0.01985
+     },
+     {
+      "ct": "T:gamma-delta T cell",
+      "n": 4,
+      "Base": 0.02836,
+      "D28": 0.02372
+     },
+     {
+      "ct": "T:mature NK T cell",
+      "n": 7,
+      "Base": 0.02601,
+      "D28": 0.01929
+     },
+     {
+      "ct": "T:naive thymus-derived CD4-positive, alpha-beta T cell",
+      "n": 8,
+      "Base": 0.01539,
+      "D28": 0.01662
+     },
+     {
+      "ct": "T:naive thymus-derived CD8-positive, alpha-beta T cell",
+      "n": 10,
+      "Base": 0.01994,
+      "D28": 0.01881
+     },
+     {
+      "ct": "T:regulatory T cell",
+      "n": 8,
+      "Base": 0.01324,
+      "D28": 0.01718
+     }
+    ]
+   },
+   "disp_D28_M3": {
+    "n_cell_types": 26,
+    "median": {
+     "D28": 0.021073049622764378,
+     "M3": 0.01996101536931378
+    },
+    "n_lower_at_later": 20,
+    "per_ct": [
+     {
+      "ct": "LDG:immature neutrophil",
+      "n": 5,
+      "D28": 0.03825,
+      "M3": 0.02885
+     },
+     {
+      "ct": "LDG:mature neutrophil",
+      "n": 3,
+      "D28": 0.02222,
+      "M3": 0.02746
+     },
+     {
+      "ct": "LDG:neutrophil",
+      "n": 10,
+      "D28": 0.0409,
+      "M3": 0.03147
+     },
+     {
+      "ct": "Mono:classical monocyte",
+      "n": 10,
+      "D28": 0.05634,
+      "M3": 0.06062
+     },
+     {
+      "ct": "Mono:granulocyte",
+      "n": 7,
+      "D28": 0.02937,
+      "M3": 0.02304
+     },
+     {
+      "ct": "Mono:monocyte",
+      "n": 11,
+      "D28": 0.02094,
+      "M3": 0.01835
+     },
+     {
+      "ct": "Mono:non-classical monocyte",
+      "n": 11,
+      "D28": 0.02146,
+      "M3": 0.02024
+     },
+     {
+      "ct": "Myeloid:CD1c-positive myeloid dendritic cell",
+      "n": 7,
+      "D28": 0.01577,
+      "M3": 0.01548
+     },
+     {
+      "ct": "Myeloid:immature neutrophil",
+      "n": 5,
+      "D28": 0.03886,
+      "M3": 0.03029
+     },
+     {
+      "ct": "Myeloid:megakaryocyte",
+      "n": 6,
+      "D28": 0.02018,
+      "M3": 0.02052
+     },
+     {
+      "ct": "Myeloid:monocyte",
+      "n": 11,
+      "D28": 0.02424,
+      "M3": 0.02297
+     },
+     {
+      "ct": "Myeloid:neutrophil",
+      "n": 10,
+      "D28": 0.04152,
+      "M3": 0.03076
+     },
+     {
+      "ct": "Myeloid:non-classical monocyte",
+      "n": 11,
+      "D28": 0.02197,
+      "M3": 0.01929
+     },
+     {
+      "ct": "Myeloid:platelet",
+      "n": 10,
+      "D28": 0.04456,
+      "M3": 0.06988
+     },
+     {
+      "ct": "T:CD16-negative, CD56-bright natural killer cell, human",
+      "n": 7,
+      "D28": 0.02243,
+      "M3": 0.01969
+     },
+     {
+      "ct": "T:CD16-positive, CD56-dim natural killer cell, human",
+      "n": 10,
+      "D28": 0.01816,
+      "M3": 0.0173
+     },
+     {
+      "ct": "T:T cell",
+      "n": 10,
+      "D28": 0.01859,
+      "M3": 0.02023
+     },
+     {
+      "ct": "T:T-helper 1 cell",
+      "n": 11,
+      "D28": 0.0178,
+      "M3": 0.01421
+     },
+     {
+      "ct": "T:T-helper 2 cell",
+      "n": 7,
+      "D28": 0.01789,
+      "M3": 0.01384
+     },
+     {
+      "ct": "T:activated CD4-positive, alpha-beta T cell",
+      "n": 9,
+      "D28": 0.0204,
+      "M3": 0.01608
+     },
+     {
+      "ct": "T:activated CD8-positive, alpha-beta T cell",
+      "n": 11,
+      "D28": 0.01983,
+      "M3": 0.01619
+     },
+     {
+      "ct": "T:gamma-delta T cell",
+      "n": 5,
+      "D28": 0.02121,
+      "M3": 0.0219
+     },
+     {
+      "ct": "T:mature NK T cell",
+      "n": 8,
+      "D28": 0.01861,
+      "M3": 0.01549
+     },
+     {
+      "ct": "T:naive thymus-derived CD4-positive, alpha-beta T cell",
+      "n": 11,
+      "D28": 0.01725,
+      "M3": 0.01508
+     },
+     {
+      "ct": "T:naive thymus-derived CD8-positive, alpha-beta T cell",
+      "n": 11,
+      "D28": 0.02021,
+      "M3": 0.01595
+     },
+     {
+      "ct": "T:regulatory T cell",
+      "n": 11,
+      "D28": 0.01881,
+      "M3": 0.01552
+     }
+    ]
+   }
+  },
+  "noP9": {
+   "lopo_M3": {
+    "n_patients": 10,
+    "A": {
+     "B0": 0.055415717588605196,
+     "B1": 0.06018890292402035,
+     "B2": 0.03177382281842346,
+     "B2base": 0.03599759195719473,
+     "B3": 0.032658921653739355
+    },
+    "ratio_B2base_over_B2": 1.1329323563899965,
+    "boot95_B2base_over_B2": [
+     1.0160338861717946,
+     1.2514201518843773
+    ],
+    "wins_B2_over_B2base": 7,
+    "wins_B2_over_B0": 9,
+    "per_patient": [
+     {
+      "patient": "P1",
+      "n": 18,
+      "B0": 0.03095,
+      "B1": 0.03699,
+      "B2": 0.03379,
+      "B2base": 0.02897,
+      "B3": 0.03125
+     },
+     {
+      "patient": "P2",
+      "n": 15,
+      "B0": 0.02536,
+      "B1": 0.02921,
+      "B2": 0.024,
+      "B2base": 0.03374,
+      "B3": 0.01959
+     },
+     {
+      "patient": "P3",
+      "n": 23,
+      "B0": 0.04338,
+      "B1": 0.04965,
+      "B2": 0.0336,
+      "B2base": 0.03213,
+      "B3": 0.03456
+     },
+     {
+      "patient": "P4",
+      "n": 15,
+      "B0": 0.06086,
+      "B1": 0.0556,
+      "B2": 0.02949,
+      "B2base": 0.04064,
+      "B3": 0.03297
+     },
+     {
+      "patient": "P5",
+      "n": 16,
+      "B0": 0.06955,
+      "B1": 0.07139,
+      "B2": 0.0304,
+      "B2base": 0.03704,
+      "B3": 0.03623
+     },
+     {
+      "patient": "P6",
+      "n": 14,
+      "B0": 0.11168,
+      "B1": 0.11306,
+      "B2": 0.0412,
+      "B2base": 0.05342,
+      "B3": 0.04693
+     },
+     {
+      "patient": "P7",
+      "n": 22,
+      "B0": 0.03876,
+      "B1": 0.03869,
+      "B2": 0.01822,
+      "B2base": 0.02247,
+      "B3": 0.01765
+     },
+     {
+      "patient": "P8",
+      "n": 23,
+      "B0": 0.0502,
+      "B1": 0.04778,
+      "B2": 0.02243,
+      "B2base": 0.02777,
+      "B3": 0.02238
+     },
+     {
+      "patient": "P11",
+      "n": 15,
+      "B0": 0.07863,
+      "B1": 0.09138,
+      "B2": 0.05003,
+      "B2base": 0.05389,
+      "B3": 0.05027
+     },
+     {
+      "patient": "P12",
+      "n": 20,
+      "B0": 0.0448,
+      "B1": 0.06814,
+      "B2": 0.03457,
+      "B2base": 0.0299,
+      "B3": 0.03477
+     }
+    ]
+   },
+   "lopo_D28": {
+    "n_patients": 10,
+    "A": {
+     "B0": 0.04523629598399384,
+     "B1": 0.0476247154719416,
+     "B2": 0.032679864480437096,
+     "B2base": 0.038876004118389665,
+     "B3": 0.029375107916048998
+    },
+    "ratio_B2base_over_B2": 1.1896011423689263,
+    "boot95_B2base_over_B2": [
+     1.0681313528874985,
+     1.3400790366259745
+    ],
+    "wins_B2_over_B2base": 7,
+    "wins_B2_over_B0": 8,
+    "per_patient": [
+     {
+      "patient": "P1",
+      "n": 17,
+      "B0": 0.04524,
+      "B1": 0.04917,
+      "B2": 0.04603,
+      "B2base": 0.04173,
+      "B3": 0.03804
+     },
+     {
+      "patient": "P2",
+      "n": 17,
+      "B0": 0.04159,
+      "B1": 0.049,
+      "B2": 0.04023,
+      "B2base": 0.04002,
+      "B3": 0.02855
+     },
+     {
+      "patient": "P3",
+      "n": 19,
+      "B0": 0.03409,
+      "B1": 0.04033,
+      "B2": 0.02677,
+      "B2base": 0.02397,
+      "B3": 0.02559
+     },
+     {
+      "patient": "P4",
+      "n": 16,
+      "B0": 0.05886,
+      "B1": 0.05689,
+      "B2": 0.0381,
+      "B2base": 0.04764,
+      "B3": 0.03915
+     },
+     {
+      "patient": "P5",
+      "n": 14,
+      "B0": 0.07509,
+      "B1": 0.07297,
+      "B2": 0.02589,
+      "B2base": 0.03459,
+      "B3": 0.03055
+     },
+     {
+      "patient": "P6",
+      "n": 17,
+      "B0": 0.0453,
+      "B1": 0.0502,
+      "B2": 0.02546,
+      "B2base": 0.04305,
+      "B3": 0.02427
+     },
+     {
+      "patient": "P7",
+      "n": 22,
+      "B0": 0.0236,
+      "B1": 0.02458,
+      "B2": 0.02824,
+      "B2base": 0.03344,
+      "B3": 0.0228
+     },
+     {
+      "patient": "P8",
+      "n": 22,
+      "B0": 0.04605,
+      "B1": 0.04528,
+      "B2": 0.03793,
+      "B2base": 0.04581,
+      "B3": 0.03406
+     },
+     {
+      "patient": "P11",
+      "n": 18,
+      "B0": 0.0511,
+      "B1": 0.05553,
+      "B2": 0.02915,
+      "B2base": 0.04203,
+      "B3": 0.02858
+     },
+     {
+      "patient": "P12",
+      "n": 22,
+      "B0": 0.03144,
+      "B1": 0.0323,
+      "B2": 0.029,
+      "B2base": 0.03648,
+      "B3": 0.02217
+     }
+    ]
+   },
+   "disp_Base_M3": {
+    "n_cell_types": 25,
+    "median": {
+     "Base": 0.02406910120185333,
+     "M3": 0.018111930560945195
+    },
+    "n_lower_at_later": 18,
+    "per_ct": [
+     {
+      "ct": "B:naive B cell",
+      "n": 6,
+      "Base": 0.02617,
+      "M3": 0.01811
+     },
+     {
+      "ct": "LDG:immature neutrophil",
+      "n": 4,
+      "Base": 0.02201,
+      "M3": 0.02298
+     },
+     {
+      "ct": "LDG:neutrophil",
+      "n": 8,
+      "Base": 0.03574,
+      "M3": 0.02974
+     },
+     {
+      "ct": "Mono:classical monocyte",
+      "n": 4,
+      "Base": 0.03573,
+      "M3": 0.03639
+     },
+     {
+      "ct": "Mono:granulocyte",
+      "n": 6,
+      "Base": 0.02092,
+      "M3": 0.02218
+     },
+     {
+      "ct": "Mono:monocyte",
+      "n": 10,
+      "Base": 0.02672,
+      "M3": 0.0187
+     },
+     {
+      "ct": "Mono:non-classical monocyte",
+      "n": 9,
+      "Base": 0.02407,
+      "M3": 0.01955
+     },
+     {
+      "ct": "Myeloid:CD1c-positive myeloid dendritic cell",
+      "n": 4,
+      "Base": 0.01843,
+      "M3": 0.01366
+     },
+     {
+      "ct": "Myeloid:immature neutrophil",
+      "n": 4,
+      "Base": 0.02491,
+      "M3": 0.0258
+     },
+     {
+      "ct": "Myeloid:megakaryocyte",
+      "n": 5,
+      "Base": 0.01719,
+      "M3": 0.02376
+     },
+     {
+      "ct": "Myeloid:monocyte",
+      "n": 10,
+      "Base": 0.02897,
+      "M3": 0.02298
+     },
+     {
+      "ct": "Myeloid:neutrophil",
+      "n": 8,
+      "Base": 0.03727,
+      "M3": 0.02906
+     },
+     {
+      "ct": "Myeloid:non-classical monocyte",
+      "n": 8,
+      "Base": 0.02217,
+      "M3": 0.01719
+     },
+     {
+      "ct": "Myeloid:platelet",
+      "n": 9,
+      "Base": 0.07917,
+      "M3": 0.06209
+     },
+     {
+      "ct": "T:CD16-negative, CD56-bright natural killer cell, human",
+      "n": 4,
+      "Base": 0.02711,
+      "M3": 0.01483
+     },
+     {
+      "ct": "T:CD16-positive, CD56-dim natural killer cell, human",
+      "n": 10,
+      "Base": 0.02173,
+      "M3": 0.01704
+     },
+     {
+      "ct": "T:T cell",
+      "n": 7,
+      "Base": 0.02731,
+      "M3": 0.02312
+     },
+     {
+      "ct": "T:T-helper 1 cell",
+      "n": 9,
+      "Base": 0.01848,
+      "M3": 0.01287
+     },
+     {
+      "ct": "T:T-helper 2 cell",
+      "n": 4,
+      "Base": 0.00912,
+      "M3": 0.01127
+     },
+     {
+      "ct": "T:activated CD4-positive, alpha-beta T cell",
+      "n": 8,
+      "Base": 0.02414,
+      "M3": 0.0174
+     },
+     {
+      "ct": "T:activated CD8-positive, alpha-beta T cell",
+      "n": 10,
+      "Base": 0.02168,
+      "M3": 0.01591
+     },
+     {
+      "ct": "T:mature NK T cell",
+      "n": 7,
+      "Base": 0.02602,
+      "M3": 0.01647
+     },
+     {
+      "ct": "T:naive thymus-derived CD4-positive, alpha-beta T cell",
+      "n": 7,
+      "Base": 0.01466,
+      "M3": 0.01162
+     },
+     {
+      "ct": "T:naive thymus-derived CD8-positive, alpha-beta T cell",
+      "n": 9,
+      "Base": 0.01999,
+      "M3": 0.01614
+     },
+     {
+      "ct": "T:regulatory T cell",
+      "n": 7,
+      "Base": 0.01265,
+      "M3": 0.01476
+     }
+    ]
+   },
+   "disp_Base_D28": {
+    "n_cell_types": 24,
+    "median": {
+     "Base": 0.025347930436281925,
+     "D28": 0.021394373493855708
+    },
+    "n_lower_at_later": 15,
+    "per_ct": [
+     {
+      "ct": "LDG:immature neutrophil",
+      "n": 8,
+      "Base": 0.02998,
+      "D28": 0.03406
+     },
+     {
+      "ct": "LDG:neutrophil",
+      "n": 8,
+      "Base": 0.03572,
+      "D28": 0.03941
+     },
+     {
+      "ct": "Mono:classical monocyte",
+      "n": 4,
+      "Base": 0.03568,
+      "D28": 0.03378
+     },
+     {
+      "ct": "Mono:granulocyte",
+      "n": 6,
+      "Base": 0.02082,
+      "D28": 0.02686
+     },
+     {
+      "ct": "Mono:monocyte",
+      "n": 10,
+      "Base": 0.02673,
+      "D28": 0.02114
+     },
+     {
+      "ct": "Mono:non-classical monocyte",
+      "n": 9,
+      "Base": 0.02407,
+      "D28": 0.02165
+     },
+     {
+      "ct": "Myeloid:immature neutrophil",
+      "n": 8,
+      "Base": 0.03307,
+      "D28": 0.0346
+     },
+     {
+      "ct": "Myeloid:megakaryocyte",
+      "n": 5,
+      "Base": 0.02848,
+      "D28": 0.02219
+     },
+     {
+      "ct": "Myeloid:monocyte",
+      "n": 10,
+      "Base": 0.02899,
+      "D28": 0.02372
+     },
+     {
+      "ct": "Myeloid:neutrophil",
+      "n": 8,
+      "Base": 0.03728,
+      "D28": 0.04008
+     },
+     {
+      "ct": "Myeloid:non-classical monocyte",
+      "n": 8,
+      "Base": 0.02216,
+      "D28": 0.02336
+     },
+     {
+      "ct": "Myeloid:platelet",
+      "n": 10,
+      "Base": 0.08668,
+      "D28": 0.04341
+     },
+     {
+      "ct": "T:CD16-negative, CD56-bright natural killer cell, human",
+      "n": 4,
+      "Base": 0.02696,
+      "D28": 0.016
+     },
+     {
+      "ct": "T:CD16-positive, CD56-dim natural killer cell, human",
+      "n": 9,
+      "Base": 0.02132,
+      "D28": 0.01878
+     },
+     {
+      "ct": "T:T cell",
+      "n": 8,
+      "Base": 0.0245,
+      "D28": 0.01961
+     },
+     {
+      "ct": "T:T-helper 1 cell",
+      "n": 9,
+      "Base": 0.01854,
+      "D28": 0.01786
+     },
+     {
+      "ct": "T:T-helper 2 cell",
+      "n": 4,
+      "Base": 0.00906,
+      "D28": 0.01591
+     },
+     {
+      "ct": "T:activated CD4-positive, alpha-beta T cell",
+      "n": 7,
+      "Base": 0.02466,
+      "D28": 0.01856
+     },
+     {
+      "ct": "T:activated CD8-positive, alpha-beta T cell",
+      "n": 10,
+      "Base": 0.02169,
+      "D28": 0.01981
+     },
+     {
+      "ct": "T:gamma-delta T cell",
+      "n": 3,
+      "Base": 0.02925,
+      "D28": 0.02514
+     },
+     {
+      "ct": "T:mature NK T cell",
+      "n": 7,
+      "Base": 0.02603,
+      "D28": 0.01926
+     },
+     {
+      "ct": "T:naive thymus-derived CD4-positive, alpha-beta T cell",
+      "n": 7,
+      "Base": 0.01466,
+      "D28": 0.01618
+     },
+     {
+      "ct": "T:naive thymus-derived CD8-positive, alpha-beta T cell",
+      "n": 9,
+      "Base": 0.02,
+      "D28": 0.019
+     },
+     {
+      "ct": "T:regulatory T cell",
+      "n": 7,
+      "Base": 0.01267,
+      "D28": 0.01748
+     }
+    ]
+   },
+   "disp_D28_M3": {
+    "n_cell_types": 26,
+    "median": {
+     "D28": 0.021131175724038755,
+     "M3": 0.019415976398149577
+    },
+    "n_lower_at_later": 21,
+    "per_ct": [
+     {
+      "ct": "LDG:immature neutrophil",
+      "n": 4,
+      "D28": 0.03753,
+      "M3": 0.02355
+     },
+     {
+      "ct": "LDG:mature neutrophil",
+      "n": 3,
+      "D28": 0.02156,
+      "M3": 0.02764
+     },
+     {
+      "ct": "LDG:neutrophil",
+      "n": 9,
+      "D28": 0.03965,
+      "M3": 0.02965
+     },
+     {
+      "ct": "Mono:classical monocyte",
+      "n": 9,
+      "D28": 0.05812,
+      "M3": 0.06215
+     },
+     {
+      "ct": "Mono:granulocyte",
+      "n": 7,
+      "D28": 0.02937,
+      "M3": 0.02308
+     },
+     {
+      "ct": "Mono:monocyte",
+      "n": 10,
+      "D28": 0.02115,
+      "M3": 0.01873
+     },
+     {
+      "ct": "Mono:non-classical monocyte",
+      "n": 10,
+      "D28": 0.02138,
+      "M3": 0.01988
+     },
+     {
+      "ct": "Myeloid:CD1c-positive myeloid dendritic cell",
+      "n": 6,
+      "D28": 0.0156,
+      "M3": 0.01494
+     },
+     {
+      "ct": "Myeloid:immature neutrophil",
+      "n": 4,
+      "D28": 0.0381,
+      "M3": 0.02588
+     },
+     {
+      "ct": "Myeloid:megakaryocyte",
+      "n": 5,
+      "D28": 0.02011,
+      "M3": 0.02197
+     },
+     {
+      "ct": "Myeloid:monocyte",
+      "n": 10,
+      "D28": 0.0237,
+      "M3": 0.02298
+     },
+     {
+      "ct": "Myeloid:neutrophil",
+      "n": 9,
+      "D28": 0.04015,
+      "M3": 0.02937
+     },
+     {
+      "ct": "Myeloid:non-classical monocyte",
+      "n": 10,
+      "D28": 0.02204,
+      "M3": 0.01912
+     },
+     {
+      "ct": "Myeloid:platelet",
+      "n": 9,
+      "D28": 0.04136,
+      "M3": 0.06259
+     },
+     {
+      "ct": "T:CD16-negative, CD56-bright natural killer cell, human",
+      "n": 7,
+      "D28": 0.02238,
+      "M3": 0.01972
+     },
+     {
+      "ct": "T:CD16-positive, CD56-dim natural killer cell, human",
+      "n": 9,
+      "D28": 0.01879,
+      "M3": 0.01703
+     },
+     {
+      "ct": "T:T cell",
+      "n": 9,
+      "D28": 0.01921,
+      "M3": 0.02125
+     },
+     {
+      "ct": "T:T-helper 1 cell",
+      "n": 10,
+      "D28": 0.01767,
+      "M3": 0.01366
+     },
+     {
+      "ct": "T:T-helper 2 cell",
+      "n": 7,
+      "D28": 0.01784,
+      "M3": 0.01387
+     },
+     {
+      "ct": "T:activated CD4-positive, alpha-beta T cell",
+      "n": 8,
+      "D28": 0.02111,
+      "M3": 0.01595
+     },
+     {
+      "ct": "T:activated CD8-positive, alpha-beta T cell",
+      "n": 10,
+      "D28": 0.01981,
+      "M3": 0.01592
+     },
+     {
+      "ct": "T:gamma-delta T cell",
+      "n": 4,
+      "D28": 0.02054,
+      "M3": 0.01851
+     },
+     {
+      "ct": "T:mature NK T cell",
+      "n": 8,
+      "D28": 0.01865,
+      "M3": 0.01548
+     },
+     {
+      "ct": "T:naive thymus-derived CD4-positive, alpha-beta T cell",
+      "n": 10,
+      "D28": 0.01728,
+      "M3": 0.01504
+     },
+     {
+      "ct": "T:naive thymus-derived CD8-positive, alpha-beta T cell",
+      "n": 10,
+      "D28": 0.02052,
+      "M3": 0.01571
+     },
+     {
+      "ct": "T:regulatory T cell",
+      "n": 10,
+      "D28": 0.01893,
+      "M3": 0.01526
+     }
+    ]
+   }
+  }
+ },
+ "run_utc": "2026-11-26T13:31:21Z",
+ "git_head": "9be5271",
+ "prereg_commit": "0ea016d 2026-11-26T04:26:42+00:00"
+}
