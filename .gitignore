@@ -49,3 +49,5 @@ experiments/kidney-compartments/data/
 !experiments/lumen-bench/**/*.csv
 !experiments/**/prospective/**
 !experiments/**/results/*.csv
+# keep Python caches out even inside re-included prospective/ dirs (round 144)
+**/__pycache__/
