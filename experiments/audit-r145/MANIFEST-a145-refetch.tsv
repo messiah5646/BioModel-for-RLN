@@ -1,0 +1,6 @@
+fetch_utc	url	outfile	bytes	md5	http_last_modified
+2026-11-26T15:25:17Z	https://datasets.cellxgene.cziscience.com/f3d8a246-5608-493d-9859-564cc808ebe1.h5ad	CD3xCD19_Bcells.h5ad	63039131	5c869ad5331eb7a39834c71abca19b65	Tue, 24 Nov 2026 19:37:40 GMT
+2026-11-26T15:25:28Z	https://datasets.cellxgene.cziscience.com/5aea78fc-3b9d-481e-b218-53f70fb642c7.h5ad	CD3xCD19_LDG.h5ad	256263774	0cf6282bce02d897c115abdec98d8910	Tue, 24 Nov 2026 19:37:41 GMT
+2026-11-26T15:26:12Z	https://datasets.cellxgene.cziscience.com/5713a9d0-622c-40f5-8f44-08ddb7834c39.h5ad	CD3xCD19_Myeloid.h5ad	1101762110	5fe73c9630dcf744d53d8fe7a881449f	Tue, 24 Nov 2026 19:45:47 GMT
+2026-11-26T15:26:44Z	https://datasets.cellxgene.cziscience.com/e50cf20c-e9e1-4160-b85a-0cfe355308c5.h5ad	CD3xCD19_Monocytes.h5ad	747230430	ee2e06cd8ddafb9ba515567894c483d6	Tue, 24 Nov 2026 19:38:35 GMT
+2026-11-26T15:27:28Z	https://datasets.cellxgene.cziscience.com/60b09f14-c439-4cd2-881f-74b72b385762.h5ad	CD3xCD19_Tcells.h5ad	1084988364	dd61442c0fe93059517ea3b2d5bfd38b	Tue, 24 Nov 2026 19:42:36 GMT

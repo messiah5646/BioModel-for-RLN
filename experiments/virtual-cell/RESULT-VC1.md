@@ -4,6 +4,7 @@ PREREG-VC1 0ea016d (04:26:42Z) -> amendment A1 674d5fa (04:46:39Z, synthetic cod
 05:27:33Z (60 min 51 s after the PREREG), finished 06:37:25Z. Code as run = run_vc1.py at 674d5fa. The only later change
 adds the stamp.py call it had omitted; it was stamped after the run, which is disclosed in the JSON.
 Label: **12b-timed (data on disk before the PREREG; earlier looks not excludable)**. Emerging, n 11 patients.
+*Audit r145 wording: amendment A1 (challenger model change) landed 40 min 54 s before the real run; under rule 12b as amended in round 144 it would restart the 1-h clock. A1 made J2 worse and both forms FAIL, so the verdict and label stand.*
 
 ## Verdict: FAIL (rule 2b)
 Leave-one-patient-out, 11 SLE patients, 15-23 scored cell types each (36 cell types; 2,000 Base-chosen HVGs).
