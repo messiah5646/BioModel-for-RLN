@@ -1,0 +1,351 @@
+{
+ "_meta": {
+  "prereg": "experiments/lumen-bench/prospective/w1-sle/PREREG-W1-SLE.md",
+  "prereg_commit": "5515355",
+  "frozen_utc": "2026-11-26T17:27:31Z",
+  "git_head": "5515355",
+  "lumen_forecast_md5": "2c11b9a5aba5c047c0817140c7d5cbe6",
+  "tables_md5": {
+   "sri4": "b37dd7cd72c9e912ba079088532c3765",
+   "bicla": "99eb279e207302973fef6899f0e86722"
+  },
+  "quantity": "log OR drug vs placebo, registered primary endpoint/visit, 0.5 cc; interval = m +/- 1.96 sd",
+  "models": "M1 = forecast(anchor=False) [headline under test]; M0 = 0; M3 = forecast(anchor=True) [secondary]"
+ },
+ "NCT05039840": {
+  "trial": "frexalimab APATURA ph2",
+  "molecule": "frexalimab",
+  "target": "CD40L",
+  "endpoint": "SRI-4",
+  "primary_week": 24,
+  "table": "sle/sri4_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.313,
+   "prior_sd": 0.17,
+   "OR": 1.37,
+   "OR_95": [
+    0.98,
+    1.91
+   ],
+   "P_benefit": 0.97,
+   "logOR_95": [
+    -0.02,
+    0.646
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "target",
+   "prior_logOR": 0.459,
+   "prior_sd": 0.217,
+   "OR": 1.58,
+   "OR_95": [
+    1.03,
+    2.42
+   ],
+   "P_benefit": 0.98,
+   "logOR_95": [
+    0.034,
+    0.884
+   ]
+  },
+  "C0_slot": null
+ },
+ "NCT06559163": {
+  "trial": "obexelimab SunStone ph2",
+  "molecule": "obexelimab",
+  "target": "CD19/FcgRIIb",
+  "endpoint": "BICLA",
+  "primary_week": 24,
+  "table": "sle/bicla_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.259,
+   "prior_sd": 0.237,
+   "OR": 1.3,
+   "OR_95": [
+    0.81,
+    2.06
+   ],
+   "P_benefit": 0.86,
+   "logOR_95": [
+    -0.206,
+    0.724
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.259,
+   "prior_sd": 0.237,
+   "OR": 1.3,
+   "OR_95": [
+    0.81,
+    2.06
+   ],
+   "P_benefit": 0.86,
+   "logOR_95": [
+    -0.206,
+    0.724
+   ]
+  },
+  "C0_slot": null
+ },
+ "NCT05672576": {
+  "trial": "cenerimod OPUS-1 ph3",
+  "molecule": "cenerimod",
+  "target": "S1P1",
+  "endpoint": "SRI-4",
+  "primary_week": 52,
+  "table": "sle/sri4_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.313,
+   "prior_sd": 0.17,
+   "OR": 1.37,
+   "OR_95": [
+    0.98,
+    1.91
+   ],
+   "P_benefit": 0.97,
+   "logOR_95": [
+    -0.02,
+    0.646
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "molecule",
+   "prior_logOR": 0.28,
+   "prior_sd": 0.202,
+   "OR": 1.32,
+   "OR_95": [
+    0.89,
+    1.97
+   ],
+   "P_benefit": 0.92,
+   "logOR_95": [
+    -0.116,
+    0.676
+   ]
+  },
+  "C0_slot": null
+ },
+ "NCT05648500": {
+  "trial": "cenerimod OPUS-2 ph3",
+  "molecule": "cenerimod",
+  "target": "S1P1",
+  "endpoint": "SRI-4",
+  "primary_week": 52,
+  "table": "sle/sri4_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.313,
+   "prior_sd": 0.17,
+   "OR": 1.37,
+   "OR_95": [
+    0.98,
+    1.91
+   ],
+   "P_benefit": 0.97,
+   "logOR_95": [
+    -0.02,
+    0.646
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "molecule",
+   "prior_logOR": 0.28,
+   "prior_sd": 0.202,
+   "OR": 1.32,
+   "OR_95": [
+    0.89,
+    1.97
+   ],
+   "P_benefit": 0.92,
+   "logOR_95": [
+    -0.116,
+    0.676
+   ]
+  },
+  "C0_slot": null
+ },
+ "NCT05843643": {
+  "trial": "upadacitinib SELECT-SLE ph3",
+  "molecule": "upadacitinib",
+  "target": "JAK",
+  "endpoint": "BICLA",
+  "primary_week": 52,
+  "table": "sle/bicla_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.259,
+   "prior_sd": 0.237,
+   "OR": 1.3,
+   "OR_95": [
+    0.81,
+    2.06
+   ],
+   "P_benefit": 0.86,
+   "logOR_95": [
+    -0.206,
+    0.724
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.259,
+   "prior_sd": 0.237,
+   "OR": 1.3,
+   "OR_95": [
+    0.81,
+    2.06
+   ],
+   "P_benefit": 0.86,
+   "logOR_95": [
+    -0.206,
+    0.724
+   ]
+  },
+  "C0_slot": null
+ },
+ "NCT05639114": {
+  "trial": "ianalumab SIRIUS-SLE 1 ph3",
+  "molecule": "ianalumab",
+  "target": "BAFF-R",
+  "endpoint": "SRI-4",
+  "primary_week": 60,
+  "table": "sle/sri4_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.313,
+   "prior_sd": 0.17,
+   "OR": 1.37,
+   "OR_95": [
+    0.98,
+    1.91
+   ],
+   "P_benefit": 0.97,
+   "logOR_95": [
+    -0.02,
+    0.646
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.313,
+   "prior_sd": 0.17,
+   "OR": 1.37,
+   "OR_95": [
+    0.98,
+    1.91
+   ],
+   "P_benefit": 0.97,
+   "logOR_95": [
+    -0.02,
+    0.646
+   ]
+  },
+  "C0_slot": "SRI-4 wk36 -> wk60 (descriptive, rule 8)"
+ },
+ "NCT05624749": {
+  "trial": "ianalumab SIRIUS-SLE 2 ph3",
+  "molecule": "ianalumab",
+  "target": "BAFF-R",
+  "endpoint": "SRI-4",
+  "primary_week": 60,
+  "table": "sle/sri4_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.313,
+   "prior_sd": 0.17,
+   "OR": 1.37,
+   "OR_95": [
+    0.98,
+    1.91
+   ],
+   "P_benefit": 0.97,
+   "logOR_95": [
+    -0.02,
+    0.646
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.313,
+   "prior_sd": 0.17,
+   "OR": 1.37,
+   "OR_95": [
+    0.98,
+    1.91
+   ],
+   "P_benefit": 0.97,
+   "logOR_95": [
+    -0.02,
+    0.646
+   ]
+  },
+  "C0_slot": "SRI-4 wk36 -> wk60 (descriptive, rule 8)"
+ },
+ "NCT06015230": {
+  "trial": "GR1603 ph1b/2",
+  "molecule": "GR1603",
+  "target": "unknown",
+  "endpoint": "BICLA",
+  "primary_week": 24,
+  "table": "sle/bicla_table.csv",
+  "M0_null": {
+   "logOR": 0.0
+  },
+  "M1_pooled": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.259,
+   "prior_sd": 0.237,
+   "OR": 1.3,
+   "OR_95": [
+    0.81,
+    2.06
+   ],
+   "P_benefit": 0.86,
+   "logOR_95": [
+    -0.206,
+    0.724
+   ]
+  },
+  "M3_anchored": {
+   "anchor": "none (pooled; mechanism class not used)",
+   "prior_logOR": 0.259,
+   "prior_sd": 0.237,
+   "OR": 1.3,
+   "OR_95": [
+    0.81,
+    2.06
+   ],
+   "P_benefit": 0.86,
+   "logOR_95": [
+    -0.206,
+    0.724
+   ]
+  },
+  "C0_slot": null
+ }
+}
