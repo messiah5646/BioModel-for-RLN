@@ -284,7 +284,8 @@ def main():
     out.update(mode=f'synthetic-{args.synthetic}' if args.synthetic else 'real', quick=args.quick, target=args.target,
                n_patients=int(len(R)), cell_types=len(cts), runtime_s=round(time.time() - t0))
     fn = os.path.join(ROOT, f'vc1_result{"_" + tag if tag else ""}.json')
-    json.dump(out, open(fn, 'w'), indent=1)
+    sys.path.insert(0, os.path.join(ROOT, '..', '..', 'scripts', 'provenance')); from stamp import stamp
+    json.dump(stamp(out, prereg='experiments/virtual-cell/PREREG-VC1.md'), open(fn, 'w'), indent=1)
     print(json.dumps(out, indent=1))
 
 
