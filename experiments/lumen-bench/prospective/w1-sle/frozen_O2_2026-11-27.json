@@ -1,0 +1,80 @@
+{
+ "note": "O2 R1 robust-MAP control-arm SRI-4 rate, trained on all 40 SLE units (descriptive; PREREG-W1-SLE unchanged). Interval is for the true control rate (arm size unknown).",
+ "forecasts": {
+  "NCT05039840": {
+   "trial": "frexalimab APATURA ph2",
+   "endpoint": "SRI-4",
+   "primary_week": 24,
+   "control_rate_mean_logit": -0.32659063437807245,
+   "control_rate_at_mean": 0.41907040482875463,
+   "control_rate_95": [
+    0.06740045846668793,
+    0.8780547874127131
+   ]
+  },
+  "NCT05672576": {
+   "trial": "cenerimod OPUS-1 ph3",
+   "endpoint": "SRI-4",
+   "primary_week": 52,
+   "control_rate_mean_logit": -0.32659063437807245,
+   "control_rate_at_mean": 0.41907040482875463,
+   "control_rate_95": [
+    0.06740045846668793,
+    0.8780547874127131
+   ]
+  },
+  "NCT05648500": {
+   "trial": "cenerimod OPUS-2 ph3",
+   "endpoint": "SRI-4",
+   "primary_week": 52,
+   "control_rate_mean_logit": -0.32659063437807245,
+   "control_rate_at_mean": 0.41907040482875463,
+   "control_rate_95": [
+    0.06740045846668793,
+    0.8780547874127131
+   ]
+  },
+  "NCT05639114": {
+   "trial": "ianalumab SIRIUS-SLE 1 ph3",
+   "endpoint": "SRI-4",
+   "primary_week": 60,
+   "control_rate_mean_logit": -0.32659063437807245,
+   "control_rate_at_mean": 0.41907040482875463,
+   "control_rate_95": [
+    0.06740045846668793,
+    0.8780547874127131
+   ]
+  },
+  "NCT05624749": {
+   "trial": "ianalumab SIRIUS-SLE 2 ph3",
+   "endpoint": "SRI-4",
+   "primary_week": 60,
+   "control_rate_mean_logit": -0.32659063437807245,
+   "control_rate_at_mean": 0.41907040482875463,
+   "control_rate_95": [
+    0.06740045846668793,
+    0.8780547874127131
+   ]
+  }
+ },
+ "not_frozen": {
+  "NCT06559163": {
+   "trial": "obexelimab SunStone ph2",
+   "endpoint": "BICLA",
+   "reason": "no BICLA control pool in RT-2"
+  },
+  "NCT05843643": {
+   "trial": "upadacitinib SELECT-SLE ph3",
+   "endpoint": "BICLA",
+   "reason": "no BICLA control pool in RT-2"
+  },
+  "NCT06015230": {
+   "trial": "GR1603 ph1b/2",
+   "endpoint": "BICLA",
+   "reason": "no BICLA control pool in RT-2"
+  }
+ },
+ "run_utc": "2026-11-27T09:26:42Z",
+ "git_head": "220a413",
+ "prereg_commit": "7ae773f 2026-11-27T08:26:16+00:00"
+}

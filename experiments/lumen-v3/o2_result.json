@@ -1,0 +1,421 @@
+{
+ "prereg": "experiments/lumen-v3/PREREG-O2.md",
+ "interpretations": [
+  "Robust mixture mean = MAP predictive mean (vague component centred at m_MAP), so R0/R1/R1-w0.5 share IV-MSE.",
+  "Coverage of B1/B2/R*: central interval of the predictive for the OBSERVED y (component variances + held-out se2), as RT-2 S4 did for B1 (half-width 1.96 sqrt(var + se2)).",
+  "LOTO mode: training = all other trials of the same stratum (no >= 5 floor needed; every stratum has >= 20).",
+  "D1: RT-2 S6 trials (early control visit <= 26 wk, before target); compared with R1 LOTO on the same trials (RT-2 S6 compared with LOTO B1) and, where scored, with R1 time-forward.",
+  "Bootstrap: paired resampling of scored trials (combined), statistic = mean NLPD(R1) - mean NLPD(best baseline), best baseline chosen on the full-sample primary score.",
+  "Frozen W1-SLE intervals are for the TRUE control logit (no se2: arm size unknown), shown as rates via expit."
+ ],
+ "label": "12b-timed (committed data; earlier looks not excludable)",
+ "n_units": {
+  "LN": 20,
+  "SLE": 40
+ },
+ "assertions": "passed (unit table, S5 B1/B2 means to 1e-10)",
+ "primary_time_forward": {
+  "summary": {
+   "combined": {
+    "n_trials": 50,
+    "nlpd": {
+     "B1": 0.8575138150207713,
+     "B2": 0.8763626425177081,
+     "R1": 0.9230040071360793,
+     "R0": 0.8348636439685647,
+     "R1-HN0.5": 0.9028635277917594,
+     "R1-w0.5": 1.1081556193288826
+    },
+    "ivmse": {
+     "B1": 0.21176760478040307,
+     "B2": 0.19185926863283911,
+     "R1": 0.18553291695146298,
+     "R0": 0.185532916951463,
+     "R1-HN0.5": 0.18531935420125292,
+     "R1-w0.5": 0.185532916951463
+    },
+    "cov95": {
+     "B1": 0.9,
+     "B2": 0.9,
+     "R1": 1.0,
+     "R0": 0.92,
+     "R1-HN0.5": 1.0,
+     "R1-w0.5": 1.0
+    },
+    "cov80": {
+     "B1": 0.8,
+     "B2": 0.82,
+     "R1": 0.92,
+     "R0": 0.82,
+     "R1-HN0.5": 0.9,
+     "R1-w0.5": 0.98
+    }
+   },
+   "LN": {
+    "n_trials": 15,
+    "nlpd": {
+     "B1": 0.8833289736528079,
+     "B2": 0.9919371614949136,
+     "R1": 1.0286185249409272,
+     "R0": 0.9212534782703327,
+     "R1-HN0.5": 0.9641228656035559,
+     "R1-w0.5": 1.216812226671322
+    },
+    "ivmse": {
+     "B1": 0.24786265569038832,
+     "B2": 0.16513269653480198,
+     "R1": 0.1489812045127909,
+     "R0": 0.1489812045127909,
+     "R1-HN0.5": 0.14795482222520442,
+     "R1-w0.5": 0.14898120451279087
+    },
+    "cov95": {
+     "B1": 1.0,
+     "B2": 1.0,
+     "R1": 1.0,
+     "R0": 1.0,
+     "R1-HN0.5": 1.0,
+     "R1-w0.5": 1.0
+    },
+    "cov80": {
+     "B1": 1.0,
+     "B2": 1.0,
+     "R1": 1.0,
+     "R0": 1.0,
+     "R1-HN0.5": 1.0,
+     "R1-w0.5": 1.0
+    }
+   },
+   "SLE": {
+    "n_trials": 35,
+    "nlpd": {
+     "B1": 0.8464501756070413,
+     "B2": 0.8268307058131917,
+     "R1": 0.8777406423625731,
+     "R0": 0.7978394292678069,
+     "R1-HN0.5": 0.8766095258724182,
+     "R1-w0.5": 1.0615885018964086
+    },
+    "ivmse": {
+     "B1": 0.20281376461731868,
+     "B2": 0.1984891375107017,
+     "R1": 0.19460003786172492,
+     "R0": 0.19460003786172492,
+     "R1-HN0.5": 0.19458810541915036,
+     "R1-w0.5": 0.19460003786172492
+    },
+    "cov95": {
+     "B1": 0.8571428571428571,
+     "B2": 0.8571428571428571,
+     "R1": 1.0,
+     "R0": 0.8857142857142857,
+     "R1-HN0.5": 1.0,
+     "R1-w0.5": 1.0
+    },
+    "cov80": {
+     "B1": 0.7142857142857143,
+     "B2": 0.7428571428571429,
+     "R1": 0.8857142857142857,
+     "R0": 0.7428571428571429,
+     "R1-HN0.5": 0.8571428571428571,
+     "R1-w0.5": 0.9714285714285714
+    }
+   }
+  },
+  "best_baseline": "B1",
+  "R1_minus_best": 0.06549019211530811,
+  "R1_minus_best_ci95": [
+   -0.026598064612411845,
+   0.14568772135782887
+  ],
+  "fail_reasons": [
+   "NLPD worse than B1 by >= 0.05"
+  ],
+  "minimum_n_met": true,
+  "verdict": "FAIL",
+  "LN_guard_fail_reasons": [
+   "NLPD worse than B1 by >= 0.05"
+  ],
+  "LN_guard": "FAIL"
+ },
+ "S_loto": {
+  "summary": {
+   "combined": {
+    "n_trials": 60,
+    "nlpd": {
+     "B1": 0.8515472837590337,
+     "B2": 0.9394005644072024,
+     "R1": 0.9130839445402674,
+     "R0": 0.8321148774720651,
+     "R1-HN0.5": 0.9088082021216447,
+     "R1-w0.5": 1.0956213245524002
+    },
+    "ivmse": {
+     "B1": 0.2269585636174251,
+     "B2": 0.22317251443312722,
+     "R1": 0.2188866883112391,
+     "R0": 0.2188866883112391,
+     "R1-HN0.5": 0.2188537825356147,
+     "R1-w0.5": 0.2188866883112391
+    },
+    "cov95": {
+     "B1": 0.8833333333333333,
+     "B2": 0.95,
+     "R1": 1.0,
+     "R0": 0.8833333333333333,
+     "R1-HN0.5": 1.0,
+     "R1-w0.5": 1.0
+    },
+    "cov80": {
+     "B1": 0.7833333333333333,
+     "B2": 0.8833333333333333,
+     "R1": 0.8833333333333333,
+     "R0": 0.7833333333333333,
+     "R1-HN0.5": 0.8833333333333333,
+     "R1-w0.5": 0.9833333333333333
+    }
+   },
+   "LN": {
+    "n_trials": 20,
+    "nlpd": {
+     "B1": 1.1409492256028795,
+     "B2": 1.0815796791621135,
+     "R1": 1.1280581108688699,
+     "R0": 1.0791892061257815,
+     "R1-HN0.5": 1.1183105279960652,
+     "R1-w0.5": 1.263799357707224
+    },
+    "ivmse": {
+     "B1": 0.45610477079033723,
+     "B2": 0.435395147445821,
+     "R1": 0.4280661568348418,
+     "R0": 0.42806615683484184,
+     "R1-HN0.5": 0.42781852252426966,
+     "R1-w0.5": 0.42806615683484184
+    },
+    "cov95": {
+     "B1": 0.85,
+     "B2": 0.9,
+     "R1": 1.0,
+     "R0": 0.85,
+     "R1-HN0.5": 1.0,
+     "R1-w0.5": 1.0
+    },
+    "cov80": {
+     "B1": 0.85,
+     "B2": 0.85,
+     "R1": 0.85,
+     "R0": 0.8,
+     "R1-HN0.5": 0.85,
+     "R1-w0.5": 1.0
+    }
+   },
+   "SLE": {
+    "n_trials": 40,
+    "nlpd": {
+     "B1": 0.7068463128371104,
+     "B2": 0.8683110070297468,
+     "R1": 0.8055968613759668,
+     "R0": 0.7085777131452071,
+     "R1-HN0.5": 0.8040570391844346,
+     "R1-w0.5": 1.0115323079749878
+    },
+    "ivmse": {
+     "B1": 0.16552875503058367,
+     "B2": 0.1662795992738212,
+     "R1": 0.16280958858422626,
+     "R0": 0.16280958858422628,
+     "R1-HN0.5": 0.1628342475091602,
+     "R1-w0.5": 0.16280958858422628
+    },
+    "cov95": {
+     "B1": 0.9,
+     "B2": 0.975,
+     "R1": 1.0,
+     "R0": 0.9,
+     "R1-HN0.5": 1.0,
+     "R1-w0.5": 1.0
+    },
+    "cov80": {
+     "B1": 0.75,
+     "B2": 0.9,
+     "R1": 0.9,
+     "R0": 0.775,
+     "R1-HN0.5": 0.9,
+     "R1-w0.5": 0.975
+    }
+   }
+  },
+  "best_baseline": "B1",
+  "R1_minus_best": 0.06153666078123427,
+  "R1_minus_best_ci95": [
+   -0.014255526964529775,
+   0.12359309751187343
+  ],
+  "fail_reasons": [
+   "NLPD worse than B1 by >= 0.05"
+  ],
+  "minimum_n_met": true,
+  "verdict": "FAIL",
+  "LN_guard_fail_reasons": [],
+  "LN_guard": "not fired"
+ },
+ "D1_early_control_carry_forward": {
+  "n_trials": 16,
+  "CF_nlpd": 0.5838116811741776,
+  "R1_loto_nlpd": 0.9567663990485433,
+  "n_tf": 16,
+  "CF_nlpd_tf_subset": 0.5838116811741776,
+  "R1_tf_nlpd": 1.030507605500547,
+  "trials": [
+   {
+    "stratum": "LN",
+    "trial": "ALXN2050",
+    "early_week": 26,
+    "target_week": 50,
+    "CF_nlpd": 2.407004386500691,
+    "R1_loto_nlpd": 1.2637105707924516,
+    "R1_tf_nlpd": 1.294412965292647
+   },
+   {
+    "stratum": "LN",
+    "trial": "AURA-LV",
+    "early_week": 24,
+    "target_week": 48,
+    "CF_nlpd": 0.17012511154501314,
+    "R1_loto_nlpd": 0.6938101202697391,
+    "R1_tf_nlpd": 0.9021016053478932
+   },
+   {
+    "stratum": "LN",
+    "trial": "AURORA",
+    "early_week": 24,
+    "target_week": 52,
+    "CF_nlpd": -0.22366829097511204,
+    "R1_loto_nlpd": 0.7349745272102974,
+    "R1_tf_nlpd": 0.8328395109072351
+   },
+   {
+    "stratum": "LN",
+    "trial": "BI655064",
+    "early_week": 26,
+    "target_week": 52,
+    "CF_nlpd": 0.5153879376509427,
+    "R1_loto_nlpd": 1.4597546280898255,
+    "R1_tf_nlpd": 1.572932529991352
+   },
+   {
+    "stratum": "LN",
+    "trial": "CALIBRATE",
+    "early_week": 24,
+    "target_week": 96,
+    "CF_nlpd": 0.7179532506288624,
+    "R1_loto_nlpd": 0.7923091600985273,
+    "R1_tf_nlpd": 1.2941686892389148
+   },
+   {
+    "stratum": "LN",
+    "trial": "NOBILITY",
+    "early_week": 24,
+    "target_week": 52,
+    "CF_nlpd": 0.21720299641028296,
+    "R1_loto_nlpd": 0.7602210328728249,
+    "R1_tf_nlpd": 1.1148485353820186
+   },
+   {
+    "stratum": "LN",
+    "trial": "ORCHID-LN",
+    "early_week": 24,
+    "target_week": 52,
+    "CF_nlpd": 0.8578441195248321,
+    "R1_loto_nlpd": 0.9037829369099999,
+    "R1_tf_nlpd": 0.9845642825013825
+   },
+   {
+    "stratum": "LN",
+    "trial": "SANCTUARY",
+    "early_week": 26,
+    "target_week": 50,
+    "CF_nlpd": 0.8354335384151734,
+    "R1_loto_nlpd": 0.8136813242209704,
+    "R1_tf_nlpd": 0.8136813242209704
+   },
+   {
+    "stratum": "SLE",
+    "trial": "ALLEGORY",
+    "early_week": 24,
+    "target_week": 52,
+    "CF_nlpd": -0.44656610769967575,
+    "R1_loto_nlpd": 0.8485250553232371,
+    "R1_tf_nlpd": 0.8485250553232371
+   },
+   {
+    "stratum": "SLE",
+    "trial": "PF-04236921-ph2",
+    "early_week": 20,
+    "target_week": 24,
+    "CF_nlpd": 0.11764542655989876,
+    "R1_loto_nlpd": 0.37110784098022,
+    "R1_tf_nlpd": 0.2132097590617077
+   },
+   {
+    "stratum": "SLE",
+    "trial": "PRV-3279-ph2",
+    "early_week": 20,
+    "target_week": 24,
+    "CF_nlpd": 4.167766834435827,
+    "R1_loto_nlpd": 3.185931615094905,
+    "R1_tf_nlpd": 3.178683126071604
+   },
+   {
+    "stratum": "SLE",
+    "trial": "TULIP-1",
+    "early_week": 24,
+    "target_week": 52,
+    "CF_nlpd": -0.6276708064145434,
+    "R1_loto_nlpd": 0.20104768484423063,
+    "R1_tf_nlpd": 0.06533871894654775
+   },
+   {
+    "stratum": "SLE",
+    "trial": "fenebrutinib-ph2",
+    "early_week": 24,
+    "target_week": 48,
+    "CF_nlpd": -0.2234127828222674,
+    "R1_loto_nlpd": 0.277677998613032,
+    "R1_tf_nlpd": 0.2774958706518822
+   },
+   {
+    "stratum": "SLE",
+    "trial": "lenabasum-ph2",
+    "early_week": 12,
+    "target_week": 16,
+    "CF_nlpd": 0.7695743522459862,
+    "R1_loto_nlpd": 1.0045592101642113,
+    "R1_tf_nlpd": 0.9418784403160014
+   },
+   {
+    "stratum": "SLE",
+    "trial": "lulizumab-ph2",
+    "early_week": 12,
+    "target_week": 24,
+    "CF_nlpd": 0.04739008339806686,
+    "R1_loto_nlpd": 0.5049932112743787,
+    "R1_tf_nlpd": 0.6694644879194946
+   },
+   {
+    "stratum": "SLE",
+    "trial": "rozibafusp-ph2",
+    "early_week": 24,
+    "target_week": 52,
+    "CF_nlpd": 0.03897684938286223,
+    "R1_loto_nlpd": 1.4921754680178414,
+    "R1_tf_nlpd": 1.4839767868358658
+   }
+  ]
+ },
+ "frozen": "experiments/lumen-bench/prospective/w1-sle/frozen_O2_2026-11-27.json",
+ "run_utc": "2026-11-27T09:26:42Z",
+ "git_head": "220a413",
+ "prereg_commit": "7ae773f 2026-11-27T08:26:16+00:00"
+}
