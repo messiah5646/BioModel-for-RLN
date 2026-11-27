@@ -29,4 +29,6 @@ for nct,name,mol,tgt,tab,wk in C:
                   table=T[tab],M0_null={'logOR':0.0},M1_pooled=m1,M3_anchored=m3,
                   C0_slot=('SRI-4 wk36 -> wk60 (descriptive, rule 8)' if mol=='ianalumab' else None))
     print(nct,name,tab,'M1',m1['prior_logOR'],m1['prior_sd'],m1['OR'],m1['OR_95'],'| M3',m3['anchor'],m3['OR'],m3['OR_95'])
-json.dump(out,open('prospective/w1-sle/frozen_2026-11-26.json','w'),indent=1)
+sys.path.insert(0,os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..','..')))
+from lumen import provenance  # write-once (R-20261127-2, round 158): never overwrite a committed freeze
+provenance.write_frozen('prospective/w1-sle/frozen_2026-11-26.json',out,indent=1)

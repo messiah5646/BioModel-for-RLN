@@ -51,3 +51,6 @@ experiments/kidney-compartments/data/
 !experiments/**/results/*.csv
 # keep Python caches out even inside re-included prospective/ dirs (round 144)
 **/__pycache__/
+
+# write-once re-run scratch (round 158)
+.reruns/

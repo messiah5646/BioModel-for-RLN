@@ -18,4 +18,6 @@ for nct,name,mol,tgt,axis in C:
     f=prior(mol,tgt,R);f={k:(float(v) if hasattr(v,'item') else v) for k,v in f.items()};f.update(trial=name,molecule=mol,target=tgt)
     if axis: f['secondary_axis_anchor']={k:(float(v) if hasattr(v,'item') else v) for k,v in prior(mol,axis,R).items()};f['secondary_axis_anchor']['axis']=axis
     out[nct]=f;print(nct,name,f['anchor'],f['logOR'],f['sd'],f['OR'],f['OR_95'],f.get('secondary_axis_anchor',{}).get('OR'))
-json.dump(out,open('w1_frozen_2026-11-21.json','w'),indent=1)
+import sys,os;sys.path.insert(0,os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..','..')))
+from lumen import provenance  # write-once (R-20261127-2, round 158): never overwrite a committed freeze
+provenance.write_frozen('w1_frozen_2026-11-21.json',out,indent=1)

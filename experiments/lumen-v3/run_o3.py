@@ -145,12 +145,12 @@ def main():
                                        ph3=summ(nf[nf.ph3 == 1], 'held-out phase-3 arms, no fallback'))
     res['fallback_trials_tf'] = sorted(tf[tf.fallback].trial.unique().tolist())
     res['b_train_range_tf'] = [round(float(nf.b_train.min()), 3), round(float(nf.b_train.max()), 3)] if len(nf) else None
-    pd.concat([tf, lo, tf23.assign(mode='tf_ph23_as_ph2')]).to_csv(os.path.join(OUT, 'o3_predictions.csv'), index=False)
+    provenance.write_once_text(os.path.join(OUT, 'o3_predictions.csv'), pd.concat([tf, lo, tf23.assign(mode='tf_ph23_as_ph2')]).to_csv(index=False))
     res = provenance.stamp(res, prereg=PREREG)
-    json.dump(res, open(os.path.join(OUT, 'o3_result.json'), 'w'), indent=1, default=str)
+    provenance.write_once(os.path.join(OUT, 'o3_result.json'), res, indent=1, default=str)
     fz = provenance.stamp(dict(note='Descriptive prospective record per PREREG-O3 s11; no outcomes read; PREREG-W1-SLE unchanged',
                                 forecasts=freeze_w1()), prereg=PREREG)
-    json.dump(fz, open(os.path.join(ROOT, 'experiments/lumen-bench/prospective/w1-sle/frozen_O3_2026-11-27.json'), 'w'), indent=1)
+    provenance.write_frozen(os.path.join(ROOT, 'experiments/lumen-bench/prospective/w1-sle/frozen_O3_2026-11-27.json'), fz, indent=1)
     print(json.dumps(res, indent=1, default=str))
 
 if __name__ == '__main__':

@@ -129,12 +129,12 @@ def main():
     res['S_LN'] = summ(tf[tf.stratum == 'LN'], 'time-forward LN only')
     res['S_SLE'] = summ(tf[tf.stratum == 'SLE'], 'time-forward SLE only')
     res['O1a_df_range'] = [int(tf.O1a_df.min()), int(tf.O1a_df.max())]
-    pd.concat([tf, lo]).to_csv(os.path.join(OUT, 'o1_predictions.csv'), index=False)
+    provenance.write_once_text(os.path.join(OUT, 'o1_predictions.csv'), pd.concat([tf, lo]).to_csv(index=False))
     res = provenance.stamp(res, prereg='experiments/lumen-v3/PREREG-O1.md')
-    json.dump(res, open(os.path.join(OUT, 'o1_result.json'), 'w'), indent=1, default=str)
+    provenance.write_once(os.path.join(OUT, 'o1_result.json'), res, indent=1, default=str)
     fz = provenance.stamp(dict(note='Descriptive prospective record per PREREG-O1 s10; no outcomes read; PREREG-W1-SLE unchanged',
                                 forecasts=freeze_w1()), prereg='experiments/lumen-v3/PREREG-O1.md')
-    json.dump(fz, open(os.path.join(ROOT, 'experiments/lumen-bench/prospective/w1-sle/frozen_O1_2026-11-27.json'), 'w'), indent=1)
+    provenance.write_frozen(os.path.join(ROOT, 'experiments/lumen-bench/prospective/w1-sle/frozen_O1_2026-11-27.json'), fz, indent=1)
     print(json.dumps(res, indent=1, default=str))
 
 if __name__ == '__main__':

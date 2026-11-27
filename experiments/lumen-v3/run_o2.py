@@ -244,11 +244,11 @@ def main():
     res['S_loto'] = verdict(P_loto)
     res['D1_early_control_carry_forward'] = d1(U, P_loto, P_tf)
     res['frozen'] = 'experiments/lumen-bench/prospective/w1-sle/frozen_O2_2026-11-27.json'
-    P_tf.assign(mode='tf').pipe(lambda x: pd.concat([x, P_loto.assign(mode='loto')])).to_csv(
-        os.path.join(OUT, 'o2_predictions.csv'), index=False)
-    json.dump(provenance.stamp(res, prereg=PREREG), open(os.path.join(OUT, 'o2_result.json'), 'w'), indent=1, default=float)
+    provenance.write_once_text(os.path.join(OUT, 'o2_predictions.csv'),
+        P_tf.assign(mode='tf').pipe(lambda x: pd.concat([x, P_loto.assign(mode='loto')])).to_csv(index=False))
+    provenance.write_once(os.path.join(OUT, 'o2_result.json'), provenance.stamp(res, prereg=PREREG), indent=1, default=float)
     fz = provenance.stamp(freeze(U), prereg=PREREG)
-    json.dump(fz, open(os.path.join(ROOT, res['frozen']), 'w'), indent=1, default=float)
+    provenance.write_frozen(os.path.join(ROOT, res['frozen']), fz, indent=1, default=float)
     p = res['primary_time_forward']
     print(json.dumps({k: p[k] for k in ['verdict', 'best_baseline', 'R1_minus_best', 'R1_minus_best_ci95',
                                          'fail_reasons', 'LN_guard', 'LN_guard_fail_reasons']}, indent=1, default=float))

@@ -1,0 +1,7 @@
+# md5 of every prospective freeze as FIRST committed (round 158, R-20261127-2). Path relative to repo root. Append-only.
+experiments/lumen-bench/prospective/r90_frozen.json	10ba72ab13e64290ca4cbcec9884ea27
+experiments/lumen-bench/prospective/w1-sle/frozen_2026-11-26.json	7b4f8cc79e4bc7f82407bcd84cce0ae7
+experiments/lumen-bench/prospective/w1-sle/frozen_O1_2026-11-27.json	c3bcc386c2d8879fea5efe7ecdf06a46
+experiments/lumen-bench/prospective/w1-sle/frozen_O2_2026-11-27.json	690e3e0cd7a996f2ecc73c2e85728e25
+experiments/lumen-bench/prospective/w1-sle/frozen_O3_2026-11-27.json	80a38a7e2a5b74687813a770f325c289
+experiments/lumen-bench/prospective/w1/w1_frozen_2026-11-21.json	ea6efb82b049fa357baf1d2a56d69b59
