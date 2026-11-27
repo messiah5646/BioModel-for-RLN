@@ -43,7 +43,15 @@ def test_cli_matches_legacy_script(args):
         early = [float(a) for a in args[args.index("--early") + 1:]]
     v3 = de.forecast(args[0], args[1], "ln", early)
     v3.pop("layer"); v3.pop("early_note", None); legacy.pop("early_note", None)   # note text is abridged in v3
+    legacy.pop("P_benefit"); v3.pop("base_rate_positive"); v3.pop("P_benefit_note")   # display change, round 161 (CAL1)
     assert v3 == legacy
+
+
+def test_cal1_display_drop():
+    """CAL1 FAIL (round 161): the layer prints a historical base rate, not P_benefit; the frozen core is unchanged."""
+    out = de.forecast("voclosporin", "calcineurin", "ln")
+    assert "P_benefit" not in out and 0 <= out["base_rate_positive"]["value"] <= 1
+    assert "P_benefit" in de.prior("voclosporin", "calcineurin", "ln")
 
 
 def test_early_has_no_headline():

@@ -5,6 +5,10 @@ so frozen forecasts (r90, W1 LN, W1 SLE) and audits keep reproducing. This modul
   * no --early: headline = pooled prior (round 116 / 127; Supported, n 50 trials time-forward)
   * with early read-out: NO headline; null, pooled and carry-forward side by side (rule 2b, round 144)
   * control rate: pooled, not modelled; no absolute arm rates (round 129)
+  * no P_benefit: CAL1 (round 161, PREREG-CAL1 6c2dd0a) FAILED its calibration rule. The printed P_benefit averaged
+    0.98 against 0.69 of held-out trials with observed log OR > 0 (time-forward, n 50 trials); the layer prints instead
+    base_rate_positive, the historical share of past arms with log OR > 0 (a base rate, not a trial-specific
+    probability). The frozen core (lumen_forecast.py) and frozen forecast files still carry P_benefit; unchanged.
 """
 from __future__ import annotations
 import importlib.util, math
@@ -66,6 +70,18 @@ def forecast(molecule: str, target: str, table_name: str = "ln", early=None, hol
                 "C0_carry_forward": {"OR": round(math.exp(le), 2),
                                      "OR_95_sampling_only": [round(math.exp(le - 1.96 * se), 2), round(math.exp(le + 1.96 * se), 2)],
                                      "note": "raw early read-out (week %g) carried to the late visit; early->late drift not added" % wk}}
+    out.pop("P_benefit", None)
+    P = R[R.week <= 104].sort_values("week").groupby(["trial", "arm"]).tail(1)   # the arms the core pools
+    if holdout:
+        P = P[P.trial != holdout]
+    out["base_rate_positive"] = {
+        "value": round(float((P.lor > 0).mean()), 2), "n_arms": int(len(P)), "n_trials": int(P.trial.nunique()),
+        "label": "historical base rate, not a trial-specific probability"}
+    out["P_benefit_note"] = ("P_benefit not printed: mis-calibrated in CAL1 (round 161; printed 0.98 vs observed 0.69 "
+                             "share of held-out trials with log OR > 0; gap of the predictive incl. sampling error +0.11, "
+                             "CI 0.00 to 0.23; time-forward, n 50 trials, 12b-timed)")
+    if table_name == "bicla":
+        out["P_benefit_note"] += "; calibration scored on LN CRR + SLE SRI-4 only"
     out["control_rate"] = "pooled, not modelled; absolute arm rates not output (round 129, RT-2 PREREG d5b5f84)"
     out["layer"] = {"name": "drug_effect", "table": table_name, "status": "shipped",
                     "evidence": "pooled prior beats null time-forward: Supported, n 50 trials (round 127)"}
