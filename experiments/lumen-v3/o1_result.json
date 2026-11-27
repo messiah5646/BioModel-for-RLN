@@ -1,0 +1,239 @@
+{
+ "prereg": "experiments/lumen-v3/PREREG-O1.md",
+ "md5_verify": {
+  "experiments/lumen-bench/lumen_forecast.py": true,
+  "experiments/lumen-bench/resp_table.csv": true,
+  "experiments/lumen-bench/resp_table_plus_pub.csv": true,
+  "experiments/lumen-bench/sle/sri4_table.csv": true,
+  "experiments/lumen-bench/sle/bicla_table.csv": true
+ },
+ "primary": {
+  "label": "time-forward, all subset, LN+SLE",
+  "n_trials": 50,
+  "n_arms": 93,
+  "M0": {
+   "logscore": 1.2322,
+   "ivmse": 0.2244,
+   "cov95": 0.849,
+   "cov80": 0.667,
+   "mean_sd": 0.101
+  },
+  "M1": {
+   "logscore": 0.8572,
+   "ivmse": 0.1606,
+   "cov95": 0.892,
+   "cov80": 0.699,
+   "mean_sd": 0.101
+  },
+  "O1a": {
+   "logscore": 0.836,
+   "ivmse": 0.1599,
+   "cov95": 0.914,
+   "cov80": 0.71,
+   "mean_sd": 0.115
+  },
+  "O1b": {
+   "logscore": 0.8241,
+   "ivmse": 0.1601,
+   "cov95": 0.903,
+   "cov80": 0.71,
+   "mean_sd": 0.153
+  },
+  "O1c": {
+   "logscore": 0.8168,
+   "ivmse": 0.1602,
+   "cov95": 0.903,
+   "cov80": 0.72,
+   "mean_sd": 0.164
+  },
+  "O1d": {
+   "logscore": 0.8326,
+   "ivmse": 0.1534,
+   "cov95": 1.0,
+   "cov80": 0.828,
+   "mean_sd": 0.481
+  },
+  "O1a_minus_M1": {
+   "diff": -0.0213,
+   "ci95": [
+    -0.0544,
+    0.004
+   ]
+  },
+  "O1a_minus_M0": -0.3963
+ },
+ "verdict": "INCONCLUSIVE",
+ "S_loto": {
+  "label": "LOTO, all subset, LN+SLE",
+  "n_trials": 60,
+  "n_arms": 109,
+  "M0": {
+   "logscore": 1.0477,
+   "ivmse": 0.2178,
+   "cov95": 0.881,
+   "cov80": 0.706,
+   "mean_sd": 0.207
+  },
+  "M1": {
+   "logscore": 0.6985,
+   "ivmse": 0.1267,
+   "cov95": 0.936,
+   "cov80": 0.789,
+   "mean_sd": 0.207
+  },
+  "O1a": {
+   "logscore": 0.699,
+   "ivmse": 0.1278,
+   "cov95": 0.945,
+   "cov80": 0.789,
+   "mean_sd": 0.215
+  },
+  "O1b": {
+   "logscore": 0.7001,
+   "ivmse": 0.1277,
+   "cov95": 0.945,
+   "cov80": 0.789,
+   "mean_sd": 0.221
+  },
+  "O1c": {
+   "logscore": 0.6952,
+   "ivmse": 0.1276,
+   "cov95": 0.945,
+   "cov80": 0.789,
+   "mean_sd": 0.217
+  },
+  "O1d": {
+   "logscore": 0.7198,
+   "ivmse": 0.1292,
+   "cov95": 1.0,
+   "cov80": 0.872,
+   "mean_sd": 0.503
+  },
+  "O1a_minus_M1": {
+   "diff": 0.0005,
+   "ci95": [
+    -0.0231,
+    0.0203
+   ]
+  },
+  "O1a_minus_M0": -0.3487,
+  "verdict_by_rule_descriptive": "INCONCLUSIVE"
+ },
+ "S_LN": {
+  "label": "time-forward LN only",
+  "n_trials": 15,
+  "n_arms": 22,
+  "M0": {
+   "logscore": 1.487,
+   "ivmse": 0.4267,
+   "cov95": 0.818,
+   "cov80": 0.591,
+   "mean_sd": 0.205
+  },
+  "M1": {
+   "logscore": 1.1029,
+   "ivmse": 0.3266,
+   "cov95": 0.864,
+   "cov80": 0.636,
+   "mean_sd": 0.205
+  },
+  "O1a": {
+   "logscore": 1.0519,
+   "ivmse": 0.3198,
+   "cov95": 0.909,
+   "cov80": 0.682,
+   "mean_sd": 0.233
+  },
+  "O1b": {
+   "logscore": 1.0198,
+   "ivmse": 0.3226,
+   "cov95": 0.864,
+   "cov80": 0.682,
+   "mean_sd": 0.293
+  },
+  "O1c": {
+   "logscore": 1.0234,
+   "ivmse": 0.3231,
+   "cov95": 0.864,
+   "cov80": 0.682,
+   "mean_sd": 0.282
+  },
+  "O1d": {
+   "logscore": 1.0789,
+   "ivmse": 0.3292,
+   "cov95": 1.0,
+   "cov80": 0.727,
+   "mean_sd": 0.507
+  },
+  "O1a_minus_M1": {
+   "diff": -0.051,
+   "ci95": [
+    -0.1499,
+    0.0253
+   ]
+  },
+  "O1a_minus_M0": -0.4351
+ },
+ "S_SLE": {
+  "label": "time-forward SLE only",
+  "n_trials": 35,
+  "n_arms": 71,
+  "M0": {
+   "logscore": 1.123,
+   "ivmse": 0.1899,
+   "cov95": 0.859,
+   "cov80": 0.69,
+   "mean_sd": 0.069
+  },
+  "M1": {
+   "logscore": 0.7519,
+   "ivmse": 0.1323,
+   "cov95": 0.901,
+   "cov80": 0.718,
+   "mean_sd": 0.069
+  },
+  "O1a": {
+   "logscore": 0.7434,
+   "ivmse": 0.1327,
+   "cov95": 0.915,
+   "cov80": 0.718,
+   "mean_sd": 0.078
+  },
+  "O1b": {
+   "logscore": 0.7402,
+   "ivmse": 0.1325,
+   "cov95": 0.915,
+   "cov80": 0.718,
+   "mean_sd": 0.11
+  },
+  "O1c": {
+   "logscore": 0.7283,
+   "ivmse": 0.1324,
+   "cov95": 0.915,
+   "cov80": 0.732,
+   "mean_sd": 0.127
+  },
+  "O1d": {
+   "logscore": 0.7271,
+   "ivmse": 0.1235,
+   "cov95": 1.0,
+   "cov80": 0.859,
+   "mean_sd": 0.472
+  },
+  "O1a_minus_M1": {
+   "diff": -0.0085,
+   "ci95": [
+    -0.0235,
+    0.0057
+   ]
+  },
+  "O1a_minus_M0": -0.3796
+ },
+ "O1a_df_range": [
+  5,
+  77
+ ],
+ "run_utc": "2026-11-27T06:25:30Z",
+ "git_head": "815ea38",
+ "prereg_commit": "4e8975a 2026-11-27T04:15:47+00:00"
+}
