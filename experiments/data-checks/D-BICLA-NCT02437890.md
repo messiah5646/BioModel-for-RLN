@@ -22,5 +22,5 @@ Side note: the separate primary-endpoint record (wk24 only, MCP-Mod analysis) gi
 from the wk24 class above (different analysis set/imputation); the table consistently uses the two-visit measure.
 
 Decision: keep bicla_table.csv unchanged (md5 99eb279e). No rebuild; W1-SLE frozen BICLA forecasts unaffected.
-Label: Established that the table matches the registry (n 1 trial, 10 arm-visit rows); Hypothetical that the registry wk48 rows
+Label: Verified: table matches registry (10/10 rows) (a data check, not an evidence label; was "Established (n 1 trial)", corrected in round 157, reviewer R-20261127-1c); Hypothetical that the registry wk48 rows
 are a sponsor copy (no open source can test it).

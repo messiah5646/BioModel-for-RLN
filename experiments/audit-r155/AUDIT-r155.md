@@ -61,3 +61,13 @@ phase-3 coverage of 0.75, n 14 trials).
 ## Verdict
 **PASS on code; two label wordings corrected (r151, r154), no verdict changes.** O1 INCONCLUSIVE, O3 INCONCLUSIVE,
 O2 FAIL stand, and so do their rule-8 settlements. Preprint v0.2.0 gets three §3.1 rows. Branch rounds-70-72 is ready to merge.
+
+## Post-audit correction (round 157, reviewer R-20261127-1)
+- The line "r152 labels are correct" above was wrong on wording: r152's title and Supported line claimed a direction
+  ("not over-optimistic"; "a phase shift makes forecasts slightly worse") that an INCONCLUSIVE test (P1 1.04x M1, no CI)
+  does not show. Corrected to "Supported (n 50 trials, 12b-timed): a phase term does not improve the forecast by the
+  pre-registered margin; direction not shown; no evidence of phase-2 optimism in SLE (+0.10, CI -0.02 to 0.22, n 40;
+  Emerging); LN uninformative (+0.03, CI -0.27 to 0.32, n 20)". Phase-3 coverage 0.75: post hoc, arm-level, n 14 trials.
+- Corrections 1 and 2 above were reported as applied but had reached only the preprint and where-this-stands; they are
+  now written into the round-151 and round-154 project docs as correction boxes.
+- No verdict, rule-8 or number changes.
