@@ -1,0 +1,160 @@
+{
+ "note": "Descriptive prospective record per PREREG-O3 s11; no outcomes read; PREREG-W1-SLE unchanged",
+ "forecasts": {
+  "NCT05039840": {
+   "trial": "frexalimab APATURA ph2",
+   "table": "sle/sri4_table.csv",
+   "catalogue_phase": "PHASE2",
+   "ph3": 0,
+   "fallback": false,
+   "M1_frozen": [
+    0.313,
+    0.17
+   ],
+   "P1": {
+    "mean": 0.257,
+    "sd": 0.174,
+    "logOR_95": [
+     -0.083,
+     0.597
+    ]
+   }
+  },
+  "NCT06559163": {
+   "trial": "obexelimab SunStone ph2",
+   "table": "sle/bicla_table.csv",
+   "catalogue_phase": "PHASE2",
+   "ph3": 0,
+   "fallback": false,
+   "M1_frozen": [
+    0.259,
+    0.237
+   ],
+   "P1": {
+    "mean": 0.17,
+    "sd": 0.238,
+    "logOR_95": [
+     -0.298,
+     0.637
+    ]
+   }
+  },
+  "NCT05672576": {
+   "trial": "cenerimod OPUS-1 ph3",
+   "table": "sle/sri4_table.csv",
+   "catalogue_phase": "PHASE3",
+   "ph3": 1,
+   "fallback": false,
+   "M1_frozen": [
+    0.313,
+    0.17
+   ],
+   "P1": {
+    "mean": 0.358,
+    "sd": 0.173,
+    "logOR_95": [
+     0.019,
+     0.696
+    ]
+   }
+  },
+  "NCT05648500": {
+   "trial": "cenerimod OPUS-2 ph3",
+   "table": "sle/sri4_table.csv",
+   "catalogue_phase": "PHASE3",
+   "ph3": 1,
+   "fallback": false,
+   "M1_frozen": [
+    0.313,
+    0.17
+   ],
+   "P1": {
+    "mean": 0.358,
+    "sd": 0.173,
+    "logOR_95": [
+     0.019,
+     0.696
+    ]
+   }
+  },
+  "NCT05843643": {
+   "trial": "upadacitinib SELECT-SLE ph3",
+   "table": "sle/bicla_table.csv",
+   "catalogue_phase": "PHASE3",
+   "ph3": 1,
+   "fallback": false,
+   "M1_frozen": [
+    0.259,
+    0.237
+   ],
+   "P1": {
+    "mean": 0.591,
+    "sd": 0.255,
+    "logOR_95": [
+     0.091,
+     1.092
+    ]
+   }
+  },
+  "NCT05639114": {
+   "trial": "ianalumab SIRIUS-SLE 1 ph3",
+   "table": "sle/sri4_table.csv",
+   "catalogue_phase": "PHASE3",
+   "ph3": 1,
+   "fallback": false,
+   "M1_frozen": [
+    0.313,
+    0.17
+   ],
+   "P1": {
+    "mean": 0.358,
+    "sd": 0.173,
+    "logOR_95": [
+     0.019,
+     0.696
+    ]
+   }
+  },
+  "NCT05624749": {
+   "trial": "ianalumab SIRIUS-SLE 2 ph3",
+   "table": "sle/sri4_table.csv",
+   "catalogue_phase": "PHASE3",
+   "ph3": 1,
+   "fallback": false,
+   "M1_frozen": [
+    0.313,
+    0.17
+   ],
+   "P1": {
+    "mean": 0.358,
+    "sd": 0.173,
+    "logOR_95": [
+     0.019,
+     0.696
+    ]
+   }
+  },
+  "NCT06015230": {
+   "trial": "GR1603 ph1b/2",
+   "table": "sle/bicla_table.csv",
+   "catalogue_phase": "PHASE1/PHASE2",
+   "ph3": 0,
+   "fallback": false,
+   "M1_frozen": [
+    0.259,
+    0.237
+   ],
+   "P1": {
+    "mean": 0.17,
+    "sd": 0.238,
+    "logOR_95": [
+     -0.298,
+     0.637
+    ]
+   }
+  }
+ },
+ "run_utc": "2026-11-27T07:26:14Z",
+ "git_head": "fb692ae",
+ "prereg_commit": "05328df 2026-11-27T04:26:01+00:00"
+}

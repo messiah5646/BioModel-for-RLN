@@ -1,0 +1,317 @@
+{
+ "prereg": "experiments/lumen-v3/PREREG-O3.md",
+ "prereg_commit": "05328df 2026-11-27T04:26:01+00:00",
+ "md5_verify": {
+  "experiments/lumen-bench/lumen_forecast.py": true,
+  "experiments/lumen-bench/resp_table.csv": true,
+  "experiments/lumen-bench/resp_table_plus_pub.csv": true,
+  "experiments/lumen-bench/sle/sri4_table.csv": true,
+  "experiments/lumen-bench/sle/bicla_table.csv": true
+ },
+ "primary": {
+  "label": "time-forward, all subset, LN+SLE, IV-MSE",
+  "n_arms": 93,
+  "n_trials": 50,
+  "n_trials_no_fallback": 47,
+  "n_ph3_trials_no_fallback": 14,
+  "n_ph2_trials_no_fallback": 33,
+  "M0": {
+   "ivmse": 0.2244,
+   "logscore": 1.0084,
+   "cov95": 0.849
+  },
+  "M1": {
+   "ivmse": 0.1606,
+   "logscore": 0.7319,
+   "cov95": 0.892
+  },
+  "P1": {
+   "ivmse": 0.1674,
+   "logscore": 0.7515,
+   "cov95": 0.871
+  },
+  "P1RE": {
+   "ivmse": 0.1667,
+   "logscore": 0.7453,
+   "cov95": 0.871
+  },
+  "gate": {
+   "verdict": "INCONCLUSIVE",
+   "reasons": [
+    "does not clear the margin over the reference"
+   ]
+  },
+  "P1_over_M1": 1.042
+ },
+ "verdict": "INCONCLUSIVE",
+ "S_a_loto": {
+  "label": "LOTO",
+  "n_arms": 109,
+  "n_trials": 60,
+  "n_trials_no_fallback": 60,
+  "n_ph3_trials_no_fallback": 21,
+  "n_ph2_trials_no_fallback": 39,
+  "M0": {
+   "ivmse": 0.2178,
+   "logscore": 0.8877,
+   "cov95": 0.881
+  },
+  "M1": {
+   "ivmse": 0.1267,
+   "logscore": 0.6029,
+   "cov95": 0.936
+  },
+  "P1": {
+   "ivmse": 0.1345,
+   "logscore": 0.6254,
+   "cov95": 0.917
+  },
+  "P1RE": {
+   "ivmse": 0.1351,
+   "logscore": 0.6232,
+   "cov95": 0.927
+  },
+  "gate": {
+   "verdict": "INCONCLUSIVE",
+   "reasons": [
+    "does not clear the margin over the reference"
+   ]
+  },
+  "P1_over_M1": 1.062,
+  "verdict_by_rule_descriptive": "INCONCLUSIVE"
+ },
+ "S_b_LN": {
+  "label": "time-forward LN only",
+  "n_arms": 22,
+  "n_trials": 15,
+  "n_trials_no_fallback": 14,
+  "n_ph3_trials_no_fallback": 5,
+  "n_ph2_trials_no_fallback": 9,
+  "M0": {
+   "ivmse": 0.4267,
+   "logscore": 1.4161,
+   "cov95": 0.818
+  },
+  "M1": {
+   "ivmse": 0.3266,
+   "logscore": 1.1694,
+   "cov95": 0.864
+  },
+  "P1": {
+   "ivmse": 0.3635,
+   "logscore": 1.227,
+   "cov95": 0.818
+  },
+  "P1RE": {
+   "ivmse": 0.3578,
+   "logscore": 1.2013,
+   "cov95": 0.818
+  },
+  "gate": {
+   "verdict": "FAIL",
+   "reasons": [
+    "loses to M1 by 11% (rule 2b)"
+   ]
+  },
+  "P1_over_M1": 1.113
+ },
+ "S_b_SLE": {
+  "label": "time-forward SLE only",
+  "n_arms": 71,
+  "n_trials": 35,
+  "n_trials_no_fallback": 33,
+  "n_ph3_trials_no_fallback": 9,
+  "n_ph2_trials_no_fallback": 24,
+  "M0": {
+   "ivmse": 0.1899,
+   "logscore": 0.8821,
+   "cov95": 0.859
+  },
+  "M1": {
+   "ivmse": 0.1323,
+   "logscore": 0.5964,
+   "cov95": 0.901
+  },
+  "P1": {
+   "ivmse": 0.1341,
+   "logscore": 0.6042,
+   "cov95": 0.887
+  },
+  "P1RE": {
+   "ivmse": 0.1342,
+   "logscore": 0.604,
+   "cov95": 0.887
+  },
+  "gate": {
+   "verdict": "INCONCLUSIVE",
+   "reasons": [
+    "does not clear the margin over the reference"
+   ]
+  },
+  "P1_over_M1": 1.014
+ },
+ "S_c_ph23_as_ph2": {
+  "label": "time-forward, PHASE2/PHASE3 recoded as phase 2",
+  "n_arms": 93,
+  "n_trials": 50,
+  "n_trials_no_fallback": 45,
+  "n_ph3_trials_no_fallback": 13,
+  "n_ph2_trials_no_fallback": 32,
+  "M0": {
+   "ivmse": 0.2244,
+   "logscore": 1.0084,
+   "cov95": 0.849
+  },
+  "M1": {
+   "ivmse": 0.1606,
+   "logscore": 0.7319,
+   "cov95": 0.892
+  },
+  "P1": {
+   "ivmse": 0.1661,
+   "logscore": 0.7472,
+   "cov95": 0.871
+  },
+  "P1RE": {
+   "ivmse": 0.1656,
+   "logscore": 0.7414,
+   "cov95": 0.871
+  },
+  "gate": {
+   "verdict": "INCONCLUSIVE",
+   "reasons": [
+    "does not clear the margin over the reference"
+   ]
+  },
+  "P1_over_M1": 1.034
+ },
+ "S_f_full_fit": {
+  "LN": {
+   "n_arms": 29,
+   "n_trials": 20,
+   "n_ph3_trials": 8,
+   "tau2_DL": 0.0892,
+   "FE_weights": {
+    "intercept_ph2": 0.302,
+    "b_ph3_minus_ph2": 0.027,
+    "ci95": [
+     -0.265,
+     0.319
+    ]
+   },
+   "RE_weights": {
+    "intercept_ph2": 0.235,
+    "b_ph3_minus_ph2": 0.036,
+    "ci95": [
+     -0.351,
+     0.424
+    ]
+   }
+  },
+  "SLE": {
+   "n_arms": 80,
+   "n_trials": 40,
+   "n_ph3_trials": 13,
+   "tau2_DL": 0.0281,
+   "FE_weights": {
+    "intercept_ph2": 0.257,
+    "b_ph3_minus_ph2": 0.101,
+    "ci95": [
+     -0.019,
+     0.22
+    ]
+   },
+   "RE_weights": {
+    "intercept_ph2": 0.246,
+    "b_ph3_minus_ph2": 0.118,
+    "ci95": [
+     -0.031,
+     0.267
+    ]
+   }
+  }
+ },
+ "S_g_by_heldout_phase": {
+  "ph2": {
+   "label": "held-out phase-2 arms, no fallback",
+   "n_arms": 68,
+   "n_trials": 33,
+   "n_trials_no_fallback": 33,
+   "n_ph3_trials_no_fallback": 0,
+   "n_ph2_trials_no_fallback": 33,
+   "M0": {
+    "ivmse": 0.2219,
+    "logscore": 0.833,
+    "cov95": 0.912
+   },
+   "M1": {
+    "ivmse": 0.1883,
+    "logscore": 0.7293,
+    "cov95": 0.926
+   },
+   "P1": {
+    "ivmse": 0.1989,
+    "logscore": 0.7512,
+    "cov95": 0.912
+   },
+   "P1RE": {
+    "ivmse": 0.1971,
+    "logscore": 0.7452,
+    "cov95": 0.912
+   },
+   "gate": {
+    "verdict": "INCONCLUSIVE",
+    "reasons": [
+     "does not clear the margin over the reference"
+    ]
+   },
+   "P1_over_M1": 1.056
+  },
+  "ph3": {
+   "label": "held-out phase-3 arms, no fallback",
+   "n_arms": 20,
+   "n_trials": 14,
+   "n_trials_no_fallback": 14,
+   "n_ph3_trials_no_fallback": 14,
+   "n_ph2_trials_no_fallback": 0,
+   "M0": {
+    "ivmse": 0.2253,
+    "logscore": 1.6319,
+    "cov95": 0.6
+   },
+   "M1": {
+    "ivmse": 0.1412,
+    "logscore": 0.8667,
+    "cov95": 0.75
+   },
+   "P1": {
+    "ivmse": 0.1449,
+    "logscore": 0.8831,
+    "cov95": 0.7
+   },
+   "P1RE": {
+    "ivmse": 0.1453,
+    "logscore": 0.8745,
+    "cov95": 0.7
+   },
+   "gate": {
+    "verdict": "INCONCLUSIVE",
+    "reasons": [
+     "does not clear the margin over the reference"
+    ]
+   },
+   "P1_over_M1": 1.026
+  }
+ },
+ "fallback_trials_tf": [
+  "ADDRESS-II",
+  "CALIBRATE",
+  "PF-04236921-ph2"
+ ],
+ "b_train_range_tf": [
+  -0.356,
+  0.082
+ ],
+ "run_utc": "2026-11-27T07:26:14Z",
+ "git_head": "fb692ae"
+}
