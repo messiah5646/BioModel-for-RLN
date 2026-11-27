@@ -1,3 +1,5 @@
+> **SUPERSEDED (2026-11-27).** Canonical design: `docs/SYSTEM-DESIGN-v3.md` (and `claude/SYSTEM-DESIGN-v3.md` in the project). Kept for history.
+
 > **RETIRED COPY — DO NOT EDIT.**
 > The canonical version of this document lives in the claude.ai Project ("Bio induced JEPA"),
 > at `claude/system-design.md`. Round 59 (D9) found these two trees had already diverged:
