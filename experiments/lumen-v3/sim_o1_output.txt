@@ -1,0 +1,12 @@
+# python3 -I experiments/lumen-v3/sim_o1.py  (seed 0, 300 reps per cell, Monte Carlo SE ~0.012)
+# k = trials in the pool, tau = true between-trial SD of log OR, true mean 0.3, se_i ~ U(0.15, 0.6)
+# value = share of NEW-trial observed log ORs inside the 95% predictive interval (nominal 0.95)
+5 0.1 {'M1_shipped_DL_fixed_z': 0.967, 'REML_RE_t': 1.0, 'Bayes_HN0.5': 0.993, 'Bayes_Turner_general': 0.993}
+5 0.3 {'M1_shipped_DL_fixed_z': 0.92, 'REML_RE_t': 0.99, 'Bayes_HN0.5': 0.967, 'Bayes_Turner_general': 0.957}
+5 0.6 {'M1_shipped_DL_fixed_z': 0.837, 'REML_RE_t': 0.95, 'Bayes_HN0.5': 0.88, 'Bayes_Turner_general': 0.87}
+10 0.1 {'M1_shipped_DL_fixed_z': 0.953, 'REML_RE_t': 0.977, 'Bayes_HN0.5': 0.98, 'Bayes_Turner_general': 0.977}
+10 0.3 {'M1_shipped_DL_fixed_z': 0.927, 'REML_RE_t': 0.95, 'Bayes_HN0.5': 0.947, 'Bayes_Turner_general': 0.94}
+10 0.6 {'M1_shipped_DL_fixed_z': 0.91, 'REML_RE_t': 0.94, 'Bayes_HN0.5': 0.927, 'Bayes_Turner_general': 0.92}
+20 0.1 {'M1_shipped_DL_fixed_z': 0.95, 'REML_RE_t': 0.967, 'Bayes_HN0.5': 0.953, 'Bayes_Turner_general': 0.96}
+20 0.3 {'M1_shipped_DL_fixed_z': 0.94, 'REML_RE_t': 0.963, 'Bayes_HN0.5': 0.953, 'Bayes_Turner_general': 0.953}
+20 0.6 {'M1_shipped_DL_fixed_z': 0.917, 'REML_RE_t': 0.947, 'Bayes_HN0.5': 0.927, 'Bayes_Turner_general': 0.92}
