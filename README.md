@@ -2,7 +2,17 @@
 
 A research codebase for a **biology world model** — a JEPA-style predictive model of biological state — used to simulate human and natural biology, fast-forward candidate experiments, and pre-screen trials *in silico* before wet-lab testing. **RLN** is the current biological anchor domain.
 
-> Status: **early scaffolding.** Structure and docs are being laid down; model and data code to follow.
+> Status (2026-11-27): **LUMEN v3.** One installable package (`lumen/`) for the lupus nephritis trial forecaster,
+> with a baselines-first gate that every module must pass before it ships. The JEPA world model is the long-term aim;
+> the first learned virtual-cell test failed (round 142). Design: [`docs/SYSTEM-DESIGN-v3.md`](docs/SYSTEM-DESIGN-v3.md).
+>
+> ```
+> pip install -e .            # then:
+> lumen status                # which modules ship, with evidence label and n
+> lumen forecast frexalimab CD40L --table sri4
+> lumen verify                # md5 of every frozen input
+> python -m pytest -q         # reproduces every frozen forecast exactly
+> ```
 
 ## Idea
 
