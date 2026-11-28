@@ -1,0 +1,1595 @@
+{
+ "_meta": {
+  "prereg": "experiments/lumen-v3/PREREG-REC1.md",
+  "item": "REC1",
+  "round": 166,
+  "event": "P(observed late log OR > 0), per active arm vs its own control; unit = trial",
+  "fit": {
+   "w_mixture": 0.26,
+   "T_temperature_descriptive": 1.58,
+   "fit_data": "experiments/lumen-v3/cal1_units.csv",
+   "fit_md5": "6243f7969c75b7fd66e6bfee39a8ec3d",
+   "n_arms": 93,
+   "n_trials": 50,
+   "note": "fit only; no competitor scored on historical trials (rule 8)"
+  },
+  "van_zwet": {
+   "weights": [
+    0.32,
+    0.31,
+    0.3,
+    0.07
+   ],
+   "snr_sd": [
+    0.61,
+    1.42,
+    2.16,
+    5.64
+   ],
+   "source": "van Zwet, Schwab & Senn 2021 Stat Med Table 1, doi 10.1002/sim.9173"
+  },
+  "p0_nominal_control_rate": {
+   "bicla": {
+    "median": 0.3288,
+    "n_trials": 26
+   },
+   "ln": {
+    "median": 0.3058,
+    "n_trials": 20
+   },
+   "sri4": {
+    "median": 0.4234,
+    "n_trials": 40
+   }
+  },
+  "lumen_forecast_md5": "2c11b9a5aba5c047c0817140c7d5cbe6",
+  "tables_md5": {
+   "bicla": "99eb279e207302973fef6899f0e86722",
+   "ln": "3ce67bdb51c6597bce6666d914618778",
+   "sri4": "b37dd7cd72c9e912ba079088532c3765"
+  },
+  "uncertainty_sources": {
+   "P1": "between-trial tau + anticipated sampling",
+   "P_a": "between-trial tau + anticipated sampling",
+   "P_c": "between-trial tau + anticipated sampling",
+   "P_b": "between-trial tau + anticipated sampling + Cochrane SNR prior",
+   "B": "none (base rate)"
+  },
+  "excluded": [],
+  "exclusion_screen": "experiments/lumen-bench/prospective/rec1/topline_screen_2026-11-28.md",
+  "sources_manifest": "experiments/lumen-bench/prospective/rec1/sources/MANIFEST.tsv",
+  "frozen_utc": "2026-11-28T10:25:57Z",
+  "git_head": "441ceac",
+  "prereg_commit": "6f95104 2026-11-28T08:32:25+00:00"
+ },
+ "NCT05138133": {
+  "trial": "IRIS anifrolumab ph3",
+  "molecule": "anifrolumab",
+  "target": "IFNAR",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 363,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 181.5,
+  "se_ant": 0.2223,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "molecule",
+  "M3_cf": {
+   "logOR": 0.182,
+   "v": 0.1369
+  },
+  "P1": 0.8,
+  "P_a": 0.722,
+  "P_b": 0.7015,
+  "P_c": 0.6634,
+  "P_cf_member": 0.6634,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.7029,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.0634,
+    0.5746
+   ],
+   "a_50": [
+    -0.0281,
+    0.483
+   ],
+   "b_50": [
+    -0.0457,
+    0.3913
+   ],
+   "P1_and_c_member_95": [
+    -0.4238,
+    1.0618
+   ],
+   "a_95": [
+    -0.4284,
+    1.0118
+   ],
+   "b_95": [
+    -0.4447,
+    0.8482
+   ]
+  }
+ },
+ "NCT06406205": {
+  "trial": "QLG1074 (voclosporin) ph3 China",
+  "molecule": "voclosporin",
+  "target": "calcineurin",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 270,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Placebo Oral Capsule"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 135.0,
+  "se_ant": 0.2577,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "molecule",
+  "M3_cf": {
+   "logOR": 0.761,
+   "v": 0.110224
+  },
+  "P1": 0.7869,
+  "P_a": 0.7123,
+  "P_b": 0.6884,
+  "P_c": 0.7869,
+  "P_cf_member": 0.9649,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6928,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.0486,
+    0.5894
+   ],
+   "a_50": [
+    -0.0412,
+    0.4971
+   ],
+   "b_50": [
+    -0.0625,
+    0.4093
+   ],
+   "P1_and_c_member_95": [
+    -0.4666,
+    1.1046
+   ],
+   "a_95": [
+    -0.4813,
+    1.0517
+   ],
+   "b_95": [
+    -0.4965,
+    0.893
+   ]
+  }
+ },
+ "NCT05039619": {
+  "trial": "obinutuzumab paediatric ph2",
+  "molecule": "obinutuzumab",
+  "target": "CD20",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 40,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 3,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 13.33,
+  "se_ant": 0.82,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "molecule",
+  "M3_cf": {
+   "logOR": 0.489,
+   "v": 0.119025
+  },
+  "P1": 0.6422,
+  "P_a": 0.6052,
+  "P_b": 0.5816,
+  "P_c": 0.6422,
+  "P_cf_member": 0.7087,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.5912,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.2716,
+    0.9096
+   ],
+   "a_50": [
+    -0.3545,
+    0.8231
+   ],
+   "b_50": [
+    -0.3998,
+    0.7531
+   ],
+   "P1_and_c_member_95": [
+    -1.3972,
+    2.0352
+   ],
+   "a_95": [
+    -1.4653,
+    1.9559
+   ],
+   "b_95": [
+    -1.495,
+    1.8564
+   ]
+  }
+ },
+ "NCT07044115": {
+  "trial": "MIL62 (anti-CD20) ph1/2",
+  "molecule": "MIL62",
+  "target": "CD20",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 41,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 20.5,
+  "se_ant": 0.6613,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "target",
+  "M3_cf": null,
+  "P1": 0.6691,
+  "P_a": 0.6252,
+  "P_b": 0.5986,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6091,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.1728,
+    0.8108
+   ],
+   "a_50": [
+    -0.2561,
+    0.7232
+   ],
+   "b_50": [
+    -0.2983,
+    0.651
+   ],
+   "P1_and_c_member_95": [
+    -1.1101,
+    1.7481
+   ],
+   "a_95": [
+    -1.1726,
+    1.6718
+   ],
+   "b_95": [
+    -1.1979,
+    1.5626
+   ]
+  }
+ },
+ "NCT05126277": {
+  "trial": "SIRIUS-LN ianalumab ph3",
+  "molecule": "ianalumab",
+  "target": "BAFF-R",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 452,
+   "type": "ACTUAL"
+  },
+  "n_arms": 3,
+  "control_arms": [
+   "Arm 3 - placebo s.c. q4w"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 150.67,
+  "se_ant": 0.2439,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.792,
+  "P_a": 0.7161,
+  "P_b": 0.6934,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6967,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.0545,
+    0.5835
+   ],
+   "a_50": [
+    -0.0359,
+    0.4914
+   ],
+   "b_50": [
+    -0.0558,
+    0.4022
+   ],
+   "P1_and_c_member_95": [
+    -0.4495,
+    1.0875
+   ],
+   "a_95": [
+    -0.4605,
+    1.0358
+   ],
+   "b_95": [
+    -0.476,
+    0.8751
+   ]
+  }
+ },
+ "NCT05201469": {
+  "trial": "VIBRANT dazodalibep (VIB4920) ph2",
+  "molecule": "dazodalibep",
+  "target": "CD40L",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 74,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "VIB4920 Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 37.0,
+  "se_ant": 0.4923,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.7088,
+  "P_a": 0.6545,
+  "P_b": 0.6252,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6361,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.0723,
+    0.7103
+   ],
+   "a_50": [
+    -0.1568,
+    0.6208
+   ],
+   "b_50": [
+    -0.1936,
+    0.545
+   ],
+   "P1_and_c_member_95": [
+    -0.8181,
+    1.4561
+   ],
+   "a_95": [
+    -0.8699,
+    1.3861
+   ],
+   "b_95": [
+    -0.8897,
+    1.2611
+   ]
+  }
+ },
+ "NCT04643470": {
+  "trial": "zanubrutinib ph2",
+  "molecule": "zanubrutinib",
+  "target": "BTK",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 177,
+   "type": "ACTUAL"
+  },
+  "n_arms": 4,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 44.25,
+  "se_ant": 0.4501,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.7209,
+  "P_a": 0.6635,
+  "P_b": 0.6338,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6445,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.0485,
+    0.6865
+   ],
+   "a_50": [
+    -0.1335,
+    0.5964
+   ],
+   "b_50": [
+    -0.1684,
+    0.5193
+   ],
+   "P1_and_c_member_95": [
+    -0.7489,
+    1.3869
+   ],
+   "a_95": [
+    -0.7967,
+    1.3193
+   ],
+   "b_95": [
+    -0.8151,
+    1.1891
+   ]
+  }
+ },
+ "NCT05810948": {
+  "trial": "efgartigimod ph2",
+  "molecule": "efgartigimod",
+  "target": "FcRn",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 73,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 36.5,
+  "se_ant": 0.4956,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.7079,
+  "P_a": 0.6538,
+  "P_b": 0.6245,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6354,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.0742,
+    0.7122
+   ],
+   "a_50": [
+    -0.1587,
+    0.6228
+   ],
+   "b_50": [
+    -0.1956,
+    0.547
+   ],
+   "P1_and_c_member_95": [
+    -0.8237,
+    1.4617
+   ],
+   "a_95": [
+    -0.8758,
+    1.3916
+   ],
+   "b_95": [
+    -0.8957,
+    1.2669
+   ]
+  }
+ },
+ "NCT05268289": {
+  "trial": "iptacopan ph2 (terminated)",
+  "molecule": "iptacopan",
+  "target": "factor B",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 81,
+   "type": "ACTUAL"
+  },
+  "n_arms": 5,
+  "control_arms": [
+   "Iptacopan + standard of care (part 1)",
+   "Placebo matching iptacopan + standard of care (part 1)",
+   "Iptacopan + standard of care (part 2)",
+   "Iptacopan + placebo (part 2)",
+   "Placebo matching iptacopan + standard of care (part 2)"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 16.2,
+  "se_ant": 0.744,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.6541,
+  "P_a": 0.614,
+  "P_b": 0.589,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.599,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.2238,
+    0.8618
+   ],
+   "a_50": [
+    -0.3069,
+    0.7749
+   ],
+   "b_50": [
+    -0.3509,
+    0.7039
+   ],
+   "P1_and_c_member_95": [
+    -1.2584,
+    1.8964
+   ],
+   "a_95": [
+    -1.3242,
+    1.8183
+   ],
+   "b_95": [
+    -1.3519,
+    1.7147
+   ]
+  }
+ },
+ "NCT07363460": {
+  "trial": "HSK39297 ph2",
+  "molecule": "HSK39297",
+  "target": "unknown",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 105,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 3,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 35.0,
+  "se_ant": 0.5061,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.705,
+  "P_a": 0.6517,
+  "P_b": 0.6225,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6335,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.0803,
+    0.7183
+   ],
+   "a_50": [
+    -0.1646,
+    0.629
+   ],
+   "b_50": [
+    -0.2019,
+    0.5535
+   ],
+   "P1_and_c_member_95": [
+    -0.8412,
+    1.4792
+   ],
+   "a_95": [
+    -0.8942,
+    1.4086
+   ],
+   "b_95": [
+    -0.9145,
+    1.2852
+   ]
+  }
+ },
+ "NCT07229742": {
+  "trial": "SHR-2173 ph2",
+  "molecule": "SHR-2173",
+  "target": "unknown",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 51,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "SHR-2173 Injection Placebo Group"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 25.5,
+  "se_ant": 0.593,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.6836,
+  "P_a": 0.6359,
+  "P_b": 0.608,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6188,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.1314,
+    0.7694
+   ],
+   "a_50": [
+    -0.2151,
+    0.6811
+   ],
+   "b_50": [
+    -0.2554,
+    0.6076
+   ],
+   "P1_and_c_member_95": [
+    -0.9897,
+    1.6277
+   ],
+   "a_95": [
+    -1.0487,
+    1.5535
+   ],
+   "b_95": [
+    -1.0719,
+    1.4388
+   ]
+  }
+ },
+ "NCT07038382": {
+  "trial": "HLX79 + HLX01 ph2",
+  "molecule": "HLX79",
+  "target": "unknown",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 24,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 3,
+  "control_arms": [],
+  "scorable_note": "no control arm in armGroups: unscorable unless the results name a comparator",
+  "n_per_arm_anticipated": 8.0,
+  "se_ant": 1.0587,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.6139,
+  "P_a": 0.5843,
+  "P_b": 0.5646,
+  "P_c": 0.6139,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.5727,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.4245,
+    1.0625
+   ],
+   "a_50": [
+    -0.507,
+    0.977
+   ],
+   "b_50": [
+    -0.5554,
+    0.9092
+   ],
+   "P1_and_c_member_95": [
+    -1.8414,
+    2.4794
+   ],
+   "a_95": [
+    -1.9142,
+    2.3978
+   ],
+   "b_95": [
+    -1.949,
+    2.3078
+   ]
+  }
+ },
+ "NCT07201129": {
+  "trial": "cenerimod ph3",
+  "molecule": "cenerimod",
+  "target": "S1P1",
+  "source_freeze": "W1-LN (CRR, PREREG-W1-2026-11-21)",
+  "table": "ln",
+  "enrollment": {
+   "count": 300,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Matching placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 150.0,
+  "se_ant": 0.2445,
+  "M1": 0.319,
+  "v": 0.094249,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.7918,
+  "P_a": 0.716,
+  "P_b": 0.6932,
+  "P_c": 0.62,
+  "P_cf_member": 0.62,
+  "B": 0.62,
+  "D_legacy_latent": 0.8506,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6965,
+  "vz_posterior": {
+   "z": 1.0391,
+   "q": [
+    0.4006,
+    0.3243,
+    0.249,
+    0.0261
+   ],
+   "m": [
+    0.2818,
+    0.6946,
+    0.8557,
+    1.0074
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.0543,
+    0.5837
+   ],
+   "a_50": [
+    -0.0361,
+    0.4916
+   ],
+   "b_50": [
+    -0.0561,
+    0.4025
+   ],
+   "P1_and_c_member_95": [
+    -0.4502,
+    1.0882
+   ],
+   "a_95": [
+    -0.4613,
+    1.0364
+   ],
+   "b_95": [
+    -0.4768,
+    0.8758
+   ]
+  }
+ },
+ "NCT05039840": {
+  "trial": "frexalimab APATURA ph2",
+  "molecule": "frexalimab",
+  "target": "CD40L",
+  "source_freeze": "W1-SLE (SRI-4 wk 24, PREREG-W1-SLE)",
+  "table": "sri4",
+  "enrollment": {
+   "count": 109,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 54.5,
+  "se_ant": 0.3854,
+  "M1": 0.313,
+  "v": 0.0289,
+  "anchor_M3": "target",
+  "M3_cf": null,
+  "P1": 0.7713,
+  "P_a": 0.7007,
+  "P_b": 0.6797,
+  "P_c": 0.74,
+  "P_cf_member": 0.74,
+  "B": 0.74,
+  "D_legacy_latent": 0.9672,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6809,
+  "vz_posterior": {
+   "z": 1.8412,
+   "q": [
+    0.2775,
+    0.3555,
+    0.3265,
+    0.0405
+   ],
+   "m": [
+    0.4993,
+    1.2308,
+    1.5162,
+    1.7851
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.0289,
+    0.5971
+   ],
+   "a_50": [
+    -0.0641,
+    0.525
+   ],
+   "b_50": [
+    -0.0858,
+    0.4733
+   ],
+   "P1_and_c_member_95": [
+    -0.5126,
+    1.1386
+   ],
+   "a_95": [
+    -0.612,
+    1.0878
+   ],
+   "b_95": [
+    -0.6143,
+    1.0099
+   ]
+  }
+ },
+ "NCT06559163": {
+  "trial": "obexelimab SunStone ph2",
+  "molecule": "obexelimab",
+  "target": "CD19/FcgRIIb",
+  "source_freeze": "W1-SLE (BICLA wk 24, PREREG-W1-SLE)",
+  "table": "bicla",
+  "enrollment": {
+   "count": 190,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 95.0,
+  "se_ant": 0.3033,
+  "M1": 0.259,
+  "v": 0.056169,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.7495,
+  "P_a": 0.6846,
+  "P_b": 0.6551,
+  "P_c": 0.66,
+  "P_cf_member": 0.66,
+  "B": 0.66,
+  "D_legacy_latent": 0.8628,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6649,
+  "vz_posterior": {
+   "z": 1.0928,
+   "q": [
+    0.394,
+    0.3264,
+    0.2528,
+    0.0267
+   ],
+   "m": [
+    0.2964,
+    0.7305,
+    0.8999,
+    1.0595
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.0006,
+    0.5186
+   ],
+   "a_50": [
+    -0.0718,
+    0.4465
+   ],
+   "b_50": [
+    -0.0969,
+    0.383
+   ],
+   "P1_and_c_member_95": [
+    -0.4955,
+    1.0135
+   ],
+   "a_95": [
+    -0.5325,
+    0.964
+   ],
+   "b_95": [
+    -0.5458,
+    0.8547
+   ]
+  }
+ },
+ "NCT05672576": {
+  "trial": "cenerimod OPUS-1 ph3",
+  "molecule": "cenerimod",
+  "target": "S1P1",
+  "source_freeze": "W1-SLE (SRI-4 wk 52, PREREG-W1-SLE)",
+  "table": "sri4",
+  "enrollment": {
+   "count": 451,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 225.5,
+  "se_ant": 0.1895,
+  "M1": 0.313,
+  "v": 0.0289,
+  "anchor_M3": "molecule",
+  "M3_cf": {
+   "logOR": 0.28,
+   "v": 0.040804
+  },
+  "P1": 0.8906,
+  "P_a": 0.789,
+  "P_b": 0.7864,
+  "P_c": 0.844,
+  "P_cf_member": 0.844,
+  "B": 0.74,
+  "D_legacy_latent": 0.9672,
+  "C05": 0.5,
+  "P_T_descriptive": 0.7818,
+  "vz_posterior": {
+   "z": 1.8412,
+   "q": [
+    0.2775,
+    0.3555,
+    0.3265,
+    0.0405
+   ],
+   "m": [
+    0.4993,
+    1.2308,
+    1.5162,
+    1.7851
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.1413,
+    0.4847
+   ],
+   "a_50": [
+    0.0344,
+    0.4227
+   ],
+   "b_50": [
+    0.0283,
+    0.3566
+   ],
+   "P1_and_c_member_95": [
+    -0.1859,
+    0.8119
+   ],
+   "a_95": [
+    -0.2818,
+    0.7783
+   ],
+   "b_95": [
+    -0.2712,
+    0.6805
+   ]
+  }
+ },
+ "NCT05648500": {
+  "trial": "cenerimod OPUS-2 ph3",
+  "molecule": "cenerimod",
+  "target": "S1P1",
+  "source_freeze": "W1-SLE (SRI-4 wk 52, PREREG-W1-SLE)",
+  "table": "sri4",
+  "enrollment": {
+   "count": 470,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "Matching placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 235.0,
+  "se_ant": 0.1856,
+  "M1": 0.313,
+  "v": 0.0289,
+  "anchor_M3": "molecule",
+  "M3_cf": {
+   "logOR": 0.28,
+   "v": 0.040804
+  },
+  "P1": 0.8932,
+  "P_a": 0.7909,
+  "P_b": 0.7893,
+  "P_c": 0.8463,
+  "P_cf_member": 0.8463,
+  "B": 0.74,
+  "D_legacy_latent": 0.9672,
+  "C05": 0.5,
+  "P_T_descriptive": 0.7844,
+  "vz_posterior": {
+   "z": 1.8412,
+   "q": [
+    0.2775,
+    0.3555,
+    0.3265,
+    0.0405
+   ],
+   "m": [
+    0.4993,
+    1.2308,
+    1.5162,
+    1.7851
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.1432,
+    0.4828
+   ],
+   "a_50": [
+    0.0357,
+    0.4211
+   ],
+   "b_50": [
+    0.0303,
+    0.3546
+   ],
+   "P1_and_c_member_95": [
+    -0.1803,
+    0.8063
+   ],
+   "a_95": [
+    -0.2758,
+    0.7731
+   ],
+   "b_95": [
+    -0.265,
+    0.6748
+   ]
+  }
+ },
+ "NCT05843643": {
+  "trial": "upadacitinib SELECT-SLE ph3",
+  "molecule": "upadacitinib",
+  "target": "JAK",
+  "source_freeze": "W1-SLE (BICLA wk 52, PREREG-W1-SLE)",
+  "table": "bicla",
+  "enrollment": {
+   "count": 1014,
+   "type": "ACTUAL"
+  },
+  "n_arms": 12,
+  "control_arms": [
+   "Study 1- Placebo",
+   "Study 2- Placebo"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 84.5,
+  "se_ant": 0.3216,
+  "M1": 0.259,
+  "v": 0.056169,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.7416,
+  "P_a": 0.6788,
+  "P_b": 0.649,
+  "P_c": 0.66,
+  "P_cf_member": 0.66,
+  "B": 0.66,
+  "D_legacy_latent": 0.8628,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6592,
+  "vz_posterior": {
+   "z": 1.0928,
+   "q": [
+    0.394,
+    0.3264,
+    0.2528,
+    0.0267
+   ],
+   "m": [
+    0.2964,
+    0.7305,
+    0.8999,
+    1.0595
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.0105,
+    0.5285
+   ],
+   "a_50": [
+    -0.0813,
+    0.4566
+   ],
+   "b_50": [
+    -0.1075,
+    0.3938
+   ],
+   "P1_and_c_member_95": [
+    -0.524,
+    1.042
+   ],
+   "a_95": [
+    -0.5635,
+    0.9912
+   ],
+   "b_95": [
+    -0.5772,
+    0.8845
+   ]
+  }
+ },
+ "NCT05639114": {
+  "trial": "ianalumab SIRIUS-SLE 1 ph3",
+  "molecule": "ianalumab",
+  "target": "BAFF-R",
+  "source_freeze": "W1-SLE (SRI-4 wk 60, PREREG-W1-SLE)",
+  "table": "sri4",
+  "enrollment": {
+   "count": 436,
+   "type": "ACTUAL"
+  },
+  "n_arms": 3,
+  "control_arms": [
+   "Placebo s.c. monthly"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 145.33,
+  "se_ant": 0.236,
+  "M1": 0.313,
+  "v": 0.0289,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.8591,
+  "P_a": 0.7657,
+  "P_b": 0.7539,
+  "P_c": 0.74,
+  "P_cf_member": 0.74,
+  "B": 0.74,
+  "D_legacy_latent": 0.9672,
+  "C05": 0.5,
+  "P_T_descriptive": 0.7521,
+  "vz_posterior": {
+   "z": 1.8412,
+   "q": [
+    0.2775,
+    0.3555,
+    0.3265,
+    0.0405
+   ],
+   "m": [
+    0.4993,
+    1.2308,
+    1.5162,
+    1.7851
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.1168,
+    0.5092
+   ],
+   "a_50": [
+    0.0153,
+    0.4432
+   ],
+   "b_50": [
+    0.0034,
+    0.3825
+   ],
+   "P1_and_c_member_95": [
+    -0.2571,
+    0.8831
+   ],
+   "a_95": [
+    -0.3561,
+    0.8449
+   ],
+   "b_95": [
+    -0.3482,
+    0.7522
+   ]
+  }
+ },
+ "NCT05624749": {
+  "trial": "ianalumab SIRIUS-SLE 2 ph3",
+  "molecule": "ianalumab",
+  "target": "BAFF-R",
+  "source_freeze": "W1-SLE (SRI-4 wk 60, PREREG-W1-SLE)",
+  "table": "sri4",
+  "enrollment": {
+   "count": 288,
+   "type": "ACTUAL"
+  },
+  "n_arms": 2,
+  "control_arms": [
+   "placebo s.c. monthly"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 144.0,
+  "se_ant": 0.2371,
+  "M1": 0.313,
+  "v": 0.0289,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.8583,
+  "P_a": 0.7652,
+  "P_b": 0.7532,
+  "P_c": 0.74,
+  "P_cf_member": 0.74,
+  "B": 0.74,
+  "D_legacy_latent": 0.9672,
+  "C05": 0.5,
+  "P_T_descriptive": 0.7514,
+  "vz_posterior": {
+   "z": 1.8412,
+   "q": [
+    0.2775,
+    0.3555,
+    0.3265,
+    0.0405
+   ],
+   "m": [
+    0.4993,
+    1.2308,
+    1.5162,
+    1.7851
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    0.1162,
+    0.5098
+   ],
+   "a_50": [
+    0.0148,
+    0.4437
+   ],
+   "b_50": [
+    0.0028,
+    0.3831
+   ],
+   "P1_and_c_member_95": [
+    -0.2588,
+    0.8848
+   ],
+   "a_95": [
+    -0.3579,
+    0.8465
+   ],
+   "b_95": [
+    -0.35,
+    0.7539
+   ]
+  }
+ },
+ "NCT06015230": {
+  "trial": "GR1603 ph1b/2",
+  "molecule": "GR1603",
+  "target": "unknown",
+  "source_freeze": "W1-SLE (BICLA wk 24, PREREG-W1-SLE)",
+  "table": "bicla",
+  "enrollment": {
+   "count": 136,
+   "type": "ESTIMATED"
+  },
+  "n_arms": 5,
+  "control_arms": [
+   "treatment group 5-\u2161"
+  ],
+  "scorable_note": null,
+  "n_per_arm_anticipated": 27.2,
+  "se_ant": 0.5669,
+  "M1": 0.259,
+  "v": 0.056169,
+  "anchor_M3": "none (pooled; mechanism class not used)",
+  "M3_cf": null,
+  "P1": 0.6633,
+  "P_a": 0.6209,
+  "P_b": 0.5951,
+  "P_c": 0.66,
+  "P_cf_member": 0.66,
+  "B": 0.66,
+  "D_legacy_latent": 0.8628,
+  "C05": 0.5,
+  "P_T_descriptive": 0.6052,
+  "vz_posterior": {
+   "z": 1.0928,
+   "q": [
+    0.394,
+    0.3264,
+    0.2528,
+    0.0267
+   ],
+   "m": [
+    0.2964,
+    0.7305,
+    0.8999,
+    1.0595
+   ]
+  },
+  "intervals_logOR": {
+   "P1_and_c_member_50": [
+    -0.1554,
+    0.6734
+   ],
+   "a_50": [
+    -0.2237,
+    0.6036
+   ],
+   "b_50": [
+    -0.2585,
+    0.5469
+   ],
+   "P1_and_c_member_95": [
+    -0.9453,
+    1.4633
+   ],
+   "a_95": [
+    -1.0008,
+    1.402
+   ],
+   "b_95": [
+    -1.0226,
+    1.319
+   ]
+  }
+ }
+}
