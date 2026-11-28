@@ -1,0 +1,23 @@
+nct,decision,reason
+NCT06888973,exclude,multi-disease MSC basket (RA/SSc/AS/JIA/PM-DM); SLE primary measure unspecified ('Primary Outcome Measures for Systemic lupus erythematosus'); primary completion 2025-02 passed while enrolling
+NCT07657793,exclude,SLE-associated ITP; primary = ITP platelet response not SLE disease activity / renal response
+NCT04736953,exclude,primary 'Therapeutic Benefit' undefined; NOT_YET_RECRUITING since 2021-02 (no scorable responder definition)
+NCT07332481,exclude,primary CLASI-70 (cutaneous endpoint; not SRI-4/BICLA/CRR)
+NCT07340463,exclude,belimumab OR telitacicept in one 'biologics' arm (molecule not identifiable) and biologic-vs-MMF replacement comparison (not add-on vs SoC)
+NCT06791772,eligible,CM313 SRI-4 wk24
+NCT06859931,eligible,TQB3702 SRI-4 wk24
+NCT07678203,eligible,dapagliflozin LN add-on vs SoC monitoring; KDIGO 2024 renal remission (scored as CRR)
+NCT07447986,eligible,SG301 SRI-4 ~wk25
+NCT07509892,eligible,TQH3906 SRI-4 wk32
+NCT03673748,eligible,MSC LN CRR wk24 (recruiting since 2018; may never report)
+NCT07299422,eligible,SHR-2173 SRI-4 wk24
+NCT07760155,eligible,ESG206 SRI-4 wk25
+NCT06617325,eligible,dapirolizumab pegol (DZP) phase 3 BICLA wk48
+NCT07515014,eligible,E6742 BICLA wk24
+NCT07311200,eligible,D-2570 SRI-4 wk32
+NCT05835310,eligible,anifrolumab pediatric Part B BICLA wk52
+NCT07937501,eligible,IPG11406 LN CRR wk24
+NCT07405970,eligible,MIL62 SRI-4 wk52
+NCT07438496,eligible,nipocalimab phase 3 SRI-4 wk52
+NCT06535412,eligible,IMC-002 / IMM0306S SRI-4 wk24
+NCT07409181,eligible,BI 3000202 SRI-4 wk32

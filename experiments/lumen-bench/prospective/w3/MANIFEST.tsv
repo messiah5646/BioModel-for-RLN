@@ -1,0 +1,3 @@
+fetch_utc	url	outfile	bytes	md5	http_last_modified
+2026-11-28T13:24:55Z	https://clinicaltrials.gov/api/v2/studies?query.cond=lupus&filter.overallStatus=RECRUITING|NOT_YET_RECRUITING|ENROLLING_BY_INVITATION&query.term=AREA%5BPhase%5D(PHASE2+OR+PHASE3)+AND+AREA%5BDesignAllocation%5DRANDOMIZED&pageSize=1000&format=json	ctgov_lupus_open.json	1174363	e7d63947c34445b116caba034b66046c	NA
+2026-11-28T13:24:56Z	https://clinicaltrials.gov/api/v2/studies?query.cond=lupus&filter.overallStatus=ACTIVE_NOT_RECRUITING|COMPLETED&query.term=AREA%5BPhase%5D(PHASE2+OR+PHASE3)+AND+AREA%5BDesignAllocation%5DRANDOMIZED&pageSize=1000&format=json	ctgov_lupus_closed.json	12783281	2f6f6bf23c8287bbae31f36278edf70e	NA
