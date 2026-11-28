@@ -31,7 +31,7 @@ class Module:
 REGISTRY = [
     Module("drug_effect.pooled_prior", "drug-effect", "shipped",
            "Supported, n 50 trials time-forward (LN 15, SLE 35); beats null; anchoring adds nothing (n 23 SLE trials)",
-           "116, 127, 141, 161", "arm counts (resp/sri4/bicla tables)", "log OR + 95% interval + historical base rate of log OR > 0 (P_benefit dropped, CAL1 r161)",
+           "116, 127, 141, 161", "arm counts (resp/sri4/bicla tables)", "log OR + 95% interval + historical base rate of log OR > 0, calibration not shown (time-forward analogue +0.11, 0.80 vs 0.69, CAL1 n 50; P_benefit dropped r161; r168)",
            "W1 prospective scoring (>= 5 frozen SLE trials) under PREREG-W1-SLE"),
     Module("drug_effect.anchor_molecule_target", "drug-effect", "failed",
            "anchor 31% worse than pooled, Supported n 23 trials (SLE); LN missed margin (20 trials)",

@@ -8,7 +8,8 @@ so frozen forecasts (r90, W1 LN, W1 SLE) and audits keep reproducing. This modul
   * no P_benefit: CAL1 (round 161, PREREG-CAL1 6c2dd0a) FAILED its calibration rule. The printed P_benefit averaged
     0.98 against 0.69 of held-out trials with observed log OR > 0 (time-forward, n 50 trials); the layer prints instead
     base_rate_positive, the historical share of past arms with log OR > 0 (a base rate, not a trial-specific
-    probability). The frozen core (lumen_forecast.py) and frozen forecast files still carry P_benefit; unchanged.
+    probability; calibration NOT shown: its time-forward analogue H averaged 0.80 vs 0.69 observed, +0.11, CAL1 n 50,
+    R-20261128-1 round 168). The frozen core (lumen_forecast.py) and frozen forecast files still carry P_benefit; unchanged.
 """
 from __future__ import annotations
 import importlib.util, math
@@ -76,10 +77,14 @@ def forecast(molecule: str, target: str, table_name: str = "ln", early=None, hol
         P = P[P.trial != holdout]
     out["base_rate_positive"] = {
         "value": round(float((P.lor > 0).mean()), 2), "n_arms": int(len(P)), "n_trials": int(P.trial.nunique()),
-        "label": "historical base rate, not a trial-specific probability"}
+        "label": "historical base rate, calibration not shown; in-sample share, not a trial-specific probability",
+        "calibration_note": ("in-sample share; time-forward analogue over-predicted by +0.11 "
+                             "(0.80 vs 0.69, Brier 0.226 vs P1 0.210; CAL1, n 50 trials, 12b-timed); "
+                             "only prospective check: REC1/W1 scoring (detects gaps >= 0.30 only, POW1)")}
     out["P_benefit_note"] = ("P_benefit not printed: mis-calibrated in CAL1 (round 161; printed 0.98 vs observed 0.69 "
                              "share of held-out trials with log OR > 0; gap of the predictive incl. sampling error +0.11, "
-                             "CI 0.00 to 0.23; time-forward, n 50 trials, 12b-timed)")
+                             "CI 0.00 to 0.23; time-forward, n 50 trials, 12b-timed). Neither printed probability is calibrated "
+                             "time-forward: the base_rate_positive analogue over-predicted by +0.11 (0.80 vs 0.69, CAL1, n 50)")
     if table_name == "bicla":
         out["P_benefit_note"] += "; calibration scored on LN CRR + SLE SRI-4 only"
     out["control_rate"] = "pooled, not modelled; absolute arm rates not output (round 129, RT-2 PREREG d5b5f84)"

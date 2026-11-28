@@ -54,6 +54,15 @@ def test_cal1_display_drop():
     assert "P_benefit" in de.prior("voclosporin", "calcineurin", "ln")
 
 
+def test_base_rate_calibration_note():
+    """R-20261128-1 (round 168): the base rate's own time-forward gap (CAL1 H: 0.80 vs 0.69) is printed."""
+    out = de.forecast("ianalumab", "BAFFR", "sri4")
+    br = out["base_rate_positive"]
+    assert "calibration not shown" in br["label"]
+    assert "+0.11" in br["calibration_note"] and "0.80 vs 0.69" in br["calibration_note"] and "n 50" in br["calibration_note"]
+    assert "Neither printed probability is calibrated" in out["P_benefit_note"]
+
+
 def test_early_has_no_headline():
     out = de.forecast("obinutuzumab", "CD20", "ln", [52, 22, 63, 14, 62])
     assert out["headline"].startswith("NONE")
